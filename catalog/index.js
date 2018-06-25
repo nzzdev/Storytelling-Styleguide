@@ -21,7 +21,7 @@ const pages = [
   {
     path: "/",
     title: "Introduction",
-    content: pageLoader(() => import("./intro.md"))
+    content: pageLoader(() => import("./pages/intro.md"))
   }
 ];
 
