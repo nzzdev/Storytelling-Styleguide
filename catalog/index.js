@@ -22,7 +22,17 @@ const pages = [
     path: "/",
     title: "Introduction",
     content: pageLoader(() => import("./pages/intro.md"))
-  }
+  },
+  {
+    title: "Style",
+    pages: [
+      {
+        path: 'colors',
+        title: "Colors",
+        component: require('./pages/style/colors.md'),
+      },
+    ]
+  },
 ];
 
 ReactDOM.render(
