@@ -16,7 +16,7 @@ const theme =
     bgDark: "#000000",
     bgLight: "#FFFFFF"
   };
-  
+
 const pages = [
   {
     path: "/",
@@ -26,6 +26,10 @@ const pages = [
 ];
 
 ReactDOM.render(
-  <Catalog title="Catalog" pages={pages} />,
+  <Catalog
+  title="Storytelling Styleguide"
+  pages={pages}
+  theme={theme}
+  />,
   document.getElementById("catalog")
 );
