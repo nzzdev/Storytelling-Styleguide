@@ -20,16 +20,18 @@ const theme =
 const pages = [
   {
     path: "/",
-    title: "Welcome",
-    content: pageLoader(() => import("./WELCOME.md"))
+    title: "Introduction",
+    content: pageLoader(() => import("./intro.md"))
   }
 ];
 
 ReactDOM.render(
   <Catalog
   title="Storytelling Styleguide"
+  logoSrc="nzz-storytelling_logo.svg"
   pages={pages}
   theme={theme}
+  styles={["/theme.css"]}
   />,
   document.getElementById("catalog")
 );
