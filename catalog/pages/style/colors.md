@@ -7,6 +7,7 @@ Our team's color palette consists of a qualitative scale, two sequential scales 
 We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
 All of our sequential and diverging scales have seven buckets. We like to keep the number of buckets low so that our readers have an easier time perceiving the distinction between ranges in our scales.
 
+The concept of our color palette is that all colors are scales are derived out of the original twelve qualitative color. This is one way that we can secure a consistent visual appearance in all of our graphics.
 
 ## Qualitative Color Scale: Primary
 Our primary qualitative colors are the most used colors in our scale. Outside of a specifically defined color concept, these colors should be used, in order, for different categories within a dataset.
@@ -74,7 +75,7 @@ colors:
 ## Sequential Scale A
 This sequential scale is the most often used. It is structured based on our first primary qualitative color.
 
-```color-palette|span-2
+```color-palette|span-6
 colors:
   - {name: "sequential 7-1", value: "#F0F0F0"}
   - {name: "sequential 7-2", value: "#D7DBE8"}
@@ -88,29 +89,29 @@ colors:
 ## Sequential Scale B
 This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
 
-```color-palette|span-2
+```color-palette|span-6
 colors:
-  - {name: "Viz 6-1", value: "#EDECE1"}
-  - {name: "Viz 7-1", value: "#E3DABE"}
-  - {name: "Viz 8-1", value: "#DDC49A"}
-  - {name: "Viz 9-1", value: "#DCB381"}
-  - {name: "Viz 10-1", value: "#DB8E59"}
-  - {name: "Viz 11-1", value: "#DB7147"}
-  - {name: "Viz 12-1", value: "#D9493D"}
+  - {name: "sequential 7-1", value: "#EDECE1"}
+  - {name: "sequential 7-1", value: "#E3DABE"}
+  - {name: "sequential 7-1", value: "#DDC49A"}
+  - {name: "sequential 7-1", value: "#DCB381"}
+  - {name: "sequential 7-1", value: "#DB8E59"}
+  - {name: "sequential 7-1", value: "#DB7147"}
+  - {name: "sequential 7-1", value: "#D9493D"}
 ```
 
 ## Sequential Scale C
 This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
 
-```color-palette|span-2
+```color-palette|span-6
 colors:
-  - {name: "Viz 6-1", value: "#EDECE1"}
-  - {name: "Viz 7-1", value: "#D4E0D3"}
-  - {name: "Viz 8-1", value: "#B5D1C3"}
-  - {name: "Viz 9-1", value: "#92C1B0"}
-  - {name: "Viz 10-1", value: "#72B3A0"}
-  - {name: "Viz 11-1", value: "#50A591"}
-  - {name: "Viz 12-1", value: "#1E9682"}
+  - {name: "sequential 7-1", value: "#EDECE1"}
+  - {name: "sequential 7-1", value: "#D4E0D3"}
+  - {name: "sequential 7-1", value: "#B5D1C3"}
+  - {name: "sequential 7-1", value: "#92C1B0"}
+  - {name: "sequential 7-1", value: "#72B3A0"}
+  - {name: "sequential 7-1", value: "#50A591"}
+  - {name: "sequential 7-1", value: "#1E9682"}
 ```
 
 ## Diverging Scale A
@@ -132,11 +133,11 @@ This scale should be used in any case where are comparing opposites, but we woul
 
 ```color-palette|span-6
 colors:
-  - {name: "Viz 6-1", value: "#D4AB0B"}
-  - {name: "Viz 7-1", value: "#E2BF67"}
-  - {name: "Viz 8-1", value: "#EBD5A9"}
-  - {name: "Viz 9-1", value: "#EBEBEB"}
-  - {name: "Viz 10-1", value: "#B0BAD9"}
-  - {name: "Viz 11-1", value: "#728DC7"}
-  - {name: "Viz 12-1", value: "#1262B3"}
+  - {name: "diverging 7-1", value: "#D4AB0B"}
+  - {name: "diverging 7-1", value: "#E2BF67"}
+  - {name: "diverging 7-1", value: "#EBD5A9"}
+  - {name: "diverging 7-1", value: "#EBEBEB"}
+  - {name: "diverging 7-1", value: "#B0BAD9"}
+  - {name: "diverging 7-1", value: "#728DC7"}
+  - {name: "diverging 7-1", value: "#1262B3"}
 ```
