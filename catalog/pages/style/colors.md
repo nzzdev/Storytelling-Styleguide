@@ -1,80 +1,76 @@
 ```html|span-1,no-source,plain
 <div class="stabilityIndex unstable">Unstable</div>
 ```
-> About the palette
 
 Our team's color palette consists of a qualitative scale, two sequential scales and two diverging scales.
 
 We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
 
-> Primary Colors
 
-# Qualitative Color Scale: Primary
-
-```color-palette|span-2
-colors:
-  - {name: "Viz 1-1", value: "#dcdde7"}
-  - {name: "Viz 2-1", value: "#fdf4d1"}
-  - {name: "Viz 3-1", value: "#c7c7c7"}
-  - {name: "Viz 4-1", value: "#f7e2d9"}
-  - {name: "Viz 5-1", value: "#a3cfd1"}
-```
-```color-palette|span-2
-colors:
-  - {name: "Viz 1-2", value: "#8284aa"}
-  - {name: "Viz 2-2", value: "#f9d545"}
-  - {name: "Viz 3-2", value: "#a0a0a0"}
-  - {name: "Viz 4-2", value: "#edbda7"}
-  - {name: "Viz 5-2", value: "#5facb0"}
-```
-```color-palette|span-2
-colors:
-  - {name: "Viz 1-3", value: "#191d63"}
-  - {name: "Viz 2-3", value: "#d6b222"}
-  - {name: "Viz 3-3", value: "#656565"}
-  - {name: "Viz 4-3", value: "#e08b63"}
-  - {name: "Viz 5-3", value: "#2e6e71"}
-```
-
-> Schmuck Colors
-
-# Qualitative Color Scale: Choice
+## Qualitative Color Scale: Primary
 
 ```color-palette|span-2
 colors:
-  - {name: "Viz 6-1", value: "#f5ced3"}
-  - {name: "Viz 7-1", value: "#cbecf2"}
-  - {name: "Viz 8-1", value: "#e7da7c"}
-  - {name: "Viz 9-1", value: "#b5e1d5"}
-  - {name: "Viz 10-1", value: "#e7e7e0"}
-  - {name: "Viz 11-1", value: "#f0e3e9"}
-  - {name: "Viz 12-1", value: "#f5b8b7"}
+  - {name: "Viz one-3", value: "#1262B3"}
+  - {name: "Viz two-3", value: "#E0BA22"}
+  - {name: "Viz three-3", value: "#24B39B"}
+  - {name: "Viz four-3", value: "#E67039"}
+  - {name: "Viz five-3", value: "#B33D83"}
 ```
 ```color-palette|span-2
 colors:
-  - {name: "Viz 6-2", value: "#eba1ab"}
-  - {name: "Viz 7-2", value: "#85d3e0"}
-  - {name: "Viz 8-2", value: "#cfb500"}
-  - {name: "Viz 9-2", value: "#6fc5ad"}
-  - {name: "Viz 10-2", value: "#c9c8ba"}
-  - {name: "Viz 11-2", value: "#dcc0cd"}
-  - {name: "Viz 12-2", value: "#ed807e"}
+  - {name: "Viz one-2", value: "#6D9ED6"}
+  - {name: "Viz two-2", value: "#ECD47B"}
+  - {name: "Viz three-2", value: "#7DD1CB"}
+  - {name: "Viz four-2", value: "#F3A37E"}
+  - {name: "Viz five-2", value: "#D892BA"}
 ```
 ```color-palette|span-2
 colors:
-  - {name: "Viz 6-3", value: "#dd5b6c"}
-  - {name: "Viz 7-3", value: "#1eafc7"}
-  - {name: "Viz 8-3", value: "#9a8700"}
-  - {name: "Viz 9-3", value: "#1f9877"}
-  - {name: "Viz 10-3", value: "#a3a189"}
-  - {name: "Viz 11-3", value: "#b37490"}
-  - {name: "Viz 12-3", value: "#b23c39"}
+  - {name: "Viz one-1", value: "#C3E0FA"}
+  - {name: "Viz two-1", value: "#F7EDC6"}
+  - {name: "Viz three-1", value: "#C7EEF0"}
+  - {name: "Viz four-1", value: "#F7D5C6"}
+  - {name: "Viz five-1", value: "#FAE1F0"}
 ```
 
-> Schmuck Colors 
 
-# Party Colors
-## Switzerland
+## Qualitative Color Scale: Choice
+
+```color-palette|span-2
+colors:
+  - {name: "Viz 6-1", value: "#6A43BF"}
+  - {name: "Viz 7-1", value: "#32A662"}
+  - {name: "Viz 8-1", value: "#0BA9D9"}
+  - {name: "Viz 9-1", value: "#C8D115"}
+  - {name: "Viz 10-1", value: "#D9493D"}
+  - {name: "Viz 11-1", value: "#B3621B"}
+  - {name: "Viz 12-1", value: "#B3AF86"}
+```
+```color-palette|span-2
+colors:
+  - {name: "Viz 6-2", value: "#AA91DE"}
+  - {name: "Viz 7-2", value: "#88CEA4"}
+  - {name: "Viz 8-2", value: "#85CBE5"}
+  - {name: "Viz 9-2", value: "#DFE380"}
+  - {name: "Viz 10-2", value: "#F29489"}
+  - {name: "Viz 11-2", value: "#D8A679"}
+  - {name: "Viz 12-2", value: "#D0CDB3"}
+```
+```color-palette|span-2
+colors:
+  - {name: "Viz 6-3", value: "#E9E1FA"}
+  - {name: "Viz 7-3", value: "#D7F5E4"}
+  - {name: "Viz 8-3", value: "#D0EDF5"}
+  - {name: "Viz 9-3", value: "#F4F5D0"}
+  - {name: "Viz 10-3", value: "#FCDAD7"}
+  - {name: "Viz 11-3", value: "#F7EBDF"}
+  - {name: "Viz 12-3", value: "#EDECE1"}
+```
+
+
+## Party Colors
+### Switzerland
 ```color-palette|span-1
 colors:
   - {name: "SVP 1", value: "#cceff2"}
