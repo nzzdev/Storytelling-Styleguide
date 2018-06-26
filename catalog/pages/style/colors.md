@@ -72,7 +72,7 @@ colors:
 ```
 
 ## Sequential Scale A
-Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
+This sequential scale is the most often used. It is structured based on our first primary qualitative color.
 
 ```color-palette|span-2
 colors:
@@ -86,17 +86,31 @@ colors:
 ```
 
 ## Sequential Scale B
-Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
+This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
 
 ```color-palette|span-2
 colors:
-  - {name: "Viz 6-1", value: "#6A43BF"}
-  - {name: "Viz 7-1", value: "#32A662"}
-  - {name: "Viz 8-1", value: "#0BA9D9"}
-  - {name: "Viz 9-1", value: "#C8D115"}
-  - {name: "Viz 10-1", value: "#D9493D"}
-  - {name: "Viz 11-1", value: "#B3621B"}
-  - {name: "Viz 12-1", value: "#B3AF86"}
+  - {name: "Viz 6-1", value: "#EDECE1"}
+  - {name: "Viz 7-1", value: "#E3DABE"}
+  - {name: "Viz 8-1", value: "#DDC49A"}
+  - {name: "Viz 9-1", value: "#DCB381"}
+  - {name: "Viz 10-1", value: "#DB8E59"}
+  - {name: "Viz 11-1", value: "#DB7147"}
+  - {name: "Viz 12-1", value: "#D9493D"}
+```
+
+## Sequential Scale C
+This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
+
+```color-palette|span-2
+colors:
+  - {name: "Viz 6-1", value: "#EDECE1"}
+  - {name: "Viz 7-1", value: "#D4E0D3"}
+  - {name: "Viz 8-1", value: "#B5D1C3"}
+  - {name: "Viz 9-1", value: "#92C1B0"}
+  - {name: "Viz 10-1", value: "#72B3A0"}
+  - {name: "Viz 11-1", value: "#50A591"}
+  - {name: "Viz 12-1", value: "#1E9682"}
 ```
 
 ## Diverging Scale A
