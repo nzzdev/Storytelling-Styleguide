@@ -5,6 +5,7 @@
 Our team's color palette consists of a qualitative scale, two sequential scales and two diverging scales.
 
 We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
+All of our sequential and diverging scales have seven buckets. We like to keep the number of buckets low so that our readers have an easier time perceiving the distinction between ranges in our scales.
 
 
 ## Qualitative Color Scale: Primary
@@ -75,13 +76,13 @@ Our choice colors are less often used in the traditional visualization order. Ra
 
 ```color-palette|span-2
 colors:
-  - {name: "Viz 6-1", value: "#6A43BF"}
-  - {name: "Viz 7-1", value: "#32A662"}
-  - {name: "Viz 8-1", value: "#0BA9D9"}
-  - {name: "Viz 9-1", value: "#C8D115"}
-  - {name: "Viz 10-1", value: "#D9493D"}
-  - {name: "Viz 11-1", value: "#B3621B"}
-  - {name: "Viz 12-1", value: "#B3AF86"}
+  - {name: "sequential 7-1", value: "#F0F0F0"}
+  - {name: "sequential 7-2", value: "#D7DBE8"}
+  - {name: "sequential 7-3", value: "#B8C1DE"}
+  - {name: "sequential 7-4", value: "#96A7D3"}
+  - {name: "sequential 7-5", value: "#7790C9"}
+  - {name: "sequential 7-6", value: "#5078BE"}
+  - {name: "sequential 7-7", value: "#1262B3"}
 ```
 
 ## Sequential Scale B
@@ -99,23 +100,23 @@ colors:
 ```
 
 ## Diverging Scale A
-Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
+This diverging scale should be used in any case where we are comparing opposites that are positively and negatively konnotiert. Such an example would be election maps where voters had to approve/deny an iniative.
 
 ```color-palette|span-6
 colors:
-  - {name: "Viz 6-1", value: "#D95C23"}
-  - {name: "Viz 7-1", value: "#E68D64"}
-  - {name: "Viz 8-1", value: "#EBBDA5"}
-  - {name: "Viz 9-1", value: "#E4EBE9"}
-  - {name: "Viz 10-1", value: "#BFB1DC"}
-  - {name: "Viz 11-1", value: "#987ACE"}
-  - {name: "Viz 12-1", value: "#6A43BF"}
+  - {name: "diverging 7-1", value: "#D95C23"}
+  - {name: "diverging 7-2", value: "#E68D64"}
+  - {name: "diverging 7-3", value: "#EBBDA5"}
+  - {name: "diverging 7-4", value: "#E4EBE9"}
+  - {name: "diverging 7-5", value: "#BFB1DC"}
+  - {name: "diverging 7-6", value: "#987ACE"}
+  - {name: "diverging 7-7", value: "#6A43BF"}
 ```
 
 ## Diverging Scale B
-Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
+This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago.
 
-```color-palette|span-2
+```color-palette|span-6
 colors:
   - {name: "Viz 6-1", value: "#D4AB0B"}
   - {name: "Viz 7-1", value: "#E2BF67"}
