@@ -3,7 +3,7 @@
 
 # About this Documentation
 
-This documentation is designed to collected and maintain the styles and components of the NZZ Storytelling team. As each infographic, chart or data visulization varies from case to case, this documentation is meant to serve as a set of guidelines. Adhering to these guidelines leads to a more consistent presentation of design work in NZZ's print and online media.
+This documentation is designed to collected and maintain the styles and visual language of the Neue Zürcher Zeitung's Storytelling team. As each infographic, chart or data visulization varies from case to case, this documentation is meant to serve as a set of guidelines - and not unbreakable rules. Adhering to these guidelines leads to a more consistent presentation of design work in NZZ's print and online media.
 
 ### Component Stability Index
 
@@ -13,14 +13,14 @@ This documentation is designed to collected and maintain the styles and componen
 ```html|span-1,no-source,plain
 <div class="stabilityIndex experimental">Experimental</div>
 ```
-This component is still under heavy construction and may be subject to profound change or completely removed.
+This concept is still under heavy construction and may be subject to profound change or completely removed.
 **DO NOT USE**
 
 ##### Stability: 2 – Unstable
 ```html|span-1,no-source,plain
 <div class="stabilityIndex unstable">Unstable</div>
 ```
-The component’s functionality and styling are to be considered a «draft» and are not yet approved by the key stakeholders.
+The concept's functionality and styling are to be considered a «draft» and are not yet approved by the key stakeholders.
 There might still be some changes made to the component in the future.
 **USE WITH CAUTION**
 
@@ -29,7 +29,7 @@ There might still be some changes made to the component in the future.
 <div class="stabilityIndex stable">Stable</div>
 ```
 Functionality and styling are considered to be complete and should not change unless serious issues are encountered.
-Stable components are approved by the key stakeholders and can be generally considered «ready-to-use».
+Stable concepts are approved by the key stakeholders and can be generally considered «ready-to-use».
 **READY TO USE**
 
 
@@ -45,11 +45,11 @@ columns:
   - Changes
 rows:
   - Changes: |
-      Initial *Annotation* documentation.
-    Date: 2018-01-15
+      Initial *Color* documentation.
+    Date: 2018-06-26
     Version: 0.1.1
   - Changes: |
       Set-up Catalog
-    Date: 2018-01-12
+    Date: 2018-06-25
     Version: 0.1.0
 ```
