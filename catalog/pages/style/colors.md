@@ -8,6 +8,7 @@ We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/)
 
 
 ## Qualitative Color Scale: Primary
+Our primary qualitative colors are the most used colors in our scale. Outside of a specifically defined color concept, these colors should be used, in order, for different categories within a dataset.
 
 ```color-palette|span-2
 colors:
@@ -36,6 +37,7 @@ colors:
 
 
 ## Qualitative Color Scale: Choice
+Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
 
 ```color-palette|span-2
 colors:
@@ -68,74 +70,58 @@ colors:
   - {name: "Viz 12-3", value: "#EDECE1"}
 ```
 
+## Sequential Scale A
+Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
 
-## Party Colors
-### Switzerland
-```color-palette|span-1
+```color-palette|span-2
 colors:
-  - {name: "SVP 1", value: "#cceff2"}
-  - {name: "SP 1", value: "#f3d1cd"}
-  - {name: "FDP 1", value: "#cce6f4"}
-  - {name: "CVP 1", value: "#f6e8cc"}
-  - {name: "GPS 1", value: "#e0edd3"}
-  - {name: "GLP 1", value: "#d3ede6"}
-  - {name: "BDP 1", value: "#f6f5cc"}
-  - {name: "EVP 1", value: "#f2edcc"}
-  - {name: "Lega 1", value: "#eedcd7"}
-  - {name: "MCR 1", value: "#e3e2da"}
-  - {name: "AL 1", value: "#e5d8ec"}
-  - {name: "EDU 1", value: "#f8dce7"}
-  - {name: "SD 1", value: "#dbd6f7"}
-  - {name: "default", value: "#dddddd"}
+  - {name: "Viz 6-1", value: "#6A43BF"}
+  - {name: "Viz 7-1", value: "#32A662"}
+  - {name: "Viz 8-1", value: "#0BA9D9"}
+  - {name: "Viz 9-1", value: "#C8D115"}
+  - {name: "Viz 10-1", value: "#D9493D"}
+  - {name: "Viz 11-1", value: "#B3621B"}
+  - {name: "Viz 12-1", value: "#B3AF86"}
 ```
-```color-palette|span-1
+
+## Sequential Scale B
+Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
+
+```color-palette|span-2
 colors:
-- {name: "SVP 3", value: "#67d0d9"}
-- {name: "SP 3", value: "#db756a"}
-- {name: "FDP 3", value: "#66b5dd"}
-- {name: "CVP 3", value: "#e4b966"}
-- {name: "GPS 3", value: "#a3ca7a"}
-- {name: "GLP 3", value: "#7acab4"}
-- {name: "BDP 3", value: "#e3e066"}
-- {name: "EVP 3", value: "#d7ca66"}
-- {name: "Lega 3", value: "#cd9688"}
-- {name: "MCR 3", value: "#aaa891"}
-- {name: "AL 3", value: "#b58cc7"}
-- {name: "EDU 3", value: "#ea97b6"}
-- {name: "SD 3", value: "#9486e7"}
-- {name: "default", value: "#9c9c9c"}
+  - {name: "Viz 6-1", value: "#6A43BF"}
+  - {name: "Viz 7-1", value: "#32A662"}
+  - {name: "Viz 8-1", value: "#0BA9D9"}
+  - {name: "Viz 9-1", value: "#C8D115"}
+  - {name: "Viz 10-1", value: "#D9493D"}
+  - {name: "Viz 11-1", value: "#B3621B"}
+  - {name: "Viz 12-1", value: "#B3AF86"}
 ```
-```color-palette|span-1
+
+## Diverging Scale A
+Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
+
+```color-palette|span-6
 colors:
-- {name: "SVP 5", value: "#01b1c0"}
-- {name: "SP 5", value: "#c31906"}
-- {name: "FDP 5", value: "#0084c7"}
-- {name: "CVP 5", value: "#d28b00"}
-- {name: "GPS 5", value: "#66a622"}
-- {name: "GLP 5", value: "#22a682"}
-- {name: "BDP 5", value: "#d1cb00"}
-- {name: "EVP 5", value: "#bda700"}
-- {name: "Lega 5", value: "#ac5038"}
-- {name: "MCR 5", value: "#716e48"}
-- {name: "AL 5", value: "#8440a3"}
-- {name: "EDU 5", value: "#da467d"}
-- {name: "SD 5", value: "#4e36d7"}
-- {name: "default", value: "#616161"}
+  - {name: "Viz 6-1", value: "#D95C23"}
+  - {name: "Viz 7-1", value: "#E68D64"}
+  - {name: "Viz 8-1", value: "#EBBDA5"}
+  - {name: "Viz 9-1", value: "#E4EBE9"}
+  - {name: "Viz 10-1", value: "#BFB1DC"}
+  - {name: "Viz 11-1", value: "#987ACE"}
+  - {name: "Viz 12-1", value: "#6A43BF"}
 ```
-```color-palette|span-1
+
+## Diverging Scale B
+Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
+
+```color-palette|span-2
 colors:
-- {name: "SVP 7", value: "#016a73"}
-- {name: "SP 7", value: "#750f04"}
-- {name: "FDP 7", value: "#004f77"}
-- {name: "CVP 7", value: "#7e5300"}
-- {name: "GPS 7", value: "#3d6414"}
-- {name: "GLP 7", value: "#14644e"}
-- {name: "BDP 7", value: "#7d7a00"}
-- {name: "EVP 7", value: "#716400"}
-- {name: "Lega 7", value: "#673022"}
-- {name: "MCR 7", value: "#44422b"}
-- {name: "AL 7", value: "#502763"}
-- {name: "EDU 7", value: "#82294a"}
-- {name: "SD 7", value: "#2e2081"}
-- {name: "default 7", value: "#3a3a3a"}
+  - {name: "Viz 6-1", value: "#D4AB0B"}
+  - {name: "Viz 7-1", value: "#E2BF67"}
+  - {name: "Viz 8-1", value: "#EBD5A9"}
+  - {name: "Viz 9-1", value: "#EBEBEB"}
+  - {name: "Viz 10-1", value: "#B0BAD9"}
+  - {name: "Viz 11-1", value: "#728DC7"}
+  - {name: "Viz 12-1", value: "#1262B3"}
 ```
