@@ -36,6 +36,11 @@ const pages = [
         title: "Principles",
         component: require('./pages/style/principles.md'),
       },
+      {
+        path: 'typography',
+        title: "Typography",
+        component: require('./pages/style/typography.md'),
+      },
     ]
   },
 ];
