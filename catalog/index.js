@@ -31,6 +31,11 @@ const pages = [
         title: "Colors",
         component: require('./pages/style/colors.md'),
       },
+      {
+        path: 'principles',
+        title: "Principles",
+        component: require('./pages/style/principles.md'),
+      },
     ]
   },
 ];
