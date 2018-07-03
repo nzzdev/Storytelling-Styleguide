@@ -12,132 +12,144 @@ The concept of our color palette is that all colors are scales are derived out o
 ## Qualitative Color Scale: Primary
 Our primary qualitative colors are the most used colors in our scale. Outside of a specifically defined color concept, these colors should be used, in order, for different categories within a dataset.
 
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "Viz one-3", value: "#1262B3"}
-  - {name: "Viz two-3", value: "#E0BA22"}
-  - {name: "Viz three-3", value: "#24B39B"}
-  - {name: "Viz four-3", value: "#E67039"}
-  - {name: "Viz five-3", value: "#B33D83"}
+  - {name: "Viz one-7", value: "#2E41BF"}
+  - {name: "Viz two-7", value: "#D4A91E"}
+  - {name: "Viz three-7", value: "#099E85"}
+  - {name: "Viz four-7", value: "#D64113"}
+  - {name: "Viz five-7", value: "#873A86"}
 ```
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "Viz one-2", value: "#6D9ED6"}
-  - {name: "Viz two-2", value: "#ECD47B"}
-  - {name: "Viz three-2", value: "#7DD1CB"}
-  - {name: "Viz four-2", value: "#F3A37E"}
-  - {name: "Viz five-2", value: "#D892BA"}
+  - {name: "Viz one-5", value: "#3952EE"}
+  - {name: "Viz two-5", value: "#EBBD22"}
+  - {name: "Viz three-5", value: "#24B39C"}
+  - {name: "Viz four-5", value: "#E66E4A"}
+  - {name: "Viz five-5", value: "#AD4BAC"}
 ```
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "Viz one-1", value: "#C3E0FA"}
-  - {name: "Viz two-1", value: "#F7EDC6"}
-  - {name: "Viz three-1", value: "#C7EEF0"}
-  - {name: "Viz four-1", value: "#F7D5C6"}
-  - {name: "Viz five-1", value: "#FAE1F0"}
+  - {name: "Viz one-3", value: "#7385FF"}
+  - {name: "Viz two-3", value: "#FAD250"}
+  - {name: "Viz three-3", value: "#7DD1C3"}
+  - {name: "Viz four-3", value: "#F2997E"}
+  - {name: "Viz five-3", value: "#D182CE"}
+```
+```color-palette|span-1
+colors:
+  - {name: "Viz one-1", value: "#D6DCFF"}
+  - {name: "Viz two-1", value: "#FFF0BF"}
+  - {name: "Viz three-1", value: "#C7F0E9"}
+  - {name: "Viz four-1", value: "#FFDCD1"}
+  - {name: "Viz five-1", value: "#FCDCFC"}
 ```
 
 
 ## Qualitative Color Scale: Choice
 Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
 
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "Viz 6-1", value: "#6A43BF"}
-  - {name: "Viz 7-1", value: "#32A662"}
-  - {name: "Viz 8-1", value: "#0BA9D9"}
-  - {name: "Viz 9-1", value: "#C8D115"}
-  - {name: "Viz 10-1", value: "#D9493D"}
-  - {name: "Viz 11-1", value: "#B3621B"}
-  - {name: "Viz 12-1", value: "#B3AF86"}
+  - {name: "Viz 6-1", value: "#1D8534"}
+  - {name: "Viz 7-1", value: "#C73530"}
+  - {name: "Viz 8-1", value: "#0093BF"}
+  - {name: "Viz 9-1", value: "#5425B3"}
+  - {name: "Viz 10-1", value: "#A7BA13"}
+  - {name: "Viz 11-1", value: "#8F4D17"}
+  - {name: "Viz 12-1", value: "#ABA776"}
 ```
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "Viz 6-2", value: "#AA91DE"}
-  - {name: "Viz 7-2", value: "#88CEA4"}
-  - {name: "Viz 8-2", value: "#85CBE5"}
-  - {name: "Viz 9-2", value: "#DFE380"}
-  - {name: "Viz 10-2", value: "#F29489"}
-  - {name: "Viz 11-2", value: "#D8A679"}
-  - {name: "Viz 12-2", value: "#D0CDB3"}
+  - {name: "Viz 6-2", value: "#38A650"}
+  - {name: "Viz 7-2", value: "#D64B47"}
+  - {name: "Viz 8-2", value: "#0BA9D9"}
+  - {name: "Viz 9-2", value: "#6C43C0"}
+  - {name: "Viz 10-2", value: "#BBD215"}
+  - {name: "Viz 11-2", value: "#B3611D"}
+  - {name: "Viz 12-2", value: "#C5C294"}
 ```
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "Viz 6-3", value: "#E9E1FA"}
-  - {name: "Viz 7-3", value: "#D7F5E4"}
-  - {name: "Viz 8-3", value: "#D0EDF5"}
-  - {name: "Viz 9-3", value: "#F4F5D0"}
-  - {name: "Viz 10-3", value: "#FCDAD7"}
-  - {name: "Viz 11-3", value: "#F7EBDF"}
-  - {name: "Viz 12-3", value: "#EDECE1"}
+  - {name: "Viz 6-3", value: "#5EBD73"}
+  - {name: "Viz 7-3", value: "#ED6D68"}
+  - {name: "Viz 8-3", value: "#85CFE6"}
+  - {name: "Viz 9-3", value: "#AA90DE"}
+  - {name: "Viz 10-3", value: "#D2E640"}
+  - {name: "Viz 11-3", value: "#E0904F"}
+  - {name: "Viz 12-3", value: "#E0DDAF"}
+```
+```color-palette|span-1
+colors:
+  - {name: "Viz 6-3", value: "#C9F5D2"}
+  - {name: "Viz 7-3", value: "#FFD3D1"}
+  - {name: "Viz 8-3", value: "#CEE9F2"}
+  - {name: "Viz 9-3", value: "#E2DAF2"}
+  - {name: "Viz 10-3", value: "#F3FABB"}
+  - {name: "Viz 11-3", value: "#FFDCBF"}
+  - {name: "Viz 12-3", value: "#F0EDCC"}
 ```
 
 ## Sequential Scale A
 This sequential scale is the most often used. It is structured based on our first primary qualitative color.
-
-```color-palette|span-6
+```color-palette|horizontal
 colors:
-  - {name: "sequential 7-1", value: "#F0F0F0"}
-  - {name: "sequential 7-2", value: "#D7DBE8"}
-  - {name: "sequential 7-3", value: "#B8C1DE"}
-  - {name: "sequential 7-4", value: "#96A7D3"}
-  - {name: "sequential 7-5", value: "#7790C9"}
-  - {name: "sequential 7-6", value: "#5078BE"}
-  - {name: "sequential 7-7", value: "#1262B3"}
+   - {value: "#F0F0F0"}
+   - {value: "#D7DBE8"}
+   - {value: "#B8C1DE"}
+   - {value: "#96A7D3"}
+   - {value: "#7790C9"}
+   - {value: "#5078BE"}
+   - {value: "#1262B3"}
 ```
-
 ## Sequential Scale B
 This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
-
-```color-palette|span-6
+```color-palette|horizontal
 colors:
-  - {name: "sequential 7-1", value: "#EDECE1"}
-  - {name: "sequential 7-1", value: "#E3DABE"}
-  - {name: "sequential 7-1", value: "#DDC49A"}
-  - {name: "sequential 7-1", value: "#DCB381"}
-  - {name: "sequential 7-1", value: "#DB8E59"}
-  - {name: "sequential 7-1", value: "#DB7147"}
-  - {name: "sequential 7-1", value: "#D9493D"}
+   - {value: "#EDECE1"}
+   - {value: "#E3DABE"}
+   - {value: "#DDC49A"}
+   - {value: "#DCB381"}
+   - {value: "#DB8E59"}
+   - {value: "#DB7147"}
+   - {value: "#D9493D"}
 ```
 
 ## Sequential Scale C
 This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
-
-```color-palette|span-6
+```color-palette|horizontal
 colors:
-  - {name: "sequential 7-1", value: "#EDECE1"}
-  - {name: "sequential 7-1", value: "#D4E0D3"}
-  - {name: "sequential 7-1", value: "#B5D1C3"}
-  - {name: "sequential 7-1", value: "#92C1B0"}
-  - {name: "sequential 7-1", value: "#72B3A0"}
-  - {name: "sequential 7-1", value: "#50A591"}
-  - {name: "sequential 7-1", value: "#1E9682"}
+   - {value: "#EDECE1"}
+   - {value: "#D4E0D3"}
+   - {value: "#B5D1C3"}
+   - {value: "#92C1B0"}
+   - {value: "#72B3A0"}
+   - {value: "#50A591"}
+   - {value: "#1E9682"}
 ```
 
 ## Diverging Scale A
 This diverging scale should be used in any case where we are comparing opposites that are positively and negatively konnotiert. Such an example would be election maps where voters had to approve/deny an iniative.
-
-```color-palette|span-6
+```color-palette|horizontal
 colors:
-  - {name: "diverging 7-1", value: "#D95C23"}
-  - {name: "diverging 7-2", value: "#E68D64"}
-  - {name: "diverging 7-3", value: "#EBBDA5"}
-  - {name: "diverging 7-4", value: "#E4EBE9"}
-  - {name: "diverging 7-5", value: "#BFB1DC"}
-  - {name: "diverging 7-6", value: "#987ACE"}
-  - {name: "diverging 7-7", value: "#6A43BF"}
+   - {value: "#D95C23"}
+   - {value: "#E68D64"}
+   - {value: "#EBBDA5"}
+   - {value: "#E4EBE9"}
+   - {value: "#BFB1DC"}
+   - {value: "#987ACE"}
+   - {value: "#6A43BF"}
 ```
 
 ## Diverging Scale B
 This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago.
-
-```color-palette|span-6
+```color-palette|horizontal
 colors:
-  - {name: "diverging 7-1", value: "#D4AB0B"}
-  - {name: "diverging 7-1", value: "#E2BF67"}
-  - {name: "diverging 7-1", value: "#EBD5A9"}
-  - {name: "diverging 7-1", value: "#EBEBEB"}
-  - {name: "diverging 7-1", value: "#B0BAD9"}
-  - {name: "diverging 7-1", value: "#728DC7"}
-  - {name: "diverging 7-1", value: "#1262B3"}
+   - {value: "#D4AB0B"}
+   - {value: "#E2BF67"}
+   - {value: "#EBD5A9"}
+   - {value: "#EBEBEB"}
+   - {value: "#B0BAD9"}
+   - {value: "#728DC7"}
+   - {value: "#1262B3"}
 ```
