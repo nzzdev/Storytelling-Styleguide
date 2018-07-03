@@ -129,7 +129,7 @@ colors:
 ```
 
 ## Diverging Scale A
-This diverging scale should be used in any case where we are comparing opposites that are positively and negatively konnotiert. Such an example would be election maps where voters had to approve/deny an iniative.
+This diverging scale should be used in any case where we are comparing opposites that are positively and negatively connotated. Such an example would be election maps where voters had to approve/deny an initiative.
 ```color-palette|horizontal
 colors:
    - {value: "#D95C23"}
