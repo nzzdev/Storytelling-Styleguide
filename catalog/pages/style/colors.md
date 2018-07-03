@@ -135,10 +135,15 @@ colors:
    - {value: "#D95C23"}
    - {value: "#E68D64"}
    - {value: "#EBBDA5"}
-   - {value: "#E4EBE9"}
+   - {value: "#EBEBEB"}
    - {value: "#BFB1DC"}
    - {value: "#987ACE"}
    - {value: "#6A43BF"}
+```
+```image
+span: 6
+plain: true
+src: "/static/examples/color/election-map-diverging-a.png"
 ```
 
 ## Diverging Scale B
