@@ -43,6 +43,31 @@ const pages = [
       },
     ]
   },
+  {
+  title: "Layout",
+  pages: [
+    {
+      path: 'layout',
+      title: "Grids & Spacing",
+      component: require('./pages/style/layout.md'),
+    },
+  ]
+  },
+  {
+  title: "Charts",
+  pages: [
+    {
+      path: 'basic-charts',
+      title: "Basic Charts",
+      component: require('./pages/style/basic-charts.md'),
+    },
+    {
+      path: 'maps',
+      title: "Maps",
+      component: require('./pages/style/maps.md'),
+    },
+  ]
+},
 ];
 
 ReactDOM.render(
