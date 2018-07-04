@@ -2,11 +2,17 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-> [GT America](http://www.gt-america.com/) and [PensumPro](https://www.myfonts.com/fonts/typemates/pensum-pro/) are used as the primary font across all of the NZZ Storytelling online experience. A typographic scale is used to create a limited set of type sizes that work well together, while respecting intrinsic platform standards. The font can be downloaded via the [assets page](assets).
-Univers and Bondoni are used as the primary fonts across all print graphics in the Neue Zürcher Zeitung.
+Almost all basic charts for our online platform are done in Q. Only charts with details and annotations that are not possible in Q should be designed and uploaded through Q's Infographic tool. The print template for basic charts can be downloaded via the [assets page](assets).
 
 ## Axis & Axis Labeling
+[Image]
+All basic charts that show quantitative data have a vertical and horizontal axis.
+
+Labelling should be outside and separate from the data area. This ensures the user understands the range of the data without taking focus away from the data.
+Ensure that all labels are clear and accurate in what they represent. Use simple and short language.
 
 ## Annotations
+[Image]
 
 ## Highlighting
+[Image]
