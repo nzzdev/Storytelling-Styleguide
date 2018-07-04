@@ -67,7 +67,7 @@ colors:
   - {name: "Viz 9-2", value: "#6C43C0"}
   - {name: "Viz 10-2", value: "#BBD215"}
   - {name: "Viz 11-2", value: "#B3611D"}
-  - {name: "Viz 12-2", value: "#C1BD99"}
+  - {name: "Viz 12-2", value: "#C5C294"}
 ```
 ```color-palette|span-1
 colors:
