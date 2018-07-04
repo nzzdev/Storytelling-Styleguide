@@ -9,11 +9,7 @@ All basic charts that show quantitative data have a vertical and horizontal axis
 
 ### Change over time
 
-```image
-light: true
-span: 3
-src: "/assets/favicon.png"
-```
+
 Line charts
 
 [Image]

@@ -94,7 +94,7 @@ colors:
 This sequential scale is the most often used. It is structured based on our first primary qualitative color.
 ```color-palette|horizontal
 colors:
-   - {value: "#F0F0F0"}
+   - {value: "#ECECF0"}
    - {value: "#D7DBE8"}
    - {value: "#B8C1DE"}
    - {value: "#96A7D3"}
@@ -151,7 +151,7 @@ colors:
    - {value: "#D95C23"}
    - {value: "#E68D64"}
    - {value: "#EBBDA5"}
-   - {value: "#EBEBEB"}
+   - {value: "#ECECF0"}
    - {value: "#BFB1DC"}
    - {value: "#987ACE"}
    - {value: "#6A43BF"}
@@ -170,7 +170,7 @@ colors:
    - {value: "#D4AB0B"}
    - {value: "#E2BF67"}
    - {value: "#EBD5A9"}
-   - {value: "#EBEBEB"}
+   - {value: "#ECECF0"}
    - {value: "#B0BAD9"}
    - {value: "#728DC7"}
    - {value: "#1262B3"}
