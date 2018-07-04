@@ -67,7 +67,7 @@ colors:
   - {name: "Viz 9-2", value: "#6C43C0"}
   - {name: "Viz 10-2", value: "#BBD215"}
   - {name: "Viz 11-2", value: "#B3611D"}
-  - {name: "Viz 12-2", value: "#C5C294"}
+  - {name: "Viz 12-2", value: "#C1BD99"}
 ```
 ```color-palette|span-1
 colors:
@@ -77,7 +77,7 @@ colors:
   - {name: "Viz 9-3", value: "#AA90DE"}
   - {name: "Viz 10-3", value: "#D2E640"}
   - {name: "Viz 11-3", value: "#E0904F"}
-  - {name: "Viz 12-3", value: "#E0DDAF"}
+  - {name: "Viz 12-3", value: "#DBD8BF"}
 ```
 ```color-palette|span-1
 colors:
@@ -86,11 +86,11 @@ colors:
   - {name: "Viz 8-3", value: "#CEE9F2"}
   - {name: "Viz 9-3", value: "#E2DAF2"}
   - {name: "Viz 10-3", value: "#F3FABB"}
-  - {name: "Viz 11-3", value: "#FFDCBF"}
-  - {name: "Viz 12-3", value: "#F0EDCC"}
+  - {name: "Viz 11-3", value: "#FFE9D6"}
+  - {name: "Viz 12-3", value: "#EDECE1"}
 ```
 
-## Sequential Scale A
+## Sequential Scale 1
 This sequential scale is the most often used. It is structured based on our first primary qualitative color.
 ```color-palette|horizontal
 colors:
@@ -105,21 +105,7 @@ colors:
 
 [Image]
 
-## Sequential Scale B
-This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
-```color-palette|horizontal
-colors:
-   - {value: "#EDECE1"}
-   - {value: "#E3DABE"}
-   - {value: "#DDC49A"}
-   - {value: "#DCB381"}
-   - {value: "#DB8E59"}
-   - {value: "#DB7147"}
-   - {value: "#D9493D"}
-```
-[Image]
-
-## Sequential Scale C
+## Sequential Scale 2
 This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
 ```color-palette|horizontal
 colors:
@@ -131,7 +117,24 @@ colors:
    - {value: "#50A591"}
    - {value: "#1E9682"}
 ```
+```image
+plain: true
+span: 5
+src: "/assets/sequential-3@1x.png 1x, sequential-3@2x.png 2x"
+```
 
+## Sequential Scale 3
+This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
+```color-palette|horizontal
+colors:
+   - {value: "#EDECE1"}
+   - {value: "#E3DABE"}
+   - {value: "#DDC49A"}
+   - {value: "#DCB381"}
+   - {value: "#DB8E59"}
+   - {value: "#DB7147"}
+   - {value: "#D9493D"}
+```
 [Image]
 
 ## Diverging Scale A
@@ -147,7 +150,11 @@ colors:
    - {value: "#6A43BF"}
 ```
 
-[Image]
+```image
+plain: true
+span: 5
+src: "/assets/election-map-diverging-a@1x.png 1x, election-map-diverging-a@2x.png 2x"
+```
 
 ## Diverging Scale B
 This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago.
@@ -162,4 +169,8 @@ colors:
    - {value: "#1262B3"}
 ```
 
-[Image]
+```image
+plain: true
+span: 5
+src: "/assets/election-map-diverging-b@1x.png 1x, election-map-diverging-b@2x.png 2x"
+```
