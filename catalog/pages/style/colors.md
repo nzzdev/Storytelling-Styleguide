@@ -102,6 +102,9 @@ colors:
    - {value: "#5078BE"}
    - {value: "#1262B3"}
 ```
+
+[Image]
+
 ## Sequential Scale B
 This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
 ```color-palette|horizontal
@@ -114,6 +117,7 @@ colors:
    - {value: "#DB7147"}
    - {value: "#D9493D"}
 ```
+[Image]
 
 ## Sequential Scale C
 This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
@@ -128,6 +132,8 @@ colors:
    - {value: "#1E9682"}
 ```
 
+[Image]
+
 ## Diverging Scale A
 This diverging scale should be used in any case where we are comparing opposites that are positively and negatively connotated. Such an example would be election maps where voters had to approve/deny an initiative.
 ```color-palette|horizontal
@@ -141,6 +147,7 @@ colors:
    - {value: "#6A43BF"}
 ```
 
+[Image]
 
 ## Diverging Scale B
 This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago.
@@ -154,3 +161,5 @@ colors:
    - {value: "#728DC7"}
    - {value: "#1262B3"}
 ```
+
+[Image]

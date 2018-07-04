@@ -27,14 +27,14 @@ const pages = [
     title: "Style",
     pages: [
       {
-        path: 'colors',
-        title: "Colors",
-        component: require('./pages/style/colors.md'),
-      },
-      {
         path: 'principles',
         title: "Principles",
         component: require('./pages/style/principles.md'),
+      },
+      {
+        path: 'colors',
+        title: "Colors",
+        component: require('./pages/style/colors.md'),
       },
       {
         path: 'typography',
