@@ -62,11 +62,41 @@ const pages = [
       component: require('./pages/style/basic-charts.md'),
     },
     {
+      path: 'dots-arrows',
+      title: "Dot & Arrow",
+      component: require('./pages/style/dots-arrows.md'),
+    },
+    {
+      path: 'scatter-slope',
+      title: "Scatter & Slope",
+      component: require('./pages/style/scatter-slope.md'),
+    },
+    {
+      path: 'elections',
+      title: "Election",
+      component: require('./pages/style/elections.md'),
+    },
+    {
       path: 'maps',
       title: "Maps",
       component: require('./pages/style/maps.md'),
     },
   ]
+},
+{
+title: "Assets",
+pages: [
+  {
+    path: 'assets',
+    title: "Print",
+    component: require('./pages/style/print-assets.md'),
+  },
+  {
+    path: 'online-assets',
+    title: "Online",
+    component: require('./pages/style/online-assets.md'),
+  },
+]
 },
 ];
 

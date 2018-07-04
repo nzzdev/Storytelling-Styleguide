@@ -45,6 +45,10 @@ columns:
   - Changes
 rows:
   - Changes: |
+      Initial *Layout* and *Chart* Documentation
+    Date: 2018-07-03
+    Version: 0.1.2  
+  - Changes: |
       Initial *Color* documentation.
     Date: 2018-06-26
     Version: 0.1.1
