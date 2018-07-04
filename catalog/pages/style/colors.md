@@ -102,8 +102,11 @@ colors:
    - {value: "#5078BE"}
    - {value: "#1262B3"}
 ```
-
-[Image]
+```image
+plain: true
+span: 5
+src: "/assets/sequential-1@1x.png 1x, /assets/sequential-1@2x.png 2x"
+```
 
 ## Sequential Scale 2
 This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
@@ -120,7 +123,7 @@ colors:
 ```image
 plain: true
 span: 5
-src: "/assets/sequential-3@1x.png 1x, sequential-3@2x.png 2x"
+src: "/assets/sequential-2@1x.png 1x, /assets/sequential-2@2x.png 2x"
 ```
 
 ## Sequential Scale 3
@@ -135,7 +138,11 @@ colors:
    - {value: "#DB7147"}
    - {value: "#D9493D"}
 ```
-[Image]
+```image
+plain: true
+span: 5
+src: "/assets/sequential-3@1x.png 1x, /assets/sequential-3@2x.png 2x"
+```
 
 ## Diverging Scale A
 This diverging scale should be used in any case where we are comparing opposites that are positively and negatively connotated. Such an example would be election maps where voters had to approve/deny an initiative.
