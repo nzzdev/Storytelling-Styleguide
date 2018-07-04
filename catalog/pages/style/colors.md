@@ -140,11 +140,7 @@ colors:
    - {value: "#987ACE"}
    - {value: "#6A43BF"}
 ```
-```image
-span: 6
-plain: true
-src: "/static/examples/color/election-map-diverging-a.png"
-```
+
 
 ## Diverging Scale B
 This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago.
