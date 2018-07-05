@@ -160,7 +160,7 @@ colors:
 ```image
 plain: true
 span: 5
-src: "/assets/election-map-diverging-a@1x.png 1x, election-map-diverging-a@2x.png 2x"
+src: "/assets/election-map-diverging-a@1x.png 1x, /assets/election-map-diverging-a@2x.png 2x"
 ```
 
 ## Diverging Scale B
@@ -179,5 +179,5 @@ colors:
 ```image
 plain: true
 span: 5
-src: "/assets/election-map-diverging-b@1x.png 1x, election-map-diverging-b@2x.png 2x"
+src: "/assets/election-map-diverging-b@1x.png 1x, /assets/election-map-diverging-b@2x.png 2x"
 ```
