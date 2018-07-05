@@ -105,7 +105,7 @@ colors:
 ```image
 plain: true
 span: 5
-src: "/assets/sequential-1@1x.png 1x, /assets/sequential-1@2x.png 2x"
+src: "assets/sequential-1@1x.png 1x, assets/sequential-1@2x.png 2x"
 ```
 
 ## Sequential Scale 2
@@ -123,7 +123,7 @@ colors:
 ```image
 plain: true
 span: 5
-src: "/assets/sequential-2@1x.png 1x, /assets/sequential-2@2x.png 2x"
+src: "assets/sequential-2@1x.png 1x, assets/sequential-2@2x.png 2x"
 ```
 
 ## Sequential Scale 3
@@ -141,7 +141,7 @@ colors:
 ```image
 plain: true
 span: 5
-src: "/assets/sequential-3@1x.png 1x, /assets/sequential-3@2x.png 2x"
+src: "assets/sequential-3@1x.png 1x, assets/sequential-3@2x.png 2x"
 ```
 
 ## Diverging Scale A
@@ -160,7 +160,7 @@ colors:
 ```image
 plain: true
 span: 5
-src: "/assets/election-map-diverging-a@1x.png 1x, /assets/election-map-diverging-a@2x.png 2x"
+src: "assets/election-map-diverging-a@1x.png 1x, assets/election-map-diverging-a@2x.png 2x"
 ```
 
 ## Diverging Scale B
@@ -179,5 +179,5 @@ colors:
 ```image
 plain: true
 span: 5
-src: "/assets/election-map-diverging-b@1x.png 1x, /assets/election-map-diverging-b@2x.png 2x"
+src: "assets/election-map-diverging-b@1x.png 1x, assets/election-map-diverging-b@2x.png 2x"
 ```
