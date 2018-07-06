@@ -5,14 +5,19 @@
 #### Our team's color palette consists of a qualitative scale, two sequential scales and two diverging scales.
 
 We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
-All of our sequential and diverging scales have seven buckets. We like to keep the number of buckets low so that our readers have an easier time perceiving the distinction between ranges in our scales.
+
+```image
+plain: true
+span: 5
+src: "assets/sequential-1@1x.png 1x, assets/sequential-1@2x.png 2x"
+```
 
 The concept of our color palette is that all colors are scales are derived out of the original twelve qualitative color. This is one way that we can secure a consistent visual appearance in all of our graphics.
 
 *Each of these colors receives a classname that can be called within Q (i.e. s-viz-color-one-7).* Each classname is listed below along with the hex color code.
 
 ## Qualitative Color Scale: Primary
-Our primary qualitative colors are the most used colors in our scale. Outside of a specifically defined color concept, these colors should be used, in order, for different categories within a dataset.
+Our primary qualitative colors are the most used colors in our color palette. These colors should be used in order for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below.
 
 ```color-palette|span-1
 colors:
@@ -49,7 +54,7 @@ colors:
 
 
 ## Qualitative Color Scale: Choice
-Our choice colors are less often used in the traditional visualization order. Rather, they are more often chosen as custom colors when creating more open graphics or custom color concepts for an article.
+Our choice colors are less often used in our basic daily business. They are most often included in one-off graphics or illustrations, as well as part of a custom color concept in an article.
 
 ```color-palette|span-1
 colors:
