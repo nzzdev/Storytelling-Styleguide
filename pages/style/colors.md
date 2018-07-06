@@ -2,47 +2,49 @@
 <div class="stabilityIndex unstable">Unstable</div>
 ```
 
-Our team's color palette consists of a qualitative scale, two sequential scales and two diverging scales.
+#### Our team's color palette consists of a qualitative scale, two sequential scales and two diverging scales.
 
 We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
 All of our sequential and diverging scales have seven buckets. We like to keep the number of buckets low so that our readers have an easier time perceiving the distinction between ranges in our scales.
 
 The concept of our color palette is that all colors are scales are derived out of the original twelve qualitative color. This is one way that we can secure a consistent visual appearance in all of our graphics.
 
+*Each of these colors receives a classname that can be called within Q (i.e. s-viz-color-one-7).* Each classname is listed below along with the hex color code.
+
 ## Qualitative Color Scale: Primary
 Our primary qualitative colors are the most used colors in our scale. Outside of a specifically defined color concept, these colors should be used, in order, for different categories within a dataset.
 
 ```color-palette|span-1
 colors:
-  - {name: "Viz one-7", value: "#2E41BF"}
-  - {name: "Viz two-7", value: "#D4A91E"}
-  - {name: "Viz three-7", value: "#099E85"}
-  - {name: "Viz four-7", value: "#D64113"}
-  - {name: "Viz five-7", value: "#873A86"}
+  - {name: "s-viz-color-one-7", value: "#2E41BF"}
+  - {name: "s-viz-color-two-7", value: "#D4A91E"}
+  - {name: "s-viz-color-three-7", value: "#099E85"}
+  - {name: "s-viz-color-four-7", value: "#D64113"}
+  - {name: "s-viz-color-five-7", value: "#873A86"}
 ```
 ```color-palette|span-1
 colors:
-  - {name: "Viz one-5", value: "#3952EE"}
-  - {name: "Viz two-5", value: "#EBBD22"}
-  - {name: "Viz three-5", value: "#24B39C"}
-  - {name: "Viz four-5", value: "#E66E4A"}
-  - {name: "Viz five-5", value: "#AD4BAC"}
+  - {name: "s-viz-color-one-5", value: "#3952EE"}
+  - {name: "s-viz-color-two-5", value: "#EBBD22"}
+  - {name: "s-viz-color-three-5", value: "#24B39C"}
+  - {name: "s-viz-color-four-5", value: "#E66E4A"}
+  - {name: "s-viz-color-five-5", value: "#AD4BAC"}
 ```
 ```color-palette|span-1
 colors:
-  - {name: "Viz one-3", value: "#7385FF"}
-  - {name: "Viz two-3", value: "#FAD250"}
-  - {name: "Viz three-3", value: "#7DD1C3"}
-  - {name: "Viz four-3", value: "#F2997E"}
-  - {name: "Viz five-3", value: "#D182CE"}
+  - {name: "s-viz-color-one-3", value: "#7385FF"}
+  - {name: "s-viz-color-two-3", value: "#FAD250"}
+  - {name: "s-viz-color-three-3", value: "#7DD1C3"}
+  - {name: "s-viz-color-four-3", value: "#F2997E"}
+  - {name: "s-viz-color-five-3", value: "#D182CE"}
 ```
 ```color-palette|span-1
 colors:
-  - {name: "Viz one-1", value: "#D6DCFF"}
-  - {name: "Viz two-1", value: "#FFF0BF"}
-  - {name: "Viz three-1", value: "#C7F0E9"}
-  - {name: "Viz four-1", value: "#FFDCD1"}
-  - {name: "Viz five-1", value: "#FCDCFC"}
+  - {name: "s-viz-color-one-1", value: "#D6DCFF"}
+  - {name: "s-viz-color-two-1", value: "#FFF0BF"}
+  - {name: "s-viz-color-three-1", value: "#C7F0E9"}
+  - {name: "s-viz-color-four-1", value: "#FFDCD1"}
+  - {name: "s-viz-color-five-1", value: "#FCDCFC"}
 ```
 
 
@@ -51,46 +53,49 @@ Our choice colors are less often used in the traditional visualization order. Ra
 
 ```color-palette|span-1
 colors:
-  - {name: "Viz 6-1", value: "#1D8534"}
-  - {name: "Viz 7-1", value: "#C73530"}
-  - {name: "Viz 8-1", value: "#0093BF"}
-  - {name: "Viz 9-1", value: "#5425B3"}
-  - {name: "Viz 10-1", value: "#A7BA13"}
-  - {name: "Viz 11-1", value: "#8F4D17"}
-  - {name: "Viz 12-1", value: "#ABA776"}
+  - {name: "s-viz-color-six-7", value: "#1D8534"}
+  - {name: "s-viz-color-seven-7", value: "#C73530"}
+  - {name: "s-viz-color-eight-7", value: "#0093BF"}
+  - {name: "s-viz-color-nine-7", value: "#5425B3"}
+  - {name: "s-viz-color-ten-7", value: "#A7BA13"}
+  - {name: "s-viz-color-eleven-7", value: "#8F4D17"}
+  - {name: "s-viz-color-twelve-7", value: "#ABA776"}
 ```
 ```color-palette|span-1
 colors:
-  - {name: "Viz 6-2", value: "#38A650"}
-  - {name: "Viz 7-2", value: "#D64B47"}
-  - {name: "Viz 8-2", value: "#0BA9D9"}
-  - {name: "Viz 9-2", value: "#6C43C0"}
-  - {name: "Viz 10-2", value: "#BBD215"}
-  - {name: "Viz 11-2", value: "#B3611D"}
-  - {name: "Viz 12-2", value: "#C5C294"}
+  - {name: "s-viz-color-six-5", value: "#38A650"}
+  - {name: "s-viz-color-seven-5", value: "#D64B47"}
+  - {name: "s-viz-color-eight-5", value: "#0BA9D9"}
+  - {name: "s-viz-color-nine-5", value: "#6C43C0"}
+  - {name: "s-viz-color-ten-5", value: "#BBD215"}
+  - {name: "s-viz-color-eleven-5", value: "#B3611D"}
+  - {name: "s-viz-color-twelve-5", value: "#C5C294"}
 ```
 ```color-palette|span-1
 colors:
-  - {name: "Viz 6-3", value: "#5EBD73"}
-  - {name: "Viz 7-3", value: "#ED6D68"}
-  - {name: "Viz 8-3", value: "#85CFE6"}
-  - {name: "Viz 9-3", value: "#AA90DE"}
-  - {name: "Viz 10-3", value: "#D2E640"}
-  - {name: "Viz 11-3", value: "#E0904F"}
-  - {name: "Viz 12-3", value: "#DBD8BF"}
+  - {name: "s-viz-color-six-3", value: "#5EBD73"}
+  - {name: "s-viz-color-seven-3", value: "#ED6D68"}
+  - {name: "s-viz-color-eight-3", value: "#85CFE6"}
+  - {name: "s-viz-color-nine-3", value: "#AA90DE"}
+  - {name: "s-viz-color-ten-3", value: "#D2E640"}
+  - {name: "s-viz-color-eleven-3", value: "#E0904F"}
+  - {name: "s-viz-color-twelve-3", value: "#DBD8BF"}
 ```
 ```color-palette|span-1
 colors:
-  - {name: "Viz 6-3", value: "#C9F5D2"}
-  - {name: "Viz 7-3", value: "#FFD3D1"}
-  - {name: "Viz 8-3", value: "#CEE9F2"}
-  - {name: "Viz 9-3", value: "#E2DAF2"}
-  - {name: "Viz 10-3", value: "#F3FABB"}
-  - {name: "Viz 11-3", value: "#FFE9D6"}
-  - {name: "Viz 12-3", value: "#EDECE1"}
+  - {name: "s-viz-color-six-1", value: "#C9F5D2"}
+  - {name: "s-viz-color-seven-1", value: "#FFD3D1"}
+  - {name: "s-viz-color-eight-1", value: "#CEE9F2"}
+  - {name: "s-viz-color-nine-1", value: "#E2DAF2"}
+  - {name: "s-viz-color-ten-1", value: "#F3FABB"}
+  - {name: "s-viz-color-eleven-1", value: "#FFE9D6"}
+  - {name: "s-viz-color-twelve-1", value: "#EDECE1"}
 ```
 
-## Sequential Scale 1
+## Sequential and Diverging Scales
+All of our sequential scales and diverging scales are limited to seven buckets. This way we ensure that our readers can differentiate shades of a hue from one another in order to accurate ready our charts and maps.
+
+### Sequential Scale 1
 This sequential scale is the most often used. It is structured based on our first primary qualitative color.
 ```color-palette|horizontal
 colors:
@@ -108,7 +113,7 @@ span: 5
 src: "assets/sequential-1@1x.png 1x, assets/sequential-1@2x.png 2x"
 ```
 
-## Sequential Scale 2
+### Sequential Scale 2
 This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
 ```color-palette|horizontal
 colors:
@@ -126,7 +131,7 @@ span: 5
 src: "assets/sequential-2@1x.png 1x, assets/sequential-2@2x.png 2x"
 ```
 
-## Sequential Scale 3
+### Sequential Scale 3
 This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
 ```color-palette|horizontal
 colors:
@@ -144,17 +149,17 @@ span: 5
 src: "assets/sequential-3@1x.png 1x, assets/sequential-3@2x.png 2x"
 ```
 
-## Diverging Scale A
+### Diverging Scale 1
 This diverging scale should be used in any case where we are comparing opposites that are positively and negatively connotated. Such an example would be election maps where voters had to approve/deny an initiative.
 ```color-palette|horizontal
 colors:
-   - {value: "#D95C23"}
-   - {value: "#E68D64"}
-   - {value: "#EBBDA5"}
-   - {value: "#ECECF0"}
-   - {value: "#BFB1DC"}
-   - {value: "#987ACE"}
-   - {value: "#6A43BF"}
+   - {value: "#e66e4a"}
+   - {value: "#ef997f"}
+   - {value: "#f2c3b6"}
+   - {value: "#ececf0"}
+   - {value: "#c5b2e1"}
+   - {value: "#9b7ad1"}
+   - {value: "#6c43c0"}
 ```
 
 ```image
@@ -163,17 +168,36 @@ span: 5
 src: "assets/election-map-diverging-a@1x.png 1x, assets/election-map-diverging-a@2x.png 2x"
 ```
 
-## Diverging Scale B
-This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago.
+### Diverging Scale 2
+This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago. This scale is creating using the first two primary colors in our qualitative scale. This lends the scale to be used in stories where there are two data points which are directly compared throughout the story.
 ```color-palette|horizontal
 colors:
-   - {value: "#D4AB0B"}
-   - {value: "#E2BF67"}
-   - {value: "#EBD5A9"}
-   - {value: "#ECECF0"}
-   - {value: "#B0BAD9"}
-   - {value: "#728DC7"}
-   - {value: "#1262B3"}
+   - {value: "#3952ee"}
+   - {value: "#8b82f0"}
+   - {value: "#bfb6f1"}
+   - {value: "#ececf0"}
+   - {value: "#f3dcb1"}
+   - {value: "#f2cc72"}
+   - {value: "#ebbd22"}
+```
+
+```image
+plain: true
+span: 5
+src: "assets/election-map-diverging-b@1x.png 1x, assets/election-map-diverging-b@2x.png 2x"
+```
+
+### Diverging Scale 3
+An alternative scale for comparing opposites with negative and/or positive connotation. This scale is comprised of two choice colors, so as not to overlap with any of the primary colors which might already be encoded in the story.
+```color-palette|horizontal
+colors:
+   - {value: "#0ba9d9"}
+   - {value: "#7cbfe1"}
+   - {value: "#b7d5e9"}
+   - {value: "#ececf0"}
+   - {value: "#e1e3b1"}
+   - {value: "#d0db70"}
+   - {value: "#bbd215"}
 ```
 
 ```image
