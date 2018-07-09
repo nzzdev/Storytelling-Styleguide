@@ -59,8 +59,6 @@ src: "assets/basic-charts/bar-charts_axis-c-print@1x.png"
 Legends are a part of the introduction to the chart, so we place them prominently just above the data. Legends for basic charts are constructed with circles and 45 degree lines. All charts with filled areas receive filled circles for their legend definitions and all line charts receive lines (solid or dotted) for their definitions.
 Do align legends to the left of the chart, even with titles and subtitles
 Do not put legend information below a chart or map
-Do use dotted lines for prognosis or prediction in line charts
-Do use hatched areas for prognosis or prediction in bar charts
 
 ```image
 plain: true
@@ -74,6 +72,13 @@ span: 6
 src: "assets/basic-charts/bar-charts_legend-print@1x.png"
 ```
 
+Do use dotted lines for prognosis or prediction in line charts
+Do use hatched areas for prognosis or prediction in bar charts
+```image
+plain: true
+span: 6
+src: "assets/basic-charts/bar-charts_prognosis@1x.png"
+```
 ### Annotations
 
 
