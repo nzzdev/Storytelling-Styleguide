@@ -15,12 +15,12 @@ Do not extend lines underneath/above labels.
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_axis@1x.png"
+src: "assets/basic-charts/bar-charts_axis@1x.png 1x, assets/basic-charts/bar-charts_axis@2x.png 2x"
 ```
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_axis-print@1x.png"
+src: "assets/basic-charts/bar-charts_axis-print@1x.png 1x, assets/basic-charts/bar-charts_axis-print@2x.png 2x"
 ```
 ### X-Axis
 Do remove year labels when several years are displayed and the *focus of the graphic is the trend*.
@@ -31,12 +31,12 @@ Do not extend lines underneath/above labels.
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_axis-b@1x.png"
+src: "assets/basic-charts/bar-charts_axis-b@1x.png 1x, assets/basic-charts/bar-charts_axis-b@2x.png 2x"
 ```
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_axis-b-print@1x.png"
+src: "assets/basic-charts/bar-charts_axis-b-print@1x.png 1x, assets/basic-charts/bar-charts_axis-b-print@2x.png 2x"
 ```
 
 ### Direct Annotation
@@ -47,12 +47,12 @@ Do not display axis and exact values directly annotated.
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_axis-c@1x.png"
+src: "assets/basic-charts/bar-charts_axis-c@1x.png 1x, assets/basic-charts/bar-charts_axis-c@2x.png 2x"
 ```
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_axis-c-print@1x.png"
+src: "assets/basic-charts/bar-charts_axis-c-print@1x.png 1x, assets/basic-charts/bar-charts_axis-c-print@2x.png 2x"
 ```
 
 ### Legends
@@ -63,13 +63,13 @@ Do not put legend information below a chart or map
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_legend@1x.png"
+src: "assets/basic-charts/bar-charts_legend@1x.png 1x, assets/basic-charts/bar-charts_legend@2x.png 2x"
 ```
 
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_legend-print@1x.png"
+src: "assets/basic-charts/bar-charts_legend-print@1x.png 1x, assets/basic-charts/bar-charts_legend-print@2x.png 2x"
 ```
 
 Do use dotted lines for prognosis or prediction in line charts
@@ -77,7 +77,7 @@ Do use hatched areas for prognosis or prediction in bar charts
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_prognosis@1x.png"
+src: "assets/basic-charts/bar-charts_prognosis@1x.png 1x, assets/basic-charts/bar-charts_prognosis@2x.png 2x"
 ```
 ### Annotations
 
