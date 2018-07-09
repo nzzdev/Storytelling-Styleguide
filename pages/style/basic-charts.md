@@ -83,17 +83,3 @@ src: "assets/basic-charts/bar-charts_prognosis@1x.png"
 
 
 ### Highlighting
-
-
-## Examples
-#### Change over time
-
-[Image]
-Line charts
-
-[Image]
-Bar charts
-
-#### Categorical
-[Image]
-Bar charts
