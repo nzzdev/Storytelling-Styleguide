@@ -62,17 +62,16 @@ Do not put legend information below a chart or map
 Do use dotted lines for prognosis or prediction in line charts
 Do use hatched areas for prognosis or prediction in bar charts
 
-Bar charts
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_legend@1x"
+src: "assets/basic-charts/bar-charts_legend@1x.png"
 ```
-Line charts
+
 ```image
 plain: true
 span: 6
-src: "assets/basic-charts/bar-charts_legend-print@1x"
+src: "assets/basic-charts/bar-charts_legend-print@1x.png"
 ```
 
 ### Annotations
