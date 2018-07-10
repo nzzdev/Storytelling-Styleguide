@@ -2,12 +2,16 @@
 <div class="stabilityIndex experimental">Experimental</div>
 ```
 
-# Principles for Visual Hierarchy
+# Visual Principles
 
 ## Introducing the reader to the data
-Some stuff about einstieg and einführung and why it's important.
+The information we show through our graphics have a range of complexity. Our work is largely centered around breaking down complex themes or dense datasets, which means we need to find ways to display this information in an understandable format for our readers. Often we can count on basic chart types like bar and line charts to show our data but occasionally we use more complex visualizations that might require a little more introduction for our regular readers. No matter the complexity of the chart, we strive to create a clear introduction to each chart with a main message in the title. The following subtitle and legend provide a straight forward description of exactly what the chart is showing.
 
-[example here]
+```image
+plain: true
+span: 6
+src: "assets/visual-principles/visual-principle_intro@1x.png 1x, assets/visual-principles/visual-principle_intro@2x.png 2x"
+```
 
 ## Guiding the reader through the data
 Some text about using leserbeispielen, how to construct them and how to write for them. Maybe also show an example of a type of graphic that users are used to reading or has many details in it.
