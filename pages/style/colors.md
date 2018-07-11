@@ -105,12 +105,12 @@ This sequential scale is the most often used. It is structured based on our firs
 ```color-palette|horizontal
 colors:
    - {value: "#ECECF0"}
-   - {value: "#D7DBE8"}
-   - {value: "#B8C1DE"}
-   - {value: "#96A7D3"}
-   - {value: "#7790C9"}
-   - {value: "#5078BE"}
-   - {value: "#1262B3"}
+   - {value: "#d2d2f2"}
+   - {value: "#b8b8f3"}
+   - {value: "#9e9ef4"}
+   - {value: "#8285f3"}
+   - {value: "#636bf1"}
+   - {value: "#3952ee"}
 ```
 ```image
 plain: true
@@ -123,12 +123,12 @@ This is an alternative sequential scale that is available in the case that our p
 ```color-palette|horizontal
 colors:
    - {value: "#EDECE1"}
-   - {value: "#D4E0D3"}
-   - {value: "#B5D1C3"}
-   - {value: "#92C1B0"}
-   - {value: "#72B3A0"}
-   - {value: "#50A591"}
-   - {value: "#1E9682"}
+   - {value: "#dce1cb"}
+   - {value: "#c6d7b8"}
+   - {value: "#abcea9"}
+   - {value: "#8bc5a0"}
+   - {value: "#64bc9b"}
+   - {value: "#24b39c"}
 ```
 ```image
 plain: true
@@ -141,12 +141,12 @@ This scale is used in the case where we are displaying data that could be negati
 ```color-palette|horizontal
 colors:
    - {value: "#EDECE1"}
-   - {value: "#E3DABE"}
-   - {value: "#DDC49A"}
-   - {value: "#DCB381"}
-   - {value: "#DB8E59"}
-   - {value: "#DB7147"}
-   - {value: "#D9493D"}
+   - {value: "#e2d7bb"}
+   - {value: "#ddc197"}
+   - {value: "#daa878"}
+   - {value: "#da8d5f"}
+   - {value: "#d96f4e"}
+   - {value: "#d64b47"}
 ```
 ```image
 plain: true
