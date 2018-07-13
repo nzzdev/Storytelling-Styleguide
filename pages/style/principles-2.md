@@ -39,6 +39,10 @@ Use color, illustrations and icons to communicate and explain the data that you'
 - to provide context that is not included in the dataset
 - when it can be a replacement for a lot of text or an image that will crowd or disturb the visual hierarchy
 
+#### Do not use illustration
+- as a decorative element to fill up empty space in a chart
+- as the focal point of a visualization
+
 Remember to try and reuse illustrations or icons to create consistency across our illustrative works
 
  ```image
@@ -47,16 +51,16 @@ Remember to try and reuse illustrations or icons to create consistency across ou
  src: "assets/visual-principles/visual-principles_illustration@1x.png 1x, assets/visual-principles/visual-principles_illustration@2x.png 2x"
  ```
 
-#### Do not use illustration
-- as a decorative element to fill up empty space in a chart
-- as the focal point of a visualization
-
 
 #### Do use a background color
 - to balance the visual weight of the graphic with another image on the page
 - to create a focal point in a sea of text
 - to bring elements/separate charts in the same visualization together
 - when it is a part of a series concept or lends itself to the topic (i.e. Outer Space)
+
+#### Do not use a background color
+- for online graphics when decreases the contrast for readability on the screen
+- as an attempt to make a chart more interesting
 
 Remember to leave enough space between design elements and the edge of a background. When type or charts bump up against the border of a background it creates irritation for the eye.
 
@@ -65,7 +69,3 @@ plain: true
 span: 6
 src: "assets/visual-principles/visual-principles_hintergrund@1x.png 1x, assets/visual-principles/visual-principles_hintergrund@2x.png 2x"
 ```
-
-#### Do not use a background color
-- for online graphics when decreases the contrast for readability on the screen
-- to make a chart more interesting
