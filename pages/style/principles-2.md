@@ -55,13 +55,17 @@ Remember to try and reuse illustrations or icons to create consistency across ou
 #### Do use a background color
 - to balance the visual weight of the graphic with another image on the page
 - to create a focal point in a sea of text
-- to bring elements/separate charts in the same visualization together  
+- to bring elements/separate charts in the same visualization together
+- when it is a part of a series concept or lends itself to the topic (i.e. Outer Space)
 
 Remember to leave enough space between design elements and the edge of a background. When type or charts bump up against the border of a background it creates irritation for the eye.
 
-[example here]
+```image
+plain: true
+span: 6
+src: "assets/visual-principles/visual-principles_hintergrund@1x.png 1x, assets/visual-principles/visual-principles_hintergrund@2x.png 2x"
+```
 
 #### Do not use a background color
-- for online graphics as it creates contrast issues for readability on the screen
-
-[example here]
+- for online graphics when decreases the contrast for readability on the screen
+- to make a chart more interesting
