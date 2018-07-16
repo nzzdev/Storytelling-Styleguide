@@ -44,6 +44,10 @@ columns:
   - Changes
 rows:
   - Changes: |
+      Initial *Visual Principles* Documentation
+    Date: 2018-07-13
+    Version: 0.1.3  
+  - Changes: |
       Initial *Layout* and *Chart* Documentation
     Date: 2018-07-03
     Version: 0.1.2  
