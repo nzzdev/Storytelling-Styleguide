@@ -1,16 +1,16 @@
 ```html|span-1,no-source,plain
-<div class="stabilityIndex unstable">Unstable</div>
+<div class="stabilityIndex stable">Stable</div>
 ```
 
 #### Our team's color palette consists of a qualitative scale, two sequential scales and two diverging scales.
 
-We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
-
 ```image
 plain: true
 span: 5
-src: "assets/sequential-1@1x.png 1x, assets/sequential-1@2x.png 2x"
+src: "assets/teaser-color@1x.png 1x, assets/teaser-color@2x.png 2x"
 ```
+
+We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
 
 The concept of our color palette is that all colors are scales are derived out of the original twelve qualitative color. This is one way that we can secure a consistent visual appearance in all of our graphics.
 
