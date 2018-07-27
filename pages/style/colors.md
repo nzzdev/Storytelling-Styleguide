@@ -17,7 +17,7 @@ The concept of our color palette is that all colors are scales are derived out o
 *Each of these colors receives a classname that can be called within Q (i.e. s-viz-color-one-7).* Each classname is listed below along with the hex color code.
 
 ## Qualitative Color Scale: Primary
-Our primary qualitative colors are the most used colors in our color palette. These colors should be used in order for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below.
+Our primary qualitative colors are the most used colors in our color palette. These colors should be used *in order* for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below.
 
 ```color-palette|span-1
 colors:
