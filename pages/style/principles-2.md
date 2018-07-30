@@ -5,7 +5,7 @@
 # Visual Principles
 In order that our graphics are successful in translating information and a message to our readers, it's important that we introduce readers to the content on first look at the graphic. So that they don't get lost in the more complex visuals that we create, we use explanatory elements and extras that help guide them. Because it's not always easy to put a condensed finding in perspective of a larger topic, we make sure we consider the addition of secondary information through graphic or textual means to provide context. Above all else, our job is to communicate information clearly and elegantly - therefore we never add decoration without purpose to our work.
 
-Abbreviated basics:
+_Abbreviated basics:_
 - Never sacrifice clarity and readability over beauty
 - There should always be a clear message
 - Text is legible at every size
