@@ -3,6 +3,14 @@
 ```
 
 # Visual Principles
+In order that our graphics are successful in translating information and a message to our readers, it's important that we introduce readers to the content on first look at the graphic. So that they don't get lost in the more complex visuals that we create, we use explanatory elements and extras that help guide them. Because it's not always easy to put a condensed finding in perspective of a larger topic, we make sure we consider the addition of secondary information through graphic or textual means to provide context. Above all else, our job is to communicate information clearly and elegantly - therefore we never add decoration without purpose to our work.
+
+Abbreviated basics:
+- Never sacrifice clarity and readability over beauty
+- There should always be a clear message
+- Text is legible at every size
+- Icons are precise and sharp
+- Extras are subtle and appropriate
 
 ## Introducing the reader to the data
 The information we show through our graphics have a range of complexity. Our work is largely centered around breaking down complex themes or dense datasets, which means we need to find ways to display this information in an understandable format for our readers. Often we can count on basic chart types like bar and line charts to show our data but occasionally we use more complex visualizations that might require a little more introduction for our regular readers. No matter the complexity of the chart, we strive to create a clear introduction to each chart with a main message in the title. The following subtitle and legend provide a straight forward description of exactly what the chart is showing.
