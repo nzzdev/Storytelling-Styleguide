@@ -3,14 +3,23 @@
 ```
 
 # Visual Principles
-In order that our graphics are successful in translating information and a message to our readers, it's important that we introduce readers to the content on first look at the graphic. So that they don't get lost in the more complex visuals that we create, we use explanatory elements and extras that help guide them. Because it's not always easy to put a condensed finding in perspective of a larger topic, we make sure we consider the addition of secondary information through graphic or textual means to provide context. Above all else, our job is to communicate information clearly and elegantly - therefore we never add decoration without purpose to our work.
 
-_Abbreviated basics:_
-- Never sacrifice clarity and readability over beauty
-- There should always be a clear message
+Design principles articulate the fundamental goals that all decisions can be measured against. In our case, they are designed to keep the work from both print and web mediums moving toward an integrated visual language. Design principles are simple a tool for creating a better, more consistent experience for our readers.
+
+Our design principles are simple, based on real work, and reflective of us. They enforce clarity and reduce ambiguity. We developed these principles to help us make critical decisions about what we’re creating and make it easier to decide between good work and great work.
+
+**Purposeful** - Entschlossen
+- Clarity and readability is never sacrificed for beauty
+- There is a coherent message that is immediately communicated
+**Accentuated** - Akzentuiert
+- Extras are subtle and appropriate
+**Precise** - Präzis
 - Text is legible at every size
 - Icons are precise and sharp
-- Extras are subtle and appropriate
+**Authentic** - Authentisch
+- Each graphic is reflective of our collective voice and vision as the NZZ Storytelling team
+
+In order that our graphics are successful in translating information and a message to our readers, it's important that we **introduce** readers to the content on first look at the graphic. So that they don't get lost in the more complex visuals that we create, we use explanatory elements and extras that help **guide** them. Because it's not always easy to put a condensed finding in perspective of a larger topic, we make sure we consider the addition of secondary information through graphic or textual means to **provide context**. Above all else, our job is to **communicate** information clearly and elegantly - therefore we never add decoration without purpose to our work.
 
 ## Introducing the reader to the data
 The information we show through our graphics have a range of complexity. Our work is largely centered around breaking down complex themes or dense datasets, which means we need to find ways to display this information in an understandable format for our readers. Often we can count on basic chart types like bar and line charts to show our data but occasionally we use more complex visualizations that might require a little more introduction for our regular readers. No matter the complexity of the chart, we strive to create a clear introduction to each chart with a main message in the title. The following subtitle and legend provide a straight forward description of exactly what the chart is showing.
