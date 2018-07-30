@@ -101,7 +101,22 @@ plain: true
 span: 6
 src: "assets/basic-charts/bar-charts_prognosis@1x.png 1x, assets/basic-charts/bar-charts_prognosis@2x.png 2x"
 ```
-### Annotations
-
 
 ### Highlighting
+#### Do
+- give the data point (bar, line) in focus the darker, fuller opacity of a color
+- give the secondary data points a lighter shade of their colors
+- use the pre-defined lighter shades of a full color in the correct order  
+
+#### Do not
+- use a lesser transparent shade of a color and allow grid lines to show through
+- use other colors in full opacity
+- use other additional visual elements on top of the basic chart
+
+```image
+plain: true
+span: 6
+src: "assets/basic-charts/bar-charts_highlighting@1x.png 1x, assets/basic-charts/bar-charts_highlighting@2x.png 2x"
+```
+
+### Annotations
