@@ -103,6 +103,8 @@ src: "assets/basic-charts/bar-charts_prognosis@1x.png 1x, assets/basic-charts/ba
 ```
 
 ### Highlighting
+Bringing attention to a specific data point or set of data points in a graphic helps us underline our graphic's message and focus our readers to the most important part of the chart. The most basic form of highlighting is to use shades of our visualization colors to give a heavier visual weight to the data in the spotlight.
+
 #### Do
 - give the data point (bar, line) in focus the darker, fuller opacity of a color
 - give the secondary data points a lighter shade of their colors
