@@ -6,22 +6,24 @@
 
 Design principles articulate the fundamental goals that all decisions can be measured against. In our case, they are designed to keep the work from both print and web mediums moving toward an integrated visual language. Design principles are simple a tool for creating a better, more consistent experience for our readers. Our principles are simple, based on real work, and reflective of us. They enforce clarity and reduce ambiguity. We developed these principles to help us make critical decisions about what we’re creating and make it easier to decide between good work and great work.
 
-**Purposeful** - Entschlossen
+**Determined** - Entschlossen
+- Every graphic has a purpose and a message that becomes apparent immediately
 - Clarity and readability is never sacrificed for beauty
-- There is a coherent message that is immediately communicated
 
 **Accentuated** - Akzentuiert
-- Extras are subtle and appropriate
-
+- We highlight what's most important
+- We guide the viewer
 
 **Precise** - Präzis
-- Text is legible at every size
-- Icons are precise and sharp
-
+- We use the best available data and take no shortcuts
+- We use clear and simple language
 
 **Authentic** - Authentisch
 - Each graphic is reflective of our collective voice and vision as the NZZ Storytelling team
 
+# Our audience
+We work for the readers and users of NZZ. Not to please the editors of NZZ. Not to please ourselves.
+We work for an audience that is well-informed and curious. We assume they have a basic understanding of most of the topics we cover, but we never assume they are experts. Our graphics reflect this – they are accessible to anyone who's interested. 
 
 # Our guidelines for achieving these standards
 In order that our graphics are successful in translating information and a message to our readers, it's important that we **introduce** readers to the content on first look at the graphic. So that they don't get lost in the more complex visuals that we create, we use explanatory elements and extras that help **guide** them. Because it's not always easy to put a condensed finding in perspective of a larger topic, we make sure we consider the addition of secondary information through graphic or textual means to **provide context**. Above all else, our job is to **communicate** information clearly and elegantly - therefore we never add decoration without purpose to our work.
