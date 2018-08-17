@@ -17,33 +17,33 @@ src: "assets/teaser-color_print@1x.png 1x, assets/teaser-color_print@2x.png 2x"
 Our qualitative colors for daily business are the most used colors in our color palette. These colors should be used *in order* for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below.
 
 ```color
-span: 1
-name: "Blue"
+span: 2
+name: "Blue (100, 60, 10, 25)"
 value: "#083069"
 ```
 ```color
-span: 1
-name: "Yellow"
+span: 2
+name: "Yellow (5, 27, 90, 1)"
 value: "#F0B517"
 ```
 ```color
-span: 1
-name: "Orange"
+span: 2
+name: "Orange (13, 74, 94, 2)"
 value: "#D93E0D"
 ```
 ```color
-span: 1
-name: "Turquoise"
+span: 2
+name: "Turquoise (51, 5, 23, 1)"
 value: "#7CC0AE"
 ```
 ```color
-span: 1
-name: "Pink"
+span: 2
+name: "Pink (6, 50, 22, 1)"
 value: "#E87D92"
 ```
 ```color
-span: 1
-name: "Gray"
+span: 2
+name: "Gray (37, 29, 30, 10)"
 value: "#908B84"
 ```
 
@@ -53,22 +53,22 @@ Our choice colors are less often used in our basic daily business. They are most
 
 ```color
 span: 1
-name: "Gold"
+name: "Gold ()"
 value: "#AC8E46"
 ```
 ```color
 span: 1
-name: "Green-gray"
+name: "Green-gray ()"
 value: "#65776F"
 ```
 ```color
 span: 1
-name: "Red"
+name: "Red ()"
 value: "#E11832"
 ```
 ```color
 span: 1
-name: "Dark Red"
+name: "Dark Red ()"
 value: "#7C1C23"
 ```
 
