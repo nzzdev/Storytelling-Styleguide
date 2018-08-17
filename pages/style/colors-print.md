@@ -7,7 +7,7 @@
 ```image
 plain: true
 span: 5
-src: "assets/teaser-color@1x.png 1x, assets/teaser-color@2x.png 2x"
+src: "assets/teaser-color_print@1x.png 1x, assets/teaser-color_print@2x.png 2x"
 ```
 
 ...Some text here about how the colors were developed. Leann should be responsible for providing the content for this page.
@@ -79,11 +79,13 @@ We have a specific color palette for maps.
 span: 1
 name: "Oceans"
 value: "#C6D6D8"
-``````color
+```
+```color
 span: 1
 name: "Rivers"
 value: "#87A2A9"
-``````color
+```
+```color
 span: 1
 name: "Forests"
 value: "#99CA7C"
@@ -95,60 +97,3 @@ value: "#F0B517"
 ```
 
 --
-
-### Diverging Scale 1
-This diverging scale should be used in any case where we are comparing opposites that are positively and negatively connotated. Such an example would be election maps where voters had to approve/deny an initiative.
-```color-palette|horizontal
-colors:
-   - {value: "#e66e4a"}
-   - {value: "#ef997f"}
-   - {value: "#f2c3b6"}
-   - {value: "#ececf0"}
-   - {value: "#c5b2e1"}
-   - {value: "#9b7ad1"}
-   - {value: "#6c43c0"}
-```
-
-```image
-plain: true
-span: 5
-src: "assets/election-map-diverging-a@1x.png 1x, assets/election-map-diverging-a@2x.png 2x"
-```
-
-### Diverging Scale 2
-This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago. This scale is creating using the first two primary colors in our qualitative scale. This lends the scale to be used in stories where there are two data points which are directly compared throughout the story.
-```color-palette|horizontal
-colors:
-   - {value: "#3952ee"}
-   - {value: "#8b82f0"}
-   - {value: "#bfb6f1"}
-   - {value: "#ececf0"}
-   - {value: "#f3dcb1"}
-   - {value: "#f2cc72"}
-   - {value: "#ebbd22"}
-```
-
-```image
-plain: true
-span: 5
-src: "assets/election-map-diverging-b@1x.png 1x, assets/election-map-diverging-b@2x.png 2x"
-```
-
-### Diverging Scale 3
-An alternative scale for comparing opposites with negative and/or positive connotation. This scale is comprised of two choice colors, so as not to overlap with any of the primary colors which might already be encoded in the story.
-```color-palette|horizontal
-colors:
-   - {value: "#0ba9d9"}
-   - {value: "#7cbfe1"}
-   - {value: "#b7d5e9"}
-   - {value: "#ececf0"}
-   - {value: "#e1e3b1"}
-   - {value: "#d0db70"}
-   - {value: "#bbd215"}
-```
-
-```image
-plain: true
-span: 5
-src: "assets/election-map-diverging-c@1x.png 1x, assets/election-map-diverging-c@2x.png 2x"
-```
