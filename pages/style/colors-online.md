@@ -210,3 +210,48 @@ plain: true
 span: 5
 src: "assets/election-map-diverging-c@1x.png 1x, assets/election-map-diverging-c@2x.png 2x"
 ```
+
+## Political Party Colors
+We have predefined colors for Switzerland, France, Ecuador, Germany, Netherlands, United Kingdom and the United States. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
+
+### Switzerland
+```color-palette|span-1
+colors:
+  - {name: "SVP - primary", value: "#408b3d"}
+  - {name: "SP", value: "#c31906"}
+  - {name: "FDP", value: "#0084c7"}
+  - {name: "CVP", value: "#d28b00"}
+  - {name: "GPS", value: "#54ba00"}
+  - {name: "GLP", value: "#a9cf00"}
+  - {name: "BDP", value: "#d1cc00"}
+```
+```color-palette|span-1
+colors:
+  - {name: "SVP - highlight", value: "#b2d0b1"}
+  - {name: "SP", value: "#eaaea8"}
+  - {name: "FDP", value: "#9ed0e9"}
+  - {name: "CVP", value: "#edd29c"}
+  - {name: "GPS", value: "#bae399"}
+  - {name: "GLP", value: "#dceb99"}
+  - {name: "BDP", value: "#edeca0"}
+```
+```color-palette|span-1
+colors:
+  - {name: "EVP - primary", value: "#bda700"}
+  - {name: "LEGA", value: "#ac5038"}
+  - {name: "MCR", value: "#716e48"}
+  - {name: "AL", value: "#da467d"}
+  - {name: "EDU", value: "#8440a3"}
+  - {name: "SD", value: "#4e36d7"}
+  - {name: "default", value: "#616161"}
+```
+```color-palette|span-1
+colors:
+  - {name: "EVP - highlight", value: "#e5dc9b"}
+  - {name: "LEGA", value: "#ddb9af"}
+  - {name: "MCR", value: "#c3c2b2"}
+  - {name: "AL", value: "#f1bace"}
+  - {name: "EDU", value: "#cdb1d9"}
+  - {name: "SD", value: "#b8aeef"}
+  - {name: "default", value: "#bcbcbc"}
+```
