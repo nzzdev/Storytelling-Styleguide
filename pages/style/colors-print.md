@@ -53,22 +53,22 @@ Our choice colors are less often used in our basic daily business. They are most
 
 ```color
 span: 1
-name: "Gold ()"
+name: "Gold (25, 31, 65, 10)"
 value: "#AC8E46"
 ```
 ```color
 span: 1
-name: "Green-gray ()"
+name: "Green-gray (55, 31, 38, 13)"
 value: "#65776F"
 ```
 ```color
 span: 1
-name: "Red ()"
+name: "Red (0, 90, 60, 10)"
 value: "#E11832"
 ```
 ```color
 span: 1
-name: "Dark Red ()"
+name: "Dark Red (30, 83, 67, 30)"
 value: "#7C1C23"
 ```
 
@@ -77,22 +77,22 @@ We have a specific color palette for maps.
 
 ```color
 span: 1
-name: "Oceans"
+name: "Oceans (18, 5, 5, 5)"
 value: "#C6D6D8"
 ```
 ```color
 span: 1
-name: "Rivers"
+name: "Rivers (40, 15, 12 12)"
 value: "#87A2A9"
 ```
 ```color
 span: 1
-name: "Forests"
+name: "Forests (40, 5, 50, 0)"
 value: "#99CA7C"
 ```
 ```color
 span: 1
-name: "Highlighted Areas"
+name: "Highlighted Areas (5, 27, 90, 1)
 value: "#F0B517"
 ```
 
