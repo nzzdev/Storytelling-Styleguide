@@ -268,7 +268,7 @@ colors:
 ```
 ```color-palette|span-2
 colors:
-  - {name: "SOC, RDG, DVG - primary", value: "#f4d7d3"}
+  - {name: "SOC, RDG, DVG - highlight", value: "#f4d7d3"}
   - {name: "LR, UDI, DVD", value: "#cee7f4"}
   - {name: "FN", value: "#c7c7c7"}
   - {name: "REM, MDM", value: "#f8dce7"}
@@ -319,7 +319,7 @@ colors:
 ```
 ```color-palette|span-1
 colors:
-  - {name: "SDP - primary", value: "#eaaea8"}
+  - {name: "SDP - highlight", value: "#eaaea8"}
   - {name: "Union", value: "#939393"}
   - {name: "FDP", value: "#edeca0"}
   - {name: "Grüne", value: "#c2dba7"}
@@ -334,7 +334,7 @@ colors:
 ```
 ```color-palette|span-1
 colors:
-  - {name: "Linke - primary", value: "#cdb1d9"}
+  - {name: "Linke - highlight", value: "#cdb1d9"}
   - {name: "Piraten", value: "#edd29c"}
   - {name: "Freie Wähler", value: "#ddb9af"}
   - {name: "default", value: "#bcbcbc"}
@@ -351,7 +351,7 @@ colors:
 ```
 ```color-palette|span-1
 colors:
-  - {name: "SP - primary", value: "#cdb1d9"}
+  - {name: "SP - highlight", value: "#cdb1d9"}
   - {name: "PvdA", value: "#eaaea8"}
   - {name: "Groen Links", value: "#c2dba7"}
   - {name: "D66", value: "#aadccf"}
@@ -366,7 +366,7 @@ colors:
 ```
 ```color-palette|span-1
 colors:
-  - {name: "CDA - primary", value: "#a4e3e8"}
+  - {name: "CDA - highlight", value: "#a4e3e8"}
   - {name: "VVD", value: "#edd29c"}
   - {name: "PVV", value: "#939393"}
   - {name: "default", value: "#bcbcbc"}
@@ -383,7 +383,7 @@ colors:
 ```
 ```color-palette|span-1
 colors:
-  - {name: "SP - primary", value: "#9ed0e9"}
+  - {name: "SP - highlight", value: "#9ed0e9"}
   - {name: "PvdA", value: "#eaaea8"}
   - {name: "Groen Links", value: "#edeca0"}
   - {name: "D66", value: "#edd29c"}
@@ -398,7 +398,7 @@ colors:
 ```
 ```color-palette|span-1
 colors:
-  - {name: "CDA - primary", value: "#cdb1d9"}
+  - {name: "CDA - highlight", value: "#cdb1d9"}
   - {name: "VVD", value: "#c2dba7"}
   - {name: "PVV", value: "#f1bace"}
   - {name: "default", value: "#bcbcbc"}
@@ -407,15 +407,15 @@ colors:
 ### United States
 ```color-palette|span-2
 colors:
-  - {name: "Republikaner - primary", value: "#c31906"}
-  - {name: "Demokrat", value: "#0084c7"}
-  - {name: "Independent", value: "#0a0a0a"}
-  - {name: "default", value: "#da467d"}
+  - {name: "Republikaner - primary", value: "#f1242b"}
+  - {name: "Demokrat", value: "#00aef3"}
+  - {name: "Independent", value: "#eada14"}
+  - {name: "default", value: "#616161"}
 ```
 ```color-palette|span-2
 colors:
-  - {name: "Republikaner - primary", value: "#c31906"}
-  - {name: "Demokrat", value: "#0084c7"}
-  - {name: "Independent", value: "#0a0a0a"}
-  - {name: "default", value: "#da467d"}
+  - {name: "Republikaner - highlight", value: "#f9a7aa"}
+  - {name: "Demokrat", value: "#99defa"}
+  - {name: "Independent", value: "#f6f0a1"}
+  - {name: "default", value: "#bcbcbc"}
 ```
