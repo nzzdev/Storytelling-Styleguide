@@ -98,4 +98,19 @@ name: "Highlighted Areas (5, 27, 90, 1)"
 value: "#F0B517"
 ```
 
---
+## Political Party Colors
+For print, we have predefined colors for the Swiss political parties.
+
+### Switzerland
+```color-palette|span-1
+colors:
+  - {name: "SVP (70, 15, 50, 20)", value: "#3E7B5E"}
+  - {name: "SP (0, 90, 90, 20)", value: "#CB150B"}
+  - {name: "FDP (80, 15, 0, 8)", value: "#318CB5"}
+  - {name: "CVP (0, 50, 70, 0)", value: "#FD8039"}
+  - {name: "GPS (100, 0, 100, 0)", value: "#008837"}
+  - {name: "GLP (25, 0, 70, 5)", value: "#B6D84E"}
+  - {name: "BDP (0, 20, 90, 0)", value: "#FFCC17"}
+  - {name: "EVP (25, 31, 65, 10)", value: "#AC8E46"}
+  - {name: "default (0, 0, 0, 50)", value: "#808080"}
+```
