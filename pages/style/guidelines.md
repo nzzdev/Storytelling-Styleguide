@@ -3,7 +3,7 @@
 ```
 
 ## Pie Charts
-Pie charts are popular and often requested by editors. They are, however, rarely the best chart type to visualise what we want to communicate. We use pie charts with caution and whenever we think about using one, we pause to think: Is this really what makes most sense?
+Pie charts are popular and often requested by editors. They are, however, rarely the best chart type to visualize what we want to communicate. We use pie charts with caution and whenever we think about using one, we pause to think: Is this really what makes most sense?
 
 #### Rule of thumb:
 If I combine all segments except for the most important one to "others" – does the chart still make sense?
@@ -19,7 +19,7 @@ span: 6
 src: "assets/guidelines/pie-dont.png"
 ```
 
-We don't use pie charts to compare the parts of two or more 
+We don't use pie charts to compare the parts of two or more
 
 ```image
 plain: true
@@ -37,16 +37,16 @@ span: 6
 src: "assets/guidelines/pie-do.png"
 ```
 
-In this case: 
+In this case:
 - We never show more than 5 segments. Combine to "others" if necessary.
-- The segment starts at the top and goes clockwise. 
+- The segment starts at the top and goes clockwise.
 
 
 See also: [What to consider when creating pie charts (Datawrapper Academy)](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
 
 ## Non-zero Y-Axis
 
-Cutting the y-axis so it doesn't extend to 0 is a common way to dramatise a chart, but sometimes it's necessary to show subtle, yet significant changes.
+Cutting the y-axis so it doesn't extend to 0 is a common way to dramatize a chart, but sometimes it's necessary to show subtle, yet significant changes.
 
 #### Rule of thumb
 
@@ -68,9 +68,9 @@ Don't cut the y-axis very close to 0.
 plain: true
 span: 6
 src: "assets/guidelines/yaxis-dont2.png"
-``` 
+```
 
-#### Do 
+#### Do
 
 Cut the y-axis to show subtle, yet significant changes, that wouldn't be visible when the y-axis is extended to zero.
 
@@ -81,14 +81,14 @@ In this case:
 plain: true
 span: 6
 src: "assets/guidelines/yaxis-do.png"
-``` 
+```
 
 Cut the y-axis when extending it to zero doesn't make sense (there are no football players who are 0 metres tall)
 ```image
 plain: true
 span: 6
 src: "assets/guidelines/yaxis-do2.png"
-``` 
+```
 
 
 See also: [It’s OK not to start your y-axis at zero (QZ)](https://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/)
