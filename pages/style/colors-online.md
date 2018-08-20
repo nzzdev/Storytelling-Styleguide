@@ -257,8 +257,6 @@ colors:
 ```
 
 ### France
-The following parties* take **gray** (#616161) as their party color: ECO, COM, DLF, EXT, DIV and EXD.
-
 ```color-palette|span-2
 colors:
   - {name: "SOC, RDG, DVG - primary", value: "#c31906"}
@@ -266,7 +264,7 @@ colors:
   - {name: "FN", value: "#0a0a0a"}
   - {name: "REM, MDM", value: "#da467d"}
   - {name: "FI", value: "#01b1c0"}
-  - {name: "ECO*", value: "#616161"}
+  - {name: "ECO, COM, DLF, EXT, DIV, EXD", value: "#616161"}
 ```
 ```color-palette|span-2
 colors:
@@ -275,7 +273,7 @@ colors:
   - {name: "FN", value: "#c7c7c7"}
   - {name: "REM, MDM", value: "#f8dce7"}
   - {name: "FI", value: "#d2f1f3"}
-  - {name: "ECO*", value: "#dddddd"}
+  - {name: "ECO, COM, DLF, EXT, DIV, EXD", value: "#dddddd"}
 ```
 
 ### Ecuador
@@ -308,4 +306,36 @@ colors:
   - {name: "LEGA", value: "#aadccf"}
   - {name: "MCR", value: "#ddb9af"}
   - {name: "AL", value: "#bcbcbc"}
+```
+
+### Germany
+```color-palette|span-1
+colors:
+  - {name: "SDP - primary", value: "#c31906"}
+  - {name: "Union", value: "#0a0a0a"}
+  - {name: "FDP", value: "#d1cc00"}
+  - {name: "Grüne", value: "#66a622"}
+  - {name: "AfD", value: "#0084c7"}
+```
+```color-palette|span-1
+colors:
+  - {name: "SDP - primary", value: "#eaaea8"}
+  - {name: "Union", value: "#939393"}
+  - {name: "FDP", value: "#edeca0"}
+  - {name: "Grüne", value: "#c2dba7"}
+  - {name: "AfD", value: "#9ed0e9"}
+```
+```color-palette|span-1
+colors:
+  - {name: "Linke - primary", value: "#8440a3"}
+  - {name: "Piraten", value: "#d28b00"}
+  - {name: "Freie Wähler", value: "#ac5038"}
+  - {name: "default", value: "#616161"}
+```
+```color-palette|span-1
+colors:
+  - {name: "Linke - primary", value: "#cdb1d9"}
+  - {name: "Piraten", value: "#edd29c"}
+  - {name: "Freie Wähler", value: "#ddb9af"}
+  - {name: "default", value: "#bcbcbc"}
 ```
