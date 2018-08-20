@@ -255,3 +255,25 @@ colors:
   - {name: "SD", value: "#b8aeef"}
   - {name: "default", value: "#bcbcbc"}
 ```
+
+### France
+The following parties* take **gray** (#616161) as their party color: ECO, COM, DLF, EXT, DIV and EXD.
+
+```color-palette|span-2
+colors:
+  - {name: "SOC, RDG, DVG - primary", value: "#c31906"}
+  - {name: "LR, UDI, DVD", value: "#0084c7"}
+  - {name: "FN", value: "#0a0a0a"}
+  - {name: "REM, MDM", value: "#da467d"}
+  - {name: "FI", value: "#01b1c0"}
+  - {name: "ECO*", value: "#616161"}
+```
+```color-palette|span-2
+colors:
+  - {name: "SOC, RDG, DVG - primary", value: "#f4d7d3"}
+  - {name: "LR, UDI, DVD", value: "#cee7f4"}
+  - {name: "FN", value: "#c7c7c7"}
+  - {name: "REM, MDM", value: "#f8dce7"}
+  - {name: "FI", value: "#d2f1f3"}
+  - {name: "ECO*", value: "#dddddd"}
+```
