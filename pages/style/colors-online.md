@@ -339,3 +339,35 @@ colors:
   - {name: "Freie Wähler", value: "#ddb9af"}
   - {name: "default", value: "#bcbcbc"}
 ```
+
+### Netherlands
+```color-palette|span-1
+colors:
+  - {name: "SP - primary", value: "#8440a3"}
+  - {name: "PvdA", value: "#c31906"}
+  - {name: "Groen Links", value: "#66a622"}
+  - {name: "D66", value: "#22a682"}
+  - {name: "ChristenUnie_", value: "#0084c7"}
+```
+```color-palette|span-1
+colors:
+  - {name: "SP - primary", value: "#cdb1d9"}
+  - {name: "PvdA", value: "#eaaea8"}
+  - {name: "Groen Links", value: "#c2dba7"}
+  - {name: "D66", value: "#aadccf"}
+  - {name: "ChristenUnie_", value: "#9ed0e9"}
+```
+```color-palette|span-1
+colors:
+  - {name: "CDA - primary", value: "#01b1c0"}
+  - {name: "VVD", value: "#d28b00"}
+  - {name: "PVV", value: "#0a0a0a"}
+  - {name: "default", value: "#616161"}
+```
+```color-palette|span-1
+colors:
+  - {name: "CDA - primary", value: "#a4e3e8"}
+  - {name: "VVD", value: "#edd29c"}
+  - {name: "PVV", value: "#939393"}
+  - {name: "default", value: "#bcbcbc"}
+```
