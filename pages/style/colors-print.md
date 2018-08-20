@@ -99,16 +99,19 @@ value: "#F0B517"
 ```
 
 ## Political Party Colors
-For print, we have predefined colors for the Swiss political parties.
+For print, we have predefined colors for the Swiss political parties. When other colors are needed for a country, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for FDP in the Switzerland. Please try to remain consistent between each other in the infographic team. 
 
 ### Switzerland
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "SVP (70, 15, 50, 20)", value: "#3E7B5E"}
   - {name: "SP (0, 90, 90, 20)", value: "#CB150B"}
   - {name: "FDP (80, 15, 0, 8)", value: "#318CB5"}
   - {name: "CVP (0, 50, 70, 0)", value: "#FD8039"}
   - {name: "GPS (100, 0, 100, 0)", value: "#008837"}
+```
+```color-palette|span-2
+colors:
   - {name: "GLP (25, 0, 70, 5)", value: "#B6D84E"}
   - {name: "BDP (0, 20, 90, 0)", value: "#FFCC17"}
   - {name: "EVP (25, 31, 65, 10)", value: "#AC8E46"}
