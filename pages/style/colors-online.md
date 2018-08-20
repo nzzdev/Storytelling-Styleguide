@@ -371,3 +371,51 @@ colors:
   - {name: "PVV", value: "#939393"}
   - {name: "default", value: "#bcbcbc"}
 ```
+
+### United Kingdom
+```color-palette|span-1
+colors:
+  - {name: "SP - primary", value: "#0084c7"}
+  - {name: "PvdA", value: "#c31906"}
+  - {name: "Groen Links", value: "#d1cc00"}
+  - {name: "D66", value: "#d28b00"}
+  - {name: "ChristenUnie_", value: "#22a682"}
+```
+```color-palette|span-1
+colors:
+  - {name: "SP - primary", value: "#9ed0e9"}
+  - {name: "PvdA", value: "#eaaea8"}
+  - {name: "Groen Links", value: "#edeca0"}
+  - {name: "D66", value: "#edd29c"}
+  - {name: "ChristenUnie_", value: "#aadccf"}
+```
+```color-palette|span-1
+colors:
+  - {name: "CDA - primary", value: "#8440a3"}
+  - {name: "VVD", value: "#66a622"}
+  - {name: "PVV", value: "#da467d"}
+  - {name: "default", value: "#616161"}
+```
+```color-palette|span-1
+colors:
+  - {name: "CDA - primary", value: "#cdb1d9"}
+  - {name: "VVD", value: "#c2dba7"}
+  - {name: "PVV", value: "#f1bace"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
+### United States
+```color-palette|span-2
+colors:
+  - {name: "Republikaner - primary", value: "#c31906"}
+  - {name: "Demokrat", value: "#0084c7"}
+  - {name: "Independent", value: "#0a0a0a"}
+  - {name: "default", value: "#da467d"}
+```
+```color-palette|span-2
+colors:
+  - {name: "Republikaner - primary", value: "#c31906"}
+  - {name: "Demokrat", value: "#0084c7"}
+  - {name: "Independent", value: "#0a0a0a"}
+  - {name: "default", value: "#da467d"}
+```
