@@ -16,7 +16,7 @@ We don't use pie charts to compare the size of various parts of a whole.
 ```image
 plain: true
 span: 6
-src: "assets/guidelines/pie-dont.png"
+src: "assets/guidelines/guidelines-pie_1@1x.png 1x, assets/guidelines/guidelines-pie_1@2x.png 2x"
 ```
 
 We don't use pie charts to compare the parts of two or more
@@ -24,23 +24,21 @@ We don't use pie charts to compare the parts of two or more
 ```image
 plain: true
 span: 6
-src: "assets/guidelines/pie-dont2.png"
+src: "assets/guidelines/guidelines-pie_2@1x.png 1x, assets/guidelines/guidelines-pie_2@2x.png 2x"
 ```
 
 #### Do
 
 We use pie charts to highlights how small or how large one part of a whole is.
-
-```image
-plain: true
-span: 6
-src: "assets/guidelines/pie-do.png"
-```
-
 In this case:
 - We never show more than 5 segments. Combine to "others" if necessary.
 - The segment starts at the top and goes clockwise.
 
+```image
+plain: true
+span: 6
+src: "assets/guidelines/guidelines-pie_3@1x.png 1x, assets/guidelines/guidelines-pie_3@2x.png 2x"
+```
 
 See also: [What to consider when creating pie charts (Datawrapper Academy)](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
 
