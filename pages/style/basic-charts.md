@@ -6,6 +6,12 @@ Almost all basic charts for our online platform are done in Q. Only charts with 
 
 Basic bar charts are usually used for showing categorized data over time or comparing. Stacking bars are also good when you want to show subdivisions in your dataset. Line charts can be used for change-over-time as well as showing correlations in time-based data sets.
 
+```image
+plain: true
+span: 6
+src: "assets/basic-charts/loupe@1x.png 1x, assets/basic-charts/loupe@2x.png 2x"
+```
+
 ## Axis & Axis Labeling
 All basic charts that show quantitative data have a vertical and horizontal axis. In order to understand a graphic, the title, subtitle and axis labels need to be simple and concise.
 
