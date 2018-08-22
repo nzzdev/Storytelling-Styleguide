@@ -122,3 +122,15 @@ src: "assets/basic-charts/bar-charts_highlighting@1x.png 1x, assets/basic-charts
 ```
 
 ### Annotations
+
+#### Do
+- directly annotation when space allows and it doesn't distract from the information being displayed
+- use a point when marking the specific data point makes sense and is possible
+- when there are too many data points (often by stock charts with a long history) use a line without a point to highlight a peak or a drop
+- align all of the annotation text the same way to the line (bottom, top, centered)
+- use a curved corner (not straight) when space allows and use a straight line when it doesn't
+- try to keep the text of the annotation *short and sweet*
+
+#### Do not
+- overload a graphic with annotations (discuss with editorial staff how they can shorten their content)
+- introduce a new line or point style without argumentation for the deviation from the style guide.
