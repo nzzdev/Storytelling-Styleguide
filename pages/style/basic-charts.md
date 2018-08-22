@@ -6,7 +6,7 @@ Almost all basic charts for our online platform are done in Q. Only charts with 
 
 Basic bar charts are usually used for showing categorized data over time or comparing. Stacking bars are also good when you want to show subdivisions in your dataset. Line charts can be used for change-over-time as well as showing correlations in time-based data sets.
 
-All of the following definitions contain a tag in the bottom right corner which describes which medium the definition applies to. 
+All of the following definitions contain a tag in the bottom right corner which describes which medium the definition applies to.
 ```image
 plain: true
 span: 6
@@ -137,6 +137,12 @@ src: "assets/basic-charts/bar-charts_highlighting@1x.png 1x, assets/basic-charts
 - align all of the annotation text the same way to the line (bottom, top, centered)
 - use a curved corner (not straight) when space allows and use a straight line when it doesn't
 - try to keep the text of the annotation *short and sweet*
+
+```image
+plain: true
+span: 6
+src: "assets/basic-charts/annotation_1@1x.png 1x, assets/basic-charts/annotation_1@2x.png 2x"
+```
 
 #### Do not
 - overload a graphic with annotations (discuss with editorial staff how they can shorten their content)
