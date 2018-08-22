@@ -71,18 +71,17 @@ src: "assets/guidelines/guidelines-y-axis_2@1x.png 1x, assets/guidelines/guideli
 
 - Cut the y-axis to show subtle, yet significant changes, that wouldn't be visible when the y-axis is extended to zero.
 - When cutting an axis, cut sensibly: Leave space above the highest data point and below the lowest data point.
-
 ```image
 plain: true
 span: 6
-src: "assets/guidelines/yaxis-do.png"
+src: "assets/guidelines/guidelines-y-axis_3@1x.png 1x, assets/guidelines/guidelines-y-axis_3@2x.png 2x"
 ```
 
 - Cut the y-axis when extending it to zero doesn't make sense (there are no football players who are 0 metres tall)
 ```image
 plain: true
 span: 6
-src: "assets/guidelines/yaxis-do2.png"
+src: "assets/guidelines/guidelines-y-axis_4@1x.png 1x, assets/guidelines/guidelines-y-axis_4@2x.png 2x"
 ```
 
 
