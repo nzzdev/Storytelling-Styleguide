@@ -54,6 +54,7 @@ If the point the chart is supposed to make is visible with the axis extended to 
 
 - Cut the y-axis is the chart uses areas to visually encode values (bars, columns, area charts, etc.).
 - Cut the y-axis to make a trend appear more dramatic than it is.
+
 ```image
 plain: true
 span: 6
@@ -61,6 +62,7 @@ src: "assets/guidelines/guidelines-y-axis_1@1x.png 1x, assets/guidelines/guideli
 ```
 
 - Cut the y-axis very close to 0.
+
 ```image
 plain: true
 span: 6
@@ -71,6 +73,7 @@ src: "assets/guidelines/guidelines-y-axis_2@1x.png 1x, assets/guidelines/guideli
 
 - Cut the y-axis to show subtle, yet significant changes, that wouldn't be visible when the y-axis is extended to zero.
 - When cutting an axis, cut sensibly: Leave space above the highest data point and below the lowest data point.
+
 ```image
 plain: true
 span: 6
@@ -78,6 +81,7 @@ src: "assets/guidelines/guidelines-y-axis_3@1x.png 1x, assets/guidelines/guideli
 ```
 
 - Cut the y-axis when extending it to zero doesn't make sense (there are no football players who are 0 metres tall)
+
 ```image
 plain: true
 span: 6
