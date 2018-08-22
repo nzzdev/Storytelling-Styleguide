@@ -48,20 +48,19 @@ Cutting the y-axis so it doesn't extend to 0 is a common way to dramatize a char
 
 #### Rule of thumb
 
-If the point the chart is supposed to make is visible with the axis extended to 0, don't cut it.
+If the point the chart is supposed to make is visible with the axis extended to 0: don't cut it.
 
 #### Do not
 
-Never cut the y-axis is the chart uses areas to visually encode values (bars, columns, area charts, etc.).
-
-Don't cut the y-axis to make a trend appear more dramatic than it is.
+- Cut the y-axis is the chart uses areas to visually encode values (bars, columns, area charts, etc.).
+- Cut the y-axis to make a trend appear more dramatic than it is.
 ```image
 plain: true
 span: 6
-src: "assets/guidelines/yaxis-dont.png"
+src: "assets/guidelines/guidelines-y-axis_1@1x.png 1x, assets/guidelines/guidelines-y-axis_1@2x.png 2x"
 ```
 
-Don't cut the y-axis very close to 0.
+-Cut the y-axis very close to 0.
 ```image
 plain: true
 span: 6
@@ -70,7 +69,7 @@ src: "assets/guidelines/yaxis-dont2.png"
 
 #### Do
 
-Cut the y-axis to show subtle, yet significant changes, that wouldn't be visible when the y-axis is extended to zero.
+- Cut the y-axis to show subtle, yet significant changes, that wouldn't be visible when the y-axis is extended to zero.
 
 In this case:
 - Cut sensibly: Leave space above the highest data point and below the lowest data point.
