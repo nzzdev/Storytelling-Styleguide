@@ -6,6 +6,7 @@ Almost all basic charts for our online platform are done in Q. Only charts with 
 
 Basic bar charts are usually used for showing categorized data over time or comparing. Stacking bars are also good when you want to show subdivisions in your dataset. Line charts can be used for change-over-time as well as showing correlations in time-based data sets.
 
+All of the following definitions contain a tag in the bottom right corner which describes which medium the definition applies to. 
 ```image
 plain: true
 span: 6
