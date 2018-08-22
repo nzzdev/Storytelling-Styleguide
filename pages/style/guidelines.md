@@ -3,7 +3,7 @@
 ```
 
 ## Pie Charts
-Pie charts are popular and often requested by editors. They are, however, rarely the best chart type to visualize what we want to communicate. We use pie charts with caution and whenever we think about using one, we pause to think: Is this really what makes most sense?
+Pie charts are popular and often requested by editors. They are, however, rarely the best chart type to visualize what we want to communicate. We use pie charts with caution and whenever we think about using one, we pause to think: **Is this really what makes most sense?**
 
 #### Rule of thumb:
 If I combine all segments except for the most important one to "others" – does the chart still make sense?
@@ -88,5 +88,4 @@ span: 6
 src: "assets/guidelines/guidelines-y-axis_4@1x.png 1x, assets/guidelines/guidelines-y-axis_4@2x.png 2x"
 ```
 
-
-See also: [It’s OK not to start your y-axis at zero (QZ)](https://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/)
+For further references and examples see [It’s OK not to start your y-axis at zero (QZ)](https://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/)
