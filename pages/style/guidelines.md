@@ -60,11 +60,11 @@ span: 6
 src: "assets/guidelines/guidelines-y-axis_1@1x.png 1x, assets/guidelines/guidelines-y-axis_1@2x.png 2x"
 ```
 
--Cut the y-axis very close to 0.
+- Cut the y-axis very close to 0.
 ```image
 plain: true
 span: 6
-src: "assets/guidelines/yaxis-dont2.png"
+src: "assets/guidelines/guidelines-y-axis_2@1x.png 1x, assets/guidelines/guidelines-y-axis_2@2x.png 2x"
 ```
 
 #### Do
