@@ -9,7 +9,7 @@ Inside this Sketch file, you'll find preset artboards as well as simple annotati
 ```download
 title: Artboard Template (Sketch)
 subtitle: 94 KB
-url: assets/online-assets/artboards-template
+url: assets/online-assets/artboards-template.sketch
 ```
 
 ## NZZ.CH Frontseite Teaserbild Template
@@ -23,7 +23,7 @@ This **Sketch** file contains artboards sized 16:9 – the format for Teaserbild
 ```download
 title: Teaserbild Frontseite Template (Sketch)
 subtitle: 345 KB
-url: assets/online-assets/teaserbild-vorlage-online
+url: assets/online-assets/teaserbild-vorlage-online.sketch
 ```
 
 ## Country Flags
