@@ -23,7 +23,7 @@ This **Sketch** file contains artboards sized 16:9 – the format for Teaserbild
 ```download
 title: Teaserbild Frontseite Template (Sketch)
 subtitle: 345 KB
-url: assets/online-assets/teaserbild-vorlage-online.sketch
+url: assets/online-assets/teaserbild-vorlagen-online.sketch
 ```
 
 ## Country Flags
