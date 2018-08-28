@@ -40,9 +40,13 @@ columns:
   - Changes
 rows:
   - Changes: |
+      Finalize *Color* Documentation
+    Date: 2018-08-21
+    Version: 0.1.6
+  - Changes: |
       Initial *Chart Guidelines* Documentation
     Date: 2018-08-21
-    Version: 0.1.4
+    Version: 0.1.5
   - Changes: |
       Initial *Print Colors* Documentation
     Date: 2018-08-17
