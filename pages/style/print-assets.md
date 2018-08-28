@@ -2,8 +2,6 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-Here is where all the assets live!
-
 # Print
 ## 2018 Grafik Template
 This is the current template for all graphics.
@@ -22,7 +20,7 @@ url: assets/print-assets/Vorlage Karte 2018.ait
 ```
 
 ## Panorama Template
-This is the current template used for laying out graphics that span across a Panorama with 10 columns. 
+This is the current template used for laying out graphics that span across a Panorama with 10 columns.
 ```download
 title: Karte Template (.ai)
 subtitle: 228 KB
