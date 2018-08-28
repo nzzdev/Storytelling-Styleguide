@@ -2,7 +2,7 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-#### Our print team's color palette consists of a qualitative scale and a range of choice colors.
+#### Our print team's color palette consists of a qualitative scale for daily business and a range of choice colors.
 
 ```image
 plain: true
@@ -10,13 +10,13 @@ span: 5
 src: "assets/teaser-color_print@1x.png 1x, assets/teaser-color_print@2x.png 2x"
 ```
 
-...Some text here about how the colors were developed. Leann should be responsible for providing the content for this page.
+The focus during the development of our palette for daily business was to make sure our graphics were readable for those readers with the most common forms of color blindness – all the while keeping a modern and consistent style in our visual work. We have implemented a mix of bright and pale colors, which allows us to customize and prioritize complex content while being sure that its both readable and eye-catching.
 
-For illustrations and when using a color as a background, all colors can be stepped lighter by using an opacity of 75%, 50% or 25%.
+In order to stay consistent between our graphic works, we use this palette in the order listed below. Designers can use the opacity steps of 75, 50 and 25% to create a little more variety within the color-order constraints.  
 
 
 ## Qualitative Color Scale: Primary
-Our qualitative colors for daily business are the most used colors in our color palette. These colors should be used *in order* for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below.
+Our qualitative colors for daily business are the most used colors in our color palette. These colors should be used *in order* for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. Deviating from the order can be done when the content of the graphic contains positive or negative association and therefore this color separation is a priority.
 
 ```color
 span: 2
@@ -51,7 +51,7 @@ value: "#908B84"
 
 
 ## Qualitative Color Scale: Choice
-Our choice colors are less often used in our basic daily business. They are most often included in graphics larger than 2 columns or a part of a running series.
+Our color palette for choice colors was intentionally developed to complement our colors for daily business, so that they could be used together without creating an obvious visual separation in the graphic. These colors are especially designed to be used for high-contrast background areas in large graphics that span 3 or more columns in the print edition of the newspaper.
 
 ```color
 span: 2
@@ -75,7 +75,7 @@ value: "#7C1C23"
 ```
 
 ## Karten
-We have a specific color palette for maps.
+Together with our daily business and choice color palettes, this range of colors covers recurring topics in our graphics such as gold for money or a range of colors used in landscapes, soil, and skin. We have defined a specific set of colors for water (oceans, rivers and lakes) as well as sky and forests.
 
 ```color
 span: 2
@@ -99,7 +99,7 @@ value: "#F0B517"
 ```
 
 ## Political Party Colors
-For print, we have predefined colors for the Swiss political parties. When other colors are needed for a country, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for FDP in the Switzerland. Please try to remain consistent between each other in the infographic team. 
+For print, we have predefined colors for the Swiss political parties. When other colors are needed for a country, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for FDP in the Switzerland. Please try to remain consistent between each other in the infographic team.
 
 ### Switzerland
 ```color-palette|span-2
