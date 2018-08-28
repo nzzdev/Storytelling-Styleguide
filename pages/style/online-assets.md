@@ -12,6 +12,20 @@ subtitle: 94 KB
 url: assets/online-assets/artboards-template
 ```
 
+## NZZ.CH Frontseite Teaserbild Template
+This **Illustrator** file contains artboards sized 16:9 – the format for Teaserbilder displayed on NZZ.ch.
+```download
+title: Teaserbild Frontseite Template (.ait)
+subtitle: 345 KB
+url: assets/online-assets/teaserbild-vorlage.ait
+```
+This **Sketch** file contains artboards sized 16:9 – the format for Teaserbilder displayed on NZZ.ch.
+```download
+title: Teaserbild Frontseite Template (Sketch)
+subtitle: 345 KB
+url: assets/online-assets/teaserbild-vorlage-online
+```
+
 ## Country Flags
 An incomplete symbol set of country flags. Stylized and reusable.
 ```download
