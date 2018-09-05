@@ -98,6 +98,7 @@ colors:
 ```
 
 ## Gray Scale
+Our gray scale palette is based off of the gray tones found on NZZ.ch. It's used for all text and annotations in graphics as well as axis labels and lines. The gray scale can be used flexibly based on need. 
 ```color-palette|horizontal
 colors:
    - {value: "#f0f0f2"}
@@ -110,7 +111,6 @@ colors:
    - {value: "#393855"}
    - {value: "#05032d"}
 ```
-
 
 ## Sequential and Diverging Scales
 All of our sequential scales and diverging scales are limited to seven buckets. This way we ensure that our readers can differentiate shades of a hue from one another in order to accurate ready our charts and maps.
