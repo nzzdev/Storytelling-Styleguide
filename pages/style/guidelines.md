@@ -89,3 +89,16 @@ src: "assets/guidelines/guidelines-y-axis_4@1x.png 1x, assets/guidelines/guideli
 ```
 
 For further references and examples see [It’s OK not to start your y-axis at zero (QZ)](https://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/)
+
+## Bylines
+Bylines, both in print and online, show the people who contributed a substantial part to the story. Traditionally, bylines were reserved for those who wrote text. Yet, of course, a graphic can be a substantial part of the story, too.
+
+Whenever we contribute a graphic that is essential to the story, we add whoever produced the graphic to the byline. In that case, we remove the «Kürzel» below the graphic.
+
+
+```image
+plain: true
+span: 6
+src: "assets/guidelines/guidelines-bylines.png"
+```
+
