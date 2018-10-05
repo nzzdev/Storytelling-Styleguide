@@ -301,26 +301,24 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
-### France
+### Brasil
 
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "SOC, RDG, DVG - primary", value: "#c31906"}
-  - {name: "LR, UDI, DVD", value: "#0084c7"}
-  - {name: "FN", value: "#0a0a0a"}
-  - {name: "REM, MDM", value: "#da467d"}
-  - {name: "FI", value: "#01b1c0"}
-  - {name: "ECO, COM, DLF, EXT, DIV, EXD", value: "#616161"}
+  - {name: "PSL - primary", value: "#D1CC00"}
+  - {name: "PT", value: "#c31906"}
+  - {name: "PDT", value: "#d28b00"}
+  - {name: "PSDB", value: "#0084c7"}
+  - {name: "Rede", value: "#66a622"}
 ```
 
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "SOC, RDG, DVG - highlight", value: "#f4d7d3"}
-  - {name: "LR, UDI, DVD", value: "#cee7f4"}
-  - {name: "FN", value: "#c7c7c7"}
-  - {name: "REM, MDM", value: "#f8dce7"}
-  - {name: "FI", value: "#d2f1f3"}
-  - {name: "ECO, COM, DLF, EXT, DIV, EXD", value: "#dddddd"}
+  - {name: "PSL - light", value: "#edeca0"}
+  - {name: "PT", value: "#eaaea8"}
+  - {name: "PDT", value: "#edd29c"}
+  - {name: "PSDB", value: "#9ed0e9"}
+  - {name: "Rede", value: "#c2dba7"}
 ```
 
 ### Ecuador
@@ -336,7 +334,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "SVP - highlight", value: "#c2dba7"}
+  - {name: "SVP - light", value: "#c2dba7"}
   - {name: "SP", value: "#9ed0e9"}
   - {name: "FDP", value: "#edeca0"}
   - {name: "CVP", value: "#edd29c"}
@@ -353,10 +351,32 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "EVP - highlight", value: "#a4e3e8"}
+  - {name: "EVP - light", value: "#a4e3e8"}
   - {name: "LEGA", value: "#aadccf"}
   - {name: "MCR", value: "#ddb9af"}
   - {name: "AL", value: "#bcbcbc"}
+```
+
+### France
+
+```color-palette|span-2
+colors:
+  - {name: "SOC, RDG, DVG - primary", value: "#c31906"}
+  - {name: "LR, UDI, DVD", value: "#0084c7"}
+  - {name: "FN", value: "#0a0a0a"}
+  - {name: "REM, MDM", value: "#da467d"}
+  - {name: "FI", value: "#01b1c0"}
+  - {name: "ECO, COM, DLF, EXT, DIV, EXD", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "SOC, RDG, DVG - light", value: "#f4d7d3"}
+  - {name: "LR, UDI, DVD", value: "#cee7f4"}
+  - {name: "FN", value: "#c7c7c7"}
+  - {name: "REM, MDM", value: "#f8dce7"}
+  - {name: "FI", value: "#d2f1f3"}
+  - {name: "ECO, COM, DLF, EXT, DIV, EXD", value: "#dddddd"}
 ```
 
 ### Germany
@@ -372,7 +392,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "SDP - highlight", value: "#eaaea8"}
+  - {name: "SDP - light", value: "#eaaea8"}
   - {name: "Union", value: "#939393"}
   - {name: "FDP", value: "#edeca0"}
   - {name: "Grüne", value: "#c2dba7"}
@@ -389,7 +409,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "Linke - highlight", value: "#cdb1d9"}
+  - {name: "Linke - light", value: "#cdb1d9"}
   - {name: "Piraten", value: "#edd29c"}
   - {name: "Freie Wähler", value: "#ddb9af"}
   - {name: "default", value: "#bcbcbc"}
@@ -408,7 +428,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "SP - highlight", value: "#cdb1d9"}
+  - {name: "SP - light", value: "#cdb1d9"}
   - {name: "PvdA", value: "#eaaea8"}
   - {name: "Groen Links", value: "#c2dba7"}
   - {name: "D66", value: "#aadccf"}
@@ -425,7 +445,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "CDA - highlight", value: "#a4e3e8"}
+  - {name: "CDA - light", value: "#a4e3e8"}
   - {name: "VVD", value: "#edd29c"}
   - {name: "PVV", value: "#939393"}
   - {name: "default", value: "#bcbcbc"}
@@ -443,10 +463,10 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "Sozialdemokraten - hightlight", value: "#eaaea8"}
-  - {name: "Grüne - hightlight", value: "#c2dba7"}
-  - {name: "Linkspartei - hightlight", value: "#cdb1d9"}
-  - {name: "Moderate - hightlight", value: "#a8ddf0"}
+  - {name: "Sozialdemokraten - light", value: "#eaaea8"}
+  - {name: "Grüne", value: "#c2dba7"}
+  - {name: "Linkspartei", value: "#cdb1d9"}
+  - {name: "Moderate", value: "#a8ddf0"}
 ```
 
 ```color-palette|span-1
@@ -459,8 +479,8 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "Zentrumspartei - hightlight", value: "#b3e6cb"}
-  - {name: "Liberale - highlight", value: "#a0deee"}
+  - {name: "Zentrumspartei - light", value: "#b3e6cb"}
+  - {name: "Liberale - light", value: "#a0deee"}
   - {name: "Christdemokraten - highlight", value: "#a3d3f5"}
   - {name: "Schwedendemokraten - highlight", value: "#faeb9e"}
 ```
@@ -477,10 +497,10 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "Konservative - highlight", value: "#9ed0e9"}
-  - {name: "Labour - highlight", value: "#eaaea8"}
-  - {name: "Green Party - highlight", value: "#c2dba7"}
-  - {name: "SNP - highlight", value: "#f5f3a3"}
+  - {name: "Konservative - light", value: "#9ed0e9"}
+  - {name: "Labour", value: "#eaaea8"}
+  - {name: "Green Party", value: "#c2dba7"}
+  - {name: "SNP", value: "#f5f3a3"}
 ```
 
 ```color-palette|span-1
@@ -493,10 +513,10 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "Liberaldemokraten - highlight", value: "#edd29c"}
-  - {name: "UKIP - highlight", value: "#cdb1d9"}
-  - {name: "DUP - highlight", value: "#f1bace"}
-  - {name: "default - highlight", value: "#bcbcbc"}
+  - {name: "Liberaldemokraten - light", value: "#edd29c"}
+  - {name: "UKIP", value: "#cdb1d9"}
+  - {name: "DUP", value: "#f1bace"}
+  - {name: "default", value: "#bcbcbc"}
 ```
 
 ### United States
@@ -511,7 +531,7 @@ colors:
 
 ```color-palette|span-2
 colors:
-  - {name: "Republikaner - highlight", value: "#f9a7aa"}
+  - {name: "Republikaner - light", value: "#f9a7aa"}
   - {name: "Demokrat", value: "#99defa"}
   - {name: "Independent", value: "#f6f0a1"}
   - {name: "default", value: "#bcbcbc"}
