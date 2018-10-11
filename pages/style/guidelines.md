@@ -52,8 +52,8 @@ If the point the chart is supposed to make is visible with the axis extended to 
 
 #### Do not
 
-- Cut the y-axis is the chart uses areas to visually encode values (bars, columns, area charts, etc.).
-- Cut the y-axis to make a trend appear more dramatic than it is.
+- Never cut the y-axis if the chart uses areas to visually encode values (bars, columns, area charts, etc.).
+- Do not cut the y-axis to make a trend appear more dramatic than it is.
 
 ```image
 plain: true
@@ -61,7 +61,7 @@ span: 6
 src: "assets/guidelines/guidelines-y-axis_1@1x.png 1x, assets/guidelines/guidelines-y-axis_1@2x.png 2x"
 ```
 
-- Cut the y-axis very close to 0.
+- Do not cut the y-axis very close to 0.
 
 ```image
 plain: true
@@ -71,13 +71,13 @@ src: "assets/guidelines/guidelines-y-axis_2@1x.png 1x, assets/guidelines/guideli
 
 #### Do
 
-- Cut the y-axis to show subtle, yet significant changes, that wouldn't be visible when the y-axis is extended to zero.
-- When cutting an axis, cut sensibly: Leave space above the highest data point and below the lowest data point.
+- Cut the y-axis to show subtle, yet significant changes that wouldn't be visible when the y-axis is extended to zero.
+- When cutting an axis, cut sensibly: Leave space above the highest data point and below the lowest data point, but make sure the chart line uses the upper and lower half of the chart.
 
 ```image
 plain: true
 span: 6
-src: "assets/guidelines/guidelines-y-axis_3@1x.png 1x, assets/guidelines/guidelines-y-axis_3@2x.png 2x"
+src: "assets/guidelines/guidelines-y-axis_5@1x.png 1x, assets/guidelines/guidelines-y-axis_5@2x.png 2x"
 ```
 
 - Cut the y-axis when extending it to zero doesn't make sense (there are no football players who are 0 metres tall)
