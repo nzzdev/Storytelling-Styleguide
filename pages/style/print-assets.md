@@ -3,8 +3,11 @@
 ```
 
 # Print
+
 ## 2018 Grafik Template
+
 This is the current template for all graphics.
+
 ```download
 title: Grafik Template (.ai)
 subtitle: 172 KB
@@ -12,7 +15,9 @@ url: assets/print-assets/Vorlage Grafik_2018.ait
 ```
 
 ## 2018 Karte Template
+
 This is the current template for all maps.
+
 ```download
 title: Karte Template (.ai)
 subtitle: 494 KB
@@ -20,9 +25,45 @@ url: assets/print-assets/Vorlage Karte 2018.ait
 ```
 
 ## Panorama Template
+
 This is the current template used for laying out graphics that span across a Panorama with 10 columns.
+
 ```download
 title: Karte Template (.ai)
 subtitle: 228 KB
 url: assets/print-assets/_Panorama_10 sp_2016.ai
 ```
+
+## 'Online First' Workflow: RGB-Template + Script
+
+Following the 'online first' approach, normally two versions of a graphic are produced: One for mobile and one for desktop. To avoid the production of a totally different third version for print, either the desktop or the mobile version should serve as the blue print. By using the template below and running the script, many steps for the print adaption are done automatically for you:
+
+- Down-scaling of the graphic into correct size (pixel to millimeters)
+- Conversion of the graphic's fonts to print style
+- Adding of text lines needed in head and foot line
+
+If applied successfully, the script finally offers an almost-ready PRINT artboard – or at least a comfortable starting point for the graphic's print version.
+[Here's a flow diagram of the script](assets/workflow-assets/script-flowdiagram.pdf) that's also a cheat sheet to quickly evaluate a size for print, if this information is needed a bit earlier.
+
+```download
+title: RGBWorkflowTemplate (.ait)
+subtitle: RGB template that fulfills the structural requirements of the script
+url: assets/workflow-assets/VorlageRGBWorkflow.ait
+```
+
+```download
+title: Printify (.jsx)
+subtitle: "Install the script here: Applications/{Adobe Illustrator Application Folder}/Presets/{Language Folder}/{Script Folder}/Printify.jsx – run it in Illustrator like that: Datei > Skripten > Prinify "
+url: assets/workflow-assets/Printify.jsx
+```
+
+In detail, this is what the scipt does, when you run it in Adobe Illustrator:
+
+- It duplicates all the layers of the currently selected artboard and inserts them in the PRINT artboard.
+- In a dialog the script asks for the desired amount of columns for print defining PRINT's final width.
+- Once confirmed, the duplicated content is down-scaled proportionally to fit into PRINT's width.
+- PRINT's height is automatically calculated in respect of print's baselines and the heights of the scaled content, the head line above and the foot line below the content.
+- The dialog allows to provide title, sources and/or author line and replaces those texts in the PRINT artboard.
+- As a further dialog option, all text elements inside the duplicated content can be converted to the print's default font style.
+
+For further infos, read the description in the script's head or see the flow diagram above.
