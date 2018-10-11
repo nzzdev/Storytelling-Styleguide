@@ -11,7 +11,7 @@ This is the current template for all graphics.
 ```download
 title: Grafik Template (.ai)
 subtitle: 172 KB
-url: assets/print-assets/Vorlage Grafik_2018.ait
+url: assets/print-assets/Vorlage_Grafik_2018.ait
 ```
 
 ## 2018 Karte Template
@@ -21,7 +21,7 @@ This is the current template for all maps.
 ```download
 title: Karte Template (.ai)
 subtitle: 494 KB
-url: assets/print-assets/Vorlage Karte 2018.ait
+url: assets/print-assets/Vorlage_Karte_2018.ait
 ```
 
 ## Panorama Template
@@ -31,7 +31,7 @@ This is the current template used for laying out graphics that span across a Pan
 ```download
 title: Karte Template (.ai)
 subtitle: 228 KB
-url: assets/print-assets/_Panorama_10 sp_2016.ai
+url: assets/print-assets/_Panorama_10-sp_2016.ai
 ```
 
 ## 'Online First' Workflow: RGB-Template + Script
