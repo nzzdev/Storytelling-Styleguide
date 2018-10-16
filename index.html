@@ -1,19 +1,23 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
-  <link rel="stylesheet" href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css">
-  <link rel="stylesheet" href="https://sophie-build-service.st.nzz.ch/bundle/sophie-font@^1,sophie-input@^1,sophie-color@^1,sophie-viz-color@^1[general].css">
-  <title>Storytelling Styleguide</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
+	<link rel="stylesheet" href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css">
+	<link rel="stylesheet" href="https://sophie-build-service.st.nzz.ch/bundle/sophie-font@^1,sophie-input@^1,sophie-color@^1,sophie-viz-color@^1[general].css">
+	<title>Storytelling Styleguide</title>
 </head>
+
 <body>
-  <div id="catalog"></div>
-  <script src="https://unpkg.com/catalog@3/dist/catalog-standalone.min.js"></script>
-  <script>
-    Catalog.render({
+	<div id="catalog"></div>
+	<script src="https://unpkg.com/catalog@3/dist/catalog-standalone.min.js">
+
+</script>
+	<script>
+		Catalog.render({
       title: 'Storytelling Styleguide',
       logoSrc: "static/nzz-storytelling_logo.svg",
       publicUrl: window.document.location.pathname,
@@ -32,14 +36,9 @@
               src: "pages/style/principles.md"
             },
             {
-              path: "colors-online",
-              title: "Colors: Online",
-              src: "pages/style/colors-online.md"
-            },
-            {
-              path: "colors-print",
-              title: "Colors: Print",
-              src: "pages/style/colors-print.md"
+              path: "colors",
+              title: "Colors",
+              src: "pages/style/colors.md"
             },
             {
               path: "typography",
@@ -139,6 +138,7 @@
       },
       styles: ["static/theme.css"]
     }, document.getElementById('catalog'));
-  </script>
+	</script>
 </body>
+
 </html>
