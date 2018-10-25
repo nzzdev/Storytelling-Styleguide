@@ -146,6 +146,63 @@ span: 5
 src: "assets/sequential-1@1x.png 1x, assets/sequential-1@2x.png 2x"
 ```
 
+```html
+span: 6
+---
+<style type="text/css">
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+.row > .color-square {
+    flex: 1 0 auto;
+    height: 30px;
+    background-color: currentColor;
+    margin: 0px 0px 20px;
+}
+</style>
+<div class="row">
+    <div class="s-viz-color-sequential-one-2-1 color-square"></div>
+    <div class="s-viz-color-sequential-one-2-2 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-one-3-1 color-square"></div>
+    <div class="s-viz-color-sequential-one-3-2 color-square"></div>
+    <div class="s-viz-color-sequential-one-3-3 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-one-4-1 color-square"></div>
+    <div class="s-viz-color-sequential-one-4-2 color-square"></div>
+    <div class="s-viz-color-sequential-one-4-3 color-square"></div>
+    <div class="s-viz-color-sequential-one-4-4 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-one-5-1 color-square"></div>
+    <div class="s-viz-color-sequential-one-5-2 color-square"></div>
+    <div class="s-viz-color-sequential-one-5-3 color-square"></div>
+    <div class="s-viz-color-sequential-one-5-4 color-square"></div>
+    <div class="s-viz-color-sequential-one-5-5 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-one-6-1 color-square"></div>
+    <div class="s-viz-color-sequential-one-6-2 color-square"></div>
+    <div class="s-viz-color-sequential-one-6-3 color-square"></div>
+    <div class="s-viz-color-sequential-one-6-4 color-square"></div>
+    <div class="s-viz-color-sequential-one-6-5 color-square"></div>
+    <div class="s-viz-color-sequential-one-6-6 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-one-7-1 color-square"></div>
+    <div class="s-viz-color-sequential-one-7-2 color-square"></div>
+    <div class="s-viz-color-sequential-one-7-3 color-square"></div>
+    <div class="s-viz-color-sequential-one-7-4 color-square"></div>
+    <div class="s-viz-color-sequential-one-7-5 color-square"></div>
+    <div class="s-viz-color-sequential-one-7-6 color-square"></div>
+    <div class="s-viz-color-sequential-one-7-7 color-square"></div>
+</div>
+```
+
 ### Sequential Scale 2
 
 This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
@@ -165,6 +222,50 @@ colors:
 plain: true
 span: 5
 src: "assets/sequential-2@1x.png 1x, assets/sequential-2@2x.png 2x"
+```
+
+```html
+span: 6
+---
+<div class="row">
+    <div class="s-viz-color-sequential-two-2-1 color-square"></div>
+    <div class="s-viz-color-sequential-two-2-2 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-two-3-1 color-square"></div>
+    <div class="s-viz-color-sequential-two-3-2 color-square"></div>
+    <div class="s-viz-color-sequential-two-3-3 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-two-4-1 color-square"></div>
+    <div class="s-viz-color-sequential-two-4-2 color-square"></div>
+    <div class="s-viz-color-sequential-two-4-3 color-square"></div>
+    <div class="s-viz-color-sequential-two-4-4 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-two-5-1 color-square"></div>
+    <div class="s-viz-color-sequential-two-5-2 color-square"></div>
+    <div class="s-viz-color-sequential-two-5-3 color-square"></div>
+    <div class="s-viz-color-sequential-two-5-4 color-square"></div>
+    <div class="s-viz-color-sequential-two-5-5 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-two-6-1 color-square"></div>
+    <div class="s-viz-color-sequential-two-6-2 color-square"></div>
+    <div class="s-viz-color-sequential-two-6-3 color-square"></div>
+    <div class="s-viz-color-sequential-two-6-4 color-square"></div>
+    <div class="s-viz-color-sequential-two-6-5 color-square"></div>
+    <div class="s-viz-color-sequential-two-6-6 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-two-7-1 color-square"></div>
+    <div class="s-viz-color-sequential-two-7-2 color-square"></div>
+    <div class="s-viz-color-sequential-two-7-3 color-square"></div>
+    <div class="s-viz-color-sequential-two-7-4 color-square"></div>
+    <div class="s-viz-color-sequential-two-7-5 color-square"></div>
+    <div class="s-viz-color-sequential-two-7-6 color-square"></div>
+    <div class="s-viz-color-sequential-two-7-7 color-square"></div>
+</div>
 ```
 
 ### Sequential Scale 3
@@ -188,6 +289,51 @@ span: 5
 src: "assets/sequential-3@1x.png 1x, assets/sequential-3@2x.png 2x"
 ```
 
+```html
+span: 6
+---
+
+<div class="row">
+    <div class="s-viz-color-sequential-three-2-1 color-square"></div>
+    <div class="s-viz-color-sequential-three-2-2 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-three-3-1 color-square"></div>
+    <div class="s-viz-color-sequential-three-3-2 color-square"></div>
+    <div class="s-viz-color-sequential-three-3-3 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-three-4-1 color-square"></div>
+    <div class="s-viz-color-sequential-three-4-2 color-square"></div>
+    <div class="s-viz-color-sequential-three-4-3 color-square"></div>
+    <div class="s-viz-color-sequential-three-4-4 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-three-5-1 color-square"></div>
+    <div class="s-viz-color-sequential-three-5-2 color-square"></div>
+    <div class="s-viz-color-sequential-three-5-3 color-square"></div>
+    <div class="s-viz-color-sequential-three-5-4 color-square"></div>
+    <div class="s-viz-color-sequential-three-5-5 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-three-6-1 color-square"></div>
+    <div class="s-viz-color-sequential-three-6-2 color-square"></div>
+    <div class="s-viz-color-sequential-three-6-3 color-square"></div>
+    <div class="s-viz-color-sequential-three-6-4 color-square"></div>
+    <div class="s-viz-color-sequential-three-6-5 color-square"></div>
+    <div class="s-viz-color-sequential-three-6-6 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-sequential-three-7-1 color-square"></div>
+    <div class="s-viz-color-sequential-three-7-2 color-square"></div>
+    <div class="s-viz-color-sequential-three-7-3 color-square"></div>
+    <div class="s-viz-color-sequential-three-7-4 color-square"></div>
+    <div class="s-viz-color-sequential-three-7-5 color-square"></div>
+    <div class="s-viz-color-sequential-three-7-6 color-square"></div>
+    <div class="s-viz-color-sequential-three-7-7 color-square"></div>
+</div>
+```
+
 ### Diverging Scale 1
 
 This diverging scale should be used in any case where we are comparing opposites that are positively and negatively connotated. Such an example would be election maps where voters had to approve/deny an initiative.
@@ -207,6 +353,141 @@ colors:
 plain: true
 span: 5
 src: "assets/election-map-diverging-a@1x.png 1x, assets/election-map-diverging-a@2x.png 2x"
+```
+
+```html
+span: 6
+---
+<div class="row">
+    <div class="s-viz-color-diverging-one-2-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-2-2 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-3-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-3-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-3-3 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-4-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-4-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-4-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-4-4 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-5-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-5-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-5-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-5-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-5-5 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-6-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-6-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-6-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-6-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-6-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-6-6 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-7-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-7-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-7-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-7-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-7-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-7-6 color-square"></div>
+    <div class="s-viz-color-diverging-one-7-7 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-8-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-8-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-8-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-8-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-8-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-8-6 color-square"></div>
+    <div class="s-viz-color-diverging-one-8-7 color-square"></div>
+    <div class="s-viz-color-diverging-one-8-8 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-9-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-9-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-9-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-9-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-9-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-9-6 color-square"></div>
+    <div class="s-viz-color-diverging-one-9-7 color-square"></div>
+    <div class="s-viz-color-diverging-one-9-8 color-square"></div>
+    <div class="s-viz-color-diverging-one-9-9 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-10-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-6 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-7 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-8 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-9 color-square"></div>
+    <div class="s-viz-color-diverging-one-10-10 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-11-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-6 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-7 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-8 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-9 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-10 color-square"></div>
+    <div class="s-viz-color-diverging-one-11-11 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-12-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-6 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-7 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-8 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-9 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-10 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-11 color-square"></div>
+    <div class="s-viz-color-diverging-one-12-12 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-13-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-6 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-7 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-8 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-9 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-10 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-11 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-12 color-square"></div>
+    <div class="s-viz-color-diverging-one-13-13 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-one-14-1 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-2 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-3 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-4 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-5 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-6 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-7 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-8 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-9 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-10 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-11 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-12 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-13 color-square"></div>
+    <div class="s-viz-color-diverging-one-14-14 color-square"></div>
+</div>
 ```
 
 ### Diverging Scale 2
@@ -230,6 +511,141 @@ span: 5
 src: "assets/election-map-diverging-b@1x.png 1x, assets/election-map-diverging-b@2x.png 2x"
 ```
 
+```html
+span: 6
+---
+<div class="row">
+    <div class="s-viz-color-diverging-two-2-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-2-2 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-3-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-3-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-3-3 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-4-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-4-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-4-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-4-4 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-5-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-5-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-5-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-5-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-5-5 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-6-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-6-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-6-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-6-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-6-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-6-6 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-7-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-7-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-7-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-7-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-7-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-7-6 color-square"></div>
+    <div class="s-viz-color-diverging-two-7-7 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-8-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-8-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-8-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-8-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-8-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-8-6 color-square"></div>
+    <div class="s-viz-color-diverging-two-8-7 color-square"></div>
+    <div class="s-viz-color-diverging-two-8-8 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-9-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-9-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-9-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-9-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-9-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-9-6 color-square"></div>
+    <div class="s-viz-color-diverging-two-9-7 color-square"></div>
+    <div class="s-viz-color-diverging-two-9-8 color-square"></div>
+    <div class="s-viz-color-diverging-two-9-9 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-10-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-6 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-7 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-8 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-9 color-square"></div>
+    <div class="s-viz-color-diverging-two-10-10 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-11-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-6 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-7 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-8 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-9 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-10 color-square"></div>
+    <div class="s-viz-color-diverging-two-11-11 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-12-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-6 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-7 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-8 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-9 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-10 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-11 color-square"></div>
+    <div class="s-viz-color-diverging-two-12-12 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-13-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-6 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-7 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-8 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-9 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-10 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-11 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-12 color-square"></div>
+    <div class="s-viz-color-diverging-two-13-13 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-two-14-1 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-2 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-3 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-4 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-5 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-6 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-7 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-8 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-9 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-10 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-11 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-12 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-13 color-square"></div>
+    <div class="s-viz-color-diverging-two-14-14 color-square"></div>
+</div>
+```
+
 ### Diverging Scale 3
 
 An alternative scale for comparing opposites with negative and/or positive connotation. This scale is comprised of two choice colors, so as not to overlap with any of the primary colors which might already be encoded in the story.
@@ -249,6 +665,141 @@ colors:
 plain: true
 span: 5
 src: "assets/election-map-diverging-c@1x.png 1x, assets/election-map-diverging-c@2x.png 2x"
+```
+
+```html
+span: 6
+---
+<div class="row">
+    <div class="s-viz-color-diverging-three-2-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-2-2 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-3-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-3-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-3-3 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-4-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-4-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-4-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-4-4 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-5-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-5-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-5-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-5-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-5-5 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-6-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-6-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-6-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-6-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-6-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-6-6 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-7-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-7-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-7-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-7-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-7-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-7-6 color-square"></div>
+    <div class="s-viz-color-diverging-three-7-7 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-8-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-8-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-8-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-8-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-8-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-8-6 color-square"></div>
+    <div class="s-viz-color-diverging-three-8-7 color-square"></div>
+    <div class="s-viz-color-diverging-three-8-8 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-9-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-9-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-9-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-9-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-9-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-9-6 color-square"></div>
+    <div class="s-viz-color-diverging-three-9-7 color-square"></div>
+    <div class="s-viz-color-diverging-three-9-8 color-square"></div>
+    <div class="s-viz-color-diverging-three-9-9 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-10-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-6 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-7 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-8 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-9 color-square"></div>
+    <div class="s-viz-color-diverging-three-10-10 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-11-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-6 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-7 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-8 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-9 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-10 color-square"></div>
+    <div class="s-viz-color-diverging-three-11-11 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-12-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-6 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-7 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-8 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-9 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-10 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-11 color-square"></div>
+    <div class="s-viz-color-diverging-three-12-12 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-13-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-6 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-7 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-8 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-9 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-10 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-11 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-12 color-square"></div>
+    <div class="s-viz-color-diverging-three-13-13 color-square"></div>
+</div>
+<div class="row">
+    <div class="s-viz-color-diverging-three-14-1 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-2 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-3 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-4 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-5 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-6 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-7 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-8 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-9 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-10 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-11 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-12 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-13 color-square"></div>
+    <div class="s-viz-color-diverging-three-14-14 color-square"></div>
+</div>
 ```
 
 ## Political Party Colors
