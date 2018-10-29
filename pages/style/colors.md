@@ -150,57 +150,58 @@ src: "assets/sequential-1@1x.png 1x, assets/sequential-1@2x.png 2x"
 span: 6
 ---
 <style type="text/css">
-.row {
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-}
-.row > .color-square {
-    flex: 1 0 auto;
+.row > .color-rect {
     height: 30px;
-    background-color: currentColor;
-    margin: 0px 0px 20px;
+    fill: currentColor;
 }
 </style>
-<div class="row">
-    <div class="s-viz-color-sequential-one-2-1 color-square"></div>
-    <div class="s-viz-color-sequential-one-2-2 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-one-3-1 color-square"></div>
-    <div class="s-viz-color-sequential-one-3-2 color-square"></div>
-    <div class="s-viz-color-sequential-one-3-3 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-one-4-1 color-square"></div>
-    <div class="s-viz-color-sequential-one-4-2 color-square"></div>
-    <div class="s-viz-color-sequential-one-4-3 color-square"></div>
-    <div class="s-viz-color-sequential-one-4-4 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-one-5-1 color-square"></div>
-    <div class="s-viz-color-sequential-one-5-2 color-square"></div>
-    <div class="s-viz-color-sequential-one-5-3 color-square"></div>
-    <div class="s-viz-color-sequential-one-5-4 color-square"></div>
-    <div class="s-viz-color-sequential-one-5-5 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-one-6-1 color-square"></div>
-    <div class="s-viz-color-sequential-one-6-2 color-square"></div>
-    <div class="s-viz-color-sequential-one-6-3 color-square"></div>
-    <div class="s-viz-color-sequential-one-6-4 color-square"></div>
-    <div class="s-viz-color-sequential-one-6-5 color-square"></div>
-    <div class="s-viz-color-sequential-one-6-6 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-one-7-1 color-square"></div>
-    <div class="s-viz-color-sequential-one-7-2 color-square"></div>
-    <div class="s-viz-color-sequential-one-7-3 color-square"></div>
-    <div class="s-viz-color-sequential-one-7-4 color-square"></div>
-    <div class="s-viz-color-sequential-one-7-5 color-square"></div>
-    <div class="s-viz-color-sequential-one-7-6 color-square"></div>
-    <div class="s-viz-color-sequential-one-7-7 color-square"></div>
-</div>
+<svg id="sequential-scale-one" width="900px" height="350px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="row" transform="translate(0,50)">
+    <text dy="-4" class="s-font-note">2 Steps</text>
+    <rect class="s-viz-color-sequential-one-2-1 color-rect" width="calc(100% / 2)"></rect>
+    <rect class="s-viz-color-sequential-one-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
+</g>
+<g class="row" transform="translate(0,100)">
+    <text dy="-4" class="s-font-note">3 Steps</text>
+    <rect class="s-viz-color-sequential-one-3-1 color-rect" width="calc(100% / 3)"></rect>
+    <rect class="s-viz-color-sequential-one-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
+    <rect class="s-viz-color-sequential-one-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
+</g>
+<g class="row" transform="translate(0,150)">
+    <text dy="-4" class="s-font-note">4 Steps</text>
+    <rect class="s-viz-color-sequential-one-4-1 color-rect" width="calc(100% / 4)"></rect>
+    <rect class="s-viz-color-sequential-one-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-sequential-one-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-sequential-one-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
+</g>
+<g class="row" transform="translate(0,200)">
+    <text dy="-4" class="s-font-note">5 Steps</text>
+    <rect class="s-viz-color-sequential-one-5-1 color-rect" width="calc(100% / 5)"></rect>
+    <rect class="s-viz-color-sequential-one-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-one-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-one-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-one-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
+</g>
+<g class="row" transform="translate(0,250)">
+    <text dy="-4" class="s-font-note">6 Steps</text>
+    <rect class="s-viz-color-sequential-one-6-1 color-rect" width="calc(100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-one-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-one-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-one-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-one-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-one-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
+</g>
+<g class="row" transform="translate(0,300)">
+    <text dy="-4" class="s-font-note">7 Steps</text>
+    <rect class="s-viz-color-sequential-one-7-1 color-rect" width="calc(100% / 7)"></rect>
+    <rect class="s-viz-color-sequential-one-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-one-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-one-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-one-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-one-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-one-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
+</g>
+</svg>
 ```
 
 ### Sequential Scale 2
@@ -227,45 +228,53 @@ src: "assets/sequential-2@1x.png 1x, assets/sequential-2@2x.png 2x"
 ```html
 span: 6
 ---
-<div class="row">
-    <div class="s-viz-color-sequential-two-2-1 color-square"></div>
-    <div class="s-viz-color-sequential-two-2-2 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-two-3-1 color-square"></div>
-    <div class="s-viz-color-sequential-two-3-2 color-square"></div>
-    <div class="s-viz-color-sequential-two-3-3 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-two-4-1 color-square"></div>
-    <div class="s-viz-color-sequential-two-4-2 color-square"></div>
-    <div class="s-viz-color-sequential-two-4-3 color-square"></div>
-    <div class="s-viz-color-sequential-two-4-4 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-two-5-1 color-square"></div>
-    <div class="s-viz-color-sequential-two-5-2 color-square"></div>
-    <div class="s-viz-color-sequential-two-5-3 color-square"></div>
-    <div class="s-viz-color-sequential-two-5-4 color-square"></div>
-    <div class="s-viz-color-sequential-two-5-5 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-two-6-1 color-square"></div>
-    <div class="s-viz-color-sequential-two-6-2 color-square"></div>
-    <div class="s-viz-color-sequential-two-6-3 color-square"></div>
-    <div class="s-viz-color-sequential-two-6-4 color-square"></div>
-    <div class="s-viz-color-sequential-two-6-5 color-square"></div>
-    <div class="s-viz-color-sequential-two-6-6 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-two-7-1 color-square"></div>
-    <div class="s-viz-color-sequential-two-7-2 color-square"></div>
-    <div class="s-viz-color-sequential-two-7-3 color-square"></div>
-    <div class="s-viz-color-sequential-two-7-4 color-square"></div>
-    <div class="s-viz-color-sequential-two-7-5 color-square"></div>
-    <div class="s-viz-color-sequential-two-7-6 color-square"></div>
-    <div class="s-viz-color-sequential-two-7-7 color-square"></div>
-</div>
+<svg id="sequential-scale-two" width="100%" height="350px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="row" transform="translate(0,50)">
+    <text dy="-4" class="s-font-note">2 Steps</text>
+    <rect class="s-viz-color-sequential-two-2-1 color-rect" width="calc(100% / 2)"></rect>
+    <rect class="s-viz-color-sequential-two-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
+</g>
+<g class="row" transform="translate(0,100)">
+    <text dy="-4" class="s-font-note">3 Steps</text>
+    <rect class="s-viz-color-sequential-two-3-1 color-rect" width="calc(100% / 3)"></rect>
+    <rect class="s-viz-color-sequential-two-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
+    <rect class="s-viz-color-sequential-two-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
+</g>
+<g class="row" transform="translate(0,150)">
+    <text dy="-4" class="s-font-note">4 Steps</text>
+    <rect class="s-viz-color-sequential-two-4-1 color-rect" width="calc(100% / 4)"></rect>
+    <rect class="s-viz-color-sequential-two-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-sequential-two-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-sequential-two-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
+</g>
+<g class="row" transform="translate(0,200)">
+    <text dy="-4" class="s-font-note">5 Steps</text>
+    <rect class="s-viz-color-sequential-two-5-1 color-rect" width="calc(100% / 5)"></rect>
+    <rect class="s-viz-color-sequential-two-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-two-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-two-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-two-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
+</g>
+<g class="row" transform="translate(0,250)">
+    <text dy="-4" class="s-font-note">6 Steps</text>
+    <rect class="s-viz-color-sequential-two-6-1 color-rect" width="calc(100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-two-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-two-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-two-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-two-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-two-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
+</g>
+<g class="row" transform="translate(0,300)">
+    <text dy="-4" class="s-font-note">7 Steps</text>
+    <rect class="s-viz-color-sequential-two-7-1 color-rect" width="calc(100% / 7)"></rect>
+    <rect class="s-viz-color-sequential-two-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-two-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-two-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-two-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-two-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-two-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
+</g>
+</svg>
 ```
 
 ### Sequential Scale 3
@@ -293,45 +302,53 @@ src: "assets/sequential-3@1x.png 1x, assets/sequential-3@2x.png 2x"
 span: 6
 ---
 
-<div class="row">
-    <div class="s-viz-color-sequential-three-2-1 color-square"></div>
-    <div class="s-viz-color-sequential-three-2-2 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-three-3-1 color-square"></div>
-    <div class="s-viz-color-sequential-three-3-2 color-square"></div>
-    <div class="s-viz-color-sequential-three-3-3 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-three-4-1 color-square"></div>
-    <div class="s-viz-color-sequential-three-4-2 color-square"></div>
-    <div class="s-viz-color-sequential-three-4-3 color-square"></div>
-    <div class="s-viz-color-sequential-three-4-4 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-three-5-1 color-square"></div>
-    <div class="s-viz-color-sequential-three-5-2 color-square"></div>
-    <div class="s-viz-color-sequential-three-5-3 color-square"></div>
-    <div class="s-viz-color-sequential-three-5-4 color-square"></div>
-    <div class="s-viz-color-sequential-three-5-5 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-three-6-1 color-square"></div>
-    <div class="s-viz-color-sequential-three-6-2 color-square"></div>
-    <div class="s-viz-color-sequential-three-6-3 color-square"></div>
-    <div class="s-viz-color-sequential-three-6-4 color-square"></div>
-    <div class="s-viz-color-sequential-three-6-5 color-square"></div>
-    <div class="s-viz-color-sequential-three-6-6 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-sequential-three-7-1 color-square"></div>
-    <div class="s-viz-color-sequential-three-7-2 color-square"></div>
-    <div class="s-viz-color-sequential-three-7-3 color-square"></div>
-    <div class="s-viz-color-sequential-three-7-4 color-square"></div>
-    <div class="s-viz-color-sequential-three-7-5 color-square"></div>
-    <div class="s-viz-color-sequential-three-7-6 color-square"></div>
-    <div class="s-viz-color-sequential-three-7-7 color-square"></div>
-</div>
+<svg id="sequential-scale-three" width="100%" height="350px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="row" transform="translate(0,50)">
+    <text dy="-4" class="s-font-note">2 Steps</text>
+    <rect class="s-viz-color-sequential-three-2-1 color-rect" width="calc(100% / 2)"></rect>
+    <rect class="s-viz-color-sequential-three-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
+</g>
+<g class="row" transform="translate(0,100)">
+    <text dy="-4" class="s-font-note">3 Steps</text>
+    <rect class="s-viz-color-sequential-three-3-1 color-rect" width="calc(100% / 3)"></rect>
+    <rect class="s-viz-color-sequential-three-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
+    <rect class="s-viz-color-sequential-three-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
+</g>
+<g class="row" transform="translate(0,150)">
+    <text dy="-4" class="s-font-note">4 Steps</text>
+    <rect class="s-viz-color-sequential-three-4-1 color-rect" width="calc(100% / 4)"></rect>
+    <rect class="s-viz-color-sequential-three-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-sequential-three-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-sequential-three-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
+</g>
+<g class="row" transform="translate(0,200)">
+    <text dy="-4" class="s-font-note">5 Steps</text>
+    <rect class="s-viz-color-sequential-three-5-1 color-rect" width="calc(100% / 5)"></rect>
+    <rect class="s-viz-color-sequential-three-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-three-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-three-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-sequential-three-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
+</g>
+<g class="row" transform="translate(0,250)">
+    <text dy="-4" class="s-font-note">6 Steps</text>
+    <rect class="s-viz-color-sequential-three-6-1 color-rect" width="calc(100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-three-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-three-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-three-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-three-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
+    <rect class="s-viz-color-sequential-three-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
+</g>
+<g class="row" transform="translate(0,300)">
+    <text dy="-4" class="s-font-note">7 Steps</text>
+    <rect class="s-viz-color-sequential-three-7-1 color-rect" width="calc(100% / 7)"></rect>
+    <rect class="s-viz-color-sequential-three-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-three-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-three-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-three-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-three-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-sequential-three-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
+</g>
+</svg>
 ```
 
 ### Diverging Scale 1
@@ -358,136 +375,151 @@ src: "assets/election-map-diverging-a@1x.png 1x, assets/election-map-diverging-a
 ```html
 span: 6
 ---
-<div class="row">
-    <div class="s-viz-color-diverging-one-2-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-2-2 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-3-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-3-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-3-3 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-4-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-4-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-4-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-4-4 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-5-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-5-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-5-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-5-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-5-5 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-6-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-6-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-6-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-6-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-6-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-6-6 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-7-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-7-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-7-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-7-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-7-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-7-6 color-square"></div>
-    <div class="s-viz-color-diverging-one-7-7 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-8-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-8-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-8-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-8-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-8-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-8-6 color-square"></div>
-    <div class="s-viz-color-diverging-one-8-7 color-square"></div>
-    <div class="s-viz-color-diverging-one-8-8 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-9-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-9-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-9-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-9-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-9-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-9-6 color-square"></div>
-    <div class="s-viz-color-diverging-one-9-7 color-square"></div>
-    <div class="s-viz-color-diverging-one-9-8 color-square"></div>
-    <div class="s-viz-color-diverging-one-9-9 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-10-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-6 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-7 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-8 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-9 color-square"></div>
-    <div class="s-viz-color-diverging-one-10-10 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-11-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-6 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-7 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-8 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-9 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-10 color-square"></div>
-    <div class="s-viz-color-diverging-one-11-11 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-12-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-6 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-7 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-8 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-9 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-10 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-11 color-square"></div>
-    <div class="s-viz-color-diverging-one-12-12 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-13-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-6 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-7 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-8 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-9 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-10 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-11 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-12 color-square"></div>
-    <div class="s-viz-color-diverging-one-13-13 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-one-14-1 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-2 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-3 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-4 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-5 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-6 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-7 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-8 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-9 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-10 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-11 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-12 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-13 color-square"></div>
-    <div class="s-viz-color-diverging-one-14-14 color-square"></div>
-</div>
+<svg id="diverging-scale-one" width="900px" height="700px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="row" transform="translate(0,50)">
+    <text dy="-4" class="s-font-note">2 Steps</text>
+    <rect class="s-viz-color-diverging-one-2-1 color-rect" width="calc(100% / 2)"></rect>
+    <rect class="s-viz-color-diverging-one-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
+</g>
+<g class="row" transform="translate(0,100)">
+    <text dy="-4" class="s-font-note">3 Steps</text>
+    <rect class="s-viz-color-diverging-one-3-1 color-rect" width="calc(100% / 3)"></rect>
+    <rect class="s-viz-color-diverging-one-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
+    <rect class="s-viz-color-diverging-one-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
+</g>
+<g class="row" transform="translate(0,150)">
+    <text dy="-4" class="s-font-note">4 Steps</text>
+    <rect class="s-viz-color-diverging-one-4-1 color-rect" width="calc(100% / 4)"></rect>
+    <rect class="s-viz-color-diverging-one-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-diverging-one-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-diverging-one-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
+</g>
+<g class="row" transform="translate(0,200)">
+    <text dy="-4" class="s-font-note">5 Steps</text>
+    <rect class="s-viz-color-diverging-one-5-1 color-rect" width="calc(100% / 5)"></rect>
+    <rect class="s-viz-color-diverging-one-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-one-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-one-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-one-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
+</g>
+<g class="row" transform="translate(0,250)">
+    <text dy="-4" class="s-font-note">6 Steps</text>
+    <rect class="s-viz-color-diverging-one-6-1 color-rect" width="calc(100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-one-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-one-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-one-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-one-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-one-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
+</g>
+<g class="row" transform="translate(0,300)">
+    <text dy="-4" class="s-font-note">7 Steps</text>
+    <rect class="s-viz-color-diverging-one-7-1 color-rect" width="calc(100% / 7)"></rect>
+    <rect class="s-viz-color-diverging-one-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-one-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-one-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-one-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-one-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-one-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
+</g>
+<g class="row" transform="translate(0,350)">
+    <text dy="-4" class="s-font-note">8 Steps</text>
+    <rect class="s-viz-color-diverging-one-8-1 color-rect" width="calc(100% / 8)"></rect>
+    <rect class="s-viz-color-diverging-one-8-2 color-rect" width="calc(100% / 8)" x="calc(1 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-one-8-3 color-rect" width="calc(100% / 8)" x="calc(2 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-one-8-4 color-rect" width="calc(100% / 8)" x="calc(3 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-one-8-5 color-rect" width="calc(100% / 8)" x="calc(4 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-one-8-6 color-rect" width="calc(100% / 8)" x="calc(5 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-one-8-7 color-rect" width="calc(100% / 8)" x="calc(6 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-one-8-8 color-rect" width="calc(100% / 8)" x="calc(7 * calc(100% / 8))"></rect>
+</g>
+<g class="row" transform="translate(0,400)">
+    <text dy="-4" class="s-font-note">9 Steps</text>
+    <rect class="s-viz-color-diverging-one-9-1 color-rect" width="calc(100% / 9)"></rect>
+    <rect class="s-viz-color-diverging-one-9-2 color-rect" width="calc(100% / 9)" x="calc(1 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-one-9-3 color-rect" width="calc(100% / 9)" x="calc(2 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-one-9-4 color-rect" width="calc(100% / 9)" x="calc(3 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-one-9-5 color-rect" width="calc(100% / 9)" x="calc(4 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-one-9-6 color-rect" width="calc(100% / 9)" x="calc(5 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-one-9-7 color-rect" width="calc(100% / 9)" x="calc(6 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-one-9-8 color-rect" width="calc(100% / 9)" x="calc(7 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-one-9-9 color-rect" width="calc(100% / 9)" x="calc(8 * calc(100% / 9))"></rect>
+</g>
+<g class="row" transform="translate(0,450)">
+    <text dy="-4" class="s-font-note">10 Steps</text>
+    <rect class="s-viz-color-diverging-one-10-1 color-rect" width="calc(100% / 10)"></rect>
+    <rect class="s-viz-color-diverging-one-10-2 color-rect" width="calc(100% / 10)" x="calc(1 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-one-10-3 color-rect" width="calc(100% / 10)" x="calc(2 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-one-10-4 color-rect" width="calc(100% / 10)" x="calc(3 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-one-10-5 color-rect" width="calc(100% / 10)" x="calc(4 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-one-10-6 color-rect" width="calc(100% / 10)" x="calc(5 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-one-10-7 color-rect" width="calc(100% / 10)" x="calc(6 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-one-10-8 color-rect" width="calc(100% / 10)" x="calc(7 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-one-10-9 color-rect" width="calc(100% / 10)" x="calc(8 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-one-10-10 color-rect" width="calc(100% / 10)" x="calc(9 * calc(100% / 10))"></rect>
+</g>
+<g class="row" transform="translate(0,500)">
+    <text dy="-4" class="s-font-note">11 Steps</text>
+    <rect class="s-viz-color-diverging-one-11-1 color-rect" width="calc(100% / 11)"></rect>
+    <rect class="s-viz-color-diverging-one-11-2 color-rect" width="calc(100% / 11)" x="calc(1 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-3 color-rect" width="calc(100% / 11)" x="calc(2 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-4 color-rect" width="calc(100% / 11)" x="calc(3 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-5 color-rect" width="calc(100% / 11)" x="calc(4 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-6 color-rect" width="calc(100% / 11)" x="calc(5 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-7 color-rect" width="calc(100% / 11)" x="calc(6 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-8 color-rect" width="calc(100% / 11)" x="calc(7 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-9 color-rect" width="calc(100% / 11)" x="calc(8 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-10 color-rect" width="calc(100% / 11)" x="calc(9 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-one-11-11 color-rect" width="calc(100% / 11)" x="calc(10 * calc(100% / 11))"></rect>
+</g>
+<g class="row" transform="translate(0,550)">
+    <text dy="-4" class="s-font-note">12 Steps</text>
+    <rect class="s-viz-color-diverging-one-12-1 color-rect" width="calc(100% / 12)"></rect>
+    <rect class="s-viz-color-diverging-one-12-2 color-rect" width="calc(100% / 12)" x="calc(1 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-3 color-rect" width="calc(100% / 12)" x="calc(2 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-4 color-rect" width="calc(100% / 12)" x="calc(3 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-5 color-rect" width="calc(100% / 12)" x="calc(4 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-6 color-rect" width="calc(100% / 12)" x="calc(5 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-7 color-rect" width="calc(100% / 12)" x="calc(6 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-9 color-rect" width="calc(100% / 12)" x="calc(7 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-8 color-rect" width="calc(100% / 12)" x="calc(8 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-10 color-rect" width="calc(100% / 12)" x="calc(9 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-11 color-rect" width="calc(100% / 12)" x="calc(10 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-one-12-12 color-rect" width="calc(100% / 12)" x="calc(11 * calc(100% / 12))"></rect>
+</g>
+<g class="row" transform="translate(0,600)">
+    <text dy="-4" class="s-font-note">13 Steps</text>
+    <rect class="s-viz-color-diverging-one-13-1 color-rect" width="calc(100% / 13)"></rect>
+    <rect class="s-viz-color-diverging-one-13-2 color-rect" width="calc(100% / 13)" x="calc(1 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-3 color-rect" width="calc(100% / 13)" x="calc(2 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-4 color-rect" width="calc(100% / 13)" x="calc(3 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-5 color-rect" width="calc(100% / 13)" x="calc(4 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-6 color-rect" width="calc(100% / 13)" x="calc(5 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-7 color-rect" width="calc(100% / 13)" x="calc(6 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-8 color-rect" width="calc(100% / 13)" x="calc(7 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-9 color-rect" width="calc(100% / 13)" x="calc(8 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-10 color-rect" width="calc(100% / 13)" x="calc(9 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-11 color-rect" width="calc(100% / 13)" x="calc(10 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-12 color-rect" width="calc(100% / 13)" x="calc(11 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-one-13-13 color-rect" width="calc(100% / 13)" x="calc(12 * calc(100% / 13))"></rect>
+</g>
+<g class="row" transform="translate(0,650)">
+    <text dy="-4" class="s-font-note">14 Steps</text>
+    <rect class="s-viz-color-diverging-one-14-1 color-rect" width="calc(100% / 14)"></rect>
+    <rect class="s-viz-color-diverging-one-14-2 color-rect" width="calc(100% / 14)" x="calc(1 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-3 color-rect" width="calc(100% / 14)" x="calc(2 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-4 color-rect" width="calc(100% / 14)" x="calc(3 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-5 color-rect" width="calc(100% / 14)" x="calc(4 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-6 color-rect" width="calc(100% / 14)" x="calc(5 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-7 color-rect" width="calc(100% / 14)" x="calc(6 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-8 color-rect" width="calc(100% / 14)" x="calc(7 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-9 color-rect" width="calc(100% / 14)" x="calc(8 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-10 color-rect" width="calc(100% / 14)" x="calc(9 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-11 color-rect" width="calc(100% / 14)" x="calc(10 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-12 color-rect" width="calc(100% / 14)" x="calc(11 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-13 color-rect" width="calc(100% / 14)" x="calc(12 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-one-14-14 color-rect" width="calc(100% / 14)" x="calc(13 * calc(100% / 14))"></rect>
+</g>
+</svg>
 ```
 
 ### Diverging Scale 2
@@ -514,136 +546,151 @@ src: "assets/election-map-diverging-b@1x.png 1x, assets/election-map-diverging-b
 ```html
 span: 6
 ---
-<div class="row">
-    <div class="s-viz-color-diverging-two-2-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-2-2 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-3-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-3-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-3-3 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-4-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-4-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-4-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-4-4 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-5-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-5-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-5-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-5-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-5-5 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-6-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-6-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-6-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-6-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-6-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-6-6 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-7-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-7-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-7-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-7-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-7-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-7-6 color-square"></div>
-    <div class="s-viz-color-diverging-two-7-7 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-8-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-8-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-8-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-8-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-8-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-8-6 color-square"></div>
-    <div class="s-viz-color-diverging-two-8-7 color-square"></div>
-    <div class="s-viz-color-diverging-two-8-8 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-9-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-9-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-9-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-9-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-9-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-9-6 color-square"></div>
-    <div class="s-viz-color-diverging-two-9-7 color-square"></div>
-    <div class="s-viz-color-diverging-two-9-8 color-square"></div>
-    <div class="s-viz-color-diverging-two-9-9 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-10-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-6 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-7 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-8 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-9 color-square"></div>
-    <div class="s-viz-color-diverging-two-10-10 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-11-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-6 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-7 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-8 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-9 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-10 color-square"></div>
-    <div class="s-viz-color-diverging-two-11-11 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-12-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-6 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-7 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-8 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-9 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-10 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-11 color-square"></div>
-    <div class="s-viz-color-diverging-two-12-12 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-13-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-6 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-7 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-8 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-9 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-10 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-11 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-12 color-square"></div>
-    <div class="s-viz-color-diverging-two-13-13 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-two-14-1 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-2 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-3 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-4 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-5 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-6 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-7 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-8 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-9 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-10 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-11 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-12 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-13 color-square"></div>
-    <div class="s-viz-color-diverging-two-14-14 color-square"></div>
-</div>
+<svg id="diverging-scale-two" width="900px" height="700px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="row" transform="translate(0,50)">
+    <text dy="-4" class="s-font-note">2 Steps</text>
+    <rect class="s-viz-color-diverging-two-2-1 color-rect" width="calc(100% / 2)"></rect>
+    <rect class="s-viz-color-diverging-two-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
+</g>
+<g class="row" transform="translate(0,100)">
+    <text dy="-4" class="s-font-note">3 Steps</text>
+    <rect class="s-viz-color-diverging-two-3-1 color-rect" width="calc(100% / 3)"></rect>
+    <rect class="s-viz-color-diverging-two-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
+    <rect class="s-viz-color-diverging-two-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
+</g>
+<g class="row" transform="translate(0,150)">
+    <text dy="-4" class="s-font-note">4 Steps</text>
+    <rect class="s-viz-color-diverging-two-4-1 color-rect" width="calc(100% / 4)"></rect>
+    <rect class="s-viz-color-diverging-two-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-diverging-two-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-diverging-two-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
+</g>
+<g class="row" transform="translate(0,200)">
+    <text dy="-4" class="s-font-note">5 Steps</text>
+    <rect class="s-viz-color-diverging-two-5-1 color-rect" width="calc(100% / 5)"></rect>
+    <rect class="s-viz-color-diverging-two-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-two-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-two-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-two-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
+</g>
+<g class="row" transform="translate(0,250)">
+    <text dy="-4" class="s-font-note">6 Steps</text>
+    <rect class="s-viz-color-diverging-two-6-1 color-rect" width="calc(100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-two-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-two-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-two-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-two-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-two-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
+</g>
+<g class="row" transform="translate(0,300)">
+    <text dy="-4" class="s-font-note">7 Steps</text>
+    <rect class="s-viz-color-diverging-two-7-1 color-rect" width="calc(100% / 7)"></rect>
+    <rect class="s-viz-color-diverging-two-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-two-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-two-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-two-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-two-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-two-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
+</g>
+<g class="row" transform="translate(0,350)">
+    <text dy="-4" class="s-font-note">8 Steps</text>
+    <rect class="s-viz-color-diverging-two-8-1 color-rect" width="calc(100% / 8)"></rect>
+    <rect class="s-viz-color-diverging-two-8-2 color-rect" width="calc(100% / 8)" x="calc(1 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-two-8-3 color-rect" width="calc(100% / 8)" x="calc(2 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-two-8-4 color-rect" width="calc(100% / 8)" x="calc(3 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-two-8-5 color-rect" width="calc(100% / 8)" x="calc(4 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-two-8-6 color-rect" width="calc(100% / 8)" x="calc(5 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-two-8-7 color-rect" width="calc(100% / 8)" x="calc(6 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-two-8-8 color-rect" width="calc(100% / 8)" x="calc(7 * calc(100% / 8))"></rect>
+</g>
+<g class="row" transform="translate(0,400)">
+    <text dy="-4" class="s-font-note">9 Steps</text>
+    <rect class="s-viz-color-diverging-two-9-1 color-rect" width="calc(100% / 9)"></rect>
+    <rect class="s-viz-color-diverging-two-9-2 color-rect" width="calc(100% / 9)" x="calc(1 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-two-9-3 color-rect" width="calc(100% / 9)" x="calc(2 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-two-9-4 color-rect" width="calc(100% / 9)" x="calc(3 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-two-9-5 color-rect" width="calc(100% / 9)" x="calc(4 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-two-9-6 color-rect" width="calc(100% / 9)" x="calc(5 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-two-9-7 color-rect" width="calc(100% / 9)" x="calc(6 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-two-9-8 color-rect" width="calc(100% / 9)" x="calc(7 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-two-9-9 color-rect" width="calc(100% / 9)" x="calc(8 * calc(100% / 9))"></rect>
+</g>
+<g class="row" transform="translate(0,450)">
+    <text dy="-4" class="s-font-note">10 Steps</text>
+    <rect class="s-viz-color-diverging-two-10-1 color-rect" width="calc(100% / 10)"></rect>
+    <rect class="s-viz-color-diverging-two-10-2 color-rect" width="calc(100% / 10)" x="calc(1 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-two-10-3 color-rect" width="calc(100% / 10)" x="calc(2 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-two-10-4 color-rect" width="calc(100% / 10)" x="calc(3 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-two-10-5 color-rect" width="calc(100% / 10)" x="calc(4 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-two-10-6 color-rect" width="calc(100% / 10)" x="calc(5 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-two-10-7 color-rect" width="calc(100% / 10)" x="calc(6 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-two-10-8 color-rect" width="calc(100% / 10)" x="calc(7 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-two-10-9 color-rect" width="calc(100% / 10)" x="calc(8 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-two-10-10 color-rect" width="calc(100% / 10)" x="calc(9 * calc(100% / 10))"></rect>
+</g>
+<g class="row" transform="translate(0,500)">
+    <text dy="-4" class="s-font-note">11 Steps</text>
+    <rect class="s-viz-color-diverging-two-11-1 color-rect" width="calc(100% / 11)"></rect>
+    <rect class="s-viz-color-diverging-two-11-2 color-rect" width="calc(100% / 11)" x="calc(1 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-3 color-rect" width="calc(100% / 11)" x="calc(2 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-4 color-rect" width="calc(100% / 11)" x="calc(3 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-5 color-rect" width="calc(100% / 11)" x="calc(4 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-6 color-rect" width="calc(100% / 11)" x="calc(5 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-7 color-rect" width="calc(100% / 11)" x="calc(6 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-8 color-rect" width="calc(100% / 11)" x="calc(7 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-9 color-rect" width="calc(100% / 11)" x="calc(8 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-10 color-rect" width="calc(100% / 11)" x="calc(9 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-two-11-11 color-rect" width="calc(100% / 11)" x="calc(10 * calc(100% / 11))"></rect>
+</g>
+<g class="row" transform="translate(0,550)">
+    <text dy="-4" class="s-font-note">12 Steps</text>
+    <rect class="s-viz-color-diverging-two-12-1 color-rect" width="calc(100% / 12)"></rect>
+    <rect class="s-viz-color-diverging-two-12-2 color-rect" width="calc(100% / 12)" x="calc(1 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-3 color-rect" width="calc(100% / 12)" x="calc(2 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-4 color-rect" width="calc(100% / 12)" x="calc(3 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-5 color-rect" width="calc(100% / 12)" x="calc(4 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-6 color-rect" width="calc(100% / 12)" x="calc(5 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-7 color-rect" width="calc(100% / 12)" x="calc(6 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-9 color-rect" width="calc(100% / 12)" x="calc(7 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-8 color-rect" width="calc(100% / 12)" x="calc(8 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-10 color-rect" width="calc(100% / 12)" x="calc(9 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-11 color-rect" width="calc(100% / 12)" x="calc(10 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-two-12-12 color-rect" width="calc(100% / 12)" x="calc(11 * calc(100% / 12))"></rect>
+</g>
+<g class="row" transform="translate(0,600)">
+    <text dy="-4" class="s-font-note">13 Steps</text>
+    <rect class="s-viz-color-diverging-two-13-1 color-rect" width="calc(100% / 13)"></rect>
+    <rect class="s-viz-color-diverging-two-13-2 color-rect" width="calc(100% / 13)" x="calc(1 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-3 color-rect" width="calc(100% / 13)" x="calc(2 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-4 color-rect" width="calc(100% / 13)" x="calc(3 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-5 color-rect" width="calc(100% / 13)" x="calc(4 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-6 color-rect" width="calc(100% / 13)" x="calc(5 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-7 color-rect" width="calc(100% / 13)" x="calc(6 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-8 color-rect" width="calc(100% / 13)" x="calc(7 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-9 color-rect" width="calc(100% / 13)" x="calc(8 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-10 color-rect" width="calc(100% / 13)" x="calc(9 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-11 color-rect" width="calc(100% / 13)" x="calc(10 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-12 color-rect" width="calc(100% / 13)" x="calc(11 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-two-13-13 color-rect" width="calc(100% / 13)" x="calc(12 * calc(100% / 13))"></rect>
+</g>
+<g class="row" transform="translate(0,650)">
+    <text dy="-4" class="s-font-note">14 Steps</text>
+    <rect class="s-viz-color-diverging-two-14-1 color-rect" width="calc(100% / 14)"></rect>
+    <rect class="s-viz-color-diverging-two-14-2 color-rect" width="calc(100% / 14)" x="calc(1 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-3 color-rect" width="calc(100% / 14)" x="calc(2 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-4 color-rect" width="calc(100% / 14)" x="calc(3 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-5 color-rect" width="calc(100% / 14)" x="calc(4 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-6 color-rect" width="calc(100% / 14)" x="calc(5 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-7 color-rect" width="calc(100% / 14)" x="calc(6 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-8 color-rect" width="calc(100% / 14)" x="calc(7 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-9 color-rect" width="calc(100% / 14)" x="calc(8 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-10 color-rect" width="calc(100% / 14)" x="calc(9 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-11 color-rect" width="calc(100% / 14)" x="calc(10 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-12 color-rect" width="calc(100% / 14)" x="calc(11 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-13 color-rect" width="calc(100% / 14)" x="calc(12 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-two-14-14 color-rect" width="calc(100% / 14)" x="calc(13 * calc(100% / 14))"></rect>
+</g>
+</svg>
 ```
 
 ### Diverging Scale 3
@@ -670,136 +717,151 @@ src: "assets/election-map-diverging-c@1x.png 1x, assets/election-map-diverging-c
 ```html
 span: 6
 ---
-<div class="row">
-    <div class="s-viz-color-diverging-three-2-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-2-2 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-3-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-3-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-3-3 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-4-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-4-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-4-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-4-4 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-5-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-5-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-5-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-5-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-5-5 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-6-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-6-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-6-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-6-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-6-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-6-6 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-7-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-7-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-7-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-7-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-7-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-7-6 color-square"></div>
-    <div class="s-viz-color-diverging-three-7-7 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-8-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-8-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-8-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-8-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-8-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-8-6 color-square"></div>
-    <div class="s-viz-color-diverging-three-8-7 color-square"></div>
-    <div class="s-viz-color-diverging-three-8-8 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-9-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-9-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-9-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-9-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-9-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-9-6 color-square"></div>
-    <div class="s-viz-color-diverging-three-9-7 color-square"></div>
-    <div class="s-viz-color-diverging-three-9-8 color-square"></div>
-    <div class="s-viz-color-diverging-three-9-9 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-10-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-6 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-7 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-8 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-9 color-square"></div>
-    <div class="s-viz-color-diverging-three-10-10 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-11-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-6 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-7 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-8 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-9 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-10 color-square"></div>
-    <div class="s-viz-color-diverging-three-11-11 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-12-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-6 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-7 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-8 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-9 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-10 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-11 color-square"></div>
-    <div class="s-viz-color-diverging-three-12-12 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-13-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-6 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-7 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-8 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-9 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-10 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-11 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-12 color-square"></div>
-    <div class="s-viz-color-diverging-three-13-13 color-square"></div>
-</div>
-<div class="row">
-    <div class="s-viz-color-diverging-three-14-1 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-2 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-3 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-4 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-5 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-6 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-7 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-8 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-9 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-10 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-11 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-12 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-13 color-square"></div>
-    <div class="s-viz-color-diverging-three-14-14 color-square"></div>
-</div>
+<svg id="diverging-scale-three" width="900px" height="700px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="row" transform="translate(0,50)">
+    <text dy="-4" class="s-font-note">2 Steps</text>
+    <rect class="s-viz-color-diverging-three-2-1 color-rect" width="calc(100% / 2)"></rect>
+    <rect class="s-viz-color-diverging-three-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
+</g>
+<g class="row" transform="translate(0,100)">
+    <text dy="-4" class="s-font-note">3 Steps</text>
+    <rect class="s-viz-color-diverging-three-3-1 color-rect" width="calc(100% / 3)"></rect>
+    <rect class="s-viz-color-diverging-three-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
+    <rect class="s-viz-color-diverging-three-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
+</g>
+<g class="row" transform="translate(0,150)">
+    <text dy="-4" class="s-font-note">4 Steps</text>
+    <rect class="s-viz-color-diverging-three-4-1 color-rect" width="calc(100% / 4)"></rect>
+    <rect class="s-viz-color-diverging-three-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-diverging-three-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
+    <rect class="s-viz-color-diverging-three-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
+</g>
+<g class="row" transform="translate(0,200)">
+    <text dy="-4" class="s-font-note">5 Steps</text>
+    <rect class="s-viz-color-diverging-three-5-1 color-rect" width="calc(100% / 5)"></rect>
+    <rect class="s-viz-color-diverging-three-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-three-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-three-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
+    <rect class="s-viz-color-diverging-three-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
+</g>
+<g class="row" transform="translate(0,250)">
+    <text dy="-4" class="s-font-note">6 Steps</text>
+    <rect class="s-viz-color-diverging-three-6-1 color-rect" width="calc(100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-three-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-three-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-three-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-three-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
+    <rect class="s-viz-color-diverging-three-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
+</g>
+<g class="row" transform="translate(0,300)">
+    <text dy="-4" class="s-font-note">7 Steps</text>
+    <rect class="s-viz-color-diverging-three-7-1 color-rect" width="calc(100% / 7)"></rect>
+    <rect class="s-viz-color-diverging-three-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-three-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-three-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-three-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-three-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
+    <rect class="s-viz-color-diverging-three-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
+</g>
+<g class="row" transform="translate(0,350)">
+    <text dy="-4" class="s-font-note">8 Steps</text>
+    <rect class="s-viz-color-diverging-three-8-1 color-rect" width="calc(100% / 8)"></rect>
+    <rect class="s-viz-color-diverging-three-8-2 color-rect" width="calc(100% / 8)" x="calc(1 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-three-8-3 color-rect" width="calc(100% / 8)" x="calc(2 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-three-8-4 color-rect" width="calc(100% / 8)" x="calc(3 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-three-8-5 color-rect" width="calc(100% / 8)" x="calc(4 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-three-8-6 color-rect" width="calc(100% / 8)" x="calc(5 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-three-8-7 color-rect" width="calc(100% / 8)" x="calc(6 * calc(100% / 8))"></rect>
+    <rect class="s-viz-color-diverging-three-8-8 color-rect" width="calc(100% / 8)" x="calc(7 * calc(100% / 8))"></rect>
+</g>
+<g class="row" transform="translate(0,400)">
+    <text dy="-4" class="s-font-note">9 Steps</text>
+    <rect class="s-viz-color-diverging-three-9-1 color-rect" width="calc(100% / 9)"></rect>
+    <rect class="s-viz-color-diverging-three-9-2 color-rect" width="calc(100% / 9)" x="calc(1 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-three-9-3 color-rect" width="calc(100% / 9)" x="calc(2 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-three-9-4 color-rect" width="calc(100% / 9)" x="calc(3 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-three-9-5 color-rect" width="calc(100% / 9)" x="calc(4 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-three-9-6 color-rect" width="calc(100% / 9)" x="calc(5 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-three-9-7 color-rect" width="calc(100% / 9)" x="calc(6 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-three-9-8 color-rect" width="calc(100% / 9)" x="calc(7 * calc(100% / 9))"></rect>
+    <rect class="s-viz-color-diverging-three-9-9 color-rect" width="calc(100% / 9)" x="calc(8 * calc(100% / 9))"></rect>
+</g>
+<g class="row" transform="translate(0,450)">
+    <text dy="-4" class="s-font-note">10 Steps</text>
+    <rect class="s-viz-color-diverging-three-10-1 color-rect" width="calc(100% / 10)"></rect>
+    <rect class="s-viz-color-diverging-three-10-2 color-rect" width="calc(100% / 10)" x="calc(1 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-three-10-3 color-rect" width="calc(100% / 10)" x="calc(2 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-three-10-4 color-rect" width="calc(100% / 10)" x="calc(3 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-three-10-5 color-rect" width="calc(100% / 10)" x="calc(4 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-three-10-6 color-rect" width="calc(100% / 10)" x="calc(5 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-three-10-7 color-rect" width="calc(100% / 10)" x="calc(6 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-three-10-8 color-rect" width="calc(100% / 10)" x="calc(7 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-three-10-9 color-rect" width="calc(100% / 10)" x="calc(8 * calc(100% / 10))"></rect>
+    <rect class="s-viz-color-diverging-three-10-10 color-rect" width="calc(100% / 10)" x="calc(9 * calc(100% / 10))"></rect>
+</g>
+<g class="row" transform="translate(0,500)">
+    <text dy="-4" class="s-font-note">11 Steps</text>
+    <rect class="s-viz-color-diverging-three-11-1 color-rect" width="calc(100% / 11)"></rect>
+    <rect class="s-viz-color-diverging-three-11-2 color-rect" width="calc(100% / 11)" x="calc(1 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-3 color-rect" width="calc(100% / 11)" x="calc(2 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-4 color-rect" width="calc(100% / 11)" x="calc(3 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-5 color-rect" width="calc(100% / 11)" x="calc(4 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-6 color-rect" width="calc(100% / 11)" x="calc(5 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-7 color-rect" width="calc(100% / 11)" x="calc(6 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-8 color-rect" width="calc(100% / 11)" x="calc(7 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-9 color-rect" width="calc(100% / 11)" x="calc(8 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-10 color-rect" width="calc(100% / 11)" x="calc(9 * calc(100% / 11))"></rect>
+    <rect class="s-viz-color-diverging-three-11-11 color-rect" width="calc(100% / 11)" x="calc(10 * calc(100% / 11))"></rect>
+</g>
+<g class="row" transform="translate(0,550)">
+    <text dy="-4" class="s-font-note">12 Steps</text>
+    <rect class="s-viz-color-diverging-three-12-1 color-rect" width="calc(100% / 12)"></rect>
+    <rect class="s-viz-color-diverging-three-12-2 color-rect" width="calc(100% / 12)" x="calc(1 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-3 color-rect" width="calc(100% / 12)" x="calc(2 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-4 color-rect" width="calc(100% / 12)" x="calc(3 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-5 color-rect" width="calc(100% / 12)" x="calc(4 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-6 color-rect" width="calc(100% / 12)" x="calc(5 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-7 color-rect" width="calc(100% / 12)" x="calc(6 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-9 color-rect" width="calc(100% / 12)" x="calc(7 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-8 color-rect" width="calc(100% / 12)" x="calc(8 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-10 color-rect" width="calc(100% / 12)" x="calc(9 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-11 color-rect" width="calc(100% / 12)" x="calc(10 * calc(100% / 12))"></rect>
+    <rect class="s-viz-color-diverging-three-12-12 color-rect" width="calc(100% / 12)" x="calc(11 * calc(100% / 12))"></rect>
+</g>
+<g class="row" transform="translate(0,600)">
+    <text dy="-4" class="s-font-note">13 Steps</text>
+    <rect class="s-viz-color-diverging-three-13-1 color-rect" width="calc(100% / 13)"></rect>
+    <rect class="s-viz-color-diverging-three-13-2 color-rect" width="calc(100% / 13)" x="calc(1 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-3 color-rect" width="calc(100% / 13)" x="calc(2 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-4 color-rect" width="calc(100% / 13)" x="calc(3 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-5 color-rect" width="calc(100% / 13)" x="calc(4 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-6 color-rect" width="calc(100% / 13)" x="calc(5 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-7 color-rect" width="calc(100% / 13)" x="calc(6 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-8 color-rect" width="calc(100% / 13)" x="calc(7 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-9 color-rect" width="calc(100% / 13)" x="calc(8 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-10 color-rect" width="calc(100% / 13)" x="calc(9 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-11 color-rect" width="calc(100% / 13)" x="calc(10 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-12 color-rect" width="calc(100% / 13)" x="calc(11 * calc(100% / 13))"></rect>
+    <rect class="s-viz-color-diverging-three-13-13 color-rect" width="calc(100% / 13)" x="calc(12 * calc(100% / 13))"></rect>
+</g>
+<g class="row" transform="translate(0,650)">
+    <text dy="-4" class="s-font-note">14 Steps</text>
+    <rect class="s-viz-color-diverging-three-14-1 color-rect" width="calc(100% / 14)"></rect>
+    <rect class="s-viz-color-diverging-three-14-2 color-rect" width="calc(100% / 14)" x="calc(1 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-3 color-rect" width="calc(100% / 14)" x="calc(2 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-4 color-rect" width="calc(100% / 14)" x="calc(3 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-5 color-rect" width="calc(100% / 14)" x="calc(4 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-6 color-rect" width="calc(100% / 14)" x="calc(5 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-7 color-rect" width="calc(100% / 14)" x="calc(6 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-8 color-rect" width="calc(100% / 14)" x="calc(7 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-9 color-rect" width="calc(100% / 14)" x="calc(8 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-10 color-rect" width="calc(100% / 14)" x="calc(9 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-11 color-rect" width="calc(100% / 14)" x="calc(10 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-12 color-rect" width="calc(100% / 14)" x="calc(11 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-13 color-rect" width="calc(100% / 14)" x="calc(12 * calc(100% / 14))"></rect>
+    <rect class="s-viz-color-diverging-three-14-14 color-rect" width="calc(100% / 14)" x="calc(13 * calc(100% / 14))"></rect>
+</g>
+</svg>
 ```
 
 ## Political Party Colors
