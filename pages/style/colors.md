@@ -864,6 +864,16 @@ span: 6
 </svg>
 ```
 
+# Gender Colors
+
+
+```color-palette|span-1
+colors:
+  - {name: "Male - primary", value: "#24B39C"}
+  - {name: "Female – primary", value: "#6C43C0"}
+```
+
+
 ## Political Party Colors
 
 We have predefined colors for Switzerland, France, Ecuador, Germany, Netherlands, United Kingdom and the United States. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
