@@ -1,6 +1,6 @@
 # TBD
 
-The Storytelling Styleguide is a "living styleguide" that's constantly growing. We therefore want to address the bigger problems and questions we're facing in our daily work. As a team we want to discuss the topics with no easy answer and want to find valid and workable solutions together.
+The Visuals Styleguide is a "living styleguide" that's constantly growing. We therefore want to address the bigger problems and questions we're facing in our daily work. As a team we want to discuss the topics with no easy answer and want to find valid and workable solutions together.
 
 First of all, these questions need to be asked and to be collected. We're listing all the things that need _TDB_ – to be defined (or designed) – on an office board.
 
