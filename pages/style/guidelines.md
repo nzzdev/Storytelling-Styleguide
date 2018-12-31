@@ -10,7 +10,7 @@ Here's why:
 #### 1. Using data to make a point – our point
 Turning data into a visualisation is not neutral. Whoever creates a chart shapes the narrative – by choosing from [dozens of chart types](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary), by deciding what to leave out and what to emphasise. We want to control this step rather than use what somebody else has created for their purposes. Only when we have data, we can do so.
 
-#### 2. We are digital first
+#### 2. We work digital first
 Only when we have data, we can create graphics that are fully optimised for our digital platforms, either by using our own tools or by writing custom code.
 
 #### 3. We want to be able to verify
