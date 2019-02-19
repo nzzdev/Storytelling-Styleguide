@@ -4,27 +4,27 @@
 
 # Print
 
-## 2018 Grafik Template
+## Grafik-Template 2018
 
 This is the current template for all graphics.
 
 ```download
-title: Grafik Template (.ai)
+title: Grafik-Template (.ai)
 subtitle: 172 KB
 url: assets/print-assets/Vorlage_Grafik_2018.ait
 ```
 
-## 2018 Karte Template
+## Karten-Template 2019
 
 This is the current template for all maps.
 
 ```download
-title: Karte Template (.ai)
+title: Karten-Template (.ai)
 subtitle: 494 KB
-url: assets/print-assets/Vorlage_Karte_2018.ait
+url: assets/print-assets/Vorlage_Karte_2019.ait
 ```
 
-## Panorama Template
+## Panorama-Template
 
 This is the current template used for laying out graphics that span across a Panorama with 10 columns.
 
