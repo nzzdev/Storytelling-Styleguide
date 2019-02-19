@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
 	<link rel="stylesheet" href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css">
 	<link rel="stylesheet" href="https://sophie-build-service.st.nzz.ch/bundle/sophie-font@^1,sophie-input@^1,sophie-color@^1,sophie-viz-color@^1.css">
-	<title>Storytelling Styleguide</title>
+	<title>Visuals Styleguide</title>
 </head>
 
 <body>
@@ -17,8 +17,8 @@
 	</script>
 	<script>
 		Catalog.render({
-      title: 'Storytelling Styleguide',
-      logoSrc: "static/nzz-storytelling_logo.svg",
+      title: 'Visuals Styleguide',
+      logoSrc: "static/nzz-visuals-logo.svg",
       publicUrl: window.document.location.pathname,
       pages: [
         {
@@ -60,7 +60,7 @@
           title: "Charts",
           pages: [
             {
-              path: "guidelines",
+              path: "charts-guidelines",
               title: "Guidelines",
               src: "pages/style/guidelines.md"
             },
@@ -83,11 +83,26 @@
               path: "elections",
               title: "Election",
               src: "pages/style/elections.md"
+            }
+          ]
+        },
+        {
+          title: "Maps",
+          pages: [
+            {
+              path: "maps-guidelines",
+              title: "Guidelines",
+              src: "pages/style/maps-guidelines.md"
             },
             {
-              path: "maps",
-              title: "Maps",
-              src: "pages/style/maps.md"
+              path: "pointer-maps",
+              title: "Pointer Maps",
+              src: "pages/style/pointer-maps.md"
+            },
+            {
+              path: "choropleth-maps",
+              title: "Choropleth Maps",
+              src: "pages/style/choropleth-maps.md"
             }
           ]
         },

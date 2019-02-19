@@ -1,11 +1,8 @@
 ```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
+<div class="stabilityIndex experimental">Experimental</div>
 ```
 
-#### All online maps should be created and published in Q for nzz.ch. Maps originally designed for print should only be used for online in the cases where labels, area highlighting or desired precision is not possible.
-
 The templates for print maps can be found on the [assets page](assets).
-
 
 ## Main Map
 [Image]

@@ -4,7 +4,7 @@
 
 # Visual Principles
 
-Design principles articulate the fundamental goals that all decisions can be measured against. In our case, they are designed to keep the work from both print and web mediums moving toward an integrated visual language. Design principles are simple a tool for creating a better, more consistent experience for our readers. Our principles are simple, based on real work, and reflective of us. They enforce clarity and reduce ambiguity. We developed these principles to help us make critical decisions about what we’re creating and make it easier to decide between good work and great work.
+Design principles articulate the fundamental goals that all decisions can be measured against. In our case, they are designed to keep the work from both print and web mediums moving toward an integrated visual language. Design principles are a tool for creating a better, more consistent experience for our readers and viewers. Our principles are simple, based on real work, and reflective of us. They enforce clarity and reduce ambiguity. We developed these principles to help us make critical decisions about what we’re creating and make it easier to decide between good work and great work.
 
 **Determined** - Entschlossen
 - Every graphic has a purpose and a message that becomes apparent immediately
@@ -19,7 +19,7 @@ Design principles articulate the fundamental goals that all decisions can be mea
 - We use clear and simple language
 
 **Authentic** - Authentisch
-- Each graphic is reflective of our collective voice and vision as the NZZ Storytelling team
+- Each graphic is reflective of our collective voice and vision as the NZZ Visuals team
 
 # Our audience
 We work for the readers and users of NZZ. Not to please the editors of NZZ. Not to please ourselves.

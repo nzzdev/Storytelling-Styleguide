@@ -1,11 +1,11 @@
 
-> This is a living style guide created by the team at [NZZ Storytelling](https://www.nzz.ch/storytelling/).
+> This is a living style guide created by the team at [NZZ Visuals](https://www.nzz.ch/visuals/).
 
 # About this documentation
 
-This documentation is designed to collected and maintain the styles and visual language of the Neue Zürcher Zeitung's Storytelling team. As each infographic, chart or data visulization varies from case to case, this documentation is meant to serve as a set of guidelines - and not unbreakable rules. Adhering to these guidelines leads to a more consistent presentation of design work in NZZ's print and online media.
+This documentation is designed to collected and maintain the styles and visual language of the Neue Zürcher Zeitung's Visuals team. As each infographic, chart or data visulization varies from case to case, this documentation is meant to serve as a set of guidelines - and not unbreakable rules. Adhering to these guidelines leads to a more consistent presentation of design work in NZZ's print and online media.
 
-This documentation is first and foremost for our team. We are designers, developers and data journalists. All of us have different needs and should be able to navigate around the guidelines that are outlined in the following pages.
+This documentation is first and foremost for our team. We are designers, developers, data journalists, video reporters and motion designers. All of us have different needs and should be able to navigate around the guidelines that are outlined in the following pages.
 
 ### Component Stability Index
 
