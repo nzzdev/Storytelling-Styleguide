@@ -4,14 +4,24 @@
 
 # Print
 
-## Grafik-Template 2018
+## Grafik-Template 2019
 
 This is the current template for all graphics.
 
 ```download
-title: Grafik-Template (.ai)
+title: Grafik-Template (.ait)
 subtitle: 172 KB
-url: assets/print-assets/Vorlage_Grafik_2018.ait
+url: assets/print-assets/Grafik_2019.ait
+```
+
+## Q-to-Print-Template 2019
+
+This is the current template for all graphics.
+
+```download
+title: Grafik-Template (.ait)
+subtitle: 172 KB
+url: assets/print-assets/Q-to-Print_2019.ait
 ```
 
 ## Karten-Template 2019
@@ -19,9 +29,9 @@ url: assets/print-assets/Vorlage_Grafik_2018.ait
 This is the current template for all maps.
 
 ```download
-title: Karten-Template (.ai)
+title: Karten-Template (.ait)
 subtitle: 494 KB
-url: assets/print-assets/Vorlage_Karte_2019.ait
+url: assets/print-assets/Karte_2019.ait
 ```
 
 ## Panorama-Template
