@@ -36,12 +36,12 @@ url: assets/print-assets/Karte_2019.ait
 
 ## Panorama-Template
 
-This is the current template used for laying out graphics that span across a Panorama with 10 columns.
+This is the current template used for laying out graphics that span across a Panorama with 10 columns. Settings are in millimeters and CMYK. 
 
 ```download
-title: Karte Template (.ai)
+title: Karte Template (.ait)
 subtitle: 228 KB
-url: assets/print-assets/_Panorama_10-sp_2016.ai
+url: assets/print-assets/Panorama.ait
 ```
 
 ## 'Online First' Workflow: RGB-Template + Script
