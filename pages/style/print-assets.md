@@ -6,7 +6,7 @@
 
 ## Grafik-Template 2019
 
-This is the current template for all graphics.
+This is the current template for all graphics. In the template, you will find 3 artboards sized by the devices that Q supports as well as the an artboard for print graphics with the grid. Settings are in pixels and in RGB. 
 
 ```download
 title: Grafik-Template (.ait)
@@ -16,7 +16,7 @@ url: assets/print-assets/Grafik_2019.ait
 
 ## Q-to-Print-Template 2019
 
-This is the current template for all graphics.
+This is the current template for all graphics. In the template, you will find an artboard for print graphics with the grid. Settings are in millimeters and CMYK. 
 
 ```download
 title: Grafik-Template (.ait)
@@ -26,7 +26,7 @@ url: assets/print-assets/Q-to-Print_2019.ait
 
 ## Karten-Template 2019
 
-This is the current template for all maps.
+This is the current template for all maps. In the template, you will find an artboard for print graphics with the grid. Settings are in millimeters and CMYK. 
 
 ```download
 title: Karten-Template (.ait)
