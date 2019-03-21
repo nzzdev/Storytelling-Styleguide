@@ -1,5 +1,5 @@
 ```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
+<div class="stabilityIndex stable">Stable</div>
 ```
 
 # Visual Principles
@@ -23,7 +23,7 @@ Design principles articulate the fundamental goals that all decisions can be mea
 
 # Our audience
 We work for the readers and users of NZZ. Not to please the editors of NZZ. Not to please ourselves.
-We work for an audience that is well-informed and curious. We assume they have a basic understanding of most of the topics we cover, but we never assume they are experts. Our graphics reflect this – they are accessible to anyone who's interested. 
+We work for an audience that is well-informed and curious. We assume they have a basic understanding of most of the topics we cover, but we never assume they are experts. Our graphics reflect this – they are accessible to anyone who's interested.
 
 # Our guidelines for achieving these standards
 In order that our graphics are successful in translating information and a message to our readers, it's important that we **introduce** readers to the content on first look at the graphic. So that they don't get lost in the more complex visuals that we create, we use explanatory elements and extras that help **guide** them. Because it's not always easy to put a condensed finding in perspective of a larger topic, we make sure we consider the addition of secondary information through graphic or textual means to **provide context**. Above all else, our job is to **communicate** information clearly and elegantly - therefore we never add decoration without purpose to our work.
