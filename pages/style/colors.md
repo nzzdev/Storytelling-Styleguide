@@ -724,7 +724,7 @@ span: 6
     <rect class="s-viz-color-diverging-three-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
 </g>
 <g class="row" transform="translate(0,100)">
-    <text dy="-4" class="s-font-note">3 Steps</text>
+    <text dy="-4" class="s-font-note">3 Steps: #0ba9d9 #ececf0 #bbd215</text>
     <rect class="s-viz-color-diverging-three-3-1 color-rect" width="calc(100% / 3)"></rect>
     <rect class="s-viz-color-diverging-three-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
     <rect class="s-viz-color-diverging-three-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
@@ -871,7 +871,7 @@ colors:
   - {name: "Female – primary", value: "#6C43C0"}
 ```
 
-#Handmade Maps 
+# Handmade Maps
 ```color-palette|span-2
 colors:
   - {name: "Rivers - primary", value: "#0093BF"}
