@@ -40,6 +40,10 @@ columns:
   - Changes
 rows:
   - Changes: |
+      Update *Print-Assets* 2019, Update Color Documentation
+    Date: 2019-03-21
+    Version: 0.1.7
+  - Changes: |
       Finalize *Color* Documentation
     Date: 2018-08-21
     Version: 0.1.6
