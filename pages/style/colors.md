@@ -121,6 +121,20 @@ colors:
    - {value: "#05032d"}
 ```
 
+# Gender Colors
+```color-palette|span-2
+colors:
+  - {name: "Male - primary", value: "#24B39C"}
+  - {name: "Female – primary", value: "#6C43C0"}
+```
+
+# Handmade Maps
+```color-palette|span-2
+colors:
+  - {name: "Rivers - primary", value: "#0093BF"}
+  - {name: "Oceans – primary", value: "#CEE9F2"}
+```
+
 ## Sequential and Diverging Scales
 
 All of our sequential scales and diverging scales are limited to seven buckets. This way we ensure that our readers can differentiate shades of a hue from one another in order to accurate ready our charts and maps.
@@ -826,20 +840,6 @@ span: 6
     <rect class="s-viz-color-diverging-three-14-14 color-rect" width="calc(100% / 14)" x="calc(13 * calc(100% / 14))"></rect>
 </g>
 </svg>
-```
-
-# Gender Colors
-```color-palette|span-2
-colors:
-  - {name: "Male - primary", value: "#24B39C"}
-  - {name: "Female – primary", value: "#6C43C0"}
-```
-
-# Handmade Maps
-```color-palette|span-2
-colors:
-  - {name: "Rivers - primary", value: "#0093BF"}
-  - {name: "Oceans – primary", value: "#CEE9F2"}
 ```
 
 
