@@ -140,12 +140,6 @@ colors:
    - {value: "#3952ee"}
 ```
 
-```image
-plain: true
-span: 5
-src: "assets/sequential-1@1x.png 1x, assets/sequential-1@2x.png 2x"
-```
-
 ```html
 span: 6
 ---
@@ -219,12 +213,6 @@ colors:
    - {value: "#24b39c"}
 ```
 
-```image
-plain: true
-span: 5
-src: "assets/sequential-2@1x.png 1x, assets/sequential-2@2x.png 2x"
-```
-
 ```html
 span: 6
 ---
@@ -290,12 +278,6 @@ colors:
    - {value: "#da8d5f"}
    - {value: "#d96f4e"}
    - {value: "#d64b47"}
-```
-
-```image
-plain: true
-span: 5
-src: "assets/sequential-3@1x.png 1x, assets/sequential-3@2x.png 2x"
 ```
 
 ```html
@@ -364,12 +346,6 @@ colors:
    - {value: "#c5b2e1"}
    - {value: "#9b7ad1"}
    - {value: "#6c43c0"}
-```
-
-```image
-plain: true
-span: 5
-src: "assets/election-map-diverging-a@1x.png 1x, assets/election-map-diverging-a@2x.png 2x"
 ```
 
 ```html
@@ -537,12 +513,6 @@ colors:
    - {value: "#ebbd22"}
 ```
 
-```image
-plain: true
-span: 5
-src: "assets/election-map-diverging-b@1x.png 1x, assets/election-map-diverging-b@2x.png 2x"
-```
-
 ```html
 span: 6
 ---
@@ -706,12 +676,6 @@ colors:
    - {value: "#e1e3b1"}
    - {value: "#d0db70"}
    - {value: "#bbd215"}
-```
-
-```image
-plain: true
-span: 5
-src: "assets/election-map-diverging-c@1x.png 1x, assets/election-map-diverging-c@2x.png 2x"
 ```
 
 ```html
