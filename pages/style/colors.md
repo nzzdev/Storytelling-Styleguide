@@ -158,13 +158,13 @@ colors:
 span: 6
 rows:
   - Steps: 3
-    HEX: EDECE1, E0D3B4, DBB78A
+    HEX: ECECF0, 9E9EF4, 3952EE
   - Steps: 4
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868
+    HEX: ECECF0, B8B8F3, 8285F3, 3952EE
   - Steps: 5
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551
+    HEX: ECECF0, C5C5F3, 9E9EF4, 7378F2, 3952EE
   - Steps: 6
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: ECECF0, CDCDF3, AEAEF4, 8D8FF3, 6970F1, 3952EE
 ```
 
 
@@ -245,11 +245,11 @@ colors:
 span: 6
 rows:
   - Steps: 3
-    HEX: EDECE1, E0D3B4, DBB78A
+    HEX: EDECE1, ABCEA9, 24B39C
   - Steps: 4
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868
+    HEX: EDECE1, C6D7B8, 8BC5A0, 24B39C
   - Steps: 5
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551
+    HEX: EDECE1, D2DCC1, ABCEA9, 79C19D, 24B39C
   - Steps: 6
     HEX: EDECE1, D8DFC7, BCD4B2, 99C9A3, 6DBE9C, 24B39C
 ```
@@ -320,6 +320,19 @@ colors:
    - {value: "#da8d5f"}
    - {value: "#d96f4e"}
    - {value: "#d64b47"}
+```
+
+```table
+span: 6
+rows:
+  - Steps: 3
+    HEX: EDECE1, DAA878, D64B47
+  - Steps: 4
+    HEX: EDECE1, DDC197, DA8D5F, D64B47
+  - Steps: 5
+    HEX: EDECE1, DFCCA9, DAA878, D97E55, D64B47
+  - Steps: 6
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
 ```
 
 ```html
