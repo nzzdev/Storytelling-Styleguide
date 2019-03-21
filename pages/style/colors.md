@@ -154,6 +154,20 @@ colors:
    - {value: "#3952ee"}
 ```
 
+```table
+span: 6
+rows:
+  - Steps: 3
+    HEX: EDECE1, E0D3B4, DBB78A
+  - Steps: 4
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868
+  - Steps: 5
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551
+  - Steps: 6
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+```
+
+
 ```html
 span: 6
 ---
@@ -226,6 +240,20 @@ colors:
    - {value: "#64bc9b"}
    - {value: "#24b39c"}
 ```
+
+```table
+span: 6
+rows:
+  - Steps: 3
+    HEX: EDECE1, E0D3B4, DBB78A
+  - Steps: 4
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868
+  - Steps: 5
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551
+  - Steps: 6
+    HEX: EDECE1, D8DFC7, BCD4B2, 99C9A3, 6DBE9C, 24B39C
+```
+
 
 ```html
 span: 6
