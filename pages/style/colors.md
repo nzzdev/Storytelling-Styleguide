@@ -865,12 +865,17 @@ span: 6
 ```
 
 # Gender Colors
-
-
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "Male - primary", value: "#24B39C"}
   - {name: "Female – primary", value: "#6C43C0"}
+```
+
+#Handmade Maps 
+```color-palette|span-2
+colors:
+  - {name: "Rivers - primary", value: "#0093BF"}
+  - {name: "Oceans – primary", value: "#CEE9F2"}
 ```
 
 
