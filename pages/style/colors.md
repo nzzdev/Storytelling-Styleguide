@@ -10,7 +10,7 @@ span: 5
 src: "assets/teaser-color@1x.png 1x, assets/teaser-color@2x.png 2x"
 ```
 
-We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
+Our colors are used in both the online and print graphics that we produce. We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
 
 The concept of our color palette is that all colors are scales are derived out of the original twelve qualitative color. This is one way that we can secure a consistent visual appearance in all of our graphics.
 
@@ -121,14 +121,14 @@ colors:
    - {value: "#05032d"}
 ```
 
-# Gender Colors
+## Gender Colors
 ```color-palette|span-2
 colors:
   - {name: "Male - primary", value: "#24B39C"}
   - {name: "Female – primary", value: "#6C43C0"}
 ```
 
-# Handmade Maps
+## Handmade Maps for print
 ```color-palette|span-2
 colors:
   - {name: "Rivers - primary", value: "#0093BF"}
