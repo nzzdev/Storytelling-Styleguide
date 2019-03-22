@@ -250,31 +250,31 @@ colors:
 span: 5
 rows:
   - Steps: 2
-    HEX: EDECE1, D64B47
+    HEX: E66E4A, 6C43C0
   - Steps: 3
-    HEX: EDECE1, DAA878, D64B47
+    HEX: E66E4A, ececf0, 6C43C0
   - Steps: 4
-    HEX: EDECE1, DDC197, DA8D5F, D64B47
+    HEX: E66E4A, f2c3b6, c5b2e1, 6C43C0
   - Steps: 5
-    HEX: EDECE1, DFCCA9, DAA878, D97E55, D64B47
+    HEX: E66E4A, f2ae9a, ececf0, b196d9, 6c43c0
   - Steps: 6
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, f1a18a, f1d3cd, d5c9e7, a485d4, 6C43C0
   - Steps: 7
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, ef997f, f2c3b6, ececf0, c5b2e1, 9b7ad1, 6C43C0
   - Steps: 8
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, ee9377, f2b7a6, f0dad7, dcd3ea, b9a2dd, 9572cf, 6C43C0
   - Steps: 9
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, ee8e72, f2ae9a, f1cdc4, ececf0, cfc0e5, b196d9, 906ccd, 6C43C0
   - Steps: 10
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, ed8b6d, f1a791, f2c3b6, efdedc, dfd8eb, c5b2e1, aa8cd6, 8c68cb, 6C43C0
   - Steps: 11
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, ec886a, f1a18a, f2baab, f1d3cd, ececf0, d5c9e7, bda7de, a485d4, 8964ca, 6C43C0
   - Steps: 12
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, ec8667, f09d84, f2b3a2, f2cac1, efe1e0, e2dcec, ccbce4, b69ddb, 9f7fd3, 8761c9, 6C43C0
   - Steps: 13
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, eb8464, ef997f, f2ae9a, f2c3b6, f0d7d3, ececf0, d9cfe9, c5b2e1, b196d9, 9b7ad1, 855fc9, 6C43C0
   - Steps: 14
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: E66E4A, eb8262, ef967b, f1a994, f2bcae, f1cfc8, eee2e2, e3deed, d1c4e6, bfa9df, ac8fd7, 9876d0, 835cc8, 6C43C0
 ```
 
 ```html
