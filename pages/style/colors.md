@@ -155,8 +155,10 @@ colors:
 ```
 
 ```table
-span: 6
+span: 5
 rows:
+  - Steps: 2  
+    HEX: ECECF0, 3952EE
   - Steps: 3
     HEX: ECECF0, 9E9EF4, 3952EE
   - Steps: 4
@@ -165,65 +167,6 @@ rows:
     HEX: ECECF0, C5C5F3, 9E9EF4, 7378F2, 3952EE
   - Steps: 6
     HEX: ECECF0, CDCDF3, AEAEF4, 8D8FF3, 6970F1, 3952EE
-```
-
-
-```html
-span: 6
----
-<style type="text/css">
-.row > .color-rect {
-    height: 30px;
-    fill: currentColor;
-}
-</style>
-<svg id="sequential-scale-one" width="900px" height="350px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g class="row" transform="translate(0,50)">
-    <text dy="-4" class="s-font-note">2 Steps</text>
-    <rect class="s-viz-color-sequential-one-2-1 color-rect" width="calc(100% / 2)"></rect>
-    <rect class="s-viz-color-sequential-one-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
-</g>
-<g class="row" transform="translate(0,100)">
-    <text dy="-4" class="s-font-note">3 Steps</text>
-    <rect class="s-viz-color-sequential-one-3-1 color-rect" width="calc(100% / 3)"></rect>
-    <rect class="s-viz-color-sequential-one-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
-    <rect class="s-viz-color-sequential-one-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
-</g>
-<g class="row" transform="translate(0,150)">
-    <text dy="-4" class="s-font-note">4 Steps</text>
-    <rect class="s-viz-color-sequential-one-4-1 color-rect" width="calc(100% / 4)"></rect>
-    <rect class="s-viz-color-sequential-one-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
-    <rect class="s-viz-color-sequential-one-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
-    <rect class="s-viz-color-sequential-one-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
-</g>
-<g class="row" transform="translate(0,200)">
-    <text dy="-4" class="s-font-note">5 Steps</text>
-    <rect class="s-viz-color-sequential-one-5-1 color-rect" width="calc(100% / 5)"></rect>
-    <rect class="s-viz-color-sequential-one-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-one-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-one-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-one-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
-</g>
-<g class="row" transform="translate(0,250)">
-    <text dy="-4" class="s-font-note">6 Steps</text>
-    <rect class="s-viz-color-sequential-one-6-1 color-rect" width="calc(100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-one-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-one-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-one-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-one-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-one-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
-</g>
-<g class="row" transform="translate(0,300)">
-    <text dy="-4" class="s-font-note">7 Steps</text>
-    <rect class="s-viz-color-sequential-one-7-1 color-rect" width="calc(100% / 7)"></rect>
-    <rect class="s-viz-color-sequential-one-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-one-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-one-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-one-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-one-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-one-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
-</g>
-</svg>
 ```
 
 ### Sequential Scale 2
@@ -242,8 +185,10 @@ colors:
 ```
 
 ```table
-span: 6
+span: 5
 rows:
+  - Steps: 2
+    HEX: EDECE1, 24B39C
   - Steps: 3
     HEX: EDECE1, ABCEA9, 24B39C
   - Steps: 4
@@ -254,58 +199,6 @@ rows:
     HEX: EDECE1, D8DFC7, BCD4B2, 99C9A3, 6DBE9C, 24B39C
 ```
 
-
-```html
-span: 6
----
-<svg id="sequential-scale-two" width="100%" height="350px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g class="row" transform="translate(0,50)">
-    <text dy="-4" class="s-font-note">2 Steps</text>
-    <rect class="s-viz-color-sequential-two-2-1 color-rect" width="calc(100% / 2)"></rect>
-    <rect class="s-viz-color-sequential-two-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
-</g>
-<g class="row" transform="translate(0,100)">
-    <text dy="-4" class="s-font-note">3 Steps</text>
-    <rect class="s-viz-color-sequential-two-3-1 color-rect" width="calc(100% / 3)"></rect>
-    <rect class="s-viz-color-sequential-two-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
-    <rect class="s-viz-color-sequential-two-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
-</g>
-<g class="row" transform="translate(0,150)">
-    <text dy="-4" class="s-font-note">4 Steps</text>
-    <rect class="s-viz-color-sequential-two-4-1 color-rect" width="calc(100% / 4)"></rect>
-    <rect class="s-viz-color-sequential-two-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
-    <rect class="s-viz-color-sequential-two-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
-    <rect class="s-viz-color-sequential-two-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
-</g>
-<g class="row" transform="translate(0,200)">
-    <text dy="-4" class="s-font-note">5 Steps</text>
-    <rect class="s-viz-color-sequential-two-5-1 color-rect" width="calc(100% / 5)"></rect>
-    <rect class="s-viz-color-sequential-two-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-two-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-two-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-two-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
-</g>
-<g class="row" transform="translate(0,250)">
-    <text dy="-4" class="s-font-note">6 Steps</text>
-    <rect class="s-viz-color-sequential-two-6-1 color-rect" width="calc(100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-two-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-two-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-two-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-two-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-two-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
-</g>
-<g class="row" transform="translate(0,300)">
-    <text dy="-4" class="s-font-note">7 Steps</text>
-    <rect class="s-viz-color-sequential-two-7-1 color-rect" width="calc(100% / 7)"></rect>
-    <rect class="s-viz-color-sequential-two-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-two-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-two-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-two-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-two-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-two-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
-</g>
-</svg>
-```
 
 ### Sequential Scale 3
 
@@ -323,70 +216,20 @@ colors:
 ```
 
 ```table
-span: 6
+span: 5
 rows:
+  - Steps: 2
+    HEX: #EDECE1, #D64B47
   - Steps: 3
-    HEX: EDECE1, DAA878, D64B47
+    HEX: #EDECE1, #DAA878, #D64B47
   - Steps: 4
-    HEX: EDECE1, DDC197, DA8D5F, D64B47
+    HEX: #EDECE1, #DDC197, #DA8D5F, #D64B47
   - Steps: 5
-    HEX: EDECE1, DFCCA9, DAA878, D97E55, D64B47
+    HEX: #EDECE1, #DFCCA9, #DAA878, #D97E55, #D64B47
   - Steps: 6
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+    HEX: #EDECE1, #E0D3B4, #DBB78A, #DA9868, #D97551, #D64B47
 ```
 
-```html
-span: 6
----
-
-<svg id="sequential-scale-three" width="100%" height="350px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g class="row" transform="translate(0,50)">
-    <text dy="-4" class="s-font-note">2 Steps</text>
-    <rect class="s-viz-color-sequential-three-2-1 color-rect" width="calc(100% / 2)"></rect>
-    <rect class="s-viz-color-sequential-three-2-2 color-rect" width="calc(100% / 2)" x="calc(100% / 2)"></rect>
-</g>
-<g class="row" transform="translate(0,100)">
-    <text dy="-4" class="s-font-note">3 Steps</text>
-    <rect class="s-viz-color-sequential-three-3-1 color-rect" width="calc(100% / 3)"></rect>
-    <rect class="s-viz-color-sequential-three-3-2 color-rect" width="calc(100% / 3)" x="calc(1 * calc(100% / 3))"></rect>
-    <rect class="s-viz-color-sequential-three-3-3 color-rect" width="calc(100% / 3)" x="calc(2 * calc(100% / 3))"></rect>
-</g>
-<g class="row" transform="translate(0,150)">
-    <text dy="-4" class="s-font-note">4 Steps</text>
-    <rect class="s-viz-color-sequential-three-4-1 color-rect" width="calc(100% / 4)"></rect>
-    <rect class="s-viz-color-sequential-three-4-2 color-rect" width="calc(100% / 4)" x="calc(1 * calc(100% / 4))"></rect>
-    <rect class="s-viz-color-sequential-three-4-3 color-rect" width="calc(100% / 4)" x="calc(2 * calc(100% / 4))"></rect>
-    <rect class="s-viz-color-sequential-three-4-4 color-rect" width="calc(100% / 4)" x="calc(3 * calc(100% / 4))"></rect>
-</g>
-<g class="row" transform="translate(0,200)">
-    <text dy="-4" class="s-font-note">5 Steps</text>
-    <rect class="s-viz-color-sequential-three-5-1 color-rect" width="calc(100% / 5)"></rect>
-    <rect class="s-viz-color-sequential-three-5-2 color-rect" width="calc(100% / 5)" x="calc(1 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-three-5-3 color-rect" width="calc(100% / 5)" x="calc(2 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-three-5-4 color-rect" width="calc(100% / 5)" x="calc(3 * calc(100% / 5))"></rect>
-    <rect class="s-viz-color-sequential-three-5-5 color-rect" width="calc(100% / 5)" x="calc(4 * calc(100% / 5))"></rect>
-</g>
-<g class="row" transform="translate(0,250)">
-    <text dy="-4" class="s-font-note">6 Steps</text>
-    <rect class="s-viz-color-sequential-three-6-1 color-rect" width="calc(100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-three-6-2 color-rect" width="calc(100% / 6)" x="calc(1 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-three-6-3 color-rect" width="calc(100% / 6)" x="calc(2 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-three-6-4 color-rect" width="calc(100% / 6)" x="calc(3 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-three-6-5 color-rect" width="calc(100% / 6)" x="calc(4 * 100% / 6)"></rect>
-    <rect class="s-viz-color-sequential-three-6-6 color-rect" width="calc(100% / 6)" x="calc(5 * 100% / 6)"></rect>
-</g>
-<g class="row" transform="translate(0,300)">
-    <text dy="-4" class="s-font-note">7 Steps</text>
-    <rect class="s-viz-color-sequential-three-7-1 color-rect" width="calc(100% / 7)"></rect>
-    <rect class="s-viz-color-sequential-three-7-2 color-rect" width="calc(100% / 7)" x="calc(1 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-three-7-3 color-rect" width="calc(100% / 7)" x="calc(2 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-three-7-4 color-rect" width="calc(100% / 7)" x="calc(3 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-three-7-5 color-rect" width="calc(100% / 7)" x="calc(4 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-three-7-6 color-rect" width="calc(100% / 7)" x="calc(5 * calc(100% / 7))"></rect>
-    <rect class="s-viz-color-sequential-three-7-7 color-rect" width="calc(100% / 7)" x="calc(6 * calc(100% / 7))"></rect>
-</g>
-</svg>
-```
 
 ### Diverging Scale 1
 
@@ -401,6 +244,37 @@ colors:
    - {value: "#c5b2e1"}
    - {value: "#9b7ad1"}
    - {value: "#6c43c0"}
+```
+
+```table
+span: 5
+rows:
+  - Steps: 2
+    HEX: EDECE1, D64B47
+  - Steps: 3
+    HEX: EDECE1, DAA878, D64B47
+  - Steps: 4
+    HEX: EDECE1, DDC197, DA8D5F, D64B47
+  - Steps: 5
+    HEX: EDECE1, DFCCA9, DAA878, D97E55, D64B47
+  - Steps: 6
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+  - Steps: 7
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+  - Steps: 8
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+  - Steps: 9
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+  - Steps: 10
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+  - Steps: 11
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+  - Steps: 12
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+  - Steps: 13
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
+  - Steps: 14
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
 ```
 
 ```html
