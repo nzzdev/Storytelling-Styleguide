@@ -219,15 +219,15 @@ colors:
 span: 5
 rows:
   - Steps: 2
-    HEX: #EDECE1, #D64B47
+    HEX: EDECE1, D64B47
   - Steps: 3
-    HEX: #EDECE1, #DAA878, #D64B47
+    HEX: EDECE1, DAA878, D64B47
   - Steps: 4
-    HEX: #EDECE1, #DDC197, #DA8D5F, #D64B47
+    HEX: EDECE1, DDC197, DA8D5F, D64B47
   - Steps: 5
-    HEX: #EDECE1, #DFCCA9, #DAA878, #D97E55, #D64B47
+    HEX: EDECE1, DFCCA9, DAA878, D97E55, D64B47
   - Steps: 6
-    HEX: #EDECE1, #E0D3B4, #DBB78A, #DA9868, #D97551, #D64B47
+    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
 ```
 
 
@@ -247,7 +247,7 @@ colors:
 ```
 
 ```table
-span: 5
+span: 6
 rows:
   - Steps: 2
     HEX: E66E4A, 6C43C0
@@ -292,8 +292,9 @@ colors:
    - {value: "#f2cc72"}
    - {value: "#ebbd22"}
 ```
+
 ```table
-span: 5
+span: 6
 rows:
   - Steps: 2
     HEX: 3952EE, EBBD22
@@ -339,6 +340,36 @@ colors:
    - {value: "#bbd215"}
 ```
 
+```table
+span: 6
+rows:
+  - Steps: 2
+    HEX: 0BA9D9, BBD215
+  - Steps: 3
+    HEX: 0BA9D9, ECECF0, BBD215
+  - Steps: 4
+    HEX: 0BA9D9, b7d5e9, e1e3b1, BBD215
+  - Steps: 5
+    HEX: 0BA9D9, 9bcae5, ECECF0, d9df91, BBD215
+  - Steps: 6
+    HEX: 0BA9D9, 89c4e2, cddeec, e6e7ca, d4dc7d, BBD215
+  - Steps: 7
+    HEX: 0BA9D9, 7cbfe1, b7d5e9, ECECF0, e1e3b1, d0db70, BBD215
+  - Steps: 8
+    HEX: 0BA9D9, 72bce0, a7cfe6, d6e2ed, e8e8d5, dde19f, ced966, BBD215
+  - Steps: 9
+    HEX: 0BA9D9, 6abadf, 9bcae5, c5dbea, ECECF0, e4e5c1, d9df91, ccd85e, BBD215
+  - Steps: 10
+    HEX: 0BA9D9, 64b8de, 91c6e3, b7d5e9, dbe4ee, e9e9db, e1e3b1, d7dd86, cad858, BBD215
+  - Steps: 11
+    HEX: 0BA9D9, 5fb6de, 89c4e2, acd1e7, cddeec, ECECF0, e6e7ca, dee1a4, d4dc7d, c8d753, bbd215
+  - Steps: 12
+    HEX: 0BA9D9, 5ab5dd, 82c1e2, a3cde6, c1d9ea, dee6ee, eaeadf, e3e5bc, dce09a, d2db76, c7d74f, BBD215
+  - Steps: 13
+    HEX: 0BA9D9, 56b4dd, 7cbfe1, 9bcae5, b7d5e9, d2e1ec, ECECF0, e7e8d0, e1e3b1, d9df91, d0db70, c6d64b, BBD215
+  - Steps: 14
+    HEX: 0BA9D9, 53b3dd, 77bde0, 94c8e4, afd2e7, c8dceb, e0e7ee, eaeae1, e5e6c4, dfe2a7, d7de89, cfda6b, c6d648, BBD215
+```
 
 ## Political Party Colors
 
