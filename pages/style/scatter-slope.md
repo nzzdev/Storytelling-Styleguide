@@ -5,7 +5,7 @@ Scatterplots can be a great way to show correlation between variables. Keep in m
 
 ## Axis Labeling
 
-Lower the barriers by summarizing the dimensions used at a highly visible place. For better accessibility use everyday language and be more precise in the footnote or methodology section. 
+Lower the barriers by summarizing the dimensions used at a highly visible place. For better accessibility use everyday language and be more precise in the footnote or methodology section.
 
 ```image
 plain: true
@@ -15,7 +15,7 @@ src: "assets/scatter-slopes/scatterplot_axislabeling@1x.png 1x, assets/scatter-s
 
 ## Annotations
 
-We often want to highlight interesting dots in a scatterplot. Annotate dots directly as long as the text field doesn't cover other dots. Use conncetion lines to annotate the dots from outside. Use titles to group multiple annotations.
+Often, we want to highlight interesting correlation in a scatterplot. Annotate data points directly as long as the text field doesn't up other important data. Should the annotation be longer and require more space, use connection lines to annotate the points from outside the chart. Use titles to group multiple annotations. Don't draw extra elements to highlight groups, while this tends to unnecessarily overclutter the chart.
 
 ```image
 plain: true
@@ -30,6 +30,7 @@ src: "assets/scatter-slopes/scatterplot_annotations-print@1x.png 1x, assets/scat
 ```
 
 ## Slopes
+We use slope charts typically to show the change of data by displaying two points in time. These are excellent alternatives to the line chart, when we want to give our readers a more precise message. Keep date labels at the top of the slope chart, so that in the case of a tall graphic, the reader understands the time frame without having to scroll.
 
 ```image
 plain: true
