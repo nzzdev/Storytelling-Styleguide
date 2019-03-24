@@ -2,9 +2,7 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-Almost all basic charts for our online platform are done in Q. Only charts with details and annotations that are not possible in Q should be designed and uploaded through Q's Infographic tool. The print template for basic charts can be downloaded via the [assets page](assets).
-
-Basic bar charts are usually used for showing categorized data over time or comparing. Stacking bars are also good when you want to show subdivisions in your dataset. Line charts can be used for change-over-time as well as showing correlations in time-based data sets.
+Almost all basic charts for our online platform are created using our online chart toolbox Q. Only charts with details and annotations that are not possible in Q are be designed by hand and uploaded through Q's Infographic tool. The print template for basic charts can be downloaded via the [assets page](assets).
 
 All of the following definitions contain a tag in the bottom right corner which describes which medium the definition applies to.
 ```image
@@ -46,8 +44,8 @@ src: "assets/basic-charts/bar-charts_axis-print@1x.png 1x, assets/basic-charts/b
 - right-align and equally space labels from y-axis lines.
 
 #### Do not
-- Do not keep all full years in the axis.
-- Do not extend lines underneath/above labels.
+- keep all full years in the axis.
+- extend lines underneath/above labels.
 
 ```image
 plain: true
@@ -82,7 +80,7 @@ src: "assets/basic-charts/bar-charts_axis-c-print@1x.png 1x, assets/basic-charts
 ```
 
 ### Legends
-Legends are a part of the introduction to the chart, so we place them prominently just above the data. Legends for basic charts are constructed with circles and 45 degree lines. All charts with filled areas receive filled circles for their legend definitions and all line charts receive lines (solid or dotted) for their definitions.
+Legends are a part of the introduction to the chart, so we place them prominently just above the data. Legends for basic charts are constructed with circles and lines at a 45 degree angle. All charts with filled areas receive filled circles for their legend definitions and all line charts receive lines (solid or dotted) for their definitions.
 #### Do
 - align legends to the left of the chart, even with titles and subtitles
 - use dotted lines for prognosis or prediction in line charts
@@ -110,7 +108,7 @@ src: "assets/basic-charts/bar-charts_prognosis@1x.png 1x, assets/basic-charts/ba
 ```
 
 ### Highlighting
-Bringing attention to a specific data point or set of data points in a graphic helps us underline our graphic's message and focus our readers to the most important part of the chart. The most basic form of highlighting is to use shades of our visualization colors to give a heavier visual weight to the data in the spotlight.
+Bringing attention to a specific data point or set of data points in a graphic helps us underline our graphic's message and focus our readers to the most important part of the chart. The most basic form of highlighting is to use shades defined in our [qualitative color scales](https://nzzdev.github.io/Storytelling-Styleguide/#/colors?a=qualitative-color-scale-primary) to give heavier visual weight to the data in the spotlight.
 
 #### Do
 - give the data point (bar, line) in focus the darker, fuller opacity of a color
@@ -145,5 +143,5 @@ src: "assets/basic-charts/annotation_1@1x.png 1x, assets/basic-charts/annotation
 ```
 
 #### Do not
-- overload a graphic with annotations (discuss with editorial staff how they can shorten their content)
+- overload a graphic with annotations (discuss with editorial staff about how they can shorten their content) – consider the text:graphic ratio
 - introduce a new line or point style without argumentation for the deviation from the style guide.
