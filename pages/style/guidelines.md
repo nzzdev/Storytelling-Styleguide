@@ -2,6 +2,13 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
+**TL;dr:**
+- [All graphics are based on raw data](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=no-data-no-chart)
+- [The work of our team is accurately reflected in the byline](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=bylines)
+- [Pie charts are rarely the best visualization form](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=pie-charts)
+- [We don't generously cut axes](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=non-zero-y-axis)
+
+
 ## No data, no chart
 Often in our line of work, we are asked to recreate charts or complex visualizations based on a static template. In order to design and publish work that meet our quality standards we **only create We only create graphics based on actual data.** Here's why:
 
@@ -25,9 +32,9 @@ Sometimes we might have the creator's permission to reproduce their graphics, bu
 
 
 ## Bylines
-Bylines, both in print and online, show the people who contributed a substantial part to the story. Traditionally, bylines were reserved for those who wrote text. Yet, of course, a graphic can be a substantial part of the story, too.
+Bylines, both in print and online, show our audience who contributed substantially to the story. Traditionally, bylines were reserved only for those who wrote text. The graphic and methodic work that our team creates is equally as significant to the final text as it carries the visual weight of the main message.
 
-Whenever we contribute a graphic that is essential to the story, we add whoever produced the graphic to the byline. In that case, we remove the «Kürzel» below the graphic.
+Whenever we contribute work essential to a story, it is accepted practice to reflect that in the byline. In that case, we remove the initials below the graphic.
 
 
 ```image
@@ -39,15 +46,14 @@ src: "assets/guidelines/guidelines-bylines.png"
 
 
 ## Pie Charts
-Pie charts are popular and often requested by editors. They are, however, rarely the best chart type to visualize what we want to communicate. We use pie charts with caution and whenever we think about using one, we pause to think: **Is this really what makes most sense?**
+Pie charts are popular and often requested by editors. However, they are rarely the best chart type to visualize what we want to communicate. We use pie charts with caution and whenever we think about using one, we pause to think: **Is this really what makes most sense?** The following are the pie chart guidelines we practice:
 
 #### Rule of thumb:
-If I combine all segments except for the most important one to "others" – does the chart still make sense?
-No? Then don't use a pie chart.
+If I combine all segments except for the most important one to "others" – does the chart still make sense?  If not: don't use a pie chart.
 
 #### Do not
 
-We don't use pie charts to compare the size of various parts of a whole.
+- Use pie charts to compare the size of various parts of a whole.
 
 ```image
 plain: true
@@ -55,7 +61,7 @@ span: 6
 src: "assets/guidelines/guidelines-pie_1@1x.png 1x, assets/guidelines/guidelines-pie_1@2x.png 2x"
 ```
 
-We don't use pie charts to compare the parts of two or more
+- Use pie charts to compare the parts of two or more
 
 ```image
 plain: true
@@ -76,7 +82,7 @@ span: 6
 src: "assets/guidelines/guidelines-pie_3@1x.png 1x, assets/guidelines/guidelines-pie_3@2x.png 2x"
 ```
 
-See also: [What to consider when creating pie charts (Datawrapper Academy)](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
+We like this article for some other good pie chart practices: [What to consider when creating pie charts (Datawrapper Academy)](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
 
 ## Non-zero Y-Axis
 
