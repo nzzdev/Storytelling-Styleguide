@@ -1,11 +1,11 @@
 ```html|span-1,no-source,plain
 <div class="stabilityIndex stable">Stable</div>
 ```
-Scatterplots can be a great way to show correlation between variables. Keep in mind however, that they are not intuitive for all audiences and can appear to be quite complex. Use labeling an annotation in the following ways to help provide guidance. 
+Scatterplots can be a great way to show correlation between variables. Keep in mind however, that they are not intuitive for all audiences and can appear to be quite complex. Use labeling an annotation in the following ways to help provide guidance and a comfortable entry point.
 
 ## Axis Labeling
 
-We offer our readers a comfortable entry point to complex graphics like scatterplots. Lower the barriers by summarizing the dimensions used at a highly visible place. For better accessibility use everyday language and be more precise elsewhere/later.
+Lower the barriers by summarizing the dimensions used at a highly visible place. For better accessibility use everyday language and be more precise in the footnote or methodology section. 
 
 ```image
 plain: true
