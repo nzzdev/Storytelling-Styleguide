@@ -2,7 +2,7 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-**TL;dr:**
+####TL;dr
 - [All graphics are based on raw data](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=no-data-no-chart)
 - [The work of our team is accurately reflected in the byline](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=bylines)
 - [Pie charts are rarely the best visualization form](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=pie-charts)
@@ -34,7 +34,7 @@ Sometimes we might have the creator's permission to reproduce their graphics, bu
 ## Bylines
 Bylines, both in print and online, show our audience who contributed substantially to the story. Traditionally, bylines were reserved only for those who wrote text. The graphic and methodic work that our team creates is equally as significant to the final text as it carries the visual weight of the main message.
 
-Whenever we contribute work essential to a story, it is accepted practice to reflect that in the byline. In that case, we remove the initials below the graphic.
+Whenever we contribute work essential to a story, it is accepted practice to reflect that in the byline. In that case, we remove the initials below the graphic. **When multiple team members worked on a graphic, we use "NZZ Visuals" in the byline or initials.**
 
 
 ```image
