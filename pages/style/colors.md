@@ -128,7 +128,7 @@ colors:
   - {name: "Female – primary", value: "#6C43C0"}
 ```
 
-## Handmade Maps for print
+## Handmade maps for print
 ```color-palette|span-2
 colors:
   - {name: "Rivers - primary", value: "#0093BF"}
