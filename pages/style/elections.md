@@ -2,7 +2,7 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-#### All graphics produced for elections should be done in Q. In the case that custom colors should be added to a Q graphic, please see the color assignments on the [color page](colors).
+All graphics produced for elections should be done in Q. In the case that custom colors should be added to a Q graphic, please see the color assignments on the [color page](colors).
 
 ## Executive Election
 
