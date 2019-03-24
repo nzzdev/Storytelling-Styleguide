@@ -5,7 +5,7 @@
 All graphics produced for elections should be done in Q. In the case that custom colors should be added to a Q graphic, please see the color assignments on the [color page](colors).
 
 ## Executive Election
-
+For candidate images, please contact someone from the editorial photo/web production staff with the names of the candidates. All portraits should be color with the backgrounds removed. To prepare the images in Q, there is a Sketch template file in the folder for Executive Election Q Tool.
 ```image
 plain: true
 span: 6
@@ -20,7 +20,7 @@ src: "assets/elections/executiveElection-print@1x.png 1x, assets/elections/execu
 
 ## Parliament Seats
 
-Parliament seats are visualized as a semi-circle representing the layout of (the most) parliament rooms. The party's shares are ordered from left to right depending on subsequent policital orientations.
+Parliament seats are visualized as a semi-circle representing the layout of (the most) parliament rooms. The party's shares are ordered from left to right depending on subsequent political orientations.
 
 ```image
 plain: true
@@ -28,7 +28,7 @@ span: 6
 src: "assets/elections/parliamentSeats@1x.png 1x, assets/elections/parliamentSeats@2x.png 2x"
 ```
 
-Choose the semi-circle layout depending on the space available in print. If the graphic is made for 2 or more columns, annotate sectors directly and, if possible, use party abbreviations the reader is used to. If the exact number of seats is an important detail, set it next to the party title and put the seat changes in brackets. Use connection lines to annotate small sectors. If too many small sectors are stacked together use a color legend.
+Choose the semi-circle layout depending on the space available in print. If the graphic is made for 2 or more columns, annotate sectors directly. If possible, use party abbreviations the reader is familiar with. If the exact number of seats is an important detail, denote it next to the party title and put the seat change in brackets. Use connection lines to annotate small sectors. If there are too many small sectors stacked together use a color legend.
 
 ```image
 plain: true
