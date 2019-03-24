@@ -4,8 +4,8 @@
 
 Different font families are in use:
 
-- [GT America](http://www.gt-america.com/) and [PensumPro](https://www.myfonts.com/fonts/typemates/pensum-pro/) are used as the primary font across all of the NZZ Visuals online experience. A typographic scale is used to create a limited set of type sizes that work well together, while respecting intrinsic platform standards. The font can be downloaded via the [assets page](assets). Online fonts are implemented as a sophie module and can be viewed in and embedded with the [Sophie Styleguide](https://storytelling.nzz.ch/tools/sophie-styleguide/).
-- Univers and Bondoni are used as the primary fonts across all print graphics in the Neue Zürcher Zeitung.
+- [GT America](http://www.gt-america.com/) and [PensumPro](https://www.myfonts.com/fonts/typemates/pensum-pro/) are used as the primary fonts across all of our online products. A typographic scale is used to create a limited set of type sizes that work well together, while respecting intrinsic platform standards. The font can be downloaded via the [assets page](assets). Online fonts are implemented as a sophie module and can be viewed in and embedded with the [Sophie Styleguide](https://storytelling.nzz.ch/tools/sophie-styleguide/).
+- Univers and Bondoni are used as the primary fonts across all print graphics.
 
 ## Titles for Online (left) and Print (right)
 
