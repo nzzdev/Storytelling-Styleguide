@@ -37,3 +37,9 @@ plain: true
 span: 2
 src: "assets/scatter-slopes/slopes@1x.png 1x, assets/scatter-slopes/slopes@2x.png 2x"
 ```
+
+```image
+plain: true
+span: 4
+src: "assets/scatter-slopes/slopes-print@1x.png 1x, assets/scatter-slopes/slopes-print@2x.png 2x"
+```
