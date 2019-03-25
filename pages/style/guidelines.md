@@ -2,7 +2,7 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-####TL;dr
+#### TL;dr
 - [All graphics are based on raw data](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=no-data-no-chart)
 - [The work of our team is accurately reflected in the byline](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=bylines)
 - [Pie charts are rarely the best visualization form](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=pie-charts)
