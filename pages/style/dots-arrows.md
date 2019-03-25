@@ -25,9 +25,10 @@ src: "assets/dot-arrow/arrow_online@1x.png 1x, assets/dot-arrow/arrow_online@2x.
 ```
 
 ## Annotations & Reading Example
-If your legend and chart are packed with a lot of information, consider adding a reading example for the user. Guidelines for this can be [found here](http://10.248.27.110:8080/#/principles?a=guiding-the-reader-through-the-data). 
+If your legend and chart are packed with a lot of information, consider adding a reading example for the user. Guidelines for this can be [found here](http://10.248.27.110:8080/#/principles?a=guiding-the-reader-through-the-data).
+
 ```image
 plain: true
 span: 6
-src: "assets/dot-arrow/dot-plot_print_leserbeispiel@1x.png 1x, assets/dot-arrow/dot-plot_print_leserbeispiel@1x.png 2x"
+src: "assets/dot-arrow/dot-plot_print_leserbeispiel@1x.png 1x, assets/dot-arrow/dot-plot_print_leserbeispiel@2x.png 2x"
 ```
