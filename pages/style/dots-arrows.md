@@ -25,7 +25,7 @@ src: "assets/dot-arrow/arrow_online@1x.png 1x, assets/dot-arrow/arrow_online@2x.
 ```
 
 ## Annotations & Reading Example
-If your legend and chart are packed with a lot of information, consider adding a reading example for the user. Guidelines for this can be [found here](http://10.248.27.110:8080/#/principles?a=guiding-the-reader-through-the-data).
+If your legend is complicated, try and add some guidance with integrating chart symbols in the legend text. If your chart is also packed with a lot of information, consider adding a reading example for the user. Guidelines and further examples for these techniques can be [found here](http://10.248.27.110:8080/#/principles?a=guiding-the-reader-through-the-data).
 
 ```image
 plain: true
