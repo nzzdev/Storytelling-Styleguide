@@ -34,6 +34,6 @@ We use slope charts typically to show the change of data by displaying two point
 
 ```image
 plain: true
-span: 6
+span: 2
 src: "assets/scatter-slopes/slopes@1x.png 1x, assets/scatter-slopes/slopes@2x.png 2x"
 ```
