@@ -3,8 +3,10 @@
 ```
 Scatterplots can be a great way to show correlation between variables. Keep in mind however, that they are not intuitive for all audiences and can appear to be quite complex. Use labeling an annotation in the following ways to help provide guidance and a comfortable entry point.
 
-## Axis Labeling
+## Overlap
+In scatterplots with a lot of data points, there is potential for areas of heavy overlap. When this is the case and you need to show the density of data while still providing some ability to differentiate, work with transparency.
 
+## Axis Labeling
 Lower the barriers by summarizing the dimensions used at a highly visible place. For better accessibility use everyday language and be more precise in the footnote or methodology section.
 
 ```image
@@ -14,7 +16,6 @@ src: "assets/scatter-slopes/scatterplot_axislabeling@1x.png 1x, assets/scatter-s
 ```
 
 ## Annotations
-
 Often, we want to highlight interesting correlation in a scatterplot. Annotate data points directly as long as the text field doesn't up other important data. Should the annotation be longer and require more space, use connection lines to annotate the points from outside the chart. Use titles to group multiple annotations. Don't draw extra elements to highlight groups, while this tends to unnecessarily overclutter the chart.
 
 ```image
@@ -34,12 +35,12 @@ We use slope charts typically to show the change of data by displaying two point
 
 ```image
 plain: true
-span: 2
+span: 3
 src: "assets/scatter-slopes/slopes@1x.png 1x, assets/scatter-slopes/slopes@2x.png 2x"
 ```
 
 ```image
 plain: true
-span: 4
+span: 3
 src: "assets/scatter-slopes/slopes-print@1x.png 1x, assets/scatter-slopes/slopes-print@2x.png 2x"
 ```
