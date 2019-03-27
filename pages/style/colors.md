@@ -373,7 +373,7 @@ rows:
 
 ## Political Party Colors
 
-We have predefined colors for Switzerland, France, Ecuador, Germany, Netherlands, United Kingdom and the United States. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
+We have predefined colors for Switzerland, France, Germany, United Kingdom, United States, Netherlands, Brazil, Ecuador and Sweden. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
 
 ### Switzerland
 
@@ -390,7 +390,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "SVP - highlight", value: "#b2d0b1"}
+  - {name: "SVP - light", value: "#b2d0b1"}
   - {name: "SP", value: "#eaaea8"}
   - {name: "FDP", value: "#9ed0e9"}
   - {name: "CVP", value: "#edd29c"}
@@ -412,7 +412,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "EVP - highlight", value: "#e5dc9b"}
+  - {name: "EVP - light", value: "#e5dc9b"}
   - {name: "LEGA", value: "#ddb9af"}
   - {name: "MCR", value: "#c3c2b2"}
   - {name: "AL", value: "#f1bace"}
