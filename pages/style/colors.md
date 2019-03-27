@@ -2,7 +2,7 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-#### Our team's color palette consists of a qualitative scale, two sequential scales and two diverging scales.
+#### Our team's color palette consists of a qualitative scale, three sequential scales and three diverging scales.
 
 ```image
 plain: true
