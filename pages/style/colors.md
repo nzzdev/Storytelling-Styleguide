@@ -373,7 +373,7 @@ rows:
 
 ## Political Party Colors
 
-We have predefined colors for Switzerland, France, Ecuador, Germany, Netherlands, United Kingdom and the United States. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
+We have predefined colors for a number of countries, including Switzerland, France, Germany, Netherlands, United Kingdom and the United States. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
 
 ### Switzerland
 
@@ -603,6 +603,42 @@ colors:
   - {name: "Liberale - light", value: "#a0deee"}
   - {name: "Christdemokraten - highlight", value: "#a3d3f5"}
   - {name: "Schwedendemokraten - highlight", value: "#faeb9e"}
+```
+
+### Finland
+
+```color-palette|span-1
+colors:
+  - {name: "Linksbündnis - primary", value: "#C31906"}
+  - {name: "Grüne", value: "#66A622"}
+  - {name: "Sozialdemokraten", value: "#DA467D"}
+  - {name: "Konservative", value: "#00A0C6"}
+  - {name: "Finnenpartei", value: "#005EA1"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Linksbündnis - light", value: "#eaaea8"}
+  - {name: "Grüne", value: "#c2dba7"}
+  - {name: "Sozialdemokraten", value: "#f1bace"}
+  - {name: "Konservative", value: "#a0deee"}
+  - {name: "Finnenpartei", value: "#a3d3f5"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Zentrum – primary", value: "#08783E"}
+  - {name: "Schwedische Volkspartei", value: "#FDD200"}
+  - {name: "Christlichdemokraten", value: "#8440a3"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Zentrum – light", value: "#b3e6cb"}
+  - {name: "Schwedische Volkspartei", value: "#faeb9e"}
+  - {name: "Christlichdemokraten", value: "#cdb1d9"}
+  - {name: "default", value: "#bcbcbc"}
 ```
 
 ### United Kingdom
