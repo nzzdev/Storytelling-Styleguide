@@ -680,7 +680,7 @@ colors:
 ```color-palette|span-2
 colors:
   - {name: "Republikaner - primary", value: "#f1242b"}
-  - {name: "Demokrat", value: "#00aef3"}
+  - {name: "Demokraten", value: "#00aef3"}
   - {name: "Independent", value: "#eada14"}
   - {name: "default", value: "#616161"}
 ```
@@ -688,7 +688,7 @@ colors:
 ```color-palette|span-2
 colors:
   - {name: "Republikaner - light", value: "#f9a7aa"}
-  - {name: "Demokrat", value: "#99defa"}
+  - {name: "Demokraten", value: "#99defa"}
   - {name: "Independent", value: "#f6f0a1"}
   - {name: "default", value: "#bcbcbc"}
 ```
