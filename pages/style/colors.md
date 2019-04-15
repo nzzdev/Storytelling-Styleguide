@@ -477,6 +477,42 @@ colors:
   - {name: "AL", value: "#bcbcbc"}
 ```
 
+### Finland
+
+```color-palette|span-1
+colors:
+  - {name: "Linksbündnis - primary", value: "#C31906"}
+  - {name: "Grüne", value: "#66A622"}
+  - {name: "Sozialdemokraten", value: "#DA467D"}
+  - {name: "Konservative", value: "#00A0C6"}
+  - {name: "Finnenpartei", value: "#005EA1"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Linksbündnis - light", value: "#eaaea8"}
+  - {name: "Grüne", value: "#c2dba7"}
+  - {name: "Sozialdemokraten", value: "#f1bace"}
+  - {name: "Konservative", value: "#a0deee"}
+  - {name: "Finnenpartei", value: "#a3d3f5"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Zentrum – primary", value: "#08783E"}
+  - {name: "Schwedische Volkspartei", value: "#FDD200"}
+  - {name: "Christlichdemokraten", value: "#8440a3"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Zentrum – light", value: "#b3e6cb"}
+  - {name: "Schwedische Volkspartei", value: "#faeb9e"}
+  - {name: "Christlichdemokraten", value: "#cdb1d9"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
 ### France
 
 ```color-palette|span-2
@@ -603,42 +639,6 @@ colors:
   - {name: "Liberale - light", value: "#a0deee"}
   - {name: "Christdemokraten - highlight", value: "#a3d3f5"}
   - {name: "Schwedendemokraten - highlight", value: "#faeb9e"}
-```
-
-### Finland
-
-```color-palette|span-1
-colors:
-  - {name: "Linksbündnis - primary", value: "#C31906"}
-  - {name: "Grüne", value: "#66A622"}
-  - {name: "Sozialdemokraten", value: "#DA467D"}
-  - {name: "Konservative", value: "#00A0C6"}
-  - {name: "Finnenpartei", value: "#005EA1"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "Linksbündnis - light", value: "#eaaea8"}
-  - {name: "Grüne", value: "#c2dba7"}
-  - {name: "Sozialdemokraten", value: "#f1bace"}
-  - {name: "Konservative", value: "#a0deee"}
-  - {name: "Finnenpartei", value: "#a3d3f5"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "Zentrum – primary", value: "#08783E"}
-  - {name: "Schwedische Volkspartei", value: "#FDD200"}
-  - {name: "Christlichdemokraten", value: "#8440a3"}
-  - {name: "default", value: "#616161"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "Zentrum – light", value: "#b3e6cb"}
-  - {name: "Schwedische Volkspartei", value: "#faeb9e"}
-  - {name: "Christlichdemokraten", value: "#cdb1d9"}
-  - {name: "default", value: "#bcbcbc"}
 ```
 
 ### United Kingdom
