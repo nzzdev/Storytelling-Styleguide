@@ -607,6 +607,28 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
+### Spain
+
+```color-palette|span-2
+colors:
+  - {name: "Sozialisten - primary", value: "#C31906"}
+  - {name: "Partido Popular", value: "#0084C7"}
+  - {name: "Ciudadanos", value: "#D28B00"}
+  - {name: "Podemos", value: "#8440A3"}
+  - {name: "Vox", value: "#54BA00"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "Sozialisten - light", value: "#eaaea8"}
+  - {name: "Partido Popular", value: "#9ed0e9"}
+  - {name: "Ciudadanos", value: "#edd29c"}
+  - {name: "Podemos", value: "#cdb1d9"}
+  - {name: "Vox", value: "#bae399"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
 ### Sweden
 
 ```color-palette|span-1
