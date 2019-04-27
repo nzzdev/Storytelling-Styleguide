@@ -128,6 +128,12 @@ colors:
   - {name: "Female – primary", value: "#6C43C0"}
 ```
 
+```color-palette|span-2
+colors:
+  - {name: "Male - light", value: "#7dd1c3"}
+  - {name: "Female – light", value: "#aa90de"}
+```
+
 ## Handmade maps for print
 ```color-palette|span-2
 colors:
