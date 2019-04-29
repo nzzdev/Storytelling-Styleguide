@@ -27,6 +27,7 @@ colors:
   - {name: "s-viz-color-three-7", value: "#099E85"}
   - {name: "s-viz-color-four-7", value: "#D64113"}
   - {name: "s-viz-color-five-7", value: "#873A86"}
+  - {name: "OTHER, REST, DIVERSE", value: "#cfcfd6"}
 ```
 
 ```color-palette|span-1
