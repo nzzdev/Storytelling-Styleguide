@@ -135,11 +135,12 @@ colors:
   - {name: "Female – light", value: "#aa90de"}
 ```
 
-## Handmade maps for print
+## Maps colors
 ```color-palette|span-2
 colors:
   - {name: "Rivers - primary", value: "#0093BF"}
   - {name: "Oceans – primary", value: "#CEE9F2"}
+  - {name: "Forests, national parks, etc. – primary", value: "#1D8534"}
 ```
 
 ## Sequential and Diverging Scales
