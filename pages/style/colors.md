@@ -579,6 +579,22 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
+### India
+
+```color-palette|span-2
+colors:
+  - {name: "Kongresspartei - primary", value: "#0084c7"}
+  - {name: "BJP (Bharatiya Janata Party)", value: "#d28b00"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "Kongresspartei - light", value: "#9ed0e9"}
+  - {name: "BJP (Bharatiya Janata Party)", value: "#edd29c"}
+  - {name: "default", value: "#616161"}
+```
+
 ### Netherlands
 
 ```color-palette|span-1
@@ -627,7 +643,7 @@ colors:
 
 ```color-palette|span-2
 colors:
-  - {name: "African National Congress (ANC) - primary", value: "#C9F5D2"}
+  - {name: "African National Congress (ANC) - light", value: "#C9F5D2"}
   - {name: "Democratic Alliance (DA)", value: "#D6DCFF"}
   - {name: "Economic Freedom Fighters (EFF)", value: "#FFD3D1"}
   - {name: "default", value: "#bcbcbc"}
