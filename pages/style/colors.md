@@ -615,6 +615,25 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
+### South Africa
+
+```color-palette|span-2
+colors:
+  - {name: "African National Congress (ANC) - primary", value: "#38A650"}
+  - {name: "Democratic Alliance (DA)", value: "#3952EE"}
+  - {name: "Economic Freedom Fighters (EFF)", value: "#D64B47"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "African National Congress (ANC) - primary", value: "#C9F5D2"}
+  - {name: "Democratic Alliance (DA)", value: "#D6DCFF"}
+  - {name: "Economic Freedom Fighters (EFF)", value: "#FFD3D1"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
+
 ### Spain
 
 ```color-palette|span-2
