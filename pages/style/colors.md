@@ -140,7 +140,12 @@ colors:
 colors:
   - {name: "Rivers - primary", value: "#0093BF"}
   - {name: "Oceans – primary", value: "#CEE9F2"}
-  - {name: "Forests, national parks, etc. – primary", value: "#1D8534"}
+  - {name: "Forests, national parks, etc. – primary", value: "#1D8534"(30% opacity)}
+  - {name: "Hauptland – primary", value: "#ffffff"}
+  - {name: "Nebenland", value: "#ececf0"}
+  - {name: "Region 1", value: "#fad250"}
+  - {name: "Region 2", value: "#dbd8bf"}
+  
 ```
 
 ## Sequential and Diverging Scales
