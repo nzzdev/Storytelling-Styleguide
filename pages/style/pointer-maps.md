@@ -18,7 +18,7 @@ Typo has to be defined
 The Minimap helps to show the position of the main map. To make that clear we use the same colors as in the main map. We leave out details such as water, regions, roads etc. as long as the main information still is visible. The focus should lie on the section we show on the Main map.
 We always have to question if a minimap is needed or if the positioning is already clear in the main map.
 
-## Annotations
+## Annotations
 Annotations in maps can help to tell the story. A way to make clear where the annotation belongs and to increase readability is to put the text into a coloured box. 
 
 
