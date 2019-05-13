@@ -6,7 +6,8 @@ The templates for print maps can be found on the [assets page](assets).
 
 ## Main Map
 Simple pointer maps are made in Q. We do maps by hand when we have more complex information. We are simple and clear, means we don’t show everything (all the streets, rivers, lakes, regionborders) but we focus on the main message of the map. 
-## Colours
+
+## Colors
 Hauptland: ffffff (white)
 Nebenland: ececf0 
 Region 1: fad250
