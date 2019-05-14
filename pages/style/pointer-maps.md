@@ -10,7 +10,7 @@ Simple pointer maps are made in Q. We do maps by hand when we have more complex 
 ```image
 plain: true
 span: 6
-src: "/assets/guidelines/Karten Typo@1x.png 1x, /assets/guidelines/Karten Typo@2x.png 2x" 
+src: "/assets/guidelines/Karte@1x.png 1x, /assets/guidelines/Karte@2x.png 2x" 
 ```
 
 ## Map Colors (also listed in Colors)
