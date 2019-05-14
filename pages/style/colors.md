@@ -138,7 +138,7 @@ colors:
 ## Maps colors
 ```color-palette|span-2
 colors:
-  - {name: "Rivers - primary", value: "#0093BF"}
+  - {name: "Rivers, lakes - primary", value: "#add8e6"}
   - {name: "Oceans – primary", value: "#CEE9F2"}
   - {name: "Forests, national parks, etc. – primary", value: "rgba(29,133,52,0.30)"}
   - {name: "main country", value: "#ffffff"}
