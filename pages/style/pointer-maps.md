@@ -7,9 +7,11 @@ The templates for print maps can be found on the [assets page](assets).
 ## Main Map
 Simple pointer maps are made in Q. We do maps by hand when we have more complex information. We are simple and clear, means we don’t show everything (all the streets, rivers, lakes, regionborders) but we focus on the main message of the map. 
 
+```image
 plain: true
 span: 3
 src: "/assets/Karte@1x.png 1x, assets/Karte@2x.png 2x" 
+```
 
 ## Map Colors (also listed in Colors)
 
