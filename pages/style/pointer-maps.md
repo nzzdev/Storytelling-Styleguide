@@ -9,12 +9,11 @@ Simple pointer maps are made in Q. We do maps by hand when we have more complex 
 
 ```image
 plain: true
-span: 3
-src: "/assets/Karte@1x.png 1x, assets/Karte@2x.png 2x" 
+span: 6
+src: "/assets/guidelines/Karten Typo@1x.png 1x, /assets/guidelines/Karten Typo@2x.png 2x" 
 ```
 
 ## Map Colors (also listed in Colors)
-
  colors:
   - {name: "Rivers, lakes - primary", value: "#add8e6"}
   - {name: "Oceans – primary", value: "#CEE9F2"}
@@ -25,7 +24,6 @@ src: "/assets/Karte@1x.png 1x, assets/Karte@2x.png 2x"
   - {name: "Region 2", value: "#dbd8bf"}
   
   ## Map Typo
-
   - Main country: GT Amercica Black, 13 pt
   - Secondary country: GT America Bold, 13 pt, #b6b6be 
   - Capital: GT Amercica Bold, 13 pt
