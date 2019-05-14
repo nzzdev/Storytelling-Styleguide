@@ -8,7 +8,6 @@ The templates for print maps can be found on the [assets page](assets).
 Simple pointer maps are made in Q. We do maps by hand when we have more complex information. We are simple and clear, means we don’t show everything (all the streets, rivers, lakes, regionborders) but we focus on the main message of the map. 
 
 ## Map Colors (also listed in Colors)
-colors:
   - {name: "Rivers - primary", value: "#0093BF"}
   - {name: "Oceans – primary", value: "#CEE9F2"}
   - {name: "Forests, national parks, etc. – primary", value: "rgba(29,133,52,0.30)"}
