@@ -145,6 +145,8 @@ colors:
   - {name: "secondary country", value: "#ececf0"}
   - {name: "Region 1", value: "#fad250"}
   - {name: "Region 2", value: "#dbd8bf"}
+  - {name: "Border Region 1", value: "#92929e"}
+  - {name: "Border Region 2", value: "#ffffff"}
   
 ```
 
