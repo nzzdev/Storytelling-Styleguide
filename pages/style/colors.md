@@ -454,42 +454,6 @@ colors:
   - {name: "Rede", value: "#c2dba7"}
 ```
 
-### Ecuador
-
-```color-palette|span-1
-colors:
-  - {name: "SVP - primary", value: "#66a622"}
-  - {name: "SP", value: "#0084c7"}
-  - {name: "FDP", value: "#d1cc00"}
-  - {name: "CVP", value: "#d28b00"}
-  - {name: "GPS", value: "#c31906"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "SVP - light", value: "#c2dba7"}
-  - {name: "SP", value: "#9ed0e9"}
-  - {name: "FDP", value: "#edeca0"}
-  - {name: "CVP", value: "#edd29c"}
-  - {name: "GPS", value: "#eaaea8"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "EVP - primary", value: "#01b1c0"}
-  - {name: "LEGA", value: "#22a682"}
-  - {name: "MCR", value: "#ac5038"}
-  - {name: "AL", value: "#616161"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "EVP - light", value: "#a4e3e8"}
-  - {name: "LEGA", value: "#aadccf"}
-  - {name: "MCR", value: "#ddb9af"}
-  - {name: "AL", value: "#bcbcbc"}
-```
-
 ### Finland
 
 ```color-palette|span-1
