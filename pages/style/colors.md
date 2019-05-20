@@ -436,6 +436,38 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
+### Austria
+
+```color-palette|span-1
+colors:
+  - {name: "ÖVP - primary", value: "#0A0A0A"}
+  - {name: "SPÖ", value: "#c31906"}
+  - {name: "FPO", value: "#0084c7"}
+  - {name: "Grüne", value: "#54ba00"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "ÖVP - light", value: "#939393"}
+  - {name: "SPÖ", value: "#eaaea8"}
+  - {name: "FPO", value: "#9ed0e9"}
+  - {name: "Grüne", value: "#bae399"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "NEOS - primary", value: "#da467d"}
+  - {name: "Liste Pilz", value: "#22a682"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "NEOS - light", value: "#f1bace"}
+  - {name: "Liste Pilz", value: "#aadccf"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
 ### Brasil
 
 ```color-palette|span-1
