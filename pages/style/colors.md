@@ -488,6 +488,44 @@ colors:
   - {name: "Rede", value: "#c2dba7"}
 ```
 
+### Denmark
+
+```color-palette|span-1
+colors:
+  - {name: "Sozialdemokraten – primary", value: "#c31906"}
+  - {name: "Det Konservative Folkeparti - primary", value: "#408b3d"}
+  - {name: "Venstre", value: "#0084c7"}
+  - {name: "Det Radikale Venstre", value: "#da467d"}
+  - {name: "Dänische Volkspartei", value: "#FDD200"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Sozialdemokraten – light", value: "#eaaea8"}
+  - {name: "Det Konservative Folkeparti", value: "#b2d0b1"}
+  - {name: "Venstre", value: "#9ed0e9"}
+  - {name: "Det Radikale Venstre", value: "#f8dce7"}
+  - {name: "Dänische Volkspartei", value: "#faeb9e"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Liberal Alliance - primary", value: "#01b1c0"}
+  - {name: "Socialistik Volkeparti", value: "#D64B47"}
+  - {name: "Enhedslisten", value: "#d28b00"}
+  - {name: "Alternativet", value: "#54ba00"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Liberal Alliance - light", value: "#d2f1f3"}
+  - {name: "Socialistik Volkeparti", value: "#FFD3D1"}
+  - {name: "Enhedslisten", value: "#edd29c"}
+  - {name: "Alternativet", value: "#bae399"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
 ### Finland
 
 ```color-palette|span-1
