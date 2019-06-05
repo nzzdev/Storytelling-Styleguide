@@ -497,6 +497,8 @@ colors:
   - {name: "Venstre", value: "#0084c7"}
   - {name: "Det Radikale Venstre", value: "#da467d"}
   - {name: "Dänische Volkspartei", value: "#FDD200"}
+  - {name: "Christdemokraten", value: "#616161"}
+  - {name: "Stram Kurs", value: "#ac5038"}
 ```
 
 ```color-palette|span-1
@@ -506,6 +508,8 @@ colors:
   - {name: "Venstre", value: "#9ed0e9"}
   - {name: "Det Radikale Venstre", value: "#f8dce7"}
   - {name: "Dänische Volkspartei", value: "#faeb9e"}
+  - {name: "Christdemokraten", value: "#bcbcbc"}
+  - {name: "Stram Kurs", value: "#ddb9af"}
 ```
 
 ```color-palette|span-1
@@ -514,7 +518,7 @@ colors:
   - {name: "Socialistik Volkeparti", value: "#D64B47"}
   - {name: "Enhedslisten", value: "#d28b00"}
   - {name: "Alternativet", value: "#54ba00"}
-  - {name: "default", value: "#616161"}
+  - {name: "Nye Borgerlige", value: "#22A682"}
 ```
 
 ```color-palette|span-1
@@ -523,7 +527,7 @@ colors:
   - {name: "Socialistik Volkeparti", value: "#FFD3D1"}
   - {name: "Enhedslisten", value: "#edd29c"}
   - {name: "Alternativet", value: "#bae399"}
-  - {name: "default", value: "#bcbcbc"}
+  - {name: "Nye Borgerlige", value: "#aadccf"}
 ```
 
 ### Finland
