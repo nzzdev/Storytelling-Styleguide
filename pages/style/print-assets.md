@@ -10,8 +10,30 @@ This is the current template for graphics and maps. In the template, you will fi
 
 ```download
 title: Infografik-Template (.ait)
-subtitle: 172 KB
 url: assets/print-assets/Infografik-Vorlage.ait
+```
+
+## Styles & Icons for Illustrator
+
+This is a set of styles often used in graphics. Just open it with Illustrator to install it is as its own panel.
+
+```download
+title: Visuals Grafikstile (.ai)
+url: assets/print-assets/Visuals-Grafikstile.ai
+```
+
+This is a set of styles often used in maps. Just open it with Illustrator to install it is as its own panel.
+
+```download
+title: Visuals Kartenstile (.ai)
+url: assets/print-assets/Visuals-Kartenstile.ai
+```
+
+This is a set of icons often used in maps. Just open it with Illustrator to install it is as its own panel.
+
+```download
+title: Visuals Kartensymbole (.ai)
+url: assets/print-assets/Visuals-Kartensymbole.ai
 ```
 
 ## Libraries & Systems
