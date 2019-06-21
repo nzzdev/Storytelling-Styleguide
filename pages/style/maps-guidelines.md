@@ -14,5 +14,15 @@ We show what needs to be shown and remove what's not relevant to the map for the
 #### Projections
 For maps of large countries or continents we always consider which map projection is best suited for what we need to show. We avoid the Mercator projection and use equal area or equidistant projections whenever possible (also, sometimes a globe works fine, too).
 
+## World Maps
+For world maps that don’t focus on a specific country, we use the Robinson projection. The distortion is relatively low, but it is neither equal of angle nor true to area. So it is only useful for world maps. 
+In QGIS the KBS is called „World_Robinson / +proj=robin +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs / EPSG:54030“. 
+
+```image
+plain: true
+span: 6
+src: "assets/World_Robinson@1x.png 1x, assets/World_Robinson@2x.png 2x"
+```
+
 #### Use of geodata
 When drawing lines or shapes on maps, we use geodata from reliable sources. We don't draw on maps by hand unless we can be absolutely sure that accuracy won't be an issue (e.g. highlighting a football stadium on a city map by drawing a polygon around it is fine).
