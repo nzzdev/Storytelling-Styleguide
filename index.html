@@ -1,133 +1,142 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://sophie-build-service.st.nzz.ch/bundle/sophie-font@^1,sophie-input@^1,sophie-color@^1,sophie-viz-color@^1.css"
+    />
+    <title>Visuals Styleguide</title>
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
-	<link rel="stylesheet" href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css">
-	<link rel="stylesheet" href="https://sophie-build-service.st.nzz.ch/bundle/sophie-font@^1,sophie-input@^1,sophie-color@^1,sophie-viz-color@^1.css">
-	<title>Visuals Styleguide</title>
-</head>
-
-<body>
-	<div id="catalog"></div>
-	<script src="https://unpkg.com/catalog@3.6.0/dist/catalog-standalone.min.js">
-	</script>
-	<script>
-		Catalog.render({
-      title: 'Visuals Styleguide',
-      logoSrc: "static/nzz-visuals-logo.svg",
-      publicUrl: window.document.location.pathname,
-      pages: [
+  <body>
+    <div id="catalog"></div>
+    <script src="https://unpkg.com/catalog@3.6.0/dist/catalog-standalone.min.js"></script>
+    <script>
+      Catalog.render(
         {
-          path: "/",
-          title: "Introduction",
-          src: "pages/intro.md"
-        },
-        {
-          title: "Style",
+          title: "Visuals Styleguide",
+          logoSrc: "static/nzz-visuals-logo.svg",
+          publicUrl: window.document.location.pathname,
           pages: [
             {
-              path: "principles",
-              title: "Principles",
-              src: "pages/style/principles.md"
+              path: "/",
+              title: "Introduction",
+              src: "pages/intro.md"
             },
             {
-              path: "colors",
-              title: "Colors",
-              src: "pages/style/colors.md"
+              title: "Style",
+              pages: [
+                {
+                  path: "principles",
+                  title: "Principles",
+                  src: "pages/style/principles.md"
+                },
+                {
+                  path: "colors",
+                  title: "Colors",
+                  src: "pages/style/colors.md"
+                },
+                {
+                  path: "typography",
+                  title: "Typography",
+                  src: "pages/style/typography.md"
+                }
+              ]
             },
             {
-              path: "typography",
-              title: "Typography",
-              src: "pages/style/typography.md"
+              title: "Charts",
+              pages: [
+                {
+                  path: "charts-guidelines",
+                  title: "Guidelines",
+                  src: "pages/charts/guidelines.md"
+                },
+                {
+                  path: "basic-charts",
+                  title: "Basic Charts",
+                  src: "pages/charts/basic-charts.md"
+                },
+                {
+                  path: "dots-arrows",
+                  title: "Dot & Arrow",
+                  src: "pages/charts/dots-arrows.md"
+                },
+                {
+                  path: "scatter-slope",
+                  title: "Scatter & Slope",
+                  src: "pages/charts/scatter-slope.md"
+                },
+                {
+                  path: "elections",
+                  title: "Election",
+                  src: "pages/charts/elections.md"
+                }
+              ]
+            },
+            {
+              title: "Maps",
+              pages: [
+                {
+                  path: "maps-guidelines",
+                  title: "Guidelines",
+                  src: "pages/maps/guidelines.md"
+                },
+                {
+                  path: "pointer-maps",
+                  title: "Pointer",
+                  src: "pages/maps/pointer.md"
+                },
+                {
+                  path: "choropleth-maps",
+                  title: "Choropleth",
+                  src: "pages/maps/choropleth.md"
+                }
+              ]
+            },
+            {
+              title: "Assets",
+              pages: [
+                {
+                  path: "assets",
+                  title: "Print",
+                  src: "pages/assets/print.md"
+                },
+                {
+                  path: "online-assets",
+                  title: "Online",
+                  src: "pages/assets/online.md"
+                }
+              ]
             }
-          ]
+          ],
+          theme: {
+            brandColor: "#00205B",
+            pageHeadingBackground: "#000000",
+            sidebarColorActive: "#505DCD",
+            sidebarColorText: "#00205B",
+            sidebarColorTextActive: "#505DCD",
+            sidebarColorHeading: "#00205B",
+            codeColor: "#00205B",
+            linkColor: "#505DCD",
+            textMedium: "#00205B",
+            bgDark: "#000000",
+            bgLight: "#FFFFFF"
+          },
+          styles: ["static/theme.css"]
         },
-        {
-          title: "Charts",
-          pages: [
-            {
-              path: "charts-guidelines",
-              title: "Guidelines",
-              src: "pages/style/guidelines.md"
-            },
-            {
-              path: "basic-charts",
-              title: "Basic Charts",
-              src: "pages/style/basic-charts.md"
-            },
-            {
-              path: "dots-arrows",
-              title: "Dot & Arrow",
-              src: "pages/style/dots-arrows.md"
-            },
-            {
-              path: "scatter-slope",
-              title: "Scatter & Slope",
-              src: "pages/style/scatter-slope.md"
-            },
-            {
-              path: "elections",
-              title: "Election",
-              src: "pages/style/elections.md"
-            }
-          ]
-        },
-        {
-          title: "Maps",
-          pages: [
-            {
-              path: "maps-guidelines",
-              title: "Guidelines",
-              src: "pages/style/maps-guidelines.md"
-            },
-            {
-              path: "pointer-maps",
-              title: "Pointer",
-              src: "pages/style/pointer-maps.md"
-            },
-            {
-              path: "choropleth-maps",
-              title: "Choropleth",
-              src: "pages/style/choropleth-maps.md"
-            }
-          ]
-        },
-        {
-          title: "Assets",
-          pages: [
-            {
-              path: "assets",
-              title: "Print",
-              src: "pages/style/print-assets.md"
-            },
-            {
-              path: "online-assets",
-              title: "Online",
-              src: "pages/style/online-assets.md"
-            }
-          ]
-        }
-      ],
-      theme: {
-        brandColor: "#00205B",
-        pageHeadingBackground: "#000000",
-        sidebarColorActive: "#505DCD",
-        sidebarColorText: "#00205B",
-        sidebarColorTextActive: "#505DCD",
-        sidebarColorHeading: "#00205B",
-        codeColor: "#00205B",
-        linkColor: "#505DCD",
-        textMedium: "#00205B",
-        bgDark: "#000000",
-        bgLight: "#FFFFFF"
-      },
-      styles: ["static/theme.css"]
-    }, document.getElementById('catalog'));
-	</script>
-</body>
-
+        document.getElementById("catalog")
+      );
+    </script>
+  </body>
 </html>
