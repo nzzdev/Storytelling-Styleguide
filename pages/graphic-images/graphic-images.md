@@ -7,5 +7,5 @@ As an advanced version, the building stands out from the backround. After findin
 ```image
 plain: true
 span: 4
-src: "assets/graphic-images/NotreDame1@1x.png 1x, assets/graphic-images/NotreDame1@2x.png 2x"
+src: "assets/graphic-images/NotreDame 1@1x.png 1x, assets/graphic-images/NotreDame 1@2x.png 2x"
 ```
