@@ -6,6 +6,6 @@ As an advanced version, the building stands out from the background. After findi
 
 ```image
 plain: true
-span: 6
+span: 4
 src: "assets/graphic-images/NotreDame-1@1x.png 1x, assets/graphic-images/NotreDame-1@2x.png 2x"
 ```
