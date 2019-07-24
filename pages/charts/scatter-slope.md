@@ -1,7 +1,7 @@
 ```html|span-1,no-source,plain
 <div class="stabilityIndex stable">Stable</div>
 ```
-Scatterplots can be a great way to show correlation between variables. Keep in mind however, that they are not intuitive for all audiences and can appear to be quite complex. Use labeling an annotation in the following ways to help provide guidance and a comfortable entry point.
+Scatterplots are a great way to show correlation between variables. Keep in mind that they are not intuitive for all audiences and can be overwhelmingly complex in appearance. We use labeling and annotation in the following ways to help provide guidance to our readers and a comfortable entry point into the graphic.
 
 ## Overlap
 In scatterplots with a lot of data points, there is potential for areas of heavy overlap. When this is the case and you need to show the density of data while still providing some ability to differentiate, work with transparency.
