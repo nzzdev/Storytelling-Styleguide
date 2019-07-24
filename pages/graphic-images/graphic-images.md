@@ -1,8 +1,15 @@
 # Google Earth 3d view of a building
 
-A basic solution for DDJ you'll find here: https://3.basecamp.com/3500782/buckets/10878677/documents/1598132399#__recording_1793630293
+For data journalists or cases with a tight deadline, please refer to [the tutorial](https://3.basecamp.com/3500782/buckets/10878677/documents/1598132399#__recording_1793630293) in Basecamp.
 
-As an advanced version, the building stands out from the background. After finding the best possible perspective in Google Earth Pro, the screenshot will be further processed in Adobe Photoshop. First retouch the photo by taking out the background. Soften the background by using 5% of Gaussian Blur (Gaußscher Weichzeichner). Then place a 40% transparent, white layer over the backround. Also retouch the logo and texts on the screenshot and instead mention the source in Q respectively underneath the graphic in the print version. For all further additions in the picture like text and coloured layers please orientate in our styleguide definitions.
+For a more advanced version, take the following steps to create an graphic image:
+- Find the best possible perspective in Google Earth Pro, download a screenshot
+- Open the screenshot in Photoshop
+- Retouch the photo by removing the background
+- Soften the background by using 5% of Gaussian Blur (Gaußscher Weichzeichner)
+- Place a 40% transparent, white layer over the background
+- Remove the logo and text on the screenshot and put those references in the source field in Q once you create an infographic from the image (respectively place the information underneath the graphic in the print version)
+- for all further additions including text and colored layers, refer to the definitions on the [color page](https://nzzdev.github.io/Storytelling-Styleguide/#/colors)
 
 ```image
 plain: true
