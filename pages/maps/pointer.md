@@ -4,22 +4,22 @@
 
 The templates for print maps can be found on the [assets page](assets). Color definitions for maps can be found on the [color page](https://nzzdev.github.io/Storytelling-Styleguide/#/colors?a=maps-colors)
 
-## Main Map
+## Simple Maps
 
-Simple pointer maps are made in Q. We do maps by hand when we have more complex information. We are simple and clear, means we don’t show everything (all the streets, rivers, lakes, region borders) but we focus on the main message of the map.
+Simple pointer maps are made in Q. These maps are typically used for simple localization.
 
+```image
+plain: true
+span: 6
+src: "assets/maps/pointer-maps_regular@1x.png 1x, assets/maps/pointer-maps_regular@1x.png 2x"
+```
 
-## Map Colors (also listed in Colors)
+Slightly more complex maps can be done using geoJSON and using the geoJSON Feature/Feature Collection field in the Q Map tool. These can be used for hiking trails, race courses, tram lines or to highlight street work. GeoJSON maps that color entire areas should calculated carefully or be produced with geoJSON from a trusted source (example IHS Conflict Monitor).
 
-```color-palette
-colors:
-  - {name: "Rivers, lakes - primary", value: "#add8e6"}
-  - {name: "Oceans – primary", value: "#CEE9F2"}
-  - {name: "Forests, national parks, etc. – primary", value: "rgba(29,133,52,0.30)"}
-  - {name: "main country", value: "#ffffff"}
-  - {name: "secondary country", value: "#ececf0"}
-  - {name: "Region 1", value: "#fad250"}
-  - {name: "Region 2", value: "#dbd8bf"}
+```image
+plain: true
+span: 6
+src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojson@1x.png 2x"
 ```
 
 ## Map Typo
