@@ -142,8 +142,7 @@ colors:
   - {name: "secondary country", value: "#ececf0"}
   - {name: "highlighted region", value: "#fad250"}
   - {name: "weekend region", value: "#dbd8bf"}
-  - {name: "border color 1", value: "#92929e"}
-  - {name: "border color 2", value: "#ffffff"}
+  - {name: "border color", value: "#92929e"}
 ```
 ```color-palette|span-2
 colors:
