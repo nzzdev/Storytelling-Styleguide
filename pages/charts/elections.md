@@ -37,13 +37,12 @@ src: "assets/elections/parliamentSeats@1x.png 1x, assets/elections/parliamentSea
 
 ```image
 plain: true
-span: 6
+span: 3
 src: "assets/elections/parliamentSeats-compact-print@1x.png 1x, assets/elections/parliamentSeats-compact-print@2x.png 2x"
 ```
-
 ```image
 plain: true
-span: 6
+span: 3
 src: "assets/elections/parliamentSeats-swiss-print@1x.png 1x, assets/elections/parliamentSeats-swiss-print@2x.png 2x"
 ```
 
@@ -57,13 +56,13 @@ src: "assets/elections/parliamentSeats-wide-print@1x.png 1x, assets/elections/pa
 
 ```image
 plain: true
-span: 6
+span: 3
 src: "assets/elections/parliamentElection@1x.png 1x, assets/elections/parliamentElection@2x.png 2x"
 ```
 
 ```image
 plain: true
-span: 6
+span: 3
 src: "assets/elections/parliamentElection-print@1x.png 1x, assets/elections/parliamentElection-print@2x.png 2x"
 ```
 
