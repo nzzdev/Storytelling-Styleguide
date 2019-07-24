@@ -40,6 +40,10 @@ columns:
   - Changes
 rows:
   - Changes: |
+      Update *Pointer Maps*
+    Date: 2019-07-24
+    Version: 0.1.8
+  - Changes: |
       Update *Print-Assets* 2019, Update Color Documentation
     Date: 2019-03-21
     Version: 0.1.7
