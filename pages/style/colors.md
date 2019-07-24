@@ -125,29 +125,29 @@ colors:
 ## Gender Colors
 ```color-palette|span-2
 colors:
-  - {name: "Male - primary", value: "#24B39C"}
-  - {name: "Female – primary", value: "#6C43C0"}
+  - {name: "male - primary", value: "#24B39C"}
+  - {name: "female – primary", value: "#6C43C0"}
 ```
 
 ```color-palette|span-2
 colors:
-  - {name: "Male - light", value: "#7dd1c3"}
-  - {name: "Female – light", value: "#aa90de"}
+  - {name: "male - light", value: "#7dd1c3"}
+  - {name: "female – light", value: "#aa90de"}
 ```
 
 ## Maps colors
 ```color-palette|span-2
 colors:
-  - {name: "Rivers, lakes - primary", value: "#add8e6"}
-  - {name: "Oceans – primary", value: "#CEE9F2"}
-  - {name: "Forests, national parks, etc. – primary", value: "rgba(29,133,52,0.30)"}
+  - {name: "rivers, lakes - primary", value: "#add8e6"}
+  - {name: "oceans – primary", value: "#CEE9F2"}
+  - {name: "forested areas – primary", value: "rgba(29,133,52,0.30)"}
   - {name: "main country", value: "#ffffff"}
   - {name: "secondary country", value: "#ececf0"}
-  - {name: "Region 1", value: "#fad250"}
-  - {name: "Region 2", value: "#dbd8bf"}
-  - {name: "Border Region 1", value: "#92929e"}
-  - {name: "Border Region 2", value: "#ffffff"}
-  
+  - {name: "highlighted region", value: "#fad250"}
+  - {name: "weekend region", value: "#dbd8bf"}
+  - {name: "border color 1", value: "#92929e"}
+  - {name: "border color 2", value: "#ffffff"}
+
 ```
 
 ## Sequential and Diverging Scales
