@@ -38,7 +38,7 @@ src: "assets/scatter-slopes/scatterplot_annotations-print@1x.png 1x, assets/scat
 ```
 
 ## Slopes
-We use slope charts typically to show the change of data by displaying two points in time. These are excellent alternatives to the line chart, when we want to give our readers a more precise message. Keep date labels at the top of the slope chart, so that in the case of a tall graphic, the reader understands the time frame without having to scroll.
+We use slope charts typically to show change in data by displaying two points in time. These are great alternatives to the line chart, when we want to give our readers a more precise message. Keep date labels at the top of the slope chart, so that in the case of a tall graphic, the reader understands the time frame without having to scroll.
 
 ```image
 plain: true
