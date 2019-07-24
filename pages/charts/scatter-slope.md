@@ -21,7 +21,7 @@ Say you want to highlight interesting correlation in your scatterplot.
 #### Do
 - annotate data points directly as long as the text field doesn't cover up other important data
 - if the annotation is longer and require more space: use connection lines to annotate the points from outside the chart
-- use titles to group multiple annotations.
+- use titles to group multiple annotations
 
 ```image
 plain: true
@@ -29,7 +29,7 @@ span: 6
 src: "assets/scatter-slopes/scatterplot_annotations@1x.png 1x, assets/scatter-slopes/scatterplot_annotations@2x.png 2x"
 ```
 #### Do not
-- draw extra elements to highlight groups, while this tends to unnecessarily clutter the chart.
+- draw extra elements to highlight groups, while this tends to unnecessarily clutter the chart
 
 ```image
 plain: true
