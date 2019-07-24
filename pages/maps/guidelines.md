@@ -2,21 +2,21 @@
 <div class="stabilityIndex unstable">Unstable</div>
 ```
 
-#### Digital first
-All maps are produced for digital use first. Simple maps that can be produced in Q, are produced in Q and then adapted for print if needed. Maps that are more complex and need manual work, are produced in Sketch/Illustrator for digital use, then adapted for print. 
+## Digital First
+All maps are produced for our digital platform first. Simple maps should be produced in Q and later adapted for print if necessary. Maps that are more complex and require manual work are produced in Sketch/Illustrator.
 
-#### Purpose
-What's the map for? If its sole purpose is to tell the user where some place is, keep it as simple as possible. If the map itself makes a point or tells a story, invest in making it as clear as possible.
+## Purpose
+What's the map for? If its sole purpose is give localization for the reader, keep the map as simple as possible. If the map tells a more complex story (often maps with encoded geo data), invest extra effort in visualizing the main message as clear as possible.
 
-#### Clarity
-We show what needs to be shown and remove what's not relevant to the map for the specific purpose. Sometimes we need rivers, sometimes we don't. Sometimes we need country names, sometimes we don't. Sometimes we need a relief, sometimes we need roads, sometimes neither. 
+## Clarity
+We show what needs to be shown and remove what's not relevant. Consider whether waterways or relief is necessary. For some maps, it may not be necessary to label all neighboring countries or capitals. Be efficient and precise with the amount of data plotted on a map.
 
-#### Projections
-For maps of large countries or continents we always consider which map projection is best suited for what we need to show. We avoid the Mercator projection and use equal area or equidistant projections whenever possible (also, sometimes a globe works fine, too).
+## Projections
+We always need to be considerate which map projection is best suited for what the map needs to communicate. **We avoid the Mercator projection** and use equal area or equidistant projections whenever possible (sometimes a globe works fine, too).
 
 #### 1. World Maps
-For world maps that don’t focus on a specific country, we use the Robinson projection. The distortion is relatively low, but it is neither equal of angle nor true to area. So it is only useful for world maps. 
-In QGIS the KBS is called „World_Robinson / +proj=robin +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs / EPSG:54030“. 
+For world maps that don’t focus on a specific country, we use the **Robinson projection**. The distortion is relatively low, but it is neither equal of angle nor true to area. So it is only useful for world maps.
+In QGIS the KBS is called „World_Robinson / +proj=robin +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs / EPSG:54030“.
 
 ```image
 plain: true
@@ -24,5 +24,9 @@ span: 6
 src: "assets/World_Robinson@1x.png 1x, assets/World_Robinson@2x.png 2x"
 ```
 
-#### Use of geodata
-When drawing lines or shapes on maps, we use geodata from reliable sources. We don't draw on maps by hand unless we can be absolutely sure that accuracy won't be an issue (e.g. highlighting a football stadium on a city map by drawing a polygon around it is fine).
+#### 2. Switzerland
+For maps of Switzerland, we use **CH1903+ / LV95**.
+
+
+## Use of Geo Data
+When drawing lines or shapes on maps, we use geo data from reliable sources. We don't draw maps by hand unless we can be absolutely sure that accuracy won't be an issue (e.g. highlighting a football stadium on a city map by drawing a polygon around it is fine). Please refer to [the No Data, No Chart guidelines](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=no-data-no-chart) for further clarification.
