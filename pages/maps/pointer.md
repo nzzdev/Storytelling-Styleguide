@@ -10,28 +10,42 @@ Simple pointer maps are made in Q. These maps are typically used for simple loca
 
 ```image
 plain: true
-span: 6
+span: 4
 src: "assets/maps/pointer-maps_regular@1x.png 1x, assets/maps/pointer-maps_regular@1x.png 2x"
 ```
 
 Slightly more complex maps can be done using geoJSON and using the geoJSON Feature/Feature Collection field in the Q Map tool. These can be used for hiking trails, race courses, tram lines or to highlight street work. GeoJSON maps that color entire areas should calculated carefully or be produced with geoJSON from a trusted source (example IHS Conflict Monitor).
 
+[Go here](http://geojson.io/) to create simple geoJSON Features for Q.
+
 ```image
 plain: true
-span: 6
+span: 4
 src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojson@1x.png 2x"
 ```
 
-## Map Typo
+MOBILE:
+State names (14pt, GT America Light, #6e6e7e, 60 laufweite),
+Hauptstadt (16pt, GT America Medium, #6e6e7e),
+Punkte (15pt, GT America Regular, #05032d),
+Masstab (13pt, GT America Regular, #05032d)
+// CONTENT-WIDTH: State names (15pt, GT America Light, #6e6e7e, 60 laufweite),
+Hauptstadt (17pt, GT America Medium, #6e6e7e),
+Punkte (14pt, GT America Regular, #05032d),
+Masstab (13pt, GT America Regular, #05032d)
 
+
+## Map Type Definitions
+
+### Mobile
 ```type
 {
   kern: true,
   "headings": [
-    { "label": "MAIN COUNTRY", "value": 13 },
+    { "label": "main country", "value": 13 },
   ],
   font: "nzz-sans-serif, sans-serif",
-  color: "#05032d",
+  color: "#6e6e7e",
   weight: 500
 }
 ```
@@ -40,10 +54,11 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 {
   kern: true,
   "headings": [
-    { "label": "Capital", "value": 13 }
+    { "label": "capital city", "value": 16 }
   ],
-  weight: 500, color: "#05032d",
   font: "nzz-sans-serif, sans-serif",
+  color: "#6e6e7e",
+  weight: 500
 }
 ```
 
@@ -51,11 +66,12 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 {
   kern: true,
   "headings": [
-    { "label": "City", "value": 13 },
-    { "label": "REGION", "value": 13 }
+    { "label": "city", "value": 15 },
+    { "label": "region", "value": 13 }
   ],
-  weight: 300, color: "#05032d",
   font: "nzz-sans-serif, sans-serif",
+  color: "#05032d",
+  weight: 300
 }
 ```
 
@@ -63,7 +79,7 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 {
   kern: true,
   "headings": [
-    { "label": "SECONDARY COUNTRY", "value": 13 }
+    { "label": "secondary region", "value": 13 }
   ],
   weight: 300,
   color: "#b6b6be",
@@ -75,7 +91,7 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 {
   kern: true,
   "headings": [
-    { "label": "Region 1", "value": 13 }
+    { "label": "region 1", "value": 13 }
 
   ],
   weight: 300, color: "#d4a91e",
@@ -87,7 +103,7 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 {
   kern: true,
   "headings": [
-    { "label": "Region 2", "value": 13 }
+    { "label": "region 2", "value": 13 }
 
   ],
   weight: 300, color: "#6e6e7e",
@@ -99,7 +115,7 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 {
   kern: true,
   "headings": [
-    { "label": "Lake, River", "value": 13 }
+    { "label": "waterways", "value": 13 }
 
   ],
   weight: 300, color: "#0093bf",
@@ -109,9 +125,9 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 
 ## Mini-Map
 
-The Minimap helps to show the position of the main map. To make that clear we use the same colors as in the main map. We leave out details such as water, regions, roads etc. as long as the main information still is visible. The focus should lie on the section we show on the Main map.
+The minimap helps to show the position of the main map. To make that clear we use the same colors as in the main map. We leave out details such as water, regions, roads etc. as long as the main information still is visible. The focus should lie on the section we show on the Main map.
 We always have to question if a minimap is needed or if the positioning is already clear in the main map.
 
 ## Annotations
 
-Annotations in maps can help to tell the story. A way to make clear where the annotation belongs and to increase readability is to put the text into a coloured box.
+Annotations in maps can help to tell the story. A way to make clear where the annotation belongs and to increase readability is to put the text into a colored box.
