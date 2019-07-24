@@ -35,6 +35,8 @@ The minimap helps to show the position of the main map.
 
 ## Map Type Definitions
 
+Depending on the circumstance, we may have decided that a map needs to be created by hand as opposed to in Q. For these cases, use the following type definitions:
+
 ```image
 plain: true
 span: 5
