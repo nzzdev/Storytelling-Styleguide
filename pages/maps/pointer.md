@@ -10,7 +10,7 @@ Simple pointer maps are made in Q. These maps are typically used for simple loca
 
 ```image
 plain: true
-span: 4
+span: 5
 src: "assets/maps/pointer-maps_regular@1x.png 1x, assets/maps/pointer-maps_regular@1x.png 2x"
 ```
 
@@ -20,7 +20,7 @@ Slightly more complex maps can be done using geoJSON and using the geoJSON Featu
 
 ```image
 plain: true
-span: 4
+span: 5
 src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojson@1x.png 2x"
 ```
 
@@ -35,6 +35,12 @@ Annotations in maps can help to tell the story. A way to make clear where the an
 
 
 ## Map Type Definitions
+
+```image
+plain: true
+span: 5
+src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_from-hand@2x.png 2x"
+```
 
 ### Mobile
 ```type
