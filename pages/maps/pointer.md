@@ -25,9 +25,7 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 ```
 
 ## Mini-Map
-
 The minimap helps to show the position of the main map.
-
 #### Do
 - consider whether a minimap is really necessary
 - use the same colors for regions in the minimap as they are defined in the main map
@@ -53,7 +51,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
   font: "nzz-sans-serif, sans-serif",
   color: "#6e6e7e",
   weight: 200,
-  tracking: 10
+  tracking: 6
 }
 ```
 ```type
@@ -89,7 +87,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
   font: "nzz-sans-serif, sans-serif",
   color: "#6e6e7e",
   weight: 200,
-  tracking: 10
+  tracking: 6
 }
 ```
 ```type
