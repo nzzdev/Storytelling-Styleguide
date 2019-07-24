@@ -25,9 +25,6 @@ src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojs
 ```
 
 MOBILE:
-State names (14pt, GT America Light, #6e6e7e, 60 laufweite),
-Hauptstadt (16pt, GT America Medium, #6e6e7e),
-Punkte (15pt, GT America Regular, #05032d),
 Masstab (13pt, GT America Regular, #05032d)
 // CONTENT-WIDTH: State names (15pt, GT America Light, #6e6e7e, 60 laufweite),
 Hauptstadt (17pt, GT America Medium, #6e6e7e),
@@ -42,14 +39,14 @@ Masstab (13pt, GT America Regular, #05032d)
 {
   kern: true,
   "headings": [
-    { "label": "main country", "value": 13 },
+    { "label": "main country, state", "value": 14 },
   ],
   font: "nzz-sans-serif, sans-serif",
   color: "#6e6e7e",
-  weight: 500
+  weight: 200,
+  tracking: 60
 }
 ```
-
 ```type
 {
   kern: true,
@@ -61,20 +58,28 @@ Masstab (13pt, GT America Regular, #05032d)
   weight: 500
 }
 ```
-
 ```type
 {
   kern: true,
   "headings": [
-    { "label": "city", "value": 15 },
-    { "label": "region", "value": 13 }
+    { "label": "city", "value": 15 }
   ],
   font: "nzz-sans-serif, sans-serif",
   color: "#05032d",
   weight: 300
 }
 ```
-
+```type
+{
+  kern: true,
+  "headings": [
+    { "label": "scale", "value": 13 }
+  ],
+  font: "nzz-sans-serif, sans-serif",
+  color: "#05032d",
+  weight: 300
+}
+```
 ```type
 {
   kern: true,
@@ -86,19 +91,17 @@ Masstab (13pt, GT America Regular, #05032d)
   font: "nzz-sans-serif, sans-serif",
 }
 ```
-
 ```type
 {
   kern: true,
   "headings": [
-    { "label": "region 1", "value": 13 }
+    { "label": "region 1", "value": 14 }
 
   ],
   weight: 300, color: "#d4a91e",
   font: "nzz-sans-serif, sans-serif",
 }
 ```
-
 ```type
 {
   kern: true,
@@ -110,7 +113,6 @@ Masstab (13pt, GT America Regular, #05032d)
   font: "nzz-sans-serif, sans-serif",
 }
 ```
-
 ```type
 {
   kern: true,
@@ -122,6 +124,9 @@ Masstab (13pt, GT America Regular, #05032d)
   font: "nzz-sans-serif, sans-serif",
 }
 ```
+
+## Content Width +
+
 
 ## Mini-Map
 
