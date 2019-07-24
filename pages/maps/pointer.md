@@ -2,17 +2,12 @@
 <div class="stabilityIndex experimental">Experimental</div>
 ```
 
-The templates for print maps can be found on the [assets page](assets).
+The templates for print maps can be found on the [assets page](assets). Color definitions for maps can be found on the [color page](https://nzzdev.github.io/Storytelling-Styleguide/#/colors?a=maps-colors)
 
 ## Main Map
 
-Simple pointer maps are made in Q. We do maps by hand when we have more complex information. We are simple and clear, means we don’t show everything (all the streets, rivers, lakes, regionborders) but we focus on the main message of the map.
+Simple pointer maps are made in Q. We do maps by hand when we have more complex information. We are simple and clear, means we don’t show everything (all the streets, rivers, lakes, region borders) but we focus on the main message of the map.
 
-```image
-plain: true
-span: 3
-src: "/assets/guidelines/Karte@1x.png 1x, /assets/guidelines/Karte@2x.png 2x"
-```
 
 ## Map Colors (also listed in Colors)
 
