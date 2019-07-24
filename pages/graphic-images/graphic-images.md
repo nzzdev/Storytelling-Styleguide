@@ -1,4 +1,4 @@
-# Google Earth 3d view of a building
+# Google Earth 3D view
 
 For data journalists or cases with a tight deadline, please refer to [the tutorial](https://3.basecamp.com/3500782/buckets/10878677/documents/1598132399#__recording_1793630293) in Basecamp.
 
