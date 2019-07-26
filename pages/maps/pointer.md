@@ -37,7 +37,7 @@ Depending on the circumstance, we may have decided that a map needs to be create
 
 ```image
 plain: true
-span: 5
+span: 6
 src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_from-hand@2x.png 2x"
 ```
 
