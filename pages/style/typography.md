@@ -2,26 +2,52 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-Different font families are in use:
+# Basics
 
-- [GT America](http://www.gt-america.com/) and [PensumPro](https://www.myfonts.com/fonts/typemates/pensum-pro/) are used as the primary fonts across all of our online products. A typographic scale is used to create a limited set of type sizes that work well together, while respecting intrinsic platform standards. The font can be downloaded via the [assets page](assets). Online fonts are implemented as a sophie module and can be viewed in and embedded with the [Sophie Styleguide](https://storytelling.nzz.ch/tools/sophie-styleguide/).
-- Univers and Bondoni are used as the primary fonts across all print graphics.
+## Font Families
 
-## Titles for Online (left) and Print (right)
+Different font families are in use for Online and Print:
+
+- Online: `GT America Standard`, `GT America Mono` and `Pensum Pro`
+- Print: `Univers Next Pro`, `Univers LT Std` and `Times Ten Std`
+
+As a NZZ employee you can download and install the fonts [here](https://nzzmg.sharepoint.com/:f:/s/nzz_st/Ei3zL984DQlCrZaYaO0a-jMBYsryIHbRgq1jOMBBidNAzQ?e=bmuqO2).
+
+## Sophie Class Definitions
+
+As font styles should align with the platform they appear in, we defined an system that works for Online and Print as well. We defined some basic typographic formats and made them easily accessible in graphic editors like Illustator and Sketch. You can find them as character formats in a [Adobe Creative Cloud Library](https://adobe.ly/33oKiEA) (request an invitation) or as text styles in [our invision DSM](https://projects.invisionapp.com/dsm/nzz/visuals/folder/typeStyles/5d4c3818ea4094927bb343ce).
+
+Technically the typographic system is implemented as [`sophie-font`](https://github.com/nzzdev/sophie-font) and contains CSS classes that can be assigned to tags in web products. To view or embed a sophie module use the [Sophie Styleguide](https://storytelling.nzz.ch/tools/sophie-styleguide/).
+
+# Typographic Formats for Online (left) and Print (right)
+
+For both, Online and Print, these abstact Formats have been defined:
+
+- 3 Title Formats
+- 3 Note Formats (+ modifiers)
+- 2 Text Formats (+ modifier)
+
+## Title Formats
+
+Titles usually live on the top of a graphic and serve as an entry point. The bigger your graphic, the larger its title. Further, the three different title sizes allow for a minimal hierarchical structuring, consider `Note S` if it gets more complex (see below). To fit in well on mobile, only `Title S` is recommended.
+
+- Font families Online: `GT America Standard Medium`
+- Font families Print: `Univers Next Pro Medium Condensed`
+- Sophie Classes: `s-font-title-l`, `s-font-title`, `s-font-title-s`
+
+_If monospace fonts are displayed below, the corresponding fonts probably aren't installed properly on your system._
 
 ```type
 {
   "span": 3,
   "kern": true,
-  "font": "nzz-serif, serif",
+  "font": "nzz-sans-serif, monospace",
   "weight": 500,
   "color": "#05032d",
   "headings": [
-    {"label": "Desktop Headline [s-font-title-xl]", "value": 42},
-    {"label": "Mobile Headline [s-font-title-l]", "value": 27},
-    {"label": "Desktop Subtitle [s-font-title]", "value": 24},
-    {"label": "Infographic Headline [s-font-title-s]", "value": 22},
-    {"label": "Mobile Infographic Headline [s-font-title-xs]", "value": 20}
+    {"label": "Title L (Desktop)", "value": 28},
+    {"label": "Title", "value": 24},
+    {"label": "Title S (Mobile)", "value": 20}
   ]
 }
 ```
@@ -30,22 +56,159 @@ Different font families are in use:
 {
   "span": 3,
   "kern": true,
-  "font": "UniversLTStd, Univers, sans-serif",
+  "font": "UniversNextPro-MediumCond, monospace",
   "color": "#000000",
   "headings": [
-    {"label": "Infographic Headline", "value": "8.5pt"}
+    {"label": "Title L (über 5 Spalten)", "value": 32},
+    {"label": "Title (4-5 Spalten)", "value": 16},
+    {"label": "Title S (1-3 Spalter)", "value": 11}
   ]
 }
 ```
 
-## Annotations for Online (left) and Print (right)
+## Note Formats
+
+If you want to explain anything through words or values in your graphic, you should use the Note formats. The only exceptions are big titles (see title sections above) and countinous text (see text section below).
+
+There are three sizes defined – each of them focuses on an own purpose:
+
+- Use `Note Large` to **give some sort of guidance** to the reader within a graphic.
+- Use `Note` to **highlight and annotate important focal points or areas** in your graphic.
+- Use `Note Small` to **enrich the graphic with detail information**.
+
+Further, you should consider the modifiers `Light` and `Strong` to either decrease or increase the visual impact of a Note format, if you need to (i.e. `Note L Light` or `Note L Strong`). For Online, the display of number values is done with the `Mono` modifier which is unavailable in Print.
+
+Even though there are many matching Use Cases, Online and Print sometimes may differ concerning their font style application. For Example scale tick values are in `Note S Mono` for Online and in `Note` for Print.
+
+Also there is a **Print anomaly** to be aware of: In Print `Note S Light` stays black and instead shrinks in font size (6pt).
+
+- Font families Online: `GT America Standard Regular/Medium/Light` and `GT America Mono Light`
+- Font families Print: `Univers LT Std 47 Light Condensed/57 Condensed`
+- Sophie Classes: `s-font-note-l`, `s-font-note`, `s-font-note-s` (modifiers: `*--strong`, `*--light`, `*--mono`)
+
+### Notes, normal
 
 ```type
 {
   "span": 3,
   "kern": true,
-  "paragraphs": ["13/17"],
-  "font": "nzz-sans-serif, sans-serif",
+  "font": "nzz-sans-serif, monospace",
+  "weight": 300,
+  "color": "#05032d",
+  "headings": [
+    {"label": "Note L", "value": 16},
+    {"label": "Note", "value": 14},
+    {"label": "Note S", "value": 12}
+  ]
+}
+```
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "font": "UniversLTStd-LightCn, monospace",
+  "color": "#000000",
+  "headings": [
+    {"label": "Note L", "value": 10},
+    {"label": "Note", "value": 9},
+    {"label": "Note S", "value": 7.5}
+  ]
+}
+```
+
+### Notes, strong
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "font": "nzz-sans-serif, monospace",
+  "weight": 500,
+  "color": "#05032d",
+  "headings": [
+    {"label": "Note L Strong", "value": 16},
+    {"label": "Note Strong", "value": 14},
+    {"label": "Note S Strong", "value": 12}
+  ]
+}
+```
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "font": "UniversLTStd-Cn, monospace",
+  "color": "#000000",
+  "headings": [
+    {"label": "Note L Strong", "value": 10},
+    {"label": "Note Strong", "value": 9},
+    {"label": "Note S Strong", "value": 7.5}
+  ]
+}
+```
+
+### Notes, light
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "font": "nzz-sans-serif, monospace",
+  "weight": 100,
+  "color": "#05032d",
+  "headings": [
+    {"label": "Note L Light", "value": 16},
+    {"label": "Note Light", "value": 14},
+    {"label": "Note S Light", "value": 12}
+  ]
+}
+```
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "font": "UniversLTStd-Cn, monospace",
+  "color": "#808080",
+  "headings": [
+    {"label": "Note L Light", "value": 10},
+    {"label": "Note Light", "value": 9},
+    {"label": "Note S Light", "value": 6, "color": "#05032d"}
+  ]
+}
+```
+
+### Notes, mono (Online Only)
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "font": "GT America Mono",
+  "color": "#05032d",
+  "headings": [
+    {"label": "Note L Mono", "value": 15},
+    {"label": "Note Mono", "value": 13},
+    {"label": "Note S Mono", "value": 11}
+  ]
+}
+```
+
+## Text Formats
+
+If a graphic includes large amounts of text, you should consider of applying the `Text` format. It aligns with the coutinous text of an article.
+
+- Sophie Classes: `s-font-text`, `s-font-text-s` (modifiers: `*--strong`)
+
+### Text, default
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "paragraphs": ["20/32"],
+  "font": "nzz-serif",
   "weight": 300,
   "color": "#05032d"
 }
@@ -55,22 +218,45 @@ Different font families are in use:
 {
   "span": 3,
   "kern": true,
-  "paragraphs": ["8/10"],
-  "font": "Univers LT Std, UniversLTStd-LightCn , Univers, sans-serif",
+  "paragraphs": ["9/10.48"],
+  "font": "TimesTenStd",
   "color": "#000000"
 }
 ```
 
-## Meta Information for Online (left) and Print (right)
+### Text, strong
 
 ```type
 {
   "span": 3,
   "kern": true,
-  "paragraphs": ["11/13"],
-  "font": "nzz-sans-serif, sans-serif",
+  "paragraphs": ["20/32"],
+  "font": "nzz-serif",
+  "weight": 500,
+  "color": "#05032d"
+}
+```
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "paragraphs": ["9/10.48"],
+  "font": "TimesTenStd-Bold",
+  "color": "#000000"
+}
+```
+
+### Small Text, default
+
+```type
+{
+  "span": 3,
+  "kern": true,
+  "paragraphs": ["18/28"],
+  "font": "nzz-serif",
   "weight": 300,
-  "color": "#6e6e7e"
+  "color": "#05032d"
 }
 ```
 
@@ -78,55 +264,31 @@ Different font families are in use:
 {
   "span": 3,
   "kern": true,
-  "paragraphs": ["6/7.2"],
-  "font": "Univers LT Std, UniversLTStd-LightCn, Univers, sans-serif",
+  "paragraphs": ["8/10.48"],
+  "font": "TimesTenStd",
   "color": "#000000"
 }
 ```
 
-# All Online Font Styles available
+### Small Text, strong
 
-Online font styles are implemented as a sophie module. Via a build service, sophie modules can be requested as a set of classes for styling fonts. The aforementioned styles are explained above. The following options are additional styles that can be called through the sophie module: 
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-serif" style="font-size: 200%">Serifen-Schrift (s-font-serif + custom styles)
-  </p>
-  <p class="s-font-sans" style="font-size: 200%">Sansserifen-Schrift  (s-font-sans + custom styles)
-  </p>
+```type
+{
+  "span": 3,
+  "kern": true,
+  "paragraphs": ["18/28"],
+  "font": "nzz-serif",
+  "weight": 500,
+  "color": "#05032d"
+}
 ```
 
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-text-s">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text-s s-font-text-s--strong">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
-  <p class="s-font-text s-font-text--strong">Lorem ipsum dolor (s-font-text s-font-text--strong)</p>
-```
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-text-s">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text-s s-font-text-s--strong">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
-  <p class="s-font-text s-font-text--strong">Lorem ipsum dolor (s-font-text s-font-text--strong)</p>
-```
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-title-xs">Lorem ipsum dolor (s-font-title-xs)</p>
-  <p class="s-font-title-s">Lorem ipsum dolor (s-font-title-s)</p>
-  <p class="s-font-title">Lorem ipsum dolor (s-font-title)</p>
-  <p class="s-font-title-l">Lorem ipsum dolor (s-font-title-l)</p>
-  <p class="s-font-title-l s-font-title-l--contrast">Lorem ipsum dolor (s-font-title-l s-font-title-l--contrast)</p>
-  <p class="s-font-title-xl">Lorem ipsum dolor (s-font-title-xl)</p>
-  <p class="s-font-title-xl s-font-title-xl--contrast">Lorem ipsum dolor (s-font-title-xl s-font-title-xl--contrast)</p>
+```type
+{
+  "span": 3,
+  "kern": true,
+  "paragraphs": ["8/10.48"],
+  "font": "TimesTenStd-Bold",
+  "color": "#000000"
+}
 ```
