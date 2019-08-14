@@ -9,11 +9,11 @@
 Different font families are in use for Online and Print:
 
 - Online: `GT America Standard`, `GT America Mono` and `Pensum Pro`
-- Print: `Univers Next Pro`, `Univers LT Std` and `Times Ten Std`
+- Print: `Univers Next Pro`, `Univers LT Std` and `Times Ten LT Std`
 
 As a NZZ employee you can download and install the fonts [here](https://nzzmg.sharepoint.com/:f:/s/nzz_st/Ei3zL984DQlCrZaYaO0a-jMBYsryIHbRgq1jOMBBidNAzQ?e=bmuqO2).
 
-## Sophie Class Definitions
+## Libraries & Implementation
 
 As font styles should align with the platform they appear in, we defined an system that works for Online and Print as well. We defined some basic typographic formats and made them easily accessible in graphic editors like Illustator and Sketch. You can find them as character formats in a [Adobe Creative Cloud Library](https://adobe.ly/33oKiEA) (request an invitation) or as text styles in [our invision DSM](https://projects.invisionapp.com/dsm/nzz/visuals/folder/typeStyles/5d4c3818ea4094927bb343ce).
 
@@ -21,19 +21,17 @@ Technically the typographic system is implemented as [`sophie-font`](https://git
 
 # Typographic Formats for Online (left) and Print (right)
 
-For both, Online and Print, these abstact Formats have been defined:
+For both, Online and Print, these abstact formats have been defined:
 
 - 3 Title Formats
 - 3 Note Formats (+ modifiers)
 - 2 Text Formats (+ modifier)
 
+Let's take a closer look at all three of them.
+
 ## Title Formats
 
 Titles usually live on the top of a graphic and serve as an entry point. The bigger your graphic, the larger its title. Further, the three different title sizes allow for a minimal hierarchical structuring, consider `Note S` if it gets more complex (see below). To fit in well on mobile, only `Title S` is recommended.
-
-- Font families Online: `GT America Standard Medium`
-- Font families Print: `Univers Next Pro Medium Condensed`
-- Sophie Classes: `s-font-title-l`, `s-font-title`, `s-font-title-s`
 
 _If monospace fonts are displayed below, the corresponding fonts probably aren't installed properly on your system._
 
@@ -66,27 +64,27 @@ _If monospace fonts are displayed below, the corresponding fonts probably aren't
 }
 ```
 
+- Font families Online: `GT America Standard Medium`
+- Font families Print: `Univers Next Pro Medium Condensed`
+- Sophie Classes: `s-font-title-l`, `s-font-title`, `s-font-title-s`
+
 ## Note Formats
 
 If you want to explain anything through words or values in your graphic, you should use the Note formats. The only exceptions are big titles (see title sections above) and countinous text (see text section below).
 
-There are three sizes defined – each of them focuses on an own purpose:
+There are three sizes defined – each of them focuses on a purpose:
 
 - Use `Note Large` to **give some sort of guidance** to the reader within a graphic.
 - Use `Note` to **highlight and annotate important focal points or areas** in your graphic.
 - Use `Note Small` to **enrich the graphic with detail information**.
 
-Further, you should consider the modifiers `Light` and `Strong` to either decrease or increase the visual impact of a Note format, if you need to (i.e. `Note L Light` or `Note L Strong`). For Online, the display of number values is done with the `Mono` modifier which is unavailable in Print.
+If you need to decrease or increase the visual impact of a Note format consider the modifiers `Light` and `Strong` to either (i.e. `Note L Light` or `Note L Strong`). For Online, the display of number values is done with the `Mono` modifier which is unavailable in Print.
 
 Even though there are many matching Use Cases, Online and Print sometimes may differ concerning their font style application. For Example scale tick values are in `Note S Mono` for Online and in `Note` for Print.
 
-Also there is a **Print anomaly** to be aware of: In Print `Note S Light` stays black and instead shrinks in font size (6pt).
+Also there is this **Print anomaly** to be aware of: In Print `Note S Light` stays black and instead shrinks to font size `6pt`.
 
-- Font families Online: `GT America Standard Regular/Medium/Light` and `GT America Mono Light`
-- Font families Print: `Univers LT Std 47 Light Condensed/57 Condensed`
-- Sophie Classes: `s-font-note-l`, `s-font-note`, `s-font-note-s` (modifiers: `*--strong`, `*--light`, `*--mono`)
-
-### Notes, normal
+### Notes (without modifiers)
 
 ```type
 {
@@ -116,6 +114,10 @@ Also there is a **Print anomaly** to be aware of: In Print `Note S Light` stays 
   ]
 }
 ```
+
+- Font families Online: `GT America Standard Regular/Medium/Light` and `GT America Mono Light`
+- Font families Print: `Univers LT Std 47 Light Condensed/57 Condensed`
+- Sophie Classes: `s-font-note-l`, `s-font-note`, `s-font-note-s` (modifiers: `*--strong`, `*--light`, `*--mono`)
 
 ### Notes, strong
 
@@ -179,7 +181,7 @@ Also there is a **Print anomaly** to be aware of: In Print `Note S Light` stays 
 }
 ```
 
-### Notes, mono (Online Only)
+### Notes, mono (online only)
 
 ```type
 {
@@ -197,11 +199,9 @@ Also there is a **Print anomaly** to be aware of: In Print `Note S Light` stays 
 
 ## Text Formats
 
-If a graphic includes large amounts of text, you should consider of applying the `Text` format. It aligns with the coutinous text of an article.
+If a graphic includes large amounts of text, you should consider applying the Text format. The format aligns visually with the coutinous text of the article in both contexts, Online and Print.
 
-- Sophie Classes: `s-font-text`, `s-font-text-s` (modifiers: `*--strong`)
-
-### Text, default
+### Text (without modifier)
 
 ```type
 {
@@ -209,7 +209,7 @@ If a graphic includes large amounts of text, you should consider of applying the
   "kern": true,
   "paragraphs": ["20/32"],
   "font": "nzz-serif",
-  "weight": 300,
+  "weight": 100,
   "color": "#05032d"
 }
 ```
@@ -247,7 +247,7 @@ If a graphic includes large amounts of text, you should consider of applying the
 }
 ```
 
-### Small Text, default
+### Small Text (without modifier)
 
 ```type
 {
@@ -255,7 +255,7 @@ If a graphic includes large amounts of text, you should consider of applying the
   "kern": true,
   "paragraphs": ["18/28"],
   "font": "nzz-serif",
-  "weight": 300,
+  "weight": 100,
   "color": "#05032d"
 }
 ```
@@ -292,3 +292,7 @@ If a graphic includes large amounts of text, you should consider of applying the
   "color": "#000000"
 }
 ```
+
+- Font families Online: `Pensum Pro Regular/Medium`
+- Font families Print: `Times Ten LT Std Roman/Bold`
+- Sophie Classes: `s-font-text`, `s-font-text-s` (modifiers: `*--strong`)
