@@ -15,19 +15,19 @@ As a NZZ employee you can download and install the fonts [here](https://nzzmg.sh
 
 ## Libraries & Implementation
 
-As font styles should align with the platform they appear in, we defined an system that works for Online and Print as well. We defined some basic typographic formats and made them easily accessible in graphic editors like Illustator and Sketch. You can find them as character formats in a [Adobe Creative Cloud Library](https://adobe.ly/33oKiEA) (request an invitation) or as text styles in [our invision DSM](https://projects.invisionapp.com/dsm/nzz/visuals/folder/typeStyles/5d4c3818ea4094927bb343ce).
+The font formats we defined are easily accessible in graphic editors like Illustator and Sketch. You can find them as character formats in a [Adobe Creative Cloud Library](https://adobe.ly/33oKiEA) (request an invitation) or as text styles in [our invision DSM](https://projects.invisionapp.com/dsm/nzz/visuals/folder/typeStyles/5d4c3818ea4094927bb343ce).
 
-Technically the typographic system is implemented as [`sophie-font`](https://github.com/nzzdev/sophie-font) and contains CSS classes that can be assigned to tags in web products. To view or embed a sophie module use the [Sophie Styleguide](https://storytelling.nzz.ch/tools/sophie-styleguide/).
+Technically the font formats are implemented as [`sophie-font`](https://github.com/nzzdev/sophie-font) and contains CSS classes that can be assigned to tags in web products. To view or embed a sophie module use the [Sophie Styleguide](https://storytelling.nzz.ch/tools/sophie-styleguide/).
 
 # Typographic Formats for Online (left) and Print (right)
 
-For both, Online and Print, these abstact formats have been defined:
+As font styles should align with the platform they appear in, we defined a system that works for Online and Print. Typographically the system makes use of platform specific settings but in both cases includes the following format types:
 
-- 3 Title Formats
-- 3 Note Formats (+ modifiers)
-- 2 Text Formats (+ modifier)
+- Title Formats
+- Note Formats (+ modifiers)
+- Text Formats (+ modifier)
 
-Let's take a closer look at all three of them.
+Let's take a closer look at those three format types.
 
 ## Title Formats
 
