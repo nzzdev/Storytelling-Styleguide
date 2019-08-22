@@ -638,7 +638,26 @@ colors:
 colors:
   - {name: "Kongresspartei - light", value: "#9ed0e9"}
   - {name: "BJP (Bharatiya Janata Party)", value: "#edd29c"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
+
+### Italy
+
+```color-palette|span-2
+colors:
+  - {name: "Partito Democratico - primary", value: "#F1242B"}
+  - {name: "Cinque Stelle", value: "#FDD200"}
+  - {name: "Rechtsallianz", value: "#0084c7"}
   - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "Partito Democratico - light", value: "#f9a7aa"}
+  - {name: "Cinque Stelle", value: "#faeb9e"}
+  - {name: "Rechtsallianz", value: "#9ed0e9"}
+  - {name: "default", value: "#bcbcbc"}
 ```
 
 ### Netherlands
