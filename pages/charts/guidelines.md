@@ -10,7 +10,7 @@
 
 
 ## No data, no chart
-Often in our line of work, we are asked to recreate charts or complex visualizations based on a static template. In order to design and publish work that meet our quality standards we **only create We only create graphics based on actual data.** Here's why:
+Often in our line of work, we are asked to recreate charts or complex visualizations based on a static template. In order to design and publish work that meet our quality standards we **only create create graphics based on actual data.** Here's why:
 
 #### 1. Using data to make a point – our point
 Turning data into a visualization is not neutral. Whoever creates a chart shapes the narrative – by choosing from [dozens of chart types](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary) and by deciding what to leave out and what to emphasize. We want to control this step rather than use what somebody else has created for their purposes. We can only do that when we have the data.
