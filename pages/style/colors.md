@@ -779,6 +779,7 @@ colors:
   - {name: "Labour", value: "#c31906"}
   - {name: "Green Party", value: "#66a622"}
   - {name: "SNP", value: "#D1CC00"}
+  - {name: "Brexit Party", value: "#24B39C"}
 ```
 
 ```color-palette|span-1
@@ -787,6 +788,7 @@ colors:
   - {name: "Labour", value: "#eaaea8"}
   - {name: "Green Party", value: "#c2dba7"}
   - {name: "SNP", value: "#f5f3a3"}
+  - {name: "Brexit Party", value: "#7DD1C3"}
 ```
 
 ```color-palette|span-1
