@@ -1,5 +1,6 @@
 
 > This is a living style guide created by the team at [NZZ Visuals](https://www.nzz.ch/visuals/).
+Read more about [the ideas behind it and how it came to be](https://medium.com/nzz-open/how-we-went-from-individual-styles-to-a-consistent-look-and-feel-in-the-nzz-graphics-team-89fd560d6632).
 
 # About this documentation
 
