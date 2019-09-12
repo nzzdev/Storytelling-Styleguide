@@ -123,6 +123,7 @@ colors:
 ```
 
 ## Gender Colors
+
 ```color-palette|span-2
 colors:
   - {name: "male - primary", value: "#24B39C"}
@@ -136,6 +137,7 @@ colors:
 ```
 
 ## Maps colors
+
 ```color-palette|span-2
 colors:
   - {name: "main country", value: "#ffffff"}
@@ -144,6 +146,7 @@ colors:
   - {name: "weekend region", value: "#dbd8bf"}
   - {name: "border color", value: "#92929e"}
 ```
+
 ```color-palette|span-2
 colors:
   - {name: "rivers, lakes - primary", value: "#add8e6"}
@@ -173,7 +176,7 @@ colors:
 ```table
 span: 5
 rows:
-  - Steps: 2  
+  - Steps: 2
     HEX: ECECF0, 3952EE
   - Steps: 3
     HEX: ECECF0, 9E9EF4, 3952EE
@@ -215,7 +218,6 @@ rows:
     HEX: EDECE1, D8DFC7, BCD4B2, 99C9A3, 6DBE9C, 24B39C
 ```
 
-
 ### Sequential Scale 3
 
 This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
@@ -245,7 +247,6 @@ rows:
   - Steps: 6
     HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
 ```
-
 
 ### Diverging Scale 1
 
@@ -293,7 +294,6 @@ rows:
     HEX: E66E4A, EB8262, EF967B, F1A994, F2BCAE, F1CFC8, EEE2E2, E3DEED, D1C4E6, BFA9DF, AC8FD7, 9876D0, 835CC8, 6C43C0
 ```
 
-
 ### Diverging Scale 2
 
 This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago. This scale is creating using the first two primary colors in our qualitative scale. This lends the scale to be used in stories where there are two data points which are directly compared throughout the story.
@@ -339,7 +339,6 @@ rows:
   - Steps: 14
     HEX: 3952EE, 6668EF, 867FF0, A096F1, B8AEF1, CEC6F1, E2DFF0, EEE8E1, F1E1C4, F3D9A7, F3D28A, F1CB6C, EFC44C, EBBD22
 ```
-
 
 ### Diverging Scale 3
 
@@ -641,7 +640,6 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
-
 ### Italy
 
 ```color-palette|span-2
@@ -713,7 +711,6 @@ colors:
   - {name: "Economic Freedom Fighters (EFF)", value: "#FFD3D1"}
   - {name: "default", value: "#bcbcbc"}
 ```
-
 
 ### Spain
 
@@ -823,4 +820,16 @@ colors:
   - {name: "Demokraten", value: "#99defa"}
   - {name: "Independent", value: "#f6f0a1"}
   - {name: "default", value: "#bcbcbc"}
+```
+
+### Canada
+
+```color-palette|span-2
+colors:
+  - {name: "Liberals", value: "#d71920"}
+  - {name: "Conservative Party of Canada (CDC)", value: "#0b2643"}
+  - {name: "New Democratic Party (NDP)", value: "#f89920"}
+  - {name: "Bloc Québécois", value: "#093c71"}
+  - {name: "Green Party", value: "#66a622"}
+  - {name: "default", value: "#616161"}
 ```
