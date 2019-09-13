@@ -716,6 +716,27 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
+### Poland
+
+```color-palette|span-2
+colors:
+  - {name: "PiS - primary", value: "#005EA1"}
+  - {name: "KO", value: "#d1cc00"}
+  - {name: "Lewica", value: "#c31906"}
+  - {name: "KP", value: "#66a622"}
+  - {name: "Konf", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "PiS - light", value: "#a3d3f5"}
+  - {name: "KO", value: "#edeca0"}
+  - {name: "Lewica", value: "#eaaea8"}
+  - {name: "KP", value: "#c2dba7"}
+  - {name: "Konf", value: "#bcbcbc"}
+```
+
+
 ### South Africa
 
 ```color-palette|span-2
