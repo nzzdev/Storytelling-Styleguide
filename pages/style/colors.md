@@ -488,6 +488,28 @@ colors:
   - {name: "Rede", value: "#c2dba7"}
 ```
 
+### Canada
+
+```color-palette|span-2
+colors:
+  - {name: "Liberals", value: "#d71920"}
+  - {name: "Conservative Party of Canada (CDC)", value: "#0b2643"}
+  - {name: "New Democratic Party (NDP)", value: "#f89920"}
+  - {name: "Bloc Québécois", value: "#093c71"}
+  - {name: "Green Party", value: "#66a622"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "Liberals – light", value: "#f19b9e"}
+  - {name: "Conservative Party of Canada (CDC)", value: "#5d82ab"}
+  - {name: "New Democratic Party (NDP)", value: "#ffe0b8"}
+  - {name: "Bloc Québécois", value: "#83a7cc"}
+  - {name: "Green Party", value: "#c2dba7"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
 ### Denmark
 
 ```color-palette|span-1
@@ -822,24 +844,4 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
-### Canada
 
-```color-palette|span-2
-colors:
-  - {name: "Liberals", value: "#d71920"}
-  - {name: "Conservative Party of Canada (CDC)", value: "#0b2643"}
-  - {name: "New Democratic Party (NDP)", value: "#f89920"}
-  - {name: "Bloc Québécois", value: "#093c71"}
-  - {name: "Green Party", value: "#66a622"}
-  - {name: "default", value: "#616161"}
-```
-
-```color-palette|span-2
-colors:
-  - {name: "Liberals – light", value: "#f19b9e"}
-  - {name: "Conservative Party of Canada (CDC)", value: "#5d82ab"}
-  - {name: "New Democratic Party (NDP)", value: "#ffe0b8"}
-  - {name: "Bloc Québécois", value: "#83a7cc"}
-  - {name: "Green Party", value: "#c2dba7"}
-  - {name: "default", value: "#bcbcbc"}
-```
