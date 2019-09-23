@@ -16,7 +16,7 @@ We always need to be considerate which map projection is best suited for what th
 
 #### 1. World Maps
 For world maps that don’t focus on a specific country, we use the **Robinson projection**. The distortion is relatively low, but it is neither equal of angle nor true to area. So it is only useful for world maps.
-In QGIS the KBS is called „World_Robinson / +proj=robin +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs / EPSG:54030“.
+In QGIS the KBS is called `World_Robinson / +proj=robin +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs / EPSG:54030`.
 
 ```image
 plain: true
