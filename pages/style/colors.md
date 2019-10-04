@@ -736,6 +736,33 @@ colors:
   - {name: "Konf", value: "#bcbcbc"}
 ```
 
+### Portugal
+
+```color-palette|span-2
+colors:
+  - {name: "CDU Kommunisten und Grüne - primary", value: "#C31906"}
+  - {name: "PAN - Menschen Tiere Natur", value: "#003645"}
+  - {name: "Livre", value: "#A3C760"}
+  - {name: "BE - Linksblock", value: "#8440A3"}
+  - {name: "PS Sozialisten", value: "#DA467D"}
+  - {name: "PSD Bürgerlich", value: "#D28B01"}
+  - {name: "Iniciativa Liberal", value: "#FFEF00"}
+  - {name: "CDS-PP Konservativ", value: "#008CD7"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "CDU Kommunisten und Grüne - light", value: "#eaaea8"}
+  - {name: "PAN - Menschen Tiere Natur", value: "#5a7d87"}
+  - {name: "Livre", value: "#bfcaaa"}
+  - {name: "BE - Linksblock", value: "#aa99b2"}
+  - {name: "PS Sozialisten", value: "#c18fa2"}
+  - {name: "PSD Bürgerlich", value: "#d9c191"}
+  - {name: "Iniciativa Liberal", value: "#d9d48c"}
+  - {name: "CDS-PP Konservativ", value: "#8ea6b4"}
+  - {name: "default", value: "#bcbcbc"}
+```
 
 ### South Africa
 
@@ -864,5 +891,3 @@ colors:
   - {name: "Independent", value: "#f6f0a1"}
   - {name: "default", value: "#bcbcbc"}
 ```
-
-
