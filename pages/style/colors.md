@@ -748,6 +748,7 @@ colors:
   - {name: "PSD Bürgerlich", value: "#D28B01"}
   - {name: "Iniciativa Liberal", value: "#FFEF00"}
   - {name: "CDS-PP Konservativ", value: "#008CD7"}
+  - {name: "Chega Partido", value: "#093c71"}
   - {name: "default", value: "#616161"}
 ```
 
@@ -757,10 +758,11 @@ colors:
   - {name: "PAN - Menschen Tiere Natur", value: "#5a7d87"}
   - {name: "Livre", value: "#bfcaaa"}
   - {name: "BE - Linksblock", value: "#aa99b2"}
-  - {name: "PS Sozialisten", value: "#c18fa2"}
+  - {name: "PS Sozialisten", value: "#EC9EBA"}
   - {name: "PSD Bürgerlich", value: "#d9c191"}
   - {name: "Iniciativa Liberal", value: "#d9d48c"}
-  - {name: "CDS-PP Konservativ", value: "#8ea6b4"}
+  - {name: "CDS-PP Konservativ", value: "#94CCEE"}
+  - {name: "Chega Partido", value: "#83a7cc"}
   - {name: "default", value: "#bcbcbc"}
 ```
 
