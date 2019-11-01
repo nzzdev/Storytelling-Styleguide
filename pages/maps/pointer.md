@@ -164,10 +164,20 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 {
   kern: true,
   "headings": [
-    { "label": "waterways", "value": 13 }
+    { "label": "waterways", "value": 12 }
 
   ],
-  weight: 300, color: "#0093bf",
+  weight: 100, color: "#0093bf",
   font: "nzz-sans-serif, sans-serif",
 }
 ```
+type
+{
+  kern: true,
+  "headings": [
+    { "label": "Oceans", "value": 12 }
+
+  ],
+  weight: 100, color: "#ffffff",
+  font: "nzz-sans-serif, sans-serif",
+}
