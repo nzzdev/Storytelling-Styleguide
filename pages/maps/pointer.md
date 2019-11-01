@@ -90,9 +90,6 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
   color: "#6e6e7e",
   halo color: "#ececf0",
   weight: 50
-  line heigh: 1.2
-  Transform: None
-  Zoom: 0/10, 3/12, 4/14
 }
 ```
 ```type
