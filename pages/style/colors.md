@@ -138,8 +138,7 @@ colors:
 
 ## Maps colors
 
-### Surfaces
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "main country", value: "#ffffff"}
   - {name: "secondary country, basemap", value: "#ececf0"}
@@ -148,8 +147,8 @@ colors:
   - {name: "oceans – primary", value: "#CEE9F2"}
   - {name: "forested areas – primary", value: "#99c7a3"}
 ```
- ### Lines
-```color-palette|span-1
+
+```color-palette|span-2
 colors:
   - {name: "border color", value: "#b6b6be"}
   - {name: "region border color", value: "#cfcfd6"}
