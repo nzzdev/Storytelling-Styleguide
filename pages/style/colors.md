@@ -152,6 +152,7 @@ colors:
 colors:
   - {name: "rivers, lakes - primary", value: "#add8e6"}
   - {name: "oceans – primary", value: "#CEE9F2"}
+  - {name: "maritime boundaries", value: "#ADD8E6"}
   - {name: "forested areas – primary", value: "#99c7a3"}
 ```
 
