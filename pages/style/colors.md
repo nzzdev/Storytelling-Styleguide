@@ -141,17 +141,18 @@ colors:
 ```color-palette|span-2
 colors:
   - {name: "main country", value: "#ffffff"}
-  - {name: "secondary country", value: "#ececf0"}
+  - {name: "secondary country, basemap", value: "#ececf0"}
   - {name: "highlighted region", value: "#fad250"}
   - {name: "weekend region", value: "#dbd8bf"}
-  - {name: "border color", value: "#92929e"}
+  - {name: "border color", value: "#cfcfd6"}
+  - {name: "region border color", value: "#b6b6be"}
 ```
 
 ```color-palette|span-2
 colors:
   - {name: "rivers, lakes - primary", value: "#add8e6"}
   - {name: "oceans – primary", value: "#CEE9F2"}
-  - {name: "forested areas – primary", value: "rgba(29,133,52,0.30)"}
+  - {name: "forested areas – primary", value: "#99c7a3"}
 ```
 
 ## Sequential and Diverging Scales
