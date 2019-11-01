@@ -84,34 +84,33 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 {
   kern: true,
   "headings": [
-    { "label": "main country, state", "value": 15 },
+    { "label": "country, state", "value": 14 },
   ],
   font: "nzz-sans-serif, sans-serif",
   color: "#6e6e7e",
-  weight: 200,
-  tracking: 6
+  weight: 100
 }
 ```
 ```type
 {
   kern: true,
   "headings": [
-    { "label": "capital city", "value": 17 }
+    { "label": "capital city", "value": 12 }
   ],
   font: "nzz-sans-serif, sans-serif",
   color: "#6e6e7e",
-  weight: 500
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "city", "value": 14 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#05032d",
   weight: 300
+}
+```
+```type
+{
+  kern: true,
+  "headings": [
+    { "label": "city", "value": 12 }
+  ],
+  font: "nzz-sans-serif, sans-serif",
+  color: "#6e6e7e",
+  weight: 100
 }
 ```
 
