@@ -138,22 +138,22 @@ colors:
 
 ## Maps colors
 
-```color-palette|span-2
+### Surfaces
+```color-palette|span-1
 colors:
   - {name: "main country", value: "#ffffff"}
   - {name: "secondary country, basemap", value: "#ececf0"}
   - {name: "highlighted region", value: "#fad250"}
   - {name: "weekend region", value: "#dbd8bf"}
-  - {name: "border color", value: "#cfcfd6"}
-  - {name: "region border color", value: "#b6b6be"}
-```
-
-```color-palette|span-2
-colors:
-  - {name: "rivers, lakes - primary", value: "#add8e6"}
   - {name: "oceans – primary", value: "#CEE9F2"}
-  - {name: "maritime boundaries", value: "#ADD8E6"}
   - {name: "forested areas – primary", value: "#99c7a3"}
+```
+ ### Lines
+```color-palette|span-1
+colors:
+  - {name: "border color", value: "#b6b6be"}
+  - {name: "region border color", value: "#cfcfd6"}
+  - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
 ```
 
 ## Sequential and Diverging Scales
