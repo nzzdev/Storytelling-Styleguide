@@ -89,7 +89,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
   font: "nzz-sans-serif, sans-serif",
   color: "#6e6e7e",
   halo color: "#ececf0",
-  weight: 100
+  weight: 50
   line heigh: 1.2
   Transform: None
   Zoom: 0/10, 3/12, 4/14
@@ -102,8 +102,8 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
     { "label": "capital city", "value": 12 }
   ],
   font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
-  weight: 300
+  color: "#92929e",
+  weight: 500
 }
 ```
 ```type
@@ -113,7 +113,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
     { "label": "city", "value": 12 }
   ],
   font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
+  color: "#92929e",
   weight: 100
 }
 ```
@@ -135,11 +135,11 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 {
   kern: true,
   "headings": [
-    { "label": "secondary region", "value": 13 }
+    { "label": "region", "value": 12 }
   ],
   weight: 300,
   color: "#b6b6be",
-  font: "nzz-sans-serif, sans-serif",
+  font: "nzz-sans-serif, sans-serif", Uppercase
 }
 ```
 ```type
