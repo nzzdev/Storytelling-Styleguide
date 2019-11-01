@@ -88,7 +88,6 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
   ],
   font: "nzz-sans-serif, sans-serif",
   color: "#6e6e7e",
-  halo color: "#ececf0",
   weight: 50
 }
 ```
@@ -136,7 +135,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
   ],
   weight: 300,
   color: "#b6b6be",
-  font: "nzz-sans-serif, sans-serif", Uppercase
+  font: "nzz-sans-serif, sans-serif"
 }
 ```
 ```type
