@@ -144,13 +144,13 @@ colors:
   - {name: "highlighted region", value: "#fad250"}
   - {name: "weekend region", value: "#dbd8bf"}
   - {name: "oceans – primary", value: "#CEE9F2"}
+  - {name: "oceans - secondary", value: "#cee1e6"}
   - {name: "forested areas – primary", value: "#99c7a3"}
-  - {name: "buildings - primary", value: "#cfcfd6"}
 ```
 
 ```color-palette|span-2
 colors:
-  - {name: "border color", value: "#b6b6be"}
+  - {name: "borders", value: "#b6b6be"}
   - {name: "region border color", value: "#cfcfd6"}
   - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
   - {name: "streets - primary", value: "#ffffff"}
