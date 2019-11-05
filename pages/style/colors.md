@@ -134,7 +134,7 @@ colors:
    - {value: "#6e6e7e"}
    - {value: "#393855"}
    - {value: "#05032d"}
-   ```
+```
 
 ## Gender Colors
 
