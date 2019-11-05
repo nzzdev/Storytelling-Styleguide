@@ -121,6 +121,19 @@ colors:
    - {value: "#393855"}
    - {value: "#05032d"}
 ```
+Voila an alternative gray scale open for discussions.
+
+```color-palette|horizontal
+colors:
+   - {value: "#f0f0f2"}
+   - {value: "#e3e4e9"}
+   - {value: "#d4d6dd"}
+   - {value: "#c3c2ca"}
+   - {value: "#a8a9b4"}
+   - {value: "#91929d"}
+   - {value: "#5f6074"}
+   - {value: "#393855"}
+   - {value: "#05032d"}
 
 ## Gender Colors
 
