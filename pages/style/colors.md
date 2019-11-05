@@ -121,7 +121,7 @@ colors:
    - {value: "#393855"}
    - {value: "#05032d"}
 ```
-Voila an alternative gray scale open for discussion.
+Voila an alternative gray scale open for discussion:
 
 ```color-palette|horizontal
 colors:
