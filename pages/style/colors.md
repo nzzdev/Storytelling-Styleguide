@@ -109,6 +109,12 @@ colors:
 
 Our gray scale palette is based off of the gray tones found on NZZ.ch. It's used for all text and annotations in graphics as well as axis labels and lines. The gray scale can be used flexibly based on need.
 
+```color-palette|span-1
+colors:
+- {name: "Background", value: "#f0f0f2"}
+- {name: "Autorenzeile", value: "#6e6e7e"}
+- {name: "Text", value: "#05032d"}
+
 ```color-palette|horizontal
 colors:
    - {value: "#f0f0f2"}
@@ -128,9 +134,9 @@ colors:
    - {value: "#e3e4e9"}
    - {value: "#d4d6dd"}
    - {value: "#c3c2ca"}
-   - {value: "#a8a9b4"}
-   - {value: "#91929d"}
-   - {value: "#5f6074"}
+   - {value: "#b6b6be"}
+   - {value: "#92929e"}
+   - {value: "#6e6e7e"}
    - {value: "#393855"}
    - {value: "#05032d"}
    ```
