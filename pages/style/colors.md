@@ -114,6 +114,7 @@ colors:
 - {name: "Background", value: "#f0f0f2"}
 - {name: "Autorenzeile", value: "#6e6e7e"}
 - {name: "Text", value: "#05032d"}
+```
 
 ```color-palette|horizontal
 colors:
