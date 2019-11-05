@@ -111,9 +111,9 @@ Our gray scale palette is based off of the gray tones found on NZZ.ch. It's used
 
 ```color-palette|span-1
 colors:
-- {name: "Background", value: "#f0f0f2"}
-- {name: "Autorenzeile", value: "#6e6e7e"}
-- {name: "Text", value: "#05032d"}
+  - {name: "Background", value: "#f0f0f2"}
+  - {name: "Autorenzeile", value: "#6e6e7e"}
+  - {name: "Text", value: "#05032d"}
 ```
 
 ```color-palette|horizontal
