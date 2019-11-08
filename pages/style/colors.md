@@ -155,6 +155,7 @@ colors:
 ```color-palette|span-2
 colors:
   - {name: "countries basemap", value: "#f0f0f2"}
+  - {name: "countries basemap-nature", value: "#ECF5EF"}
   - {name: "highlighted region", value: "#fad250"}
   - {name: "weekend region", value: "#dbd8bf"}
   - {name: "oceans – primary", value: "#CEE9F2"}
@@ -167,7 +168,7 @@ colors:
   - {name: "borders", value: "#b6b6be"}
   - {name: "region border color", value: "#cfcfd6"}
   - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
-  - {name: "streets, railways - primary", value: "#ffffff"}
+  - {name: "streets, railways - primary", value: "#DBDAD1"}
   - {name: "railways - primary", value: "#dcdce2"}
   - {name: "Grauflächen - primary", value: "#ececf0"}
   - {name: "buildings - primary", value: "#e3e3e8"}
