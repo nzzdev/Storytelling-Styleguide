@@ -410,6 +410,11 @@ rows:
 
 We have predefined colors for a number of countries, including Switzerland, France, Germany, Netherlands, United Kingdom and the United States. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
 
+## How to generate "light" versions of party colors
+
+We use [Chroma.js](https://gka.github.io/palettes) to interpolate between the regular party color and white. Chroma.js can calculate any number of steps between two colors so that they are visually at equal distance. To get the light color of the Spanish "Más País" then, we would input `#54ba00, #ffffff` and set the number of colors to `3` to get the middle value: `#b2dd90`.
+
+
 ### Switzerland
 
 ```color-palette|span-1
