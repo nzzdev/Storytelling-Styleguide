@@ -813,6 +813,8 @@ colors:
   - {name: "Ciudadanos", value: "#D28B00"}
   - {name: "Podemos", value: "#8440A3"}
   - {name: "Vox", value: "#54BA00"}
+  - {name: "Más País", value: "#22a682"}
+  - {name: "ERC Katalanische Linksrepublikaner", value: "#d64b47"}
   - {name: "default", value: "#616161"}
 ```
 
