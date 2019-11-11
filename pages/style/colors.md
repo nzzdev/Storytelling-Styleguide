@@ -821,11 +821,13 @@ colors:
 ```color-palette|span-2
 colors:
   - {name: "Sozialisten - light", value: "#eaaea8"}
-  - {name: "Partido Popular", value: "#9ed0e9"}
-  - {name: "Ciudadanos", value: "#edd29c"}
-  - {name: "Podemos", value: "#cdb1d9"}
-  - {name: "Vox", value: "#bae399"}
-  - {name: "default", value: "#bcbcbc"}
+  - {name: "Partido Popular - light", value: "#9ed0e9"}
+  - {name: "Ciudadanos - light", value: "#edd29c"}
+  - {name: "Podemos - light", value: "#cdb1d9"}
+  - {name: "Vox - light", value: "#bae399"}
+  - {name: "Más País - light", value: "#9dd3bf"}
+  - {name: "ERC Katalanische Linksrepublikaner - light", value: "#f4a79e"}
+  - {name: "default - light", value: "#bcbcbc"}
 ```
 
 ### Sweden
