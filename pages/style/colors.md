@@ -176,13 +176,10 @@ colors:
   - {name: "countries basemap", value: "#f0f0f2"}
   - {name: "borders", value: "#b6b6be"}
   - {name: "region border color", value: "#ffffff"}
-  
   - {name: "water", value: "#cee1e6"}
-
   - {name: "buildings - primary", value: "#CBCBCB"}
   - {name: "streets - primary", value: "#ffffff"}
   - {name: "railways - primary", value: "#dcdce2"}
-
   ```
 ### Natural Map
   ```color-palette|span-2
