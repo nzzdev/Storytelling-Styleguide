@@ -153,6 +153,7 @@ colors:
 ## Maps colors
 
 ### Standard Map
+
 ```color-palette|span-2
 colors:
   - {name: "countries basemap", value: "#f0f0f2"}
@@ -160,17 +161,16 @@ colors:
   - {name: "region border color", value: "#cfcfd6"}
   - {name: "main country", value: "#ffffff"}
   - {name: "highlighted region", value: "#fad250"}
-  
   - {name: "oceans – primary", value: "#CEE9F2"}
   - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
   - {name: "forested areas – primary", value: "#99c7a3"}
-
   - {name: "streets - primary", value: "#DBDAD1"}
   - {name: "railways - primary", value: "#dcdce2"}
   - {name: "Grauflächen - primary", value: "#ececf0"}
   - {name: "buildings - primary", value: "#e3e3e8"}
 ```
 ### Minimal Map
+
 ```color-palette|span-2
 colors:
   - {name: "countries basemap", value: "#f0f0f2"}
@@ -180,20 +180,28 @@ colors:
   - {name: "buildings - primary", value: "#CBCBCB"}
   - {name: "streets - primary", value: "#ffffff"}
   - {name: "railways - primary", value: "#dcdce2"}
-  ```
+ ```
 ### Natural Map
-  ```color-palette|span-2
+
+ ```color-palette|span-2
   colors:
   - {name: "countries basemap", value: "#EDECE1"}
+  ```
   
 ### Satellite Map
+
 ```color-palette|span-2
+```
 
 ### Print Map
-    - {name: "countries basemap", value: "#f0f0f2"}
-    - {name: "highlighted region", value: "#fad250"}
-    - {name: "weekend region", value: "#dbd8bf"}
-    - {name: "oceans – primary", value: "#CEE9F2"}
+
+ ```color-palette|span-2
+  colors:
+   - {name: "countries basemap", value: "#f0f0f2"}
+   - {name: "highlighted region", value: "#fad250"}
+   - {name: "weekend region", value: "#dbd8bf"}
+   - {name: "oceans – primary", value: "#CEE9F2"}
+  ```
 
 
 
