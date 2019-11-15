@@ -198,11 +198,11 @@ colors:
 ### Print Map
 
  ```color-palette|span-2
-  colors:
-  - {name: "countries basemap", value: "#f0f0f2"}
-  - {name: "highlighted region", value: "#fad250"}
-  - {name: "weekend region", value: "#dbd8bf"}
-  - {name: "oceans – primary", value: "#CEE9F2"}
+ colors:
+ - {name: "countries basemap", value: "#f0f0f2"}
+ - {name: "highlighted region", value: "#fad250"}
+ - {name: "weekend region", value: "#dbd8bf"}
+ - {name: "oceans – primary", value: "#CEE9F2"}
   ```
 
 
@@ -231,9 +231,6 @@ colors:
   - {name: "Grauflächen - primary", value: "#ececf0"}
   - {name: "buildings - primary", value: "#e3e3e8"}
   ```
-  
-  ```color-palette|span-1
-  
   
 
 ## Sequential and Diverging Scales
