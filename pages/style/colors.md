@@ -187,12 +187,13 @@ colors:
  - {name: "region border color", value: "#ffffff"}
  - {name: "water", value: "#cee1e6"}
  - {name: "buildings - primary", value: "#CBCBCB"}
+```
  
 ```color-palette|span-1
 colors:
  - {name: "streets - primary", value: "#ffffff"}
  - {name: "railways - primary", value: "#dcdce2"}
- ```
+```
  
 ### Natural Map
 
@@ -203,6 +204,7 @@ colors:
  - {name: "region border color", value: "#cfcfd6"}
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#fad250"}
+```
  
 ```color-palette|span-1
 colors:
@@ -213,7 +215,7 @@ colors:
  - {name: "railways - primary", value: "#dcdce2"}
  - {name: "Landuse residential (bewohnte Flächen) - primary", value: "#DFDED8"}
  - {name: "buildings - primary", value: "#e3e3e8"}
-  ```
+```
   
 ### Satellite Map
 
@@ -224,13 +226,13 @@ colors:
 
 ### Print Map
 
- ```color-palette|span-1
+```color-palette|span-1
  colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "highlighted region", value: "#fad250"}
  - {name: "weekend region", value: "#dbd8bf"}
  - {name: "oceans – primary", value: "#CEE9F2"}
-  ```
+```
 
 
 
