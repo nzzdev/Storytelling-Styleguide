@@ -154,50 +154,77 @@ colors:
 
 ### Standard Map
 
-```color-palette|span-2
+```color-palette|span-1
 colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "borders", value: "#b6b6be"}
  - {name: "region border color", value: "#cfcfd6"}
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#fad250"}
+```
+ 
+```color-palette|span-1
+colors:
  - {name: "oceans – primary", value: "#CEE9F2"}
  - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
  - {name: "forested areas – primary", value: "#99c7a3"}
  - {name: "streets - primary", value: "#DBDAD1"}
  - {name: "railways - primary", value: "#dcdce2"}
- - {name: "Grauflächen - primary", value: "#ececf0"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "Landuse residential (bewohnte Flächen) - primary", value: "#ececf0"}
  - {name: "buildings - primary", value: "#e3e3e8"}
 ```
+
 ### Minimal Map
 
-```color-palette|span-2
+```color-palette|span-1
 colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "borders", value: "#b6b6be"}
  - {name: "region border color", value: "#ffffff"}
  - {name: "water", value: "#cee1e6"}
  - {name: "buildings - primary", value: "#CBCBCB"}
+ 
+```color-palette|span-1
+colors:
  - {name: "streets - primary", value: "#ffffff"}
  - {name: "railways - primary", value: "#dcdce2"}
  ```
+ 
 ### Natural Map
 
- ```color-palette|span-2
- colors:
+ ```color-palette|span-1
+colors:
  - {name: "countries basemap", value: "#EDECE1"}
+ - {name: "borders", value: "#b6b6be"}
+ - {name: "region border color", value: "#cfcfd6"}
+ - {name: "main country", value: "#ffffff"}
+ - {name: "highlighted region", value: "#fad250"}
+ 
+```color-palette|span-1
+colors:
+ - {name: "oceans – primary", value: "#CEE9F2"}
+ - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
+ - {name: "forested areas – primary", value: "#99c7a3"}
+ - {name: "streets - primary", value: "#DBDAD1"}
+ - {name: "railways - primary", value: "#dcdce2"}
+ - {name: "Landuse residential (bewohnte Flächen) - primary", value: "#DFDED8"}
+ - {name: "buildings - primary", value: "#e3e3e8"}
   ```
   
 ### Satellite Map
 
-```color-palette|span-2
+```color-palette|span-1
  colors:
  - {name: "countries basemap", value: "#f0f0f2"}
 ```
 
 ### Print Map
 
- ```color-palette|span-2
+ ```color-palette|span-1
  colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "highlighted region", value: "#fad250"}
