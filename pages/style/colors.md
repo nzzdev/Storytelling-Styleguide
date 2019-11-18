@@ -174,7 +174,7 @@ colors:
 
 ```color-palette|span-1
 colors:
- - {name: "Landuse residential (bewohnte Flächen) - primary", value: "#ececf0"}
+ - {name: "Landuse residential - primary", value: "#ececf0"}
  - {name: "buildings - primary", value: "#e3e3e8"}
 ```
 
@@ -213,7 +213,7 @@ colors:
  - {name: "forested areas – primary", value: "#99c7a3"}
  - {name: "streets - primary", value: "#DBDAD1"}
  - {name: "railways - primary", value: "#dcdce2"}
- - {name: "Landuse residential (bewohnte Flächen) - primary", value: "#DFDED8"}
+ - {name: "Landuse residential - primary", value: "#DFDED8"}
  - {name: "buildings - primary", value: "#e3e3e8"}
 ```
   
