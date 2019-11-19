@@ -208,13 +208,17 @@ colors:
  
 ```color-palette|span-1
 colors:
- - {name: "oceans – primary", value: "#CEE9F2"}
- - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
- - {name: "forested areas – primary", value: "#99c7a3"}
- - {name: "streets - primary", value: "#DBDAD1"}
- - {name: "railways - primary", value: "#dcdce2"}
- - {name: "Landuse residential - primary", value: "#DFDED8"}
- - {name: "buildings - primary", value: "#e3e3e8"}
+ - {name: "oceans", value: "#CEE9F2"}
+ - {name: "rivers, lakes, maritime boundaries", value: "#add8e6"}
+ - {name: "forested areas", value: "#99c7a3"}
+ - {name: "streets", value: "#DBDAD1"}
+ - {name: "railways", value: "#d9d9d9"}
+ 
+```color-palette|span-1
+colors:
+ - {name: "Landuse residential", value: "#DFDED8"}
+ - {name: "buildings", value: "#DBDAD1"}
+ - {name: "text color, countries, cities", value: "#92929E"}
 ```
   
 ### Satellite Map
