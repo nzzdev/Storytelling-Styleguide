@@ -168,8 +168,8 @@ colors:
  - {name: "oceans – primary", value: "#CEE9F2"}
  - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
  - {name: "forested areas – primary", value: "#99c7a3"}
- - {name: "streets - primary", value: "#DBDAD1"}
- - {name: "railways - primary", value: "#dcdce2"}
+ - {name: "streets - primary", value: "#DCDDE3"}
+ - {name: "railways - primary", value: "#D1D1D1"}
 ```
 
 ```color-palette|span-1
