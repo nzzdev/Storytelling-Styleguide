@@ -213,6 +213,7 @@ colors:
  - {name: "forested areas", value: "#99c7a3"}
  - {name: "streets", value: "#DBDAD1"}
  - {name: "railways", value: "#d9d9d9"}
+``` 
  
 ```color-palette|span-1
 colors:
