@@ -158,7 +158,7 @@ colors:
 colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#fad250"}
+ - {name: "highlighted region", value: "#f4eede"}
  - {name: "Ländergrenzen", value: "#A88EA8"}
  - {name: "Regionsgrenzen", value: "#C6B7DB"}
  - {name: "Gemeindegrenzen", value: "#D4C1EE"}
@@ -169,8 +169,8 @@ colors:
  - {name: "oceans – primary", value: "#CEE9F2"}
  - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
  - {name: "forested areas – primary", value: "#99c7a3"}
- - {name: "streets - primary", value: "#e3e4e9"}
- - {name: "railways - primary", value: "#D1D1D1"}
+ - {name: "streets - primary", value: "#DFE0E5"}
+ - {name: "railways - primary", value: "#D8D9DB"}
 ```
 
 ```color-palette|span-1
@@ -204,7 +204,7 @@ colors:
  - {name: "borders", value: "#b6b6be"}
  - {name: "region border color", value: "#cfcfd6"}
  - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#fad250"}
+ - {name: "highlighted region", value: "#f4eede"}
 ```
  
 ```color-palette|span-1
@@ -235,7 +235,7 @@ colors:
 ```color-palette|span-1
  colors:
  - {name: "countries basemap", value: "#f0f0f2"}
- - {name: "highlighted region", value: "#fad250"}
+ - {name: "highlighted region", value: "#f4eede"}
  - {name: "weekend region", value: "#dbd8bf"}
  - {name: "oceans – primary", value: "#CEE9F2"}
 ```
