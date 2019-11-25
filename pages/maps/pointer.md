@@ -99,8 +99,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - color: #000000, halo color: like basemap
 - Line Heigh: 11 px
 
-#### secondary country 
-(used only if the map is done by hand)
+#### secondary country (used only if the map is done by hand)
 - Univers LT Std 47 Light Condensed 
 - Size: 9 px
 - Transform: Uppercase
