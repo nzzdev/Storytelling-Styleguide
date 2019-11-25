@@ -35,7 +35,7 @@ The minimap helps to show the position of the main map.
 
 ## Map Type Definitions
 
-Depending on the circumstance, we may have decided that a map needs to be created by hand as opposed to in Q. For these cases, use the following type definitions:
+These are the type definitions for our online and print maps. Use these when a map needs to be created by hand. 
 
 ```image
 plain: true
@@ -43,14 +43,15 @@ span: 6
 src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_from-hand@2x.png 2x"
 ```
 
-### Typography
+## Map Type Definitions
+### Online Maps
 
 #### country 
 - GT America Light (font-weight: 50)
 - Size: 14 px (Zoomstufen: 0/10, 3/12, 4/16)
 - color: #6e6e7e, halo color: #ECF5EF
 - Transform: none
-- Line Heigh: 1.2
+- Line Heigh: 16 px
 
 #### capital
 - GT America Medium (font-weight: 500)
@@ -63,7 +64,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size 13 px
 - color: #92929e, halo color: #ECF5EF
 
-#### Sea
+#### Oceans
 - Pensum Pro Italic (font-weight: 100)
 - Size 12 px
 - color: #ffffff, halo color: #CEE9F2
@@ -74,142 +75,54 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - color: #0093bf, halo color: #CEE9F2
 
 
+### Print Maps
 
-### Mobile
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "main country, state", "value": 14 },
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
-  weight: 200,
-  tracking: 6
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "capital city", "value": 16 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
-  weight: 500
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "city", "value": 15 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#05032d",
-  weight: 300
-}
-```
+#### main country 
+- Univers LT Std 57 Medium Condensed 
+- Size: 9 px
+- Transform: Uppercase
+- color: #000000
+- Line Heigh: 11 px
 
-## Content Width +
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "country, state", "value": 14 },
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
-  weight: 50
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "capital city", "value": 12 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#92929e",
-  weight: 500
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "city", "value": 12 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#92929e",
-  weight: 100
-}
-```
+#### secondary country 
+(used only if the map is done by hand)
+- Univers LT Std 47 Light Condensed 
+- Size: 9 px
+- Transform: Uppercase
+- color: #808080
+- Line Heigh: 11 px
 
-### Shared definitions
+#### capital
+- Univers LT Std 57 Medium Condensed
+- Size: 9 px
+- color: #000000
+- Line Heigh: 11 px
 
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "scale", "value": 13 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#05032d",
-  weight: 300
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "region", "value": 12 }
-  ],
-  weight: 300,
-  color: "#b6b6be",
-  font: "nzz-sans-serif, sans-serif"
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "region 1", "value": 14 }
+#### city / town/ village / suburb / big city
+- Univers LT Std 47 Light Condensed
+- Size: 9 px
+- color: #000000
+- Line Heigh: 11 px
 
-  ],
-  weight: 300, color: "#d4a91e",
-  font: "nzz-sans-serif, sans-serif",
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "region 2", "value": 13 }
+#### Regions
+(used only if the map is done by hand)
+- Univers LT Std 47 Light Condensed 
+- Size: 9 px
+- Transform: Uppercase
+- color: #000000
+- Line Heigh: 11 px
+- Letter-spacing: 6
 
-  ],
-  weight: 300, color: "#6e6e7e",
-  font: "nzz-sans-serif, sans-serif",
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "waterways", "value": 12 }
+#### Oceans
+- Univers LT Std 47 Light Condensed
+- Size: 9 px
+- Transform: Uppercase
+- Line Heigh: 11 px
+- color: #0093BF
 
-  ],
-  weight: 100, color: "#0093bf",
-  font: "nzz-sans-serif, sans-serif",
-}
-```
-type
-{
-  kern: true,
-  "headings": [
-    { "label": "Oceans", "value": 12 }
-
-  ],
-  weight: 100, color: "#ffffff",
-  font: "nzz-sans-serif, sans-serif",
-}
+#### Water - lakes, rivers
+- Univers LT Std 47 Light Condensed
+- Size: 9 px
+- Line Heigh: 11 px
+- color: #0093BF
+- Letter-spacing: 6
