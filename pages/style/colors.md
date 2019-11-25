@@ -160,14 +160,14 @@ colors:
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#f4eede"}
  - {name: "Ländergrenzen", value: "#A88EA8"}
- - {name: "Regionsgrenzen", value: "#C6B7DB"}
+ - {name: "Regionsgrenzen", value: "#c4aed9"}
  - {name: "Gemeindegrenzen", value: "#D4C1EE"}
 ```
  
 ```color-palette|span-1
 colors:
  - {name: "oceans – primary", value: "#CEE9F2"}
- - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
+ - {name: "rivers, lakes, maritime boundaries", value: "#add8e6"}
  - {name: "forested areas – primary", value: "#99c7a3"}
  - {name: "streets - primary", value: "#DFE0E5"}
  - {name: "railways - primary", value: "#D8D9DB"}
@@ -177,6 +177,7 @@ colors:
 colors:
  - {name: "Landuse residential - primary", value: "#ececf0"}
  - {name: "buildings - primary", value: "#e3e3e8"}
+ - {name: "text color, countries, cities", value: "#92929E"}
 ```
 
 ### Minimal Map
@@ -194,6 +195,7 @@ colors:
 colors:
  - {name: "streets - primary", value: "#ffffff"}
  - {name: "railways - primary", value: "#dcdce2"}
+ - {name: "text color, countries, cities", value: "#92929E"}
 ```
  
 ### Natural Map
@@ -235,37 +237,26 @@ colors:
 ```color-palette|span-1
  colors:
  - {name: "countries basemap", value: "#f0f0f2"}
+ - {name: "borders", value: "#b6b6be"}
+ - {name: "region border color", value: "#cfcfd6"}
  - {name: "highlighted region", value: "#f4eede"}
  - {name: "weekend region", value: "#dbd8bf"}
+```
+
+```color-palette|span-1
+ colors:
+ - {name: "rivers, lakes, maritime boundaries", value: "#add8e6"}
+ - {name: "forested areas – primary", value: "#99c7a3"}
  - {name: "oceans – primary", value: "#CEE9F2"}
-```
-
-
-
-
-## Maps colors
-
-```color-palette|span-1
-colors:
-  - {name: "countries basemap", value: "#f0f0f2"}
-  - {name: "countries basemap-nature", value: "#ECF5EF"}
-  - {name: "highlighted region", value: "#fad250"}
-  - {name: "weekend region", value: "#dbd8bf"}
-  - {name: "oceans – primary", value: "#CEE9F2"}
-  - {name: "oceans - secondary", value: "#cee1e6"}
-  - {name: "forested areas – primary", value: "#99c7a3"}
+ - {name: "streets, railways - primary", value: "#DBDAD1"}
+ - {name: "railways - primary", value: "#dcdce2"}
 ```
 
 ```color-palette|span-1
-colors:
-  - {name: "borders", value: "#b6b6be"}
-  - {name: "region border color", value: "#cfcfd6"}
-  - {name: "rivers, lakes, maritime boundaries - primary", value: "#add8e6"}
-  - {name: "streets, railways - primary", value: "#DBDAD1"}
-  - {name: "railways - primary", value: "#dcdce2"}
-  - {name: "Grauflächen - primary", value: "#ececf0"}
-  - {name: "buildings - primary", value: "#e3e3e8"}
-  ```
+ colors:
+ - {name: "Grauflächen - primary", value: "#ececf0"}
+ - {name: "buildings - primary", value: "#e3e3e8"}
+```
   
 
 ## Sequential and Diverging Scales
