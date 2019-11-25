@@ -49,20 +49,35 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 #### country 
 - GT America Light (font-weight: 50)
 - Size: 14 px (Zoomstufen: 0/10, 3/12, 4/16)
-- color: #6e6e7e, halo color: #ECF5EF
+- color: #6e6e7e, halo color: like basemap
+- Transform: none
+- Line Heigh: 16 px
+
+#### secondary country (used only if the map is done by hand)
+- GT America Light (font-weight: 50)
+- Size: 14 px
+- color: #e9e9ee, halo color: like basemap
 - Transform: none
 - Line Heigh: 16 px
 
 #### capital
 - GT America Medium (font-weight: 500)
 - Size 15 px
-- color: #92929e, halo color: #ECF5EF
+- color: #92929e, halo color: like basemap
 - Transform: Uppercase
 
 #### city / town/ village / suburb / big city
 - GT America Regular (font-weight: 100)
 - Size 13 px
-- color: #92929e, halo color: #ECF5EF
+- color: #92929e, halo color: like basemap
+
+#### Regions (used only if the map is done by hand)
+- GT America Light (font-weight: 50)
+- Size: 13 px
+- color: #e9e9ee, halo color: like basemap
+- Transform: Uppercase
+- Line Heigh: 16 px
+- Letter-spacing: 6
 
 #### Oceans
 - Pensum Pro Italic (font-weight: 100)
@@ -81,7 +96,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Univers LT Std 57 Medium Condensed 
 - Size: 9 px
 - Transform: Uppercase
-- color: #000000
+- color: #000000, halo color: like basemap
 - Line Heigh: 11 px
 
 #### secondary country 
@@ -89,27 +104,26 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Univers LT Std 47 Light Condensed 
 - Size: 9 px
 - Transform: Uppercase
-- color: #808080
+- color: #808080, halo color: like basemap
 - Line Heigh: 11 px
 
 #### capital
 - Univers LT Std 57 Medium Condensed
 - Size: 9 px
-- color: #000000
+- color: #000000, halo color: like basemap
 - Line Heigh: 11 px
 
 #### city / town/ village / suburb / big city
 - Univers LT Std 47 Light Condensed
 - Size: 9 px
-- color: #000000
+- color: #000000, halo color: like basemap
 - Line Heigh: 11 px
 
-#### Regions
-(used only if the map is done by hand)
+#### Regions (used only if the map is done by hand)
 - Univers LT Std 47 Light Condensed 
 - Size: 9 px
 - Transform: Uppercase
-- color: #000000
+- color: #000000, halo color: like basemap
 - Line Heigh: 11 px
 - Letter-spacing: 6
 
@@ -118,11 +132,11 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size: 9 px
 - Transform: Uppercase
 - Line Heigh: 11 px
-- color: #0093BF
+- color: #0093BF, halo color: #CEE9F2
 
 #### Water - lakes, rivers
 - Univers LT Std 47 Light Condensed
 - Size: 9 px
 - Line Heigh: 11 px
-- color: #0093BF
+- color: #0093BF, halo color: like basemap
 - Letter-spacing: 6
