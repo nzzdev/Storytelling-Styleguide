@@ -43,6 +43,38 @@ span: 6
 src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_from-hand@2x.png 2x"
 ```
 
+### Typography
+
+#### country 
+- GT America Light (font-weight: 50)
+- Size: 14 px (Zoomstufen: 0/10, 3/12, 4/16)
+- color: #6e6e7e, halo color: #ECF5EF
+- Transform: none
+- Line Heigh: 1.2
+
+#### capital
+- GT America Medium (font-weight: 500)
+- Size 15 px
+- color: #92929e, halo color: #ECF5EF
+- Transform: Uppercase
+
+#### city / town/ village / suburb / big city
+- GT America Regular (font-weight: 100)
+- Size 13 px
+- color: #92929e, halo color: #ECF5EF
+
+#### Sea
+- Pensum Pro Italic (font-weight: 100)
+- Size 12 px
+- color: #ffffff, halo color: #CEE9F2
+
+#### Water - lakes, rivers
+- Pensum Pro Italic (font-weight: 100) 
+- Size 13 px
+- color: #0093bf, halo color: #CEE9F2
+
+
+
 ### Mobile
 ```type
 {
