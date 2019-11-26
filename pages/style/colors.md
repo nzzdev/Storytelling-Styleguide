@@ -204,7 +204,6 @@ colors:
 colors:
  - {name: "countries basemap", value: "#EDECE1"}
  - {name: "borders", value: "#b6b6be"}
- - {name: "region border color", value: "#cfcfd6"}
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#f4eede"}
 ```
