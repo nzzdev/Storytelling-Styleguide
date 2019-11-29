@@ -160,7 +160,7 @@ colors:
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#f4eede"}
  - {name: "Ländergrenzen", value: "#A88EA8"}
- - {name: "Regionsgrenzen", value: "#c4aed9"}
+ - {name: "Regionsgrenzen", value: "#C9C4E0"}
  - {name: "Gemeindegrenzen", value: "#D4C1EE"}
 ```
  
