@@ -175,10 +175,9 @@ colors:
 
 ```color-palette|span-1
 colors:
- - {name: "Landuse residential - primary", value: "#ececf0"}
  - {name: "buildings - primary", value: "#e3e3e8"}
  - {name: "text color, countries, cities", value: "#92929E"}
-```
+ ```
 
 ### Minimal Map
 
@@ -219,42 +218,18 @@ colors:
  
 ```color-palette|span-1
 colors:
- - {name: "Landuse residential", value: "#DFDED8"}
  - {name: "buildings", value: "#DBDAD1"}
  - {name: "text color, countries, cities", value: "#92929E"}
 ```
-  
-### Satellite Map
 
-```color-palette|span-1
- colors:
- - {name: "countries basemap", value: "#f0f0f2"}
-```
 
 ### Print Map
 
-```color-palette|span-1
- colors:
- - {name: "countries basemap", value: "#f0f0f2"}
- - {name: "borders", value: "#b6b6be"}
- - {name: "region border color", value: "#cfcfd6"}
- - {name: "highlighted region", value: "#f4eede"}
- - {name: "weekend region", value: "#dbd8bf"}
-```
+For Print you can use whatever online map fits best. Only the basemap should be 5% black or #eaeaea if generated automatically.
 
 ```color-palette|span-1
  colors:
- - {name: "rivers, lakes, maritime boundaries", value: "#add8e6"}
- - {name: "forested areas – primary", value: "#99c7a3"}
- - {name: "oceans – primary", value: "#CEE9F2"}
- - {name: "streets, railways - primary", value: "#DBDAD1"}
- - {name: "railways - primary", value: "#dcdce2"}
-```
-
-```color-palette|span-1
- colors:
- - {name: "Grauflächen - primary", value: "#ececf0"}
- - {name: "buildings - primary", value: "#e3e3e8"}
+ - {name: "countries basemap", value: "#eaeaea"}
 ```
   
 
