@@ -125,7 +125,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Line Heigh: 11 px
 - Transform: Uppercase
 - color: #000000, halo color: like basemap
-- Letter-spacing: 6
+- Letter-spacing: 60
 
 #### Oceans
 - Univers LT Std 47 Light Condensed
@@ -139,4 +139,4 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size: 9 px
 - Line Heigh: 11 px
 - color: #0093BF, halo color: like basemap
-- Letter-spacing: 6
+- Letter-spacing: 60
