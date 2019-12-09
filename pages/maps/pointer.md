@@ -33,6 +33,14 @@ The minimap helps to show the position of the main map.
 - use the same colors for regions in the minimap as they are defined in the main map
 - leave away details such as water, forested areas and roads
 
+## Map-scale (Massstab)
+- GT America Regular (font-weight: 100)
+- Size: 13 px
+- color: #6e6e7e, halo color: #FFFFFF
+
+- Line: 1,5 px
+- color: #6e6e7e, halo color: #FFFFFF
+
 ## Map Type Definitions
 
 These are the type definitions for our online and print maps. Use these when a map needs to be created by hand. 
@@ -45,6 +53,12 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 
 ## Map Type Definitions
 ### Online Maps
+
+#### Marker City
+- GT America Medium (font-weight: 500)
+- Size: 14 px
+- color: #05032D, halo color: #FFFFFF
+- Line Heigh: 16 px
 
 #### country 
 - GT America Light (font-weight: 50)
