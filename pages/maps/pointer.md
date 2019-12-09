@@ -34,12 +34,21 @@ The minimap helps to show the position of the main map.
 - leave away details such as water, forested areas and roads
 
 ## Map-scale (Massstab)
+#### Online
 - GT America Regular (font-weight: 100)
 - Size: 13 px
-- color: #6e6e7e, halo color: #FFFFFF
+- color: #6e6e7e, halo color: #FFFFFF, halo with: 2 px
 
 - Line: 1,5 px
 - color: #6e6e7e, halo color: #FFFFFF
+
+#### Print
+- Univers LT Std 47 Light Condensed 
+- Size: 6 px
+- color: #000000, halo color: #FFFFFF
+
+- Line: 1 px
+- color: #6e6e7e, halo color: #FFFFFF, halo with: 1 px
 
 ## Map Type Definitions
 
@@ -57,37 +66,37 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 #### Marker City
 - GT America Medium (font-weight: 500)
 - Size: 14 px
-- color: #05032D, halo color: #FFFFFF
+- color: #05032D, halo color: #FFFFFF, halo with: 2 px
 - Line Heigh: 16 px
 
 #### country 
 - GT America Light (font-weight: 50)
 - Size: 14 px (Zoomstufen: 0/10, 3/12, 4/16)
-- color: #6e6e7e, halo color: like basemap
+- color: #6e6e7e, halo color: like basemap, halo with: 2 px
 - Line Heigh: 16 px
 
 #### secondary country (used only if the map is done by hand)
 - GT America Light (font-weight: 50)
 - Size: 14 px
-- color: #e9e9ee, halo color: like basemap
+- color: #e9e9ee, halo color: like basemap, halo with: 2 px
 - Line Heigh: 16 px
 
 #### capital
 - GT America Medium (font-weight: 500)
 - Size 15 px
-- color: #92929e, halo color: like basemap
+- color: #92929e, halo color: like basemap, halo with: 2 px
 - Line Heigh: 17 px
 
 #### city / town/ village / suburb / big city
 - GT America Regular (font-weight: 100)
 - Size 13 px
-- color: #92929e, halo color: like basemap
+- color: #92929e, halo color: like basemap, halo with: 2 px
 - Line Heigh: 15 px
 
 #### Regions
 - GT America Light (font-weight: 50)
 - Size: 13 px
-- color: #92929e, halo color: like basemap
+- color: #92929e, halo color: like basemap, halo with: 2 px
 - Transform: Uppercase
 - Line Heigh: 15 px
 - Letter-spacing: 6
@@ -95,13 +104,13 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 #### Oceans
 - Pensum Pro Italic (font-weight: 100)
 - Size 13 px
-- color: #ffffff, halo color: #CEE9F2
+- color: #ffffff, halo color: #CEE9F2, halo with: 2 px
 - Line Heigh: 15 px
 
 #### Water - lakes, rivers
 - Pensum Pro Italic (font-weight: 100) 
 - Size 13 px
-- color: #0093bf, halo color: #CEE9F2
+- color: #0093bf, halo color: #CEE9F2, halo with: 2 px
 - Line Heigh: 15 px
 
 
@@ -112,33 +121,33 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size: 8 px
 - Line Heigh: 10 px
 - Transform: Uppercase
-- color: #000000, halo color: like basemap
+- color: #000000, halo color: like basemap, halo with: 1 px
 
 #### secondary country (used only if the map is done by hand)
 - Univers LT Std 47 Light Condensed 
 - Size: 8 px
 - Line Heigh: 10 px
 - Transform: Uppercase
-- color: #808080, halo color: like basemap
+- color: #808080, halo color: like basemap, halo with: 1 px
 
 #### capital
 - Univers Next Pro Medium Condensed
 - Size: 8 px
 - Line Heigh: 10 px
-- color: #000000, halo color: like basemap
+- color: #000000, halo color: like basemap, halo with: 1 px
 
 #### city / town/ village / suburb / big city
 - Univers LT Std 47 Light Condensed
 - Size: 8 px
 - Line Heigh: 10 px
-- color: #000000, halo color: like basemap
+- color: #000000, halo color: like basemap, halo with: 1 px
 
 #### Regions
 - Univers LT Std 47 Light Condensed 
 - Size: 7.5 px
 - Line Heigh: 10 px
 - Transform: Uppercase
-- color: #000000, halo color: like basemap
+- color: #000000, halo color: like basemap, halo with: 1 px
 - Letter-spacing: 60
 
 #### Oceans
@@ -146,11 +155,11 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size: 8 px
 - Line Heigh: 10 px
 - Transform: Uppercase
-- color: #0093BF, halo color: #CEE9F2
+- color: #0093BF, halo color: #CEE9F2, halo with: 1 px
 
 #### Water - lakes, rivers
 - Univers LT Std 47 Light Condensed
 - Size: 7.5 px
 - Line Heigh: 10 px
-- color: #0093BF, halo color: like basemap
+- color: #0093BF, halo color: like basemap, halo with: 1 px
 - Letter-spacing: 60
