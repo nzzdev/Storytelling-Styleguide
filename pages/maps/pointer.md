@@ -108,7 +108,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 ### Print Maps
 
 #### main country 
-- Univers LT Std 57 Medium Condensed 
+- Univers Next Pro Medium Condensed
 - Size: 9 px
 - Line Heigh: 11 px
 - Transform: Uppercase
@@ -122,7 +122,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - color: #808080, halo color: like basemap
 
 #### capital
-- Univers LT Std 57 Medium Condensed
+- Univers Next Pro Medium Condensed
 - Size: 9 px
 - Line Heigh: 11 px
 - color: #000000, halo color: like basemap
