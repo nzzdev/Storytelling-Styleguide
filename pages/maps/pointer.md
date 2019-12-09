@@ -108,49 +108,49 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 ### Print Maps
 
 #### main country 
-- Univers Next Pro Medium Condensed
-- Size: 9 px
-- Line Heigh: 11 px
+- Univers LT Std 47 Light Condensed 
+- Size: 8 px
+- Line Heigh: 10 px
 - Transform: Uppercase
 - color: #000000, halo color: like basemap
 
 #### secondary country (used only if the map is done by hand)
 - Univers LT Std 47 Light Condensed 
-- Size: 9 px
-- Line Heigh: 11 px
+- Size: 8 px
+- Line Heigh: 10 px
 - Transform: Uppercase
 - color: #808080, halo color: like basemap
 
 #### capital
 - Univers Next Pro Medium Condensed
-- Size: 9 px
-- Line Heigh: 11 px
+- Size: 8 px
+- Line Heigh: 10 px
 - color: #000000, halo color: like basemap
 
 #### city / town/ village / suburb / big city
 - Univers LT Std 47 Light Condensed
-- Size: 9 px
-- Line Heigh: 11 px
+- Size: 8 px
+- Line Heigh: 10 px
 - color: #000000, halo color: like basemap
 
 #### Regions
 - Univers LT Std 47 Light Condensed 
-- Size: 9 px
-- Line Heigh: 11 px
+- Size: 7.5 px
+- Line Heigh: 10 px
 - Transform: Uppercase
 - color: #000000, halo color: like basemap
 - Letter-spacing: 60
 
 #### Oceans
 - Univers LT Std 47 Light Condensed
-- Size: 9 px
-- Line Heigh: 11 px
+- Size: 8 px
+- Line Heigh: 10 px
 - Transform: Uppercase
 - color: #0093BF, halo color: #CEE9F2
 
 #### Water - lakes, rivers
 - Univers LT Std 47 Light Condensed
-- Size: 9 px
-- Line Heigh: 11 px
+- Size: 7.5 px
+- Line Heigh: 10 px
 - color: #0093BF, halo color: like basemap
 - Letter-spacing: 60
