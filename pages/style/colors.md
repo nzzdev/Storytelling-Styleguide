@@ -158,7 +158,7 @@ colors:
 colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#f4eede"}
+ - {name: "highlighted region", value: "#f0e397"}
  - {name: "Ländergrenzen", value: "#A88EA8"}
  - {name: "Regionsgrenzen", value: "#C9C4E0"}
  - {name: "Gemeindegrenzen", value: "#D4C1EE"}
@@ -204,7 +204,7 @@ colors:
  - {name: "countries basemap", value: "#EDECE1"}
  - {name: "borders", value: "#b6b6be"}
  - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#f4eede"}
+ - {name: "highlighted region", value: "#f0e397"}
 ```
  
 ```color-palette|span-1
