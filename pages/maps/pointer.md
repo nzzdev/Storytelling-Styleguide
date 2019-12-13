@@ -25,6 +25,39 @@ plain: true
 span: 5
 src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojson@2x.png 2x"
 ```
+## Simple Maps
+
+Simple pointer maps are made in Q. These maps are typically used for simple localization. We use four different templates.
+
+## Standard Maps
+
+This template should be used for most of the maps.
+
+```image
+plain: true
+span: 5
+src: "assets/maps/Standardmap@1x.png 1x, assets/maps/Standardmap@2x.png 2x"
+```
+
+## Minimal Maps
+
+Minimal Maps are used if the map underneath is not the most important information. Use this template if you for example want to show complexe geojson routes.
+
+```image
+plain: true
+span: 5
+src: "assets/maps/Minimalmap@1x.png 1x, assets/maps/Minimalmap@2x.png 2x"
+```
+
+## Natural Maps
+
+Use the Natural Maps template if the context in which the map will be placed is about nature. This can be all from mountains to national parks or forested areas.
+
+```image
+plain: true
+span: 5
+src: "assets/maps/Naturalmap@1x.png 1x, assets/maps/Naturalmap@2x.png 2x"
+```
 
 ## Mini-Map
 The minimap helps to show the position of the main map.
