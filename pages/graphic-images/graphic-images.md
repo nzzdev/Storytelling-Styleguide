@@ -16,3 +16,19 @@ plain: true
 span: 4
 src: "assets/graphic-images/NotreDame-1@1x.png 1x, assets/graphic-images/NotreDame-1@2x.png 2x"
 ```
+
+# Graphics-Picture Combination
+
+This Template is only used for print. Use only pictures with very little content and a lot of empty space. Use colors that appear in the picue or black or white. Dont use many different colors but try to use one color in different shades.
+
+```image
+plain: true
+span: 3
+src: "assets/graphic-images/NotreDame-1@1x.png 1x, assets/graphic-images/NotreDame-1@2x.png 2x"
+```
+
+```image
+plain: true
+span: 3
+src: "assets/graphic-images/NotreDame-1@1x.png 1x, assets/graphic-images/NotreDame-1@2x.png 2x"
+```
