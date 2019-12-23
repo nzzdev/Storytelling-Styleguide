@@ -159,7 +159,7 @@ colors:
 colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#f4eede"}
+ - {name: "highlighted region", value: "#f0e397"}
  - {name: "Ländergrenzen", value: "#A88EA8"}
  - {name: "Regionsgrenzen", value: "#C9C4E0"}
  - {name: "Gemeindegrenzen", value: "#D4C1EE"}
@@ -202,10 +202,10 @@ colors:
 
 ```color-palette|span-1
 colors:
-- {name: "countries basemap", value: "#EDECE1"}
-- {name: "borders", value: "#b6b6be"}
-- {name: "main country", value: "#ffffff"}
-- {name: "highlighted region", value: "#f4eede"}
+ - {name: "countries basemap", value: "#EDECE1"}
+ - {name: "borders", value: "#b6b6be"}
+ - {name: "main country", value: "#ffffff"}
+ - {name: "highlighted region", value: "#f0e397"}
 ```
 
 ```color-palette|span-1
@@ -987,6 +987,7 @@ colors:
   - {name: "Liberaldemokraten", value: "#d28b00"}
   - {name: "UKIP", value: "#8440a3"}
   - {name: "DUP", value: "#DA467D"}
+  - {name: "Plaid Cymru", value: "#ac5038"}
   - {name: "default", value: "#616161"}
 ```
 
@@ -995,6 +996,7 @@ colors:
   - {name: "Liberaldemokraten - light", value: "#edd29c"}
   - {name: "UKIP", value: "#cdb1d9"}
   - {name: "DUP", value: "#f1bace"}
+  - {name: "Plaid Cymru", value: "#ddb9af"}
   - {name: "default", value: "#bcbcbc"}
 ```
 
