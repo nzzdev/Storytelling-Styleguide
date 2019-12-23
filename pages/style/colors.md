@@ -121,6 +121,7 @@ colors:
    - {value: "#393855"}
    - {value: "#05032d"}
 ```
+
 Voila an alternative gray scale open for discussion:
 
 ```color-palette|horizontal
@@ -163,7 +164,7 @@ colors:
  - {name: "Regionsgrenzen", value: "#C9C4E0"}
  - {name: "Gemeindegrenzen", value: "#D4C1EE"}
 ```
- 
+
 ```color-palette|span-1
 colors:
  - {name: "oceans – primary", value: "#CEE9F2"}
@@ -177,7 +178,7 @@ colors:
 colors:
  - {name: "buildings - primary", value: "#e3e3e8"}
  - {name: "text color, countries, cities", value: "#92929E"}
- ```
+```
 
 ### Minimal Map
 
@@ -189,24 +190,24 @@ colors:
  - {name: "water", value: "#cee1e6"}
  - {name: "buildings - primary", value: "#CBCBCB"}
 ```
- 
+
 ```color-palette|span-1
 colors:
  - {name: "streets - primary", value: "#ffffff"}
  - {name: "railways - primary", value: "#dcdce2"}
  - {name: "text color, countries, cities", value: "#92929E"}
 ```
- 
+
 ### Natural Map
 
- ```color-palette|span-1
+```color-palette|span-1
 colors:
- - {name: "countries basemap", value: "#EDECE1"}
- - {name: "borders", value: "#b6b6be"}
- - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#f4eede"}
+- {name: "countries basemap", value: "#EDECE1"}
+- {name: "borders", value: "#b6b6be"}
+- {name: "main country", value: "#ffffff"}
+- {name: "highlighted region", value: "#f4eede"}
 ```
- 
+
 ```color-palette|span-1
 colors:
  - {name: "oceans", value: "#CEE9F2"}
@@ -214,14 +215,13 @@ colors:
  - {name: "forested areas", value: "#99c7a3"}
  - {name: "streets", value: "#DBDAD1"}
  - {name: "railways", value: "#d9d9d9"}
-``` 
- 
+```
+
 ```color-palette|span-1
 colors:
  - {name: "buildings", value: "#DBDAD1"}
  - {name: "text color, countries, cities", value: "#92929E"}
 ```
-
 
 ### Print Map
 
@@ -231,7 +231,6 @@ For Print you can use whatever online map fits best. Only the basemap should be 
  colors:
  - {name: "countries basemap", value: "#eaeaea"}
 ```
-  
 
 ## Sequential and Diverging Scales
 
@@ -465,6 +464,42 @@ rows:
     HEX: 0BA9D9, 53B3DD, 77BDE0, 94C8E4, AFD2E7, C8DCEB, E0E7EE, EAEAE1, E5E6C4, DFE2A7, D7DE89, CFDA6B, C6D648, BBD215
 ```
 
+### Diverging Scale for Genders
+
+```color-palette|horizontal
+colors:
+   - {value: "#24b39c"}
+   - {value: "#7ac7b7"}
+   - {value: "#98d0c5"}
+   - {value: "#ececf0"}
+   - {value: "#b196d9"}
+   - {value: "#9b7ad1"}
+   - {value: "#6c43c0"}
+```
+
+```table
+span: 6
+rows:
+  - Steps: 2
+    HEX: 24b39c, 6c43c0
+  - Steps: 3
+    HEX: 24b39c, ececf0, 6c43c0
+  - Steps: 4
+    HEX: 24b39c, 98d0c5, b196d9, 6c43c0
+  - Steps: 5
+    HEX: 24b39c, 98d0c5, ececf0, b196d9, 6c43c0
+  - Steps: 6
+    HEX: 24b39c, 7ac7b7, b5dad3, c5b2e1, 9b7ad1, 6c43c0
+  - Steps: 7
+    HEX: 24b39c, 7ac7b7, 98d0c5, ececf0, b196d9, 9b7ad1, 6c43c0
+  - Steps: 8
+    HEX: 24b39c, 69c2b0, 98d0c5, c3deda, cfc0e5, b196d9, 906ccd, 6c43c0
+  - Steps: 9
+    HEX: 24b39c, 69c2b0, 98d0c5, c3deda, ececf0, cfc0e5, b196d9, 906ccd, 6c43c0
+  - Steps: 10
+    HEX: 24b39c, 5ebfac, 86cbbd, aad6ce, cbe1df, d5c9e7, bda7de, a485d4, 8964ca, 6c43c0
+```
+
 ## Political Party Colors
 
 We have predefined colors for a number of countries, including Switzerland, France, Germany, Netherlands, United Kingdom and the United States. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
@@ -472,7 +507,6 @@ We have predefined colors for a number of countries, including Switzerland, Fran
 ## How to generate "light" versions of party colors
 
 We use [Chroma.js](https://gka.github.io/palettes) to interpolate between the regular party color and white. Chroma.js can calculate any number of steps between two colors so that they are visually at equal distance. To get the light color of the Spanish "Más País" then, we would input `#54ba00, #ffffff` and set the number of colors to `3` to get the middle value: `#b2dd90`.
-
 
 ### Switzerland
 
