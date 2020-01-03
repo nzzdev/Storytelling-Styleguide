@@ -29,7 +29,7 @@ src: "assets/graphic-images/Beispiel-Bildgrafik-1@1x.png 1x, assets/graphic-imag
 
 ```image
 plain: true
-span: 4
+span: 5
 src: "assets/graphic-images/Beispiel-Bildgrafik-2@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-2@2x.png 2x"
 ```
 
