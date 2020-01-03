@@ -23,7 +23,7 @@ This Template is only used for print. Online we use Q as usual. Use only picture
 
 ```image
 plain: true
-span: 4
+span: 3
 src: "assets/graphic-images/Beispiel-Bildgrafik-1@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-1@2x.png 2x"
 ```
 
@@ -47,6 +47,6 @@ src: "assets/graphic-images/Beispiel-Bildgrafik-4@1x.png 1x, assets/graphic-imag
 
 ```image
 plain: true
-span: 4
+span: 3
 src: "assets/graphic-images/Beispiel-Bildgrafik-5@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-5@2x.png 2x"
 ```
