@@ -134,14 +134,8 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Line Heigh: 15 px
 - Letter-spacing: 6
 
-#### Oceans
+#### Water - lakes, rivers, Oceans
 - Pensum Pro Italic (font-weight: 100)
-- Size 13 px
-- color: #ffffff, halo color: #CEE9F2, halo with: 2 px
-- Line Heigh: 15 px
-
-#### Water - lakes, rivers
-- Pensum Pro Italic (font-weight: 100) 
 - Size 13 px
 - color: #0093bf, halo color: #CEE9F2, halo with: 2 px
 - Line Heigh: 15 px
