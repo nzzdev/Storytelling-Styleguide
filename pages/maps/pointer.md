@@ -150,7 +150,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Univers LT Std 57 Condensed
 - Size: 9 px
 - color: #000000, halo color: #FFFFFF, halo with: 2 px
-- Line Heigh: 16 px
+- Line Heigh: 12 px
 - Icon Size: 6 x 6 px, Icon Color: #000000, halo color: #FFFFFF, halo with: 0,5 px
 
 #### main country 
