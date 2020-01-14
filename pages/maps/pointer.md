@@ -101,6 +101,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size: 14 px
 - color: #05032D, halo color: #FFFFFF, halo with: 2 px
 - Line Heigh: 16 px
+- Icon Size: 12 x 12 px, Icon Color: #05032D, halo color: #FFFFFF, halo with: 1 px
 
 #### country 
 - GT America Light (font-weight: 50)
@@ -119,12 +120,14 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size 15 px
 - color: #92929e, halo color: like basemap, halo with: 2 px
 - Line Heigh: 17 px
+- Icon Size: 12 x 12 px, Icon Color: #92929e, no halo
 
 #### city / town/ village / suburb / big city
 - GT America Regular (font-weight: 100)
 - Size 13 px
 - color: #92929e, halo color: like basemap, halo with: 2 px
 - Line Heigh: 15 px
+- Icon Size: 6 x 6 px, Icon Color: #92929e, no halo
 
 #### Regions
 - GT America Light (font-weight: 50)
@@ -142,6 +145,13 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 
 
 ### Print Maps
+
+#### Marker City
+- Univers LT Std 57 Condensed
+- Size: 9 px
+- color: #000000, halo color: #FFFFFF, halo with: 2 px
+- Line Heigh: 16 px
+- Icon Size: 6 x 6 px, Icon Color: #000000, halo color: #FFFFFF, halo with: 0,5 px
 
 #### main country 
 - Univers LT Std 47 Light Condensed 
@@ -162,12 +172,14 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size: 8 px
 - Line Heigh: 10 px
 - color: #000000, halo color: like basemap, halo with: 1 px
+- Icon Size: 6 x 6 px, Icon Color: #000000, no halo
 
 #### city / town/ village / suburb / big city
 - Univers LT Std 47 Light Condensed
 - Size: 8 px
 - Line Heigh: 10 px
 - color: #000000, halo color: like basemap, halo with: 1 px
+- Icon Size: 4 x 4 px, Icon Color: #000000, no halo
 
 #### Regions
 - Univers LT Std 47 Light Condensed 
