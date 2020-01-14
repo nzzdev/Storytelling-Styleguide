@@ -69,8 +69,8 @@ The minimap helps to show the position of the main map.
 ## Map-scale (Massstab)
 #### Online
 - GT America Regular (font-weight: 100)
-- Size: 13 px
-- color: #6e6e7e, halo color: #FFFFFF, halo with: 2 px
+- Size: 12 px
+- color: #6e6e7e, halo color: like basemap, halo with: 2 px
 
 - Line: 1,5 px
 - color: #6e6e7e, halo color: #FFFFFF
