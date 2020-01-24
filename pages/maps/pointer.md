@@ -84,15 +84,6 @@ The minimap helps to show the position of the main map.
 - Line: 1 px
 - color: #6e6e7e, halo color: #FFFFFF, halo with: 1 px
 
-## Map Type Definitions
-
-These are the type definitions for our online and print maps. Use these when a map needs to be created by hand. 
-
-```image
-plain: true
-span: 6
-src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_from-hand@2x.png 2x"
-```
 
 ## Map Type Definitions
 ### Online Maps
