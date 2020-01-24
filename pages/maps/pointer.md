@@ -148,7 +148,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 ### Print Maps
 
 #### Marker City
-- Univers LT Std 57 Condensed
+- Univers LT Std 47 Light Condensed 
 - Size: 9 px
 - color: #000000, halo color: #FFFFFF, halo with: 2 px
 - Line Heigh: 12 px
