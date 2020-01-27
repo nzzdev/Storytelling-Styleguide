@@ -23,30 +23,30 @@ This Template is only used for print. Online we use Q as usual. Use only picture
 
 ```image
 plain: true
-span: 3
+span: 4
 src: "assets/graphic-images/Beispiel-Bildgrafik-1@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-1@2x.png 2x"
 ```
 
 ```image
 plain: true
-span: 3
-src: "assets/graphic-images/Beispiel-Bildgrafik-2@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-2@1x.png 2x"
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-2@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-2@2x.png 2x"
 ```
 
 ```image
 plain: true
-span: 3
-src: "assets/graphic-images/Beispiel-Bildgrafik-3@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-3@1x.png 2x"
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-3@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-3@2x.png 2x"
 ```
 
 ```image
 plain: true
-span: 3
-src: "assets/graphic-images/Beispiel-Bildgrafik-4@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-4@1x.png 2x"
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-4@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-4@2x.png 2x"
 ```
 
 ```image
 plain: true
-span: 3
-src: "assets/graphic-images/Beispiel-Bildgrafik-5@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-5@1x.png 2x"
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-5@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-5@2x.png 2x"
 ```

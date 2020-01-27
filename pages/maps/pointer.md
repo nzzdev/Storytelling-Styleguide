@@ -69,8 +69,9 @@ The minimap helps to show the position of the main map.
 ## Map-scale (Massstab)
 #### Online
 - GT America Regular (font-weight: 100)
-- Size: 13 px
-- color: #6e6e7e, halo color: #FFFFFF, halo with: 2 px
+- Size: 12 px
+- Line Heigh: 12 px
+- color: #6e6e7e, halo color: like basemap, halo with: 2 px
 
 - Line: 1,5 px
 - color: #6e6e7e, halo color: #FFFFFF
@@ -83,15 +84,6 @@ The minimap helps to show the position of the main map.
 - Line: 1 px
 - color: #6e6e7e, halo color: #FFFFFF, halo with: 1 px
 
-## Map Type Definitions
-
-These are the type definitions for our online and print maps. Use these when a map needs to be created by hand. 
-
-```image
-plain: true
-span: 6
-src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_from-hand@2x.png 2x"
-```
 
 ## Map Type Definitions
 ### Online Maps
@@ -101,6 +93,7 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size: 14 px
 - color: #05032D, halo color: #FFFFFF, halo with: 2 px
 - Line Heigh: 16 px
+- Icon Size: 12 x 12 px, Icon Color: #05032D, halo color: #FFFFFF, halo with: 1 px
 
 #### country 
 - GT America Light (font-weight: 50)
@@ -119,12 +112,14 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size 15 px
 - color: #92929e, halo color: like basemap, halo with: 2 px
 - Line Heigh: 17 px
+- Icon Size: 12 x 12 px, Icon Color: #92929e, no halo
 
 #### city / town/ village / suburb / big city
 - GT America Regular (font-weight: 100)
 - Size 13 px
 - color: #92929e, halo color: like basemap, halo with: 2 px
 - Line Heigh: 15 px
+- Icon Size: 6 x 6 px, Icon Color: #92929e, no halo
 
 #### Regions
 - GT America Light (font-weight: 50)
@@ -134,20 +129,21 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Line Heigh: 15 px
 - Letter-spacing: 6
 
-#### Oceans
+#### Water - lakes, rivers, Oceans
 - Pensum Pro Italic (font-weight: 100)
-- Size 13 px
-- color: #ffffff, halo color: #CEE9F2, halo with: 2 px
-- Line Heigh: 15 px
-
-#### Water - lakes, rivers
-- Pensum Pro Italic (font-weight: 100) 
 - Size 13 px
 - color: #0093bf, halo color: #CEE9F2, halo with: 2 px
 - Line Heigh: 15 px
 
 
 ### Print Maps
+
+#### Marker City
+- Univers LT Std 47 Light Condensed 
+- Size: 9 px
+- color: #000000, halo color: #FFFFFF, halo with: 2 px
+- Line Heigh: 12 px
+- Icon Size: 6 x 6 px, Icon Color: #000000, halo color: #FFFFFF, halo with: 0,5 px
 
 #### main country 
 - Univers LT Std 47 Light Condensed 
@@ -168,12 +164,14 @@ src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_fro
 - Size: 8 px
 - Line Heigh: 10 px
 - color: #000000, halo color: like basemap, halo with: 1 px
+- Icon Size: 6 x 6 px, Icon Color: #000000, no halo
 
 #### city / town/ village / suburb / big city
 - Univers LT Std 47 Light Condensed
 - Size: 8 px
 - Line Heigh: 10 px
 - color: #000000, halo color: like basemap, halo with: 1 px
+- Icon Size: 4 x 4 px, Icon Color: #000000, no halo
 
 #### Regions
 - Univers LT Std 47 Light Condensed 
