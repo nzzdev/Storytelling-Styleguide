@@ -112,21 +112,6 @@ Our gray scale palette is based off of the gray tones found on NZZ.ch (backgroun
 ```color-palette|horizontal
 colors:
    - {value: "#f0f0f2"}
-   - {value: "#ececf0"}
-   - {value: "#e9e9ee"}
-   - {value: "#cfcfd6"}
-   - {value: "#b6b6be"}
-   - {value: "#92929e"}
-   - {value: "#6e6e7e"}
-   - {value: "#393855"}
-   - {value: "#05032d"}
-```
-
-Voila an alternative gray scale open for discussion:
-
-```color-palette|horizontal
-colors:
-   - {value: "#f0f0f2"}
    - {value: "#e3e4e9"}
    - {value: "#d4d6dd"}
    - {value: "#c3c2ca"}
