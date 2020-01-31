@@ -35,9 +35,39 @@ This template should be used for most of the maps.
 
 ```image
 plain: true
-span: 5
+span: 3
 src: "assets/maps/Standardmap@1x.png 1x, assets/maps/Standardmap@2x.png 2x"
 ```
+
+## Maps colors
+
+### Standard Map
+
+```color-palette|span-1
+colors:
+ - {name: "countries basemap", value: "#f0f0f2"}
+ - {name: "main country", value: "#ffffff"}
+ - {name: "highlighted region", value: "#d7cddc"}
+ - {name: "Ländergrenzen", value: "#A88EA8"}
+ - {name: "Regionsgrenzen", value: "#C9C4E0"}
+ - {name: "Gemeindegrenzen", value: "#D4C1EE"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "oceans – primary", value: "#CEE9F2"}
+ - {name: "rivers, lakes, maritime boundaries", value: "#add8e6"}
+ - {name: "forested areas – primary", value: "#99c7a3"}
+ - {name: "streets - primary", value: "#DFE0E5"}
+ - {name: "railways - primary", value: "#D8D9DB"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "buildings - primary", value: "#e3e3e8"}
+ - {name: "text color, countries, cities", value: "#92929E"}
+```
+
 
 ## Minimal Maps
 
