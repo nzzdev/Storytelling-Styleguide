@@ -48,18 +48,17 @@ colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#d7cddc"}
- - {name: "Ländergrenzen", value: "#A88EA8"}
- - {name: "Regionsgrenzen", value: "#C9C4E0"}
- - {name: "Gemeindegrenzen", value: "#D4C1EE"}
+ - {name: "water – primary", value: "#CEE9F2"}
+ - {name: "forested areas – primary", value: "#99c7a3"}
 ```
 
 ```color-palette|span-1
 colors:
- - {name: "oceans – primary", value: "#CEE9F2"}
- - {name: "rivers, lakes, maritime boundaries", value: "#add8e6"}
- - {name: "forested areas – primary", value: "#99c7a3"}
  - {name: "streets - primary", value: "#DFE0E5"}
  - {name: "railways - primary", value: "#D8D9DB"}
+ - {name: "Ländergrenzen", value: "#A88EA8"}
+ - {name: "Regionsgrenzen", value: "#C9C4E0"}
+ - {name: "Gemeindegrenzen", value: "#D4C1EE"}
 ```
 
 ```color-palette|span-1
