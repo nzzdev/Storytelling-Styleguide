@@ -101,12 +101,6 @@ The minimap helps to show the position of the main map.
 - color: #6e6e7e, halo color: like basemap, halo with: 2 px
 - Line Heigh: 16 px
 
-#### secondary country (used only if the map is done by hand)
-- GT America Light (font-weight: 50)
-- Size: 14 px
-- color: #e9e9ee, halo color: like basemap, halo with: 2 px
-- Line Heigh: 16 px
-
 #### capital
 - GT America Medium (font-weight: 500)
 - Size 15 px
