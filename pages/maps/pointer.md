@@ -45,23 +45,21 @@ span: 3
 src: "assets/maps/Standardmap@1x.png 1x, assets/maps/Standardmap@2x.png 2x"
 ```
 
-## Maps colors
-
-### Standard Map
+### Standard Map colors
 
 ```color-palette|span-1
 colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#d7cddc"}
- - {name: "water – primary", value: "#CEE9F2"}
- - {name: "forested areas – primary", value: "#99c7a3"}
+ - {name: "water", value: "#CEE9F2"}
+ - {name: "forested areas", value: "#99c7a3"}
 ```
 
 ```color-palette|span-1
 colors:
- - {name: "streets - primary", value: "#DFE0E5"}
- - {name: "railways - primary", value: "#D8D9DB"}
+ - {name: "streets", value: "#DFE0E5"}
+ - {name: "railways", value: "#D8D9DB"}
  - {name: "Ländergrenzen", value: "#A88EA8"}
  - {name: "Regionsgrenzen", value: "#C9C4E0"}
  - {name: "Gemeindegrenzen", value: "#D4C1EE"}
@@ -100,6 +98,25 @@ span: 3
 src: "assets/maps/Naturalmapprint@1x.png 1x, assets/maps/Naturalmapprint@2x.png 2x"
 ```
 
+### Natural Map colors
+
+```color-palette|span-1
+colors:
+ - {name: "countries basemap", value: "#EDECE1"}
+ - {name: "main country", value: "#ffffff"}
+ - {name: "highlighted region", value: "#d7cddc"}
+ - {name: "water", value: "#CEE9F2"}
+ - {name: "forested areas", value: "#99c7a3"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "streets", value: "#DBDAD1"}
+ - {name: "railways", value: "#d9d9d9"}
+ - {name: "Ländergrenzen", value: "#b6b6be"}
+ - {name: "buildings", value: "#DBDAD1"}
+ - {name: "text color, countries, cities", value: "#92929E"}
+```
 
 
 ## Mini-Map
