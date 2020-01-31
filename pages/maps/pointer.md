@@ -90,9 +90,17 @@ Use the Natural Maps template if the context in which the map will be placed is 
 
 ```image
 plain: true
-span: 5
+span: 3
 src: "assets/maps/Naturalmap@1x.png 1x, assets/maps/Naturalmap@2x.png 2x"
 ```
+
+```image
+plain: true
+span: 3
+src: "assets/maps/Naturalmapprint@1x.png 1x, assets/maps/Naturalmapprint@2x.png 2x"
+```
+
+
 
 ## Mini-Map
 The minimap helps to show the position of the main map.
