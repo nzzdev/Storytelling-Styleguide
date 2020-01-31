@@ -144,7 +144,7 @@ colors:
 colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#f0e397"}
+ - {name: "highlighted region", value: "#d7cddc"}
  - {name: "Ländergrenzen", value: "#A88EA8"}
  - {name: "Regionsgrenzen", value: "#C9C4E0"}
  - {name: "Gemeindegrenzen", value: "#D4C1EE"}
@@ -210,11 +210,11 @@ colors:
 
 ### Print Map
 
-For Print you can use whatever online map fits best. Only the basemap should be 5% black or #eaeaea if generated automatically.
+For Print you can use whatever online map fits best. We defined some colors different for print because they weren't visible enough.
 
 ```color-palette|span-1
  colors:
- - {name: "countries basemap", value: "#eaeaea"}
+ - {name: "water", value: "#BED3DF"}
 ```
 
 ## Sequential and Diverging Scales
