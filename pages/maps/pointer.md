@@ -36,13 +36,13 @@ This template should be used for most of the maps.
 ```image
 plain: true
 span: 3
-src: "assets/maps/Standardmapprint@1x.png 1x, assets/maps/Standardmapprint@2x.png 2x"
+src: "assets/maps/Standardmap@1x.png 1x, assets/maps/Standardmap@2x.png 2x"
 ```
 
 ```image
 plain: true
 span: 3
-src: "assets/maps/Standardmap@1x.png 1x, assets/maps/Standardmap@2x.png 2x"
+src: "assets/maps/Standardmapprint@1x.png 1x, assets/maps/Standardmapprint@2x.png 2x"
 ```
 
 ### Standard Map colors
@@ -78,8 +78,33 @@ Minimal Maps are used if the map underneath is not the most important informatio
 
 ```image
 plain: true
-span: 5
+span: 3
 src: "assets/maps/Minimalmap@1x.png 1x, assets/maps/Minimalmap@2x.png 2x"
+```
+
+```image
+plain: true
+span: 3
+src: "assets/maps/Minimalmapprint@1x.png 1x, assets/maps/Minimalmapprint@2x.png 2x"
+```
+
+### Minimal Map colors
+
+```color-palette|span-1
+colors:
+ - {name: "countries basemap", value: "#f0f0f2"}
+ - {name: "highlighted region", value: "#d7cddc"}
+ - {name: "region border color", value: "#ffffff"}
+ - {name: "water", value: "#cee1e6"}
+ - {name: "buildings", value: "#CBCBCB"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "borders", value: "#b6b6be"}
+ - {name: "streets", value: "#ffffff"}
+ - {name: "railways", value: "#dcdce2"}
+ - {name: "text color, countries, cities", value: "#92929E"}
 ```
 
 ## Natural Maps
