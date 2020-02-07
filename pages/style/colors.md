@@ -136,87 +136,6 @@ colors:
   - {name: "female – light", value: "#aa90de"}
 ```
 
-## Maps colors
-
-### Standard Map
-
-```color-palette|span-1
-colors:
- - {name: "countries basemap", value: "#f0f0f2"}
- - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#d7cddc"}
- - {name: "Ländergrenzen", value: "#A88EA8"}
- - {name: "Regionsgrenzen", value: "#C9C4E0"}
- - {name: "Gemeindegrenzen", value: "#D4C1EE"}
-```
-
-```color-palette|span-1
-colors:
- - {name: "oceans – primary", value: "#CEE9F2"}
- - {name: "rivers, lakes, maritime boundaries", value: "#add8e6"}
- - {name: "forested areas – primary", value: "#99c7a3"}
- - {name: "streets - primary", value: "#DFE0E5"}
- - {name: "railways - primary", value: "#D8D9DB"}
-```
-
-```color-palette|span-1
-colors:
- - {name: "buildings - primary", value: "#e3e3e8"}
- - {name: "text color, countries, cities", value: "#92929E"}
-```
-
-### Minimal Map
-
-```color-palette|span-1
-colors:
- - {name: "countries basemap", value: "#f0f0f2"}
- - {name: "borders", value: "#b6b6be"}
- - {name: "region border color", value: "#ffffff"}
- - {name: "water", value: "#cee1e6"}
- - {name: "buildings - primary", value: "#CBCBCB"}
-```
-
-```color-palette|span-1
-colors:
- - {name: "streets - primary", value: "#ffffff"}
- - {name: "railways - primary", value: "#dcdce2"}
- - {name: "text color, countries, cities", value: "#92929E"}
-```
-
-### Natural Map
-
-```color-palette|span-1
-colors:
- - {name: "countries basemap", value: "#EDECE1"}
- - {name: "borders", value: "#b6b6be"}
- - {name: "main country", value: "#ffffff"}
- - {name: "highlighted region", value: "#f0e397"}
-```
-
-```color-palette|span-1
-colors:
- - {name: "oceans", value: "#CEE9F2"}
- - {name: "rivers, lakes, maritime boundaries", value: "#add8e6"}
- - {name: "forested areas", value: "#99c7a3"}
- - {name: "streets", value: "#DBDAD1"}
- - {name: "railways", value: "#d9d9d9"}
-```
-
-```color-palette|span-1
-colors:
- - {name: "buildings", value: "#DBDAD1"}
- - {name: "text color, countries, cities", value: "#92929E"}
-```
-
-### Print Map
-
-For Print you can use whatever online map fits best. We defined some colors different for print because they weren't visible enough.
-
-```color-palette|span-1
- colors:
- - {name: "water", value: "#BED3DF"}
-```
-
 ## Sequential and Diverging Scales
 
 All of our sequential scales and diverging scales are limited to seven buckets. This way we ensure that our readers can differentiate shades of a hue from one another in order to accurate ready our charts and maps.
@@ -763,6 +682,28 @@ colors:
   - {name: "Kongresspartei - light", value: "#9ed0e9"}
   - {name: "BJP (Bharatiya Janata Party)", value: "#edd29c"}
   - {name: "default", value: "#bcbcbc"}
+```
+
+### Ireland
+
+```color-palette|span-2
+colors:
+  - {name: "Sinn Fein - primary", value: "#0a0a0a"}
+  - {name: "Fianna Fail", value: "#408b3c"}
+  - {name: "Fine Gael", value: "#0083c7"}
+  - {name: "default", value: "#616161"}
+  - {name: "Grüne", value: "#54ba00"}
+  - {name: "Labour", value: "#c31906"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "Sinn Fein - light", value: "#939393"}
+  - {name: "Fianna Fail", value: "#b2d0b1"}
+  - {name: "Fine Gael", value: "#9ed0e9"}
+  - {name: "default", value: "#bcbcbc"}
+  - {name: "Grüne", value: "#c2dba7"}
+  - {name: "Labour", value: "#eaaea8"}
 ```
 
 ### Italy
