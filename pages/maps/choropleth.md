@@ -60,7 +60,7 @@ Ask yourself these two questions when deciding for a template:
 - Are geographic patterns (still) recognizable?
 - Are the entities weights represented in an unmisleading way?
 
-In many cases compromisses are unavoidable. For exmpale it's a difficult task to visualize Switzerland's communes or cantons by respecting the popular weight of the different entities. The uninhabitated mountain areas would shrink, i.e. cantons like Graubünden, and result in a unrecognizable pattern of the country. In contrast, United Kingdom's communes can be visualized more easily in a schematic way while still being recognizable as the island.
+In many cases compromisses are unavoidable. For example it's a difficult task to visualize Switzerland's communes or cantons by respecting the popular weight of the different entities. The uninhabitated mountain areas would shrink, i.e. cantons like Graubünden, and result in a unrecognizable pattern of the country ([here's a try](http://www.ralphstraumann.ch/blog/2013/05/creating-a-hexagonal-cartogram/)). In contrast, United Kingdom's communes can be visualized more easily in a schematic way while still being recognizable as the island.
 
 ## Data Classification
 
