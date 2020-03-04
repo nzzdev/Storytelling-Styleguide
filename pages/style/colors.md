@@ -230,6 +230,67 @@ rows:
     HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
 ```
 
+### Sequential Female
+
+This scale is used when displaying the amount of female representation in an enitity. Use the diverging scale for genders if you don't want to focus on a specific gender.
+
+```color-palette|horizontal
+colors:
+   - {value: "#ececf0"}
+   - {value: "#d9cfe9"}
+   - {value: "#c5b2e1"}
+   - {value: "#b196d9"}
+   - {value: "#9b7ad1"}
+   - {value: "#855fc9"}
+   - {value: "#6c43c0"}
+```
+
+```table
+span: 5
+rows:
+  - Steps: 2
+    HEX:  ececf0, 6c43c0
+  - Steps: 3
+    HEX:  ececf0, b196d9, 6c43c0
+  - Steps: 4
+    HEX:  ececf0, c5b2e1, 9b7ad1, 6c43c0
+  - Steps: 5
+    HEX:  ececf0, cfc0e5, b196d9, 906ccd, 6c43c0
+  - Steps: 6
+    HEX:  ececf0, d5c9e7, bda7de, a485d4, 8964ca, 6c43c0
+```
+
+### Sequential Male
+
+This scale is used when displaying the amount of male representation in an enitity. Use the diverging scale for genders if you don't want to focus on a specific gender.
+
+```color-palette|horizontal
+colors:
+   - {value: "#ececf0"}
+   - {value: "#d1e3e2"}
+   - {value: "#b5dad3"}
+   - {value: "#98d0c5"}
+   - {value: "#7ac7b7"}
+   - {value: "#57bdaa"}
+   - {value: "#24b39c"}
+```
+
+```table
+span: 5
+rows:
+  - Steps: 2
+    HEX:  ececf0, 24b39c
+  - Steps: 3
+    HEX:  ececf0, 98d0c5, 24b39c
+  - Steps: 4
+    HEX:  ececf0, b5dad3, 7ac7b7, 24b39c
+  - Steps: 5
+    HEX:  ececf0, c3deda, 98d0c5, 69c2b0, 24b39c
+  - Steps: 6
+    HEX:  ececf0, cbe1df, aad6ce, 86cbbd, 5ebfac, 24b39c
+
+```
+
 ### Diverging Scale 1
 
 This diverging scale should be used in any case where we are comparing opposites that are positively and negatively connotated. Such an example would be election maps where voters had to approve/deny an initiative.
@@ -402,6 +463,10 @@ rows:
     HEX: 24b39c, 69c2b0, 98d0c5, c3deda, ececf0, cfc0e5, b196d9, 906ccd, 6c43c0
   - Steps: 10
     HEX: 24b39c, 5ebfac, 86cbbd, aad6ce, cbe1df, d5c9e7, bda7de, a485d4, 8964ca, 6c43c0
+  - Steps: 11
+    HEX: 24b39c, 5ebfac, 86cbbd, aad6ce, cbe1df, ececf0, d5c9e7, bda7de, a485d4, 8964ca, 6c43c0
+  - Steps: 12
+    HEX: 24b39c, 57bdaa, 7ac7b7, 98d0c5, b5dad3, d1e3e2, d9cfe9, c5b2e1, b196d9, 9b7ad1, 855fc9, 6c43c0
 ```
 
 ## Political Party Colors
