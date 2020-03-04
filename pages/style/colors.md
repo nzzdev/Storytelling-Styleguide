@@ -467,6 +467,10 @@ rows:
     HEX: 24b39c, 5ebfac, 86cbbd, aad6ce, cbe1df, ececf0, d5c9e7, bda7de, a485d4, 8964ca, 6c43c0
   - Steps: 12
     HEX: 24b39c, 57bdaa, 7ac7b7, 98d0c5, b5dad3, d1e3e2, d9cfe9, c5b2e1, b196d9, 9b7ad1, 855fc9, 6c43c0
+  - Steps: 13
+    HEX: 24b39c, 57bdaa, 7ac7b7, 98d0c5, b5dad3, d1e3e2, ececf0, d9cfe9, c5b2e1, b196d9, 9b7ad1, 855fc9, 6c43c0
+  - Steps: 14
+    HEX: 24b39c, 51bca8, 70c4b3, 8bccbf, a5d4cb, bddcd7, d5e4e4, dcd3ea, cbbae3, b9a2dd, a88ad6, 9572cf, 815bc7, 6c43c0
 ```
 
 ## Political Party Colors
