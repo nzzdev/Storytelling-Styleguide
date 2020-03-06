@@ -138,339 +138,922 @@ colors:
 
 ## Sequential and Diverging Scales
 
-All of our sequential scales and diverging scales are limited to seven buckets. This way we ensure that our readers can differentiate shades of a hue from one another in order to accurate ready our charts and maps.
+Color scales are a powerful way to encode data. The use of the color dimension is common in Heatmaps and [Choropleth Maps](choropleth-maps).
 
-### Sequential Scale 1
+There is a simple rule how we usually encode data with color: the darker the color, the larger an entities value. Visualize such cases with one of our sequential scales. Whenever there's a relevant break in the scale, you should probably consider a diverging scale. For both type of scales we defined variants – check out which one fits best with your scenario.
 
-This sequential scale is the most often used. It is structured based on our first primary qualitative color.
+Our sequential and diverging scales have a maximum of seven buckets. This allows our readers to differentiate shades of a hue from one another and let them accurately read the data encoding in our charts and maps.
 
-```color-palette|horizontal
-colors:
-   - {value: "#ECECF0"}
-   - {value: "#d2d2f2"}
-   - {value: "#b8b8f3"}
-   - {value: "#9e9ef4"}
-   - {value: "#8285f3"}
-   - {value: "#636bf1"}
-   - {value: "#3952ee"}
-```
+### Sequential Scales
 
-```table
-span: 5
-rows:
-  - Steps: 2
-    HEX: ECECF0, 3952EE
-  - Steps: 3
-    HEX: ECECF0, 9E9EF4, 3952EE
-  - Steps: 4
-    HEX: ECECF0, B8B8F3, 8285F3, 3952EE
-  - Steps: 5
-    HEX: ECECF0, C5C5F3, 9E9EF4, 7378F2, 3952EE
-  - Steps: 6
-    HEX: ECECF0, CDCDF3, AEAEF4, 8D8FF3, 6970F1, 3952EE
-```
+**Sequential-one** is the most used scale and bases on our first primary color.
+**Sequential-two** is the scale used in cases our primary qualitative color is encoded with a specific category already and should not be confused with the category this scale is representing. It's based on another primary and a bright choice color.
+**Sequential-three** is the scale used in cases we are displaying data that's negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. It's based on two choice colors.
+**Sequential-male** is the scale used for displaying the amount of male representation. It's based on the male color.
+**Sequential-female** is the scale used for displaying the amount of female representation. It's based on the female color.
 
-### Sequential Scale 2
-
-This is an alternative sequential scale that is available in the case that our primary qualitative color is encoded with a specific category and should not be confused with the category this scale is representing. This scale is created from a choice color and a primary color in our qualitative scale.
+### Sequential-one
 
 ```color-palette|horizontal
 colors:
-   - {value: "#EDECE1"}
-   - {value: "#dce1cb"}
-   - {value: "#c6d7b8"}
-   - {value: "#abcea9"}
-   - {value: "#8bc5a0"}
-   - {value: "#64bc9b"}
-   - {value: "#24b39c"}
+        - {value: "#3952ee"}
+        - {value: "#e3e4e9"}
 ```
-
-```table
-span: 5
-rows:
-  - Steps: 2
-    HEX: EDECE1, 24B39C
-  - Steps: 3
-    HEX: EDECE1, ABCEA9, 24B39C
-  - Steps: 4
-    HEX: EDECE1, C6D7B8, 8BC5A0, 24B39C
-  - Steps: 5
-    HEX: EDECE1, D2DCC1, ABCEA9, 79C19D, 24B39C
-  - Steps: 6
-    HEX: EDECE1, D8DFC7, BCD4B2, 99C9A3, 6DBE9C, 24B39C
-```
-
-### Sequential Scale 3
-
-This scale is used in the case where we are displaying data that could be negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. This scale is created from two choice colors in our qualitative scale.
 
 ```color-palette|horizontal
 colors:
-   - {value: "#EDECE1"}
-   - {value: "#e2d7bb"}
-   - {value: "#ddc197"}
-   - {value: "#daa878"}
-   - {value: "#da8d5f"}
-   - {value: "#d96f4e"}
-   - {value: "#d64b47"}
+        - {value: "#3952ee"}
+        - {value: "#919cf2"}
+        - {value: "#e3e4e9"}
 ```
-
-```table
-span: 5
-rows:
-  - Steps: 2
-    HEX: EDECE1, D64B47
-  - Steps: 3
-    HEX: EDECE1, DAA878, D64B47
-  - Steps: 4
-    HEX: EDECE1, DDC197, DA8D5F, D64B47
-  - Steps: 5
-    HEX: EDECE1, DFCCA9, DAA878, D97E55, D64B47
-  - Steps: 6
-    HEX: EDECE1, E0D3B4, DBB78A, DA9868, D97551, D64B47
-```
-
-### Sequential Female
-
-This scale is used when displaying the amount of female representation in an enitity. Use the diverging scale for genders if you don't want to focus on a specific gender.
 
 ```color-palette|horizontal
 colors:
-   - {value: "#ececf0"}
-   - {value: "#d9cfe9"}
-   - {value: "#c5b2e1"}
-   - {value: "#b196d9"}
-   - {value: "#9b7ad1"}
-   - {value: "#855fc9"}
-   - {value: "#6c43c0"}
+        - {value: "#3952ee"}
+        - {value: "#7684f2"}
+        - {value: "#abb4f0"}
+        - {value: "#e3e4e9"}
 ```
-
-```table
-span: 5
-rows:
-  - Steps: 2
-    HEX:  ececf0, 6c43c0
-  - Steps: 3
-    HEX:  ececf0, b196d9, 6c43c0
-  - Steps: 4
-    HEX:  ececf0, c5b2e1, 9b7ad1, 6c43c0
-  - Steps: 5
-    HEX:  ececf0, cfc0e5, b196d9, 906ccd, 6c43c0
-  - Steps: 6
-    HEX:  ececf0, d5c9e7, bda7de, a485d4, 8964ca, 6c43c0
-```
-
-### Sequential Male
-
-This scale is used when displaying the amount of male representation in an enitity. Use the diverging scale for genders if you don't want to focus on a specific gender.
 
 ```color-palette|horizontal
 colors:
-   - {value: "#ececf0"}
-   - {value: "#d1e3e2"}
-   - {value: "#b5dad3"}
-   - {value: "#98d0c5"}
-   - {value: "#7ac7b7"}
-   - {value: "#57bdaa"}
-   - {value: "#24b39c"}
+        - {value: "#3952ee"}
+        - {value: "#6878f2"}
+        - {value: "#919cf2"}
+        - {value: "#b9c0ef"}
+        - {value: "#e3e4e9"}
 ```
-
-```table
-span: 5
-rows:
-  - Steps: 2
-    HEX:  ececf0, 24b39c
-  - Steps: 3
-    HEX:  ececf0, 98d0c5, 24b39c
-  - Steps: 4
-    HEX:  ececf0, b5dad3, 7ac7b7, 24b39c
-  - Steps: 5
-    HEX:  ececf0, c3deda, 98d0c5, 69c2b0, 24b39c
-  - Steps: 6
-    HEX:  ececf0, cbe1df, aad6ce, 86cbbd, 5ebfac, 24b39c
-
-```
-
-### Diverging Scale 1
-
-This diverging scale should be used in any case where we are comparing opposites that are positively and negatively connotated. Such an example would be election maps where voters had to approve/deny an initiative.
 
 ```color-palette|horizontal
 colors:
-   - {value: "#e66e4a"}
-   - {value: "#ef997f"}
-   - {value: "#f2c3b6"}
-   - {value: "#ececf0"}
-   - {value: "#c5b2e1"}
-   - {value: "#9b7ad1"}
-   - {value: "#6c43c0"}
+        - {value: "#3952ee"}
+        - {value: "#6070f1"}
+        - {value: "#818ef2"}
+        - {value: "#a1abf1"}
+        - {value: "#c1c8ee"}
+        - {value: "#e3e4e9"}
 ```
-
-```table
-span: 6
-rows:
-  - Steps: 2
-    HEX: E66E4A, 6C43C0
-  - Steps: 3
-    HEX: E66E4A, ECECF0, 6C43C0
-  - Steps: 4
-    HEX: E66E4A, F2C3B6, C5B2E1, 6C43C0
-  - Steps: 5
-    HEX: E66E4A, F2AE9A, ECECF0, B196D9, 6C43C0
-  - Steps: 6
-    HEX: E66E4A, F1A18A, F1D3CD, D5C9E7, A485D4, 6C43C0
-  - Steps: 7
-    HEX: E66E4A, EF997F, F2C3B6, ECECF0, C5B2E1, 9B7AD1, 6C43C0
-  - Steps: 8
-    HEX: E66E4A, EE9377, F2B7A6, F0DAD7, DCD3EA, B9A2DD, 9572CF, 6C43C0
-  - Steps: 9
-    HEX: E66E4A, EE8E72, F2AE9A, F1CDC4, ECECF0, CFC0E5, B196D9, 906CCD, 6C43C0
-  - Steps: 10
-    HEX: E66E4A, ED8B6D, F1A791, F2C3b6, EFDEDC, DFD8EB, C5B2E1, AA8CD6, 8C68CB, 6C43C0
-  - Steps: 11
-    HEX: E66E4A, EC886A, F1A18a, F2BAAB, F1D3CD, ECECF0, D5C9E7, BDA7DE, A485D4, 8964CA, 6C43C0
-  - Steps: 12
-    HEX: E66E4A, EC8667, F09D84, F2B3A2, F2CAC1, EFE1E0, E2DCEC, CCBCE4, B69DDB, 9F7FD3, 8761C9, 6C43C0
-  - Steps: 13
-    HEX: E66E4A, EB8464, EF997F, F2AE9A, F2C3B6, F0D7D3, ECECF0, D9CfE9, C5B2E1, B196D9, 9B7AD1, 855FC9, 6C43C0
-  - Steps: 14
-    HEX: E66E4A, EB8262, EF967B, F1A994, F2BCAE, F1CFC8, EEE2E2, E3DEED, D1C4E6, BFA9DF, AC8FD7, 9876D0, 835CC8, 6C43C0
-```
-
-### Diverging Scale 2
-
-This scale should be used in any case where are comparing opposites, but we would like to avoid negative or positive association. Such an example would be comparing communities whose average age is either younger or older compared to twenty years ago. This scale is creating using the first two primary colors in our qualitative scale. This lends the scale to be used in stories where there are two data points which are directly compared throughout the story.
 
 ```color-palette|horizontal
 colors:
-   - {value: "#3952ee"}
-   - {value: "#8b82f0"}
-   - {value: "#bfb6f1"}
-   - {value: "#ececf0"}
-   - {value: "#f3dcb1"}
-   - {value: "#f2cc72"}
-   - {value: "#ebbd22"}
+        - {value: "#3952ee"}
+        - {value: "#5a6bf1"}
+        - {value: "#7684f2"}
+        - {value: "#919cf2"}
+        - {value: "#abb4f0"}
+        - {value: "#c7cced"}
+        - {value: "#e3e4e9"}
 ```
 
-```table
-span: 6
-rows:
-  - Steps: 2
-    HEX: 3952EE, EBBD22
-  - Steps: 3
-    HEX: 3952EE, ECECF0, EBBD22
-  - Steps: 4
-    HEX: 3952EE, BFB6F1, F3DCB1, EBBD22
-  - Steps: 5
-    HEX: 3952EE, A69CF1, ECECF0, F3D492, EBBD22
-  - Steps: 6
-    HEX: 3952EE, 968df1, D2CBF1, F1E2CA, F2CF7F, EBBD22
-  - Steps: 7
-    HEX: 3952EE, 8B82F0, BFB6F1, ECECF0, F3DCB1, F2CC72, EBBD22
-  - Steps: 8
-    HEX: 3952EE, 7B76F0, A69CF1, CBC3F1, ECECF0, F2E0C1, F3D492, F0C861, EBBD22
-  - Steps: 9
-    HEX: 3952EE, 7B76F0, A69CF1, CBC3F1, ECECF0, F2E0C1, F3D492, F0C861, EBBD22
-  - Steps: 10
-    HEX: 3952EE, 7572F0, 9D93F1, BFB6F1, DEDAF1, EFE6DB, F3DCB1, F3D187, F0C75B, EBBD22
-  - Steps: 11
-    HEX: 3952EE, 716FF0, 968DF1, B5ABF1, D2CBF1, ECECF0, F1E2CA, F3D8A5, F2CF7F, F0C656, EBBD22
-  - Steps: 12
-    HEX: 3952EE, 6D6CEF, 9087F0, ADA3F1, C8C0F1, E0DDF1, EFE7DF, F2DFBD, F3D69A, F2CD77, EFC552, EBBD22
-  - Steps: 13
-    HEX: 3952EE, 696AEF, 8B82F0, A69CF1, BFB6F1, D6D1F1, ECECF0, F0E4D0, F3DCB1, F3D492, F2CC72, EFC44F, EBBD22
-  - Steps: 14
-    HEX: 3952EE, 6668EF, 867FF0, A096F1, B8AEF1, CEC6F1, E2DFF0, EEE8E1, F1E1C4, F3D9A7, F3D28A, F1CB6C, EFC44C, EBBD22
-```
-
-### Diverging Scale 3
-
-An alternative scale for comparing opposites with negative and/or positive connotation. This scale is comprised of two choice colors, so as not to overlap with any of the primary colors which might already be encoded in the story.
+### Sequential-two
 
 ```color-palette|horizontal
 colors:
-   - {value: "#0ba9d9"}
-   - {value: "#7cbfe1"}
-   - {value: "#b7d5e9"}
-   - {value: "#ececf0"}
-   - {value: "#e1e3b1"}
-   - {value: "#d0db70"}
-   - {value: "#bbd215"}
+        - {value: "#24b39c"}
+        - {value: "#edece1"}
 ```
-
-```table
-span: 6
-rows:
-  - Steps: 2
-    HEX: 0BA9D9, BBD215
-  - Steps: 3
-    HEX: 0BA9D9, ECECF0, BBD215
-  - Steps: 4
-    HEX: 0BA9D9, B7D5E9, E1E3B1, BBD215
-  - Steps: 5
-    HEX: 0BA9D9, 9BCAE5, ECECF0, D9DF91, BBD215
-  - Steps: 6
-    HEX: 0BA9D9, 89C4E2, CDDEEC, E6E7CA, D4DC7D, BBD215
-  - Steps: 7
-    HEX: 0BA9D9, 7CBFE1, B7D5E9, ECECF0, E1E3B1, D0DB70, BBD215
-  - Steps: 8
-    HEX: 0BA9D9, 72BCE0, A7CFE6, D6E2ED, E8E8D5, DDE19F, CED966, BBD215
-  - Steps: 9
-    HEX: 0BA9D9, 6ABADF, 9BCAE5, C5DBEA, ECECF0, E4E5C1, D9DF91, CCD85E, BBD215
-  - Steps: 10
-    HEX: 0BA9D9, 64B8DE, 91C6E3, B7D5E9, DBE4EE, E9E9DB, E1E3B1, D7DD86, CAD858, BBD215
-  - Steps: 11
-    HEX: 0BA9D9, 5fB6DE, 89C4E2, ACD1E7, CDDEEC, ECECF0, E6E7CA, DEE1A4, D4DC7D, C8D753, BBD215
-  - Steps: 12
-    HEX: 0BA9D9, 5AB5DD, 82C1E2, A3CDE6, C1D9EA, DEE6EE, EAEEDF, E3E5BC, DCE09A, D2DB76, C7D74F, BBD215
-  - Steps: 13
-    HEX: 0BA9D9, 56B4DD, 7CBFE1, 9bCAE5, B7D5E9, D2E1EC, ECECF0, E7E8D0, E1E3B1, D9DF91, D0DB70, C6D64B, BBD215
-  - Steps: 14
-    HEX: 0BA9D9, 53B3DD, 77BDE0, 94C8E4, AFD2E7, C8DCEB, E0E7EE, EAEAE1, E5E6C4, DFE2A7, D7DE89, CFDA6B, C6D648, BBD215
-```
-
-### Diverging Scale for Genders
 
 ```color-palette|horizontal
 colors:
-   - {value: "#24b39c"}
-   - {value: "#7ac7b7"}
-   - {value: "#98d0c5"}
-   - {value: "#ececf0"}
-   - {value: "#b196d9"}
-   - {value: "#9b7ad1"}
-   - {value: "#6c43c0"}
+        - {value: "#24b39c"}
+        - {value: "#abcea9"}
+        - {value: "#edece1"}
 ```
 
-```table
-span: 6
-rows:
-  - Steps: 2
-    HEX: 24b39c, 6c43c0
-  - Steps: 3
-    HEX: 24b39c, ececf0, 6c43c0
-  - Steps: 4
-    HEX: 24b39c, 98d0c5, b196d9, 6c43c0
-  - Steps: 5
-    HEX: 24b39c, 98d0c5, ececf0, b196d9, 6c43c0
-  - Steps: 6
-    HEX: 24b39c, 7ac7b7, b5dad3, c5b2e1, 9b7ad1, 6c43c0
-  - Steps: 7
-    HEX: 24b39c, 7ac7b7, 98d0c5, ececf0, b196d9, 9b7ad1, 6c43c0
-  - Steps: 8
-    HEX: 24b39c, 69c2b0, 98d0c5, c3deda, cfc0e5, b196d9, 906ccd, 6c43c0
-  - Steps: 9
-    HEX: 24b39c, 69c2b0, 98d0c5, c3deda, ececf0, cfc0e5, b196d9, 906ccd, 6c43c0
-  - Steps: 10
-    HEX: 24b39c, 5ebfac, 86cbbd, aad6ce, cbe1df, d5c9e7, bda7de, a485d4, 8964ca, 6c43c0
-  - Steps: 11
-    HEX: 24b39c, 5ebfac, 86cbbd, aad6ce, cbe1df, ececf0, d5c9e7, bda7de, a485d4, 8964ca, 6c43c0
-  - Steps: 12
-    HEX: 24b39c, 57bdaa, 7ac7b7, 98d0c5, b5dad3, d1e3e2, d9cfe9, c5b2e1, b196d9, 9b7ad1, 855fc9, 6c43c0
-  - Steps: 13
-    HEX: 24b39c, 57bdaa, 7ac7b7, 98d0c5, b5dad3, d1e3e2, ececf0, d9cfe9, c5b2e1, b196d9, 9b7ad1, 855fc9, 6c43c0
-  - Steps: 14
-    HEX: 24b39c, 51bca8, 70c4b3, 8bccbf, a5d4cb, bddcd7, d5e4e4, dcd3ea, cbbae3, b9a2dd, a88ad6, 9572cf, 815bc7, 6c43c0
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#8bc5a0"}
+        - {value: "#c6d7b8"}
+        - {value: "#edece1"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#79c19d"}
+        - {value: "#abcea9"}
+        - {value: "#d2dcc1"}
+        - {value: "#edece1"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#6dbe9c"}
+        - {value: "#99c9a3"}
+        - {value: "#bcd4b2"}
+        - {value: "#d8dfc7"}
+        - {value: "#edece1"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#64bc9b"}
+        - {value: "#8bc5a0"}
+        - {value: "#abcea9"}
+        - {value: "#c6d7b8"}
+        - {value: "#dce1cb"}
+        - {value: "#edece1"}
+```
+
+### Sequential-three
+
+```color-palette|horizontal
+colors:
+        - {value: "#d64b47"}
+        - {value: "#edece1"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#d64b47"}
+        - {value: "#daa878"}
+        - {value: "#edece1"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#d64b47"}
+        - {value: "#da8d5f"}
+        - {value: "#ddc197"}
+        - {value: "#edece1"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#d64b47"}
+        - {value: "#d97e55"}
+        - {value: "#daa878"}
+        - {value: "#dfcca9"}
+        - {value: "#edece1"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#d64b47"}
+        - {value: "#d97551"}
+        - {value: "#da9868"}
+        - {value: "#dbb78a"}
+        - {value: "#e0d3b4"}
+        - {value: "#edece1"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#d64b47"}
+        - {value: "#d96f4e"}
+        - {value: "#da8d5f"}
+        - {value: "#daa878"}
+        - {value: "#ddc197"}
+        - {value: "#e2d7bb"}
+        - {value: "#edece1"}
+```
+
+### Sequential-male
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#94ccc2"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#77c4b5"}
+        - {value: "#afd4cf"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#67c0af"}
+        - {value: "#94ccc2"}
+        - {value: "#bcd8d5"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#5cbdab"}
+        - {value: "#83c8ba"}
+        - {value: "#a4d1ca"}
+        - {value: "#c4dbd9"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#55bca8"}
+        - {value: "#77c4b5"}
+        - {value: "#94ccc2"}
+        - {value: "#afd4cf"}
+        - {value: "#c9dcdc"}
+        - {value: "#e3e4e9"}
+```
+
+### Sequential-female
+
+```color-palette|horizontal
+colors:
+        - {value: "#6c43c0"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#6c43c0"}
+        - {value: "#ac92d6"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#6c43c0"}
+        - {value: "#9878cf"}
+        - {value: "#bfaddc"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#6c43c0"}
+        - {value: "#8e6acb"}
+        - {value: "#ac92d6"}
+        - {value: "#c8bbe0"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#6c43c0"}
+        - {value: "#8763c9"}
+        - {value: "#a082d2"}
+        - {value: "#b8a2da"}
+        - {value: "#cec3e2"}
+        - {value: "#e3e4e9"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#6c43c0"}
+        - {value: "#835dc7"}
+        - {value: "#9878cf"}
+        - {value: "#ac92d6"}
+        - {value: "#bfaddc"}
+        - {value: "#d1c8e3"}
+        - {value: "#e3e4e9"}
+```
+
+### Diverging Scales
+
+**Diverging-one** is used in cases we are comparing opposites that can be associated with positive and negative attitudes. An example could be an election maps where voters approved or denied an initiative.
+**Diverging-two** is used in cases we are comparing opposites, but we would like to avoid negative or positive associations. An example is the comparing of communities whose average age is either younger or older compared to twenty years ago. This scale is created using the first two primary colors in our qualitative scale. This lends the scale to be used in stories where there are two data points which are directly compared throughout the story.
+**Diverging-three** is used in cases we are comparing opposites with negative and/or positive connotation. This scale is comprised of two choice colors, so as not to overlap with any of the primary colors which might already be encoded in the story.
+**Diverging-gender** is used to display female and male representations. It's based on our gender colors.
+
+### Diverging-one
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#e3e4e9"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#ecbdb2"}
+        - {value: "#bfaddc"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#edaa97"}
+        - {value: "#e3e4e9"}
+        - {value: "#ac92d6"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#ed9e87"}
+        - {value: "#eacdc8"}
+        - {value: "#cec3e2"}
+        - {value: "#a082d2"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#ec967d"}
+        - {value: "#ecbdb2"}
+        - {value: "#e3e4e9"}
+        - {value: "#bfaddc"}
+        - {value: "#9878cf"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#ec9176"}
+        - {value: "#edb2a3"}
+        - {value: "#e8d3d1"}
+        - {value: "#d4cce4"}
+        - {value: "#b49ed9"}
+        - {value: "#9270cd"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#eb8d70"}
+        - {value: "#edaa97"}
+        - {value: "#ebc7bf"}
+        - {value: "#e3e4e9"}
+        - {value: "#c8bbe0"}
+        - {value: "#ac92d6"}
+        - {value: "#8e6acb"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#eb896c"}
+        - {value: "#eda48e"}
+        - {value: "#ecbdb2"}
+        - {value: "#e7d7d6"}
+        - {value: "#d7d1e5"}
+        - {value: "#bfaddc"}
+        - {value: "#a689d3"}
+        - {value: "#8a66ca"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#eb8768"}
+        - {value: "#ed9e87"}
+        - {value: "#edb6a7"}
+        - {value: "#eacdc8"}
+        - {value: "#e3e4e9"}
+        - {value: "#cec3e2"}
+        - {value: "#b8a2da"}
+        - {value: "#a082d2"}
+        - {value: "#8763c9"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#ea8466"}
+        - {value: "#ed9a82"}
+        - {value: "#edaf9e"}
+        - {value: "#ebc4bc"}
+        - {value: "#e7d9da"}
+        - {value: "#d9d5e6"}
+        - {value: "#c6b7df"}
+        - {value: "#b199d8"}
+        - {value: "#9c7cd0"}
+        - {value: "#8560c8"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#ea8363"}
+        - {value: "#ec967d"}
+        - {value: "#edaa97"}
+        - {value: "#ecbdb2"}
+        - {value: "#e9d1cd"}
+        - {value: "#e3e4e9"}
+        - {value: "#d1c8e3"}
+        - {value: "#bfaddc"}
+        - {value: "#ac92d6"}
+        - {value: "#9878cf"}
+        - {value: "#835dc7"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#e66e4a"}
+        - {value: "#ea8161"}
+        - {value: "#ec9379"}
+        - {value: "#eda691"}
+        - {value: "#edb7aa"}
+        - {value: "#eac9c3"}
+        - {value: "#e6dbdc"}
+        - {value: "#dbd7e6"}
+        - {value: "#cabee0"}
+        - {value: "#b9a5da"}
+        - {value: "#a88cd4"}
+        - {value: "#9574ce"}
+        - {value: "#815bc7"}
+        - {value: "#6c43c0"}
+```
+
+### Diverging-two
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#e3e4e9"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#b9b1ec"}
+        - {value: "#edd6ad"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#a298ed"}
+        - {value: "#e3e4e9"}
+        - {value: "#eed08e"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#928aee"}
+        - {value: "#cbc5eb"}
+        - {value: "#eadcc5"}
+        - {value: "#efcc7c"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#8780ee"}
+        - {value: "#b9b1ec"}
+        - {value: "#e3e4e9"}
+        - {value: "#edd6ad"}
+        - {value: "#efc96f"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#7f79ee"}
+        - {value: "#aca3ed"}
+        - {value: "#d2ceeb"}
+        - {value: "#e8decf"}
+        - {value: "#eed39b"}
+        - {value: "#eec866"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#7874ee"}
+        - {value: "#a298ed"}
+        - {value: "#c4beec"}
+        - {value: "#e3e4e9"}
+        - {value: "#ebdabc"}
+        - {value: "#eed08e"}
+        - {value: "#eec65f"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#7370ee"}
+        - {value: "#9990ee"}
+        - {value: "#b9b1ec"}
+        - {value: "#d6d3ea"}
+        - {value: "#e7dfd5"}
+        - {value: "#edd6ad"}
+        - {value: "#efce84"}
+        - {value: "#eec55a"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#6f6dee"}
+        - {value: "#928aee"}
+        - {value: "#b0a7ed"}
+        - {value: "#cbc5eb"}
+        - {value: "#e3e4e9"}
+        - {value: "#eadcc5"}
+        - {value: "#eed4a1"}
+        - {value: "#efcc7c"}
+        - {value: "#eec455"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#6b6bee"}
+        - {value: "#8c84ee"}
+        - {value: "#a89fed"}
+        - {value: "#c1baec"}
+        - {value: "#d8d6ea"}
+        - {value: "#e7e0d9"}
+        - {value: "#ecd9b8"}
+        - {value: "#eed297"}
+        - {value: "#efcb75"}
+        - {value: "#eec451"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#6869ee"}
+        - {value: "#8780ee"}
+        - {value: "#a298ed"}
+        - {value: "#b9b1ec"}
+        - {value: "#cfcaeb"}
+        - {value: "#e3e4e9"}
+        - {value: "#e9ddcb"}
+        - {value: "#edd6ad"}
+        - {value: "#eed08e"}
+        - {value: "#efc96f"}
+        - {value: "#edc34e"}
+        - {value: "#ebbd22"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#3952ee"}
+        - {value: "#6567ee"}
+        - {value: "#837cee"}
+        - {value: "#9c93ee"}
+        - {value: "#b2a9ed"}
+        - {value: "#c7c0ec"}
+        - {value: "#dad8ea"}
+        - {value: "#e6e1db"}
+        - {value: "#ebdabf"}
+        - {value: "#edd4a3"}
+        - {value: "#efce87"}
+        - {value: "#efc86b"}
+        - {value: "#edc34b"}
+        - {value: "#ebbd22"}
+```
+
+### Diverging-three
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#e3e4e9"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#b1d0e4"}
+        - {value: "#dbdeac"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#97c6e1"}
+        - {value: "#e3e4e9"}
+        - {value: "#d5db8e"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#85c0e0"}
+        - {value: "#c6d8e6"}
+        - {value: "#dfe0c5"}
+        - {value: "#d1d97b"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#79bcdf"}
+        - {value: "#b1d0e4"}
+        - {value: "#e3e4e9"}
+        - {value: "#dbdeac"}
+        - {value: "#ced86e"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#6fbade"}
+        - {value: "#a2cbe2"}
+        - {value: "#cedbe7"}
+        - {value: "#e0e1cf"}
+        - {value: "#d8dc9b"}
+        - {value: "#cbd764"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#68b8dd"}
+        - {value: "#97c6e1"}
+        - {value: "#bed5e5"}
+        - {value: "#e3e4e9"}
+        - {value: "#dedfbb"}
+        - {value: "#d5db8e"}
+        - {value: "#c9d65d"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#62b6dd"}
+        - {value: "#8dc3e0"}
+        - {value: "#b1d0e4"}
+        - {value: "#d3dde7"}
+        - {value: "#e1e2d5"}
+        - {value: "#dbdeac"}
+        - {value: "#d3da83"}
+        - {value: "#c8d657"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#5cb5dc"}
+        - {value: "#85c0e0"}
+        - {value: "#a7cce3"}
+        - {value: "#c6d8e6"}
+        - {value: "#e3e4e9"}
+        - {value: "#dfe0c5"}
+        - {value: "#d9dda0"}
+        - {value: "#d1d97b"}
+        - {value: "#c7d652"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#58b4dc"}
+        - {value: "#7ebedf"}
+        - {value: "#9ec9e2"}
+        - {value: "#bbd4e5"}
+        - {value: "#d6dfe8"}
+        - {value: "#e1e2d8"}
+        - {value: "#dddfb7"}
+        - {value: "#d7dc96"}
+        - {value: "#cfd874"}
+        - {value: "#c6d54e"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#54b3dc"}
+        - {value: "#79bcdf"}
+        - {value: "#97c6e1"}
+        - {value: "#b1d0e4"}
+        - {value: "#cbdae6"}
+        - {value: "#e3e4e9"}
+        - {value: "#e0e1cb"}
+        - {value: "#dbdeac"}
+        - {value: "#d5db8e"}
+        - {value: "#ced86e"}
+        - {value: "#c5d54a"}
+        - {value: "#bbd215"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#0ba9d9"}
+        - {value: "#51b2dc"}
+        - {value: "#74bbde"}
+        - {value: "#90c4e1"}
+        - {value: "#a9cde3"}
+        - {value: "#c1d6e6"}
+        - {value: "#d8dfe8"}
+        - {value: "#e2e3db"}
+        - {value: "#dee0bf"}
+        - {value: "#d9dda3"}
+        - {value: "#d3da86"}
+        - {value: "#ccd769"}
+        - {value: "#c4d547"}
+        - {value: "#bbd215"}
+```
+
+### Diverging-gender
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#e3e4e9"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#afd4cf"}
+        - {value: "#bfaddc"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#94ccc2"}
+        - {value: "#e3e4e9"}
+        - {value: "#ac92d6"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#83c8ba"}
+        - {value: "#c4dbd9"}
+        - {value: "#cec3e2"}
+        - {value: "#a082d2"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#77c4b5"}
+        - {value: "#afd4cf"}
+        - {value: "#e3e4e9"}
+        - {value: "#bfaddc"}
+        - {value: "#9878cf"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#6ec2b1"}
+        - {value: "#a0d0c7"}
+        - {value: "#cdddde"}
+        - {value: "#d4cce4"}
+        - {value: "#b49ed9"}
+        - {value: "#9270cd"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#67c0af"}
+        - {value: "#94ccc2"}
+        - {value: "#bcd8d5"}
+        - {value: "#e3e4e9"}
+        - {value: "#c8bbe0"}
+        - {value: "#ac92d6"}
+        - {value: "#8e6acb"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#61bfad"}
+        - {value: "#8acabd"}
+        - {value: "#afd4cf"}
+        - {value: "#d2dfe0"}
+        - {value: "#d7d1e5"}
+        - {value: "#bfaddc"}
+        - {value: "#a689d3"}
+        - {value: "#8a66ca"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#5cbdab"}
+        - {value: "#83c8ba"}
+        - {value: "#a4d1ca"}
+        - {value: "#c4dbd9"}
+        - {value: "#e3e4e9"}
+        - {value: "#cec3e2"}
+        - {value: "#b8a2da"}
+        - {value: "#a082d2"}
+        - {value: "#8763c9"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#59bcaa"}
+        - {value: "#7cc6b7"}
+        - {value: "#9bcfc5"}
+        - {value: "#b9d7d3"}
+        - {value: "#d5e0e2"}
+        - {value: "#d9d5e6"}
+        - {value: "#c6b7df"}
+        - {value: "#b199d8"}
+        - {value: "#9c7cd0"}
+        - {value: "#8560c8"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#55bca8"}
+        - {value: "#77c4b5"}
+        - {value: "#94ccc2"}
+        - {value: "#afd4cf"}
+        - {value: "#c9dcdc"}
+        - {value: "#e3e4e9"}
+        - {value: "#d1c8e3"}
+        - {value: "#bfaddc"}
+        - {value: "#ac92d6"}
+        - {value: "#9878cf"}
+        - {value: "#835dc7"}
+        - {value: "#6c43c0"}
+```
+
+```color-palette|horizontal
+colors:
+        - {value: "#24b39c"}
+        - {value: "#52bba7"}
+        - {value: "#72c3b3"}
+        - {value: "#8dcbbf"}
+        - {value: "#a7d2cb"}
+        - {value: "#bfd9d7"}
+        - {value: "#d7e0e3"}
+        - {value: "#dbd7e6"}
+        - {value: "#cabee0"}
+        - {value: "#b9a5da"}
+        - {value: "#a88cd4"}
+        - {value: "#9574ce"}
+        - {value: "#815bc7"}
+        - {value: "#6c43c0"}
 ```
 
 ## Political Party Colors
