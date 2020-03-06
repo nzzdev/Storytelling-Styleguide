@@ -2,131 +2,29 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-Different font families are in use:
+For online and print different font families are in use.
 
-- [GT America](http://www.gt-america.com/) and [PensumPro](https://www.myfonts.com/fonts/typemates/pensum-pro/) are used as the primary fonts across all of our online products. A typographic scale is used to create a limited set of type sizes that work well together, while respecting intrinsic platform standards. The font can be downloaded via the [assets page](assets). Online fonts are implemented as a sophie module and can be viewed in and embedded with the [Sophie Styleguide](https://storytelling.nzz.ch/tools/sophie-styleguide/).
-- Univers and Bondoni are used as the primary fonts across all print graphics.
+## Online
 
-## Titles for Online (left) and Print (right)
+[GT America](http://www.gt-america.com/) and [PensumPro](https://www.myfonts.com/fonts/typemates/pensum-pro/) are used as the primary fonts across all of our online products. A typographic scale is used to create a limited set of type sizes that work well together, while respecting intrinsic platform standards. Online font styles are implemented as [a sophie module](https://github.com/nzzdev/sophie-font).
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "font": "nzz-serif, serif",
-  "weight": 500,
-  "color": "#05032d",
-  "headings": [
-    {"label": "Desktop Headline [s-font-title-xl]", "value": 42},
-    {"label": "Mobile Headline [s-font-title-l]", "value": 27},
-    {"label": "Desktop Subtitle [s-font-title]", "value": 24},
-    {"label": "Infographic Headline [s-font-title-s]", "value": 22},
-    {"label": "Mobile Infographic Headline [s-font-title-xs]", "value": 20}
-  ]
-}
-```
+Find our online fonts here (NZZ employees only): https://nzzmg.sharepoint.com/:f:/s/nzz_st/EgLitBtfwjNKsQinaTMkFHgBoVc1Jkv9mBHpQnjo5kFFgw?e=VsP2HV
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "font": "UniversLTStd, Univers, sans-serif",
-  "color": "#000000",
-  "headings": [
-    {"label": "Infographic Headline", "value": "8.5pt"}
-  ]
-}
-```
+![Online Fonts](assets/typography/online.png "Online Fonts")
 
-## Annotations for Online (left) and Print (right)
+## Print
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "paragraphs": ["13/17"],
-  "font": "nzz-sans-serif, sans-serif",
-  "weight": 300,
-  "color": "#05032d"
-}
-```
+Univers and Bondoni are used as the primary fonts across all print graphics.
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "paragraphs": ["8/10"],
-  "font": "Univers LT Std, UniversLTStd-LightCn , Univers, sans-serif",
-  "color": "#000000"
-}
-```
+Find our print fonts here (NZZ employees only): https://nzzmg.sharepoint.com/:f:/s/nzz_st/Eoq1VTvpZ0hDgRo6QzKCSTUB5_IA6MwCeCUtHwVuGZQfBQ?e=AGLTVh
 
-## Meta Information for Online (left) and Print (right)
+![Print Fonts](assets/typography/print.png "Print Fonts")
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "paragraphs": ["11/13"],
-  "font": "nzz-sans-serif, sans-serif",
-  "weight": 300,
-  "color": "#6e6e7e"
-}
-```
+## Styles
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "paragraphs": ["6/7.2"],
-  "font": "Univers LT Std, UniversLTStd-LightCn, Univers, sans-serif",
-  "color": "#000000"
-}
-```
+For both, Online and Print, we defined the same font styles, basically constisting of two these two groups: titles and notes.
+While they can be translated from Online to Print, there are certain fallbacks on the Print side. This has to do with the fact that print fonts are generally smaller and therefore less dynamic in terms of size.
 
-# All Online Font Styles available
+The following matrix showcases the translation of Online and Print fonts which is also takes place in our "Q-to-Print" workflow:
 
-Online font styles are implemented as a sophie module. Via a build service, sophie modules can be requested as a set of classes for styling fonts. The aforementioned styles are explained above. The following options are additional styles that can be called through the sophie module: 
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-serif" style="font-size: 200%">Serifen-Schrift (s-font-serif + custom styles)
-  </p>
-  <p class="s-font-sans" style="font-size: 200%">Sansserifen-Schrift  (s-font-sans + custom styles)
-  </p>
-```
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-text-s">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text-s s-font-text-s--strong">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
-  <p class="s-font-text s-font-text--strong">Lorem ipsum dolor (s-font-text s-font-text--strong)</p>
-```
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-text-s">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text-s s-font-text-s--strong">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
-  <p class="s-font-text s-font-text--strong">Lorem ipsum dolor (s-font-text s-font-text--strong)</p>
-```
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-title-xs">Lorem ipsum dolor (s-font-title-xs)</p>
-  <p class="s-font-title-s">Lorem ipsum dolor (s-font-title-s)</p>
-  <p class="s-font-title">Lorem ipsum dolor (s-font-title)</p>
-  <p class="s-font-title-l">Lorem ipsum dolor (s-font-title-l)</p>
-  <p class="s-font-title-l s-font-title-l--contrast">Lorem ipsum dolor (s-font-title-l s-font-title-l--contrast)</p>
-  <p class="s-font-title-xl">Lorem ipsum dolor (s-font-title-xl)</p>
-  <p class="s-font-title-xl s-font-title-xl--contrast">Lorem ipsum dolor (s-font-title-xl s-font-title-xl--contrast)</p>
-```
+![Typography Raster](assets/typography/typoraster.png "Typography Raster")
