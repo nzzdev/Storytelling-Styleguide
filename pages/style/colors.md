@@ -111,15 +111,15 @@ Our gray scale palette is based off of the gray tones found on NZZ.ch (backgroun
 
 ```color-palette|horizontal
 colors:
-   - {value: "#f0f0f2"}
-   - {value: "#e3e4e9"}
-   - {value: "#d4d6dd"}
-   - {value: "#c3c2ca"}
-   - {value: "#b6b6be"}
-   - {value: "#92929e"}
-   - {value: "#6e6e7e"}
-   - {value: "#393855"}
-   - {value: "#05032d"}
+   - {name: "s-color-gray-1", value: "#f0f0f2"}
+   - {name: "s-color-gray-2", value: "#e3e4e9"}
+   - {name: "s-color-gray-3", value: "#d4d6dd"}
+   - {name: "s-color-gray-4", value: "#c3c2ca"}
+   - {name: "s-color-gray-5", value: "#b6b6be"}
+   - {name: "s-color-gray-6", value: "#92929e"}
+   - {name: "s-color-gray-7", value: "#6e6e7e"}
+   - {name: "s-color-gray-8", value: "#393855"}
+   - {name: "s-color-gray-9", value: "#05032d"}
 ```
 
 ## Gender Colors
