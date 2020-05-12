@@ -18,7 +18,7 @@ _Each of these colors receives a classname that can be called within Q (i.e. s-v
 
 ## Qualitative Color Scale: Primary
 
-Our primary qualitative colors are the most used colors in our color palette. These colors should be used _in order_ for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below. Smile.
+Our primary qualitative colors are the most used colors in our color palette. These colors should be used _in order_ for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below.
 
 ```color-palette|span-1
 colors:
