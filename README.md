@@ -1,8 +1,8 @@
 # Visuals Styleguide
 
-This is built using http://www.catalog.style/
+Der Styleguide basiert auf [Catalog](http://www.catalog.style/), unter Verwendung der Standalone-Version: https://docs.catalog.style/installation/standalone
 
-We use the standalone version of catalog as documented here: https://docs.catalog.style/installation/standalone
+
 
 ## Start locally
 
