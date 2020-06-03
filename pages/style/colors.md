@@ -16,6 +16,12 @@ The concept of our color palette is that all colors are scales are derived out o
 
 _Each of these colors receives a classname that can be called within Q (i.e. s-viz-color-one-7)._ Each classname is listed below along with the hex color code.
 
+## Semantically resonant colors
+
+Where adequate we use colors that are intuitive for what they present. [Empirical research by Lin et al.](http://vis.stanford.edu/papers/semantically-resonant-colors) shows that they slightly improve the speed of identification. 
+
+
+
 ## Qualitative Color Scale: Primary
 
 Our primary qualitative colors are the most used colors in our color palette. These colors should be used _in order_ for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below.
