@@ -1786,18 +1786,23 @@ colors:
 
 ### United States
 
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "Republikaner - primary", value: "#f1242b"}
-  - {name: "Demokraten", value: "#00aef3"}
-  - {name: "Independent", value: "#eada14"}
-  - {name: "default", value: "#616161"}
+  - {name: "Republikaner Flächen - primary", value: "#ff7a64"}
+  - {name: "Demokraten Flächen", value: "#81a8db"}
+  - {name: "default Flächen", value: "#d7d7d7"}
 ```
 
-```color-palette|span-2
+```color-palette|span-1
 colors:
-  - {name: "Republikaner - light", value: "#f9a7aa"}
-  - {name: "Demokraten", value: "#99defa"}
-  - {name: "Independent", value: "#f6f0a1"}
-  - {name: "default", value: "#bcbcbc"}
+  - {name: "Republikaner - light", value: "#ffafa2"}
+  - {name: "Demokraten", value: "#b4c7e3"}
 ```
+
+```color-palette|span-1
+colors:
+  - {name: "Republikaner Kurven - primary", value: "#ce6661"}
+  - {name: "Demokraten", value: "#618ec0"}
+  - {name: "default", value: "#7b7b7c"}
+```
+
