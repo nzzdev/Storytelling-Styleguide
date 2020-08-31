@@ -797,13 +797,13 @@ colors:
 ```color-palette|span-1
 colors:
   - {name: "Republikaner - light", value: "#ffafa2"}
-  - {name: "Demokraten", value: "#b4c7e3"}
+  - {name: "Demokraten - light", value: "#b4c7e3"}
 ```
 
 ```color-palette|span-1
 colors:
   - {name: "Republikaner Kurven - primary", value: "#ce6661"}
-  - {name: "Demokraten", value: "#618ec0"}
-  - {name: "default", value: "#7b7b7c"}
+  - {name: "Demokraten Kurven", value: "#618ec0"}
+  - {name: "default Kurven", value: "#7b7b7c"}
 ```
 
