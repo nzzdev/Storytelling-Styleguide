@@ -1808,20 +1808,20 @@ colors:
 
 ### United States
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "Republikaner Flächen - primary", value: "#ff7a64"}
   - {name: "Demokraten Flächen", value: "#81a8db"}
   - {name: "default Flächen", value: "#d7d7d7"}
 ```
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "Republikaner - light", value: "#ffafa2"}
   - {name: "Demokraten - light", value: "#b4c7e3"}
 ```
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "Republikaner Kurven - primary", value: "#ce6661"}
   - {name: "Demokraten Kurven", value: "#618ec0"}
