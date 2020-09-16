@@ -16,3 +16,37 @@ plain: true
 span: 4
 src: "assets/graphic-images/NotreDame-1@1x.png 1x, assets/graphic-images/NotreDame-1@2x.png 2x"
 ```
+
+# Graphics-Picture Combination
+
+This Template is only used for print. Online we use Q as usual. Use only pictures with very little content and a lot of empty space. Use only colors that appear in the picture or black or white. Use as little colors as possible and try to use one color in different shades.
+
+```image
+plain: true
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-1@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-1@2x.png 2x"
+```
+
+```image
+plain: true
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-2@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-2@2x.png 2x"
+```
+
+```image
+plain: true
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-3@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-3@2x.png 2x"
+```
+
+```image
+plain: true
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-4@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-4@2x.png 2x"
+```
+
+```image
+plain: true
+span: 4
+src: "assets/graphic-images/Beispiel-Bildgrafik-5@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-5@2x.png 2x"
+```

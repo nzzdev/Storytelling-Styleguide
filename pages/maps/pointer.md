@@ -25,6 +25,124 @@ plain: true
 span: 5
 src: "assets/maps/pointer-maps_geojson@1x.png 1x, assets/maps/pointer-maps_geojson@2x.png 2x"
 ```
+## Simple Maps
+
+Simple pointer maps are made in Q. These maps are typically used for simple localization. We use four different templates.
+
+## Standard Maps
+
+This template should be used for most of the maps.
+
+```image
+plain: true
+span: 3
+src: "assets/maps/Standardmap@1x.png 1x, assets/maps/Standardmap@2x.png 2x"
+```
+
+```image
+plain: true
+span: 3
+src: "assets/maps/Standardmapprint@1x.png 1x, assets/maps/Standardmapprint@2x.png 2x"
+```
+
+### Standard Map colors
+
+```color-palette|span-1
+colors:
+ - {name: "countries basemap", value: "#f0f0f2"}
+ - {name: "main country", value: "#ffffff"}
+ - {name: "highlighted region", value: "#d7cddc"}
+ - {name: "water", value: "#CEE9F2"}
+ - {name: "forested areas", value: "#99c7a3"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "streets", value: "#DFE0E5"}
+ - {name: "railways", value: "#D8D9DB"}
+ - {name: "Ländergrenzen", value: "#A88EA8"}
+ - {name: "Regionsgrenzen", value: "#C9C4E0"}
+ - {name: "Gemeindegrenzen", value: "#D4C1EE"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "buildings - primary", value: "#e3e3e8"}
+ - {name: "text color, countries, cities", value: "#92929E"}
+```
+
+
+## Minimal Maps
+
+Minimal Maps are used if the map underneath is not the most important information. Use this template if you for example want to show complexe geojson routes.
+
+```image
+plain: true
+span: 3
+src: "assets/maps/Minimalmap@1x.png 1x, assets/maps/Minimalmap@2x.png 2x"
+```
+
+```image
+plain: true
+span: 3
+src: "assets/maps/Minimalmapprint@1x.png 1x, assets/maps/Minimalmapprint@2x.png 2x"
+```
+
+### Minimal Map colors
+
+```color-palette|span-1
+colors:
+ - {name: "countries basemap", value: "#f0f0f2"}
+ - {name: "highlighted region", value: "#d7cddc"}
+ - {name: "region border color", value: "#ffffff"}
+ - {name: "water", value: "#cee1e6"}
+ - {name: "buildings", value: "#CBCBCB"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "borders", value: "#b6b6be"}
+ - {name: "streets", value: "#ffffff"}
+ - {name: "railways", value: "#dcdce2"}
+ - {name: "text color, countries, cities", value: "#92929E"}
+```
+
+## Natural Maps
+
+Use the Natural Maps template if the context in which the map will be placed is about nature. This can be all from mountains to national parks or forested areas.
+
+```image
+plain: true
+span: 3
+src: "assets/maps/Naturalmap@1x.png 1x, assets/maps/Naturalmap@2x.png 2x"
+```
+
+```image
+plain: true
+span: 3
+src: "assets/maps/Naturalmapprint@1x.png 1x, assets/maps/Naturalmapprint@2x.png 2x"
+```
+
+### Natural Map colors
+
+```color-palette|span-1
+colors:
+ - {name: "countries basemap", value: "#EDECE1"}
+ - {name: "main country", value: "#ffffff"}
+ - {name: "highlighted region", value: "#d7cddc"}
+ - {name: "water", value: "#CEE9F2"}
+ - {name: "forested areas", value: "#99c7a3"}
+```
+
+```color-palette|span-1
+colors:
+ - {name: "streets", value: "#DBDAD1"}
+ - {name: "railways", value: "#d9d9d9"}
+ - {name: "Ländergrenzen", value: "#b6b6be"}
+ - {name: "buildings", value: "#DBDAD1"}
+ - {name: "text color, countries, cities", value: "#92929E"}
+```
+
 
 ## Mini-Map
 The minimap helps to show the position of the main map.
@@ -33,142 +151,125 @@ The minimap helps to show the position of the main map.
 - use the same colors for regions in the minimap as they are defined in the main map
 - leave away details such as water, forested areas and roads
 
+## Map-scale (Massstab)
+#### Online
+- GT America Regular (font-weight: 100)
+- Size: 11 px
+- Line Heigh: 12 px
+- color: #6e6e7e, halo color: like basemap, halo with: 2 px
+
+- Line: 1,5 px
+- color: #6e6e7e, halo color: #FFFFFF
+
+#### Print
+- Univers LT Std 47 Light Condensed 
+- Size: 6 px
+- color: #000000, halo color: #FFFFFF
+
+- Line: 1 px
+- color: #6e6e7e, halo color: #FFFFFF, halo with: 1 px
+
+
 ## Map Type Definitions
+### Online Maps
 
-Depending on the circumstance, we may have decided that a map needs to be created by hand as opposed to in Q. For these cases, use the following type definitions:
+#### Marker City
+- GT America Medium (font-weight: 500)
+- Size: 14 px
+- color: #05032D, halo color: #FFFFFF, halo with: 2 px
+- Line Heigh: 16 px
+- Icon Size: 12 x 12 px, Icon Color: #05032D, halo color: #FFFFFF, halo with: 1 px
 
-```image
-plain: true
-span: 6
-src: "assets/maps/pointer-maps_from-hand@2x.png 1x, assets/maps/pointer-maps_from-hand@2x.png 2x"
-```
+#### country 
+- GT America Light (font-weight: 50)
+- Size: 14 px (Zoomstufen: 0/10, 3/12, 4/16)
+- color: #6e6e7e, halo color: like basemap, halo with: 2 px
+- Line Heigh: 16 px
 
-### Mobile
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "main country, state", "value": 14 },
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
-  weight: 200,
-  tracking: 6
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "capital city", "value": 16 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
-  weight: 500
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "city", "value": 15 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#05032d",
-  weight: 300
-}
-```
+#### capital
+- GT America Medium (font-weight: 500)
+- Size 15 px
+- color: #92929e, halo color: like basemap, halo with: 2 px
+- Line Heigh: 17 px
+- Icon Size: 12 x 12 px, Icon Color: #92929e, no halo
 
-## Content Width +
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "main country, state", "value": 15 },
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
-  weight: 200,
-  tracking: 6
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "capital city", "value": 17 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#6e6e7e",
-  weight: 500
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "city", "value": 14 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#05032d",
-  weight: 300
-}
-```
+#### city / town/ village / suburb / big city
+- GT America Regular (font-weight: 100)
+- Size 13 px
+- color: #92929e, halo color: like basemap, halo with: 2 px
+- Line Heigh: 15 px
+- Icon Size: 6 x 6 px, Icon Color: #92929e, no halo
 
-### Shared definitions
+#### Regions
+- GT America Light (font-weight: 50)
+- Size: 13 px
+- color: #92929e, halo color: like basemap, halo with: 2 px
+- Transform: Uppercase
+- Line Heigh: 15 px
+- Letter-spacing: 6
 
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "scale", "value": 13 }
-  ],
-  font: "nzz-sans-serif, sans-serif",
-  color: "#05032d",
-  weight: 300
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "secondary region", "value": 13 }
-  ],
-  weight: 300,
-  color: "#b6b6be",
-  font: "nzz-sans-serif, sans-serif",
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "region 1", "value": 14 }
+#### Water - lakes, rivers, Oceans
+- Pensum Pro Italic (font-weight: 100)
+- Size 13 px
+- color: #0093bf, halo color: #CEE9F2, halo with: 2 px
+- Line Heigh: 15 px
 
-  ],
-  weight: 300, color: "#d4a91e",
-  font: "nzz-sans-serif, sans-serif",
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "region 2", "value": 13 }
 
-  ],
-  weight: 300, color: "#6e6e7e",
-  font: "nzz-sans-serif, sans-serif",
-}
-```
-```type
-{
-  kern: true,
-  "headings": [
-    { "label": "waterways", "value": 13 }
+### Print Maps
 
-  ],
-  weight: 300, color: "#0093bf",
-  font: "nzz-sans-serif, sans-serif",
-}
-```
+#### Marker City
+- Univers LT Std 47 Light Condensed 
+- Size: 9 px
+- color: #000000, halo color: #FFFFFF, halo with: 2 px
+- Line Heigh: 12 px
+- Icon Size: 6 x 6 px, Icon Color: #000000, halo color: #FFFFFF, halo with: 0,5 px
+
+#### main country 
+- Univers LT Std 47 Light Condensed 
+- Size: 8 px
+- Line Heigh: 10 px
+- Transform: Uppercase
+- color: #000000, halo color: like basemap, halo with: 1 px
+
+#### secondary country (used only if the map is done by hand)
+- Univers LT Std 47 Light Condensed 
+- Size: 8 px
+- Line Heigh: 10 px
+- Transform: Uppercase
+- color: #808080, halo color: like basemap, halo with: 1 px
+
+#### capital
+- Univers Next Pro Medium Condensed
+- Size: 8 px
+- Line Heigh: 10 px
+- color: #000000, halo color: like basemap, halo with: 1 px
+- Icon Size: 6 x 6 px, Icon Color: #000000, no halo
+
+#### city / town/ village / suburb / big city
+- Univers LT Std 47 Light Condensed
+- Size: 8 px
+- Line Heigh: 10 px
+- color: #000000, halo color: like basemap, halo with: 1 px
+- Icon Size: 4 x 4 px, Icon Color: #000000, no halo
+
+#### Regions
+- Univers LT Std 47 Light Condensed 
+- Size: 7.5 px
+- Line Heigh: 10 px
+- Transform: Uppercase
+- color: #000000, halo color: like basemap, halo with: 1 px
+- Letter-spacing: 60
+
+#### Oceans
+- Univers LT Std 47 Light Condensed
+- Size: 8 px
+- Line Heigh: 10 px
+- Transform: Uppercase
+- color: #0093BF, halo color: #CEE9F2, halo with: 1 px
+
+#### Water - lakes, rivers
+- Univers LT Std 47 Light Condensed
+- Size: 7.5 px
+- Line Heigh: 10 px
+- color: #0093BF, halo color: like basemap, halo with: 1 px
+- Letter-spacing: 60

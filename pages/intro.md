@@ -31,6 +31,8 @@ This documentation is first and foremost for our team. We are designers, develop
 
 # Changelog
 
+Eine aktuelle Liste der letzten Änderungen findet sich [auf GitHub](https://github.com/nzzdev/Storytelling-Styleguide/commits/master).
+
 ---
 
 ```table

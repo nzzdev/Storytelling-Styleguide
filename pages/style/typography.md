@@ -2,131 +2,111 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-Different font families are in use:
+Print und Online verwenden verschiedene Schriftfamilien, haben aber gemeinsam definierte Formatvorlagen, die zur Übersetzung von Online zu Print verwendet werden können.
 
-- [GT America](http://www.gt-america.com/) and [PensumPro](https://www.myfonts.com/fonts/typemates/pensum-pro/) are used as the primary fonts across all of our online products. A typographic scale is used to create a limited set of type sizes that work well together, while respecting intrinsic platform standards. The font can be downloaded via the [assets page](assets). Online fonts are implemented as a sophie module and can be viewed in and embedded with the [Sophie Styleguide](https://storytelling.nzz.ch/tools/sophie-styleguide/).
-- Univers and Bondoni are used as the primary fonts across all print graphics.
+Die vordefinierten Schritfgrössen basieren auf einer typografischen Skala.
 
-## Titles for Online (left) and Print (right)
+## Online-Grafiken
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "font": "nzz-serif, serif",
-  "weight": 500,
-  "color": "#05032d",
-  "headings": [
-    {"label": "Desktop Headline [s-font-title-xl]", "value": 42},
-    {"label": "Mobile Headline [s-font-title-l]", "value": 27},
-    {"label": "Desktop Subtitle [s-font-title]", "value": 24},
-    {"label": "Infographic Headline [s-font-title-s]", "value": 22},
-    {"label": "Mobile Infographic Headline [s-font-title-xs]", "value": 20}
-  ]
-}
+Für Beschriftungen, Titel und kurze Beschreibungstexte in Online-Grafiken wird primär [**GT America**](http://www.gt-america.com/) verwendet.
+
+Für längere Fliesstexte innerhalb von interaktiven Projekten wird [**PensumPro**](https://www.myfonts.com/fonts/typemates/pensum-pro/) verwendet.
+
+Die Online-Schriften sind als [Sophie-Modul](https://github.com/nzzdev/sophie-font) implementiert.
+
+NZZ-Mitarbeiter finden die Schriften hier: https://nzzmg.sharepoint.com/:f:/s/nzz_st/EgLitBtfwjNKsQinaTMkFHgBoVc1Jkv9mBHpQnjo5kFFgw?e=VsP2HV
+
+### Zahlenformat
+
+- Wir verwenden für sämtliche Zahlen **Versalziffern für Tabellen** (_Tabular Lining_ auf Englisch). 
+- Wir verwenden keine durchgestrichene Null.
+
+![Tabellensatz in Illustrator](assets/typography/tabellensatz.png "Tabellensatz in Illustrator")
+
+Dieses Format sollte einen sinnvollen Kompromiss erlauben zwischen korrekt untereinander ausgerichteten Ziffern in Tabellen (ohne dass dafür auf GT America Mono ausgewichen werden muss) und der Verwendung der selben Ziffern innerhalb von kurzen Beschreibungen.
+
+Die Verwendung von GT America Mono sollte nach Möglichkeit vermieden werden.
+
+## Video
+
+Videos verwenden dieselben Schriften wie Online-Grafiken.
+
+## Print-Grafiken
+
+In Print-Grafiken wird primär **Univers Condensed** verwendet. Für Grafiken normalerweise _nicht_ verwendet wird die Bodoni, die im Print-Layout für Titeleien eingesetzt wird.
+
+NZZ-Mitarbeiter finden die Schriften hier: https://nzzmg.sharepoint.com/:f:/s/nzz_st/Eoq1VTvpZ0hDgRo6QzKCSTUB5_IA6MwCeCUtHwVuGZQfBQ?e=AGLTVh
+
+## Styles
+
+Sowohl für Online und Print sind dieselben Schriftstile vordefiniert. Diese Stile teilen sich in zwei Gruppen: _Titles_ und _Notes_.
+
+Die Styles in Print sind etwas weniger ausdifferenziert, da die Schriftgrösse zu Beginn weg kleiner ist, was weniger Spielraum lässt.
+
+Die folgende Matrix zeigt die Übersetzung von Online- zu Print-Stilen, wie sie im Q-to-Print-Workflow implementiert sind:
+
+![Typography Raster](assets/typography/typoraster.png "Typography Raster")
+
+## Sophie Classes
+
+Für Custom-Code-Projekte werden die im [Sophie Font Module](https://github.com/nzzdev/sophie-font) definierten CSS-Klassen referenziert: 
+
+### Font Classes
+
+```html|span-3
+<p class="s-font-serif" style="margin: 20px 0px; font-size: 200%">
+  <span>Serifen-Schrift (s-font-serif + custom styles)</span>
+</p>
+<p class="s-font-sans" style="margin: 20px 0px; font-size: 200%">
+  <span>Sansserifen-Schrift (s-font-sans + custom styles)</span>
+</p>
 ```
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "font": "UniversLTStd, Univers, sans-serif",
-  "color": "#000000",
-  "headings": [
-    {"label": "Infographic Headline", "value": "8.5pt"}
-  ]
-}
+### Title Classes (s-font-title\*)
+
+```html|span-3
+<p class="s-font-title-l">Lorem ipsum dolor (s-font-title-l)</p>
+<p class="s-font-title">Lorem ipsum dolor (s-font-title)</p>
+<p class="s-font-title-s">Lorem ipsum dolor (s-font-title-s)</p>
 ```
 
-## Annotations for Online (left) and Print (right)
+### Note Classes (s-font-note\* and s-font-note-s\*)
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "paragraphs": ["13/17"],
-  "font": "nzz-sans-serif, sans-serif",
-  "weight": 300,
-  "color": "#05032d"
-}
+```html|span-3
+<p class="s-font-note">Lorem ipsum dolor (s-font-note)</p>
+<p class="s-font-note s-font-note--strong">
+  Lorem ipsum dolor (s-font-note s-font-note--strong)
+</p>
+<p class="s-font-note s-font-note--light">
+  Lorem ipsum dolor (s-font-note s-font-note--light)
+</p>
+<p class="s-font-note s-font-note--mono">
+  Lorem ipsum dolor (s-font-note s-font-note--mono)
+</p>
 ```
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "paragraphs": ["8/10"],
-  "font": "Univers LT Std, UniversLTStd-LightCn , Univers, sans-serif",
-  "color": "#000000"
-}
+```html|span-3
+<p class="s-font-note-s">Lorem ipsum dolor (s-font-note-s)</p>
+<p class="s-font-note-s s-font-note-s--strong">
+  Lorem ipsum dolor (s-font-note-s s-font-note-s--strong)
+</p>
+<p class="s-font-note-s s-font-note-s--light">
+  Lorem ipsum dolor (s-font-note-s s-font-note-s--light)
+</p>
+<p class="s-font-note-s s-font-note-s--mono">
+  Lorem ipsum dolor (s-font-note-s s-font-note-s--mono)
+</p>
 ```
 
-## Meta Information for Online (left) and Print (right)
+### Text Classes (s-font-text\*)
 
-```type
-{
-  "span": 3,
-  "kern": true,
-  "paragraphs": ["11/13"],
-  "font": "nzz-sans-serif, sans-serif",
-  "weight": 300,
-  "color": "#6e6e7e"
-}
-```
-
-```type
-{
-  "span": 3,
-  "kern": true,
-  "paragraphs": ["6/7.2"],
-  "font": "Univers LT Std, UniversLTStd-LightCn, Univers, sans-serif",
-  "color": "#000000"
-}
-```
-
-# All Online Font Styles available
-
-Online font styles are implemented as a sophie module. Via a build service, sophie modules can be requested as a set of classes for styling fonts. The aforementioned styles are explained above. The following options are additional styles that can be called through the sophie module: 
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-serif" style="font-size: 200%">Serifen-Schrift (s-font-serif + custom styles)
-  </p>
-  <p class="s-font-sans" style="font-size: 200%">Sansserifen-Schrift  (s-font-sans + custom styles)
-  </p>
-```
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-text-s">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text-s s-font-text-s--strong">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
-  <p class="s-font-text s-font-text--strong">Lorem ipsum dolor (s-font-text s-font-text--strong)</p>
-```
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-text-s">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text-s s-font-text-s--strong">Lorem ipsum dolor (s-font-text-s)</p>
-  <p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
-  <p class="s-font-text s-font-text--strong">Lorem ipsum dolor (s-font-text s-font-text--strong)</p>
-```
-
-```html
-showSource: true,
-span: 3
----
-  <p class="s-font-title-xs">Lorem ipsum dolor (s-font-title-xs)</p>
-  <p class="s-font-title-s">Lorem ipsum dolor (s-font-title-s)</p>
-  <p class="s-font-title">Lorem ipsum dolor (s-font-title)</p>
-  <p class="s-font-title-l">Lorem ipsum dolor (s-font-title-l)</p>
-  <p class="s-font-title-l s-font-title-l--contrast">Lorem ipsum dolor (s-font-title-l s-font-title-l--contrast)</p>
-  <p class="s-font-title-xl">Lorem ipsum dolor (s-font-title-xl)</p>
-  <p class="s-font-title-xl s-font-title-xl--contrast">Lorem ipsum dolor (s-font-title-xl s-font-title-xl--contrast)</p>
+```html|span-3
+<p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
+<p class="s-font-text s-font-text--strong">
+  Lorem ipsum dolor (s-font-text s-font-text--strong)
+</p>
+<p class="s-font-text-s">Lorem ipsum dolor (s-font-text-s)</p>
+<p class="s-font-text-s s-font-text-s--strong">
+  Lorem ipsum dolor (s-font-text-s s-font-text-s--strong)
+</p>
 ```

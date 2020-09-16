@@ -16,11 +16,11 @@ src: "assets/scatter-slopes/scatterplot_axislabeling@1x.png 1x, assets/scatter-s
 ```
 
 ## Annotations
-Say you want to highlight interesting correlation in your scatterplot.
+Say you want to highlight an interesting correlation in your scatterplot.
 
 #### Do
 - annotate data points directly as long as the text field doesn't cover up other important data
-- if the annotation is longer and require more space: use connection lines to annotate the points from outside the chart
+- if the annotation is longer and requires more space: use connection lines to annotate the points from outside the chart
 - use titles to group multiple annotations
 
 ```image
