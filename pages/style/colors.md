@@ -152,9 +152,11 @@ colors:
 ```
 
 ```color-palette|span-2
+colors:
   - {name: "fatalities", value: "#05032d"}
   - {name: "recovered", value: "#6c43c0"}
 ```
+
 
 ## Sequential and Diverging Scales
 
