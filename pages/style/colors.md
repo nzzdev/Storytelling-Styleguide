@@ -142,6 +142,21 @@ colors:
   - {name: "female – light", value: "#aa90de"}
 ```
 
+
+## Corona Colors
+
+```color-palette|span-2
+colors:
+  - {name: "infections", value: "#e66e4a"}
+  - {name: "hospitalisations", value: "#24b39c"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "fatalities", value: "#05032d"}
+  - {name: "recovered", value: "#6c43c0"}
+```
+
 ## Sequential and Diverging Scales
 
 Color scales are a powerful way to encode data. The use of the color dimension is common in Heatmaps and [Choropleth Maps](choropleth-maps).
