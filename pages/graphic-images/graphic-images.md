@@ -3,6 +3,7 @@
 For data journalists or cases with a tight deadline, please refer to [the tutorial](https://3.basecamp.com/3500782/buckets/10878677/documents/1598132399#__recording_1793630293) in Basecamp.
 
 For a more advanced version, take the following steps to create an graphic image:
+
 - Find the best possible perspective in Google Earth Pro, download a screenshot
 - Open the screenshot in Photoshop
 - Retouch the photo by removing the background
@@ -17,9 +18,17 @@ span: 4
 src: "assets/graphic-images/NotreDame-1@1x.png 1x, assets/graphic-images/NotreDame-1@2x.png 2x"
 ```
 
-# Graphics-Picture Combination
+# Bild-Grafik-Kombination
 
-This Template is only used for print. Online we use Q as usual. Use only pictures with very little content and a lot of empty space. Use only colors that appear in the picture or black or white. Use as little colors as possible and try to use one color in different shades.
+```hint|warning
+Diese Art von Kombinationen wurden **ausschliesslich** für den Print erstellt.
+
+Sie werden **nicht** mehr verwendet.
+
+In all diesen Fällen kommt Q-to-Print zum Zug.
+
+Die folgenden Beispiele sind allein zu Illustrationszwecken noch vorhanden.
+```
 
 ```image
 plain: true
@@ -31,22 +40,4 @@ src: "assets/graphic-images/Beispiel-Bildgrafik-1@1x.png 1x, assets/graphic-imag
 plain: true
 span: 4
 src: "assets/graphic-images/Beispiel-Bildgrafik-2@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-2@2x.png 2x"
-```
-
-```image
-plain: true
-span: 4
-src: "assets/graphic-images/Beispiel-Bildgrafik-3@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-3@2x.png 2x"
-```
-
-```image
-plain: true
-span: 4
-src: "assets/graphic-images/Beispiel-Bildgrafik-4@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-4@2x.png 2x"
-```
-
-```image
-plain: true
-span: 4
-src: "assets/graphic-images/Beispiel-Bildgrafik-5@1x.png 1x, assets/graphic-images/Beispiel-Bildgrafik-5@2x.png 2x"
 ```
