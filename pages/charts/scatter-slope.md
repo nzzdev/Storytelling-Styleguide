@@ -3,6 +3,36 @@
 ```
 Scatterplots are a great way to show correlation between variables. Keep in mind that they are not intuitive for all audiences and can be overwhelmingly complex in appearance. We use labeling and annotation in the following ways to help provide guidance to our readers and a comfortable entry point into the graphic.
 
+
+
+## Examples
+
+```image
+plain: true
+span: 3
+src: "assets/scatter-slopes/scatter-example-1.png"
+```
+
+```image
+plain: true
+span: 3
+src: "assets/scatter-slopes/scatter-example-2.png"
+```
+
+```image
+plain: true
+span: 3
+src: "assets/scatter-slopes/scatter-example-3.png"
+```
+
+```image
+plain: true
+span: 3
+src: "assets/scatter-slopes/scatter-example-4.png"
+```
+
+
+
 ## Overlap
 If your scatterplot has a lot of data points, there is potential for areas of heavy overlap. When this is the case: try using transparency as a tool to show the density of the data while still providing some ability to differentiate between points.
 
@@ -33,7 +63,7 @@ src: "assets/scatter-slopes/scatterplot_annotations@1x.png 1x, assets/scatter-sl
 
 ```image
 plain: true
-span: 6
+span: 4
 src: "assets/scatter-slopes/scatterplot_annotations-print@1x.png 1x, assets/scatter-slopes/scatterplot_annotations-print@2x.png 2x"
 ```
 
@@ -51,3 +81,6 @@ plain: true
 span: 3
 src: "assets/scatter-slopes/slopes-print@1x.png 1x, assets/scatter-slopes/slopes-print@2x.png 2x"
 ```
+
+
+
