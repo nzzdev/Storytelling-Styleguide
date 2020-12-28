@@ -149,12 +149,14 @@ colors:
 colors:
   - {name: "infections", value: "#e66e4a"}
   - {name: "hospitalisations", value: "#24b39c"}
+  - {name: "vaccinations", value: "#0ba9d9"}
 ```
 
 ```color-palette|span-2
 colors:
   - {name: "fatalities", value: "#05032d"}
   - {name: "recovered", value: "#6c43c0"}
+  - {name: "tests", value: "#3952ee"}
 ```
 
 
@@ -1808,20 +1810,20 @@ colors:
 
 ### United States
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "Republikaner Flächen - primary", value: "#ff7a64"}
   - {name: "Demokraten Flächen", value: "#81a8db"}
   - {name: "default Flächen", value: "#d7d7d7"}
 ```
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "Republikaner - light", value: "#ffafa2"}
   - {name: "Demokraten - light", value: "#b4c7e3"}
 ```
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
   - {name: "Republikaner Kurven - primary", value: "#ce6661"}
   - {name: "Demokraten Kurven", value: "#618ec0"}
