@@ -156,6 +156,7 @@ colors:
 colors:
   - {name: "fatalities", value: "#05032d"}
   - {name: "recovered", value: "#6c43c0"}
+  - {name: "tests", value: "#3952ee"}
 ```
 
 
