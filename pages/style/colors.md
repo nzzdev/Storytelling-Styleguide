@@ -157,6 +157,11 @@ colors:
   - {name: "recovered", value: "#6c43c0"}
 ```
 
+```color-palette|span-2
+colors:
+  - {name: "vaccinations", value: "#0BA9D9"}
+```
+
 
 ## Sequential and Diverging Scales
 
