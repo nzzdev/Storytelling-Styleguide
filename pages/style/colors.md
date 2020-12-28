@@ -149,17 +149,13 @@ colors:
 colors:
   - {name: "infections", value: "#e66e4a"}
   - {name: "hospitalisations", value: "#24b39c"}
+  - {name: "vaccinations", value: "#0ba9d9"}
 ```
 
 ```color-palette|span-2
 colors:
   - {name: "fatalities", value: "#05032d"}
   - {name: "recovered", value: "#6c43c0"}
-```
-
-```color-palette|span-2
-colors:
-  - {name: "vaccinations", value: "#0BA9D9"}
 ```
 
 
