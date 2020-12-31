@@ -42,7 +42,7 @@ src: "https://q-server.st-cdn.nzz.ch/screenshot/91536091deb9363261a383616df252d4
 ```image
 plain: true
 span: 3
-src: "https://q-server.st-cdn.nzz.ch/screenshot/77e6ecd2303564671936e9316c60a57f.png?target=nzz_ch&dpr=2&padding=10px&wait=300&background=white&width=400 2x"
+src: "assets/maps/choropleth_Kat-Div.png 2x"
 ```
 
 ## Map Template
@@ -57,7 +57,7 @@ If the entities voices are weighted equally, use a more schematic template to re
 ```image
 plain: true
 span: 5
-src: "https://q-server.st-cdn.nzz.ch/screenshot/0f9e91c30c93e29b943c6f9895045036.png?target=nzz_ch&dpr=2&padding=10px&wait=300&background=white&width=400 2x"
+src: "assets/maps/choropleth_hexagon.png 2x"
 ```
 
 Ask yourself these two questions when deciding for a template:
