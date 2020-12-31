@@ -1,5 +1,5 @@
 ```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
+<div class="stabilityIndex stable">Stable</div>
 ```
 
 ### Choroplethic Maps
@@ -26,6 +26,11 @@ Clustered maps are similiar to Choroplethic Maps but organize data in a more cat
 plain: true
 span: 3
 src: "assets/maps/choropleth-Str.png 2x"
+```
+```image
+plain: true
+span: 3
+src: "assets/maps/choropleth-Str2.png 2x"
 ```
 
 ```image
@@ -99,15 +104,15 @@ To avoid too much distraction, we only label the legend's extents and do not lab
 ```image
 plain: true
 span: 5
-src: "assets/maps/choropleth-legends.png 2x"
+src: "assets/maps/choropleth_legend_desktop.png 2x"
 ```
 
-As a proposed interactive solution, a notice about the usage of irregular intervals could be toggled. Once activated by the information icon, it appears inside an overlay positioned below the legend and at the same time labeling the breaks.
+The Choropleth maps always require an explanation of the legend at the bottom of the graphic. Online this is a foldable element that breaks down the groupings of the data and briefly explains the method used. In print, the methodology box is simply attached to the graphic below.
 
 ```image
 plain: true
 span: 5
-src: "assets/maps/choropleth-overlay.png 2x"
+src: "assets/maps/choropleth-methodology.png 2x"
 ```
 
 ## Colors
