@@ -130,4 +130,18 @@ span: 6
 src: "assets/guidelines/guidelines-y-axis_4@1x.png 1x, assets/guidelines/guidelines-y-axis_4@2x.png 2x"
 ```
 
-We like this artcile for further references and examples: [It’s OK not to start your y-axis at zero (QZ)](https://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/)
+We like this article for further references and examples: [It’s OK not to start your y-axis at zero (QZ)](https://qz.com/418083/its-ok-not-to-start-your-y-axis-at-zero/)
+
+## Archivierte Charts
+
+Wir haben nun verschiedenste Charts, die regelmässig aktualisiert werden, und bei denen unsere Leser davon ausgehen, dass die jeweilige Version, die sie sehen, die aktuelle Version ist.
+
+Es gibt aber Fälle, wo wir einen bestimmten Stand einer solchen Grafik kommentieren möchten.
+
+Um zu verhindern, dass Leserinnen und Leser nicht realisieren, dass die so archivierte Grafik nicht aktuelle Daten zeigt (oder wir selber oder andere Redaktorinnen und Redaktoren fälschlicherweise diese Grafik einsetzen, wenn sie die aktuelle verwenden möchten), sollten wir in den Texten spezifisch darauf hinweisen.
+
+### Vorgehen
+
+1. In Q Kopie der gewünschten Grafik erstellen.
+2. Sämtliche Hinweise auf regelmässige Aktualisierung in Titel, Untertitel und Hinweisen entfernen (z.B. ~~Wird von Montag–Freitag aktualisiert.~~)
+3. Untertitel ergänzen mit: _archivierte Version vom [Datum]_
