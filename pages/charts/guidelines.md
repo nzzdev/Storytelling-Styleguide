@@ -143,5 +143,5 @@ Um zu verhindern, dass Leserinnen und Leser nicht realisieren, dass die so archi
 ### Vorgehen
 
 1. In Q Kopie der gewünschten Grafik erstellen.
-2. Sämtliche Hinweise auf regelmässige Aktualisierung in Titel, Untertitel und Hinweisen entfernen (z.B. ~~Wird von Montag–Freitag aktualisiert.~~)
-3. Untertitel ergänzen mit: _archivierte Version vom [Datum]_
+2. Sämtliche Hinweise auf regelmässige Aktualisierung in Titel, Untertitel und Anmerkung entfernen (z.B. ~~Wird von Montag–Freitag aktualisiert.~~)
+3. Anmerkung ergänzen mit: _archivierte Version vom [Datum]_
