@@ -20,7 +20,15 @@ _Each of these colors receives a classname that can be called within Q (i.e. s-v
 
 Where adequate we use colors that are intuitive for what they present. [Empirical research by Lin et al.](http://vis.stanford.edu/papers/semantically-resonant-colors) shows that they slightly improve the speed of identification. 
 
+### Ausnahme: Ethnien
 
+Im Falle von Ethnien verzichten wir bewusst darauf, «semantische» Farben zu verwenden. Wir verwenden die in Q definierten Standardfarben, und ersetzen problematische Farb-Kategorie-Kombinationen.
+
+```image
+plain: true
+span: 3
+src: "assets/colors/ethnic-colors@1x.png 1x, assets/colors/ethnic-colors@2x.png 2x"
+```
 
 ## Qualitative Color Scale: Primary
 
