@@ -52,7 +52,7 @@ colors:
  - {name: "countries basemap", value: "#f0f0f2"}
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#d7cddc"}
- - {name: "water", value: "#CEE9F2"}
+ - {name: "water", value: "#d0e2ec"}
  - {name: "forested areas", value: "#99c7a3"}
 ```
 
@@ -130,7 +130,7 @@ colors:
  - {name: "countries basemap", value: "#EDECE1"}
  - {name: "main country", value: "#ffffff"}
  - {name: "highlighted region", value: "#d7cddc"}
- - {name: "water", value: "#CEE9F2"}
+ - {name: "water", value: "#d0e2ec"}
  - {name: "forested areas", value: "#99c7a3"}
 ```
 
@@ -211,7 +211,7 @@ The minimap helps to show the position of the main map.
 #### Water - lakes, rivers, Oceans
 - Pensum Pro Italic (font-weight: 100)
 - Size 13 px
-- color: #0093bf, halo color: #CEE9F2, halo with: 2 px
+- color: #428cb3, halo color: #d0e2ec, halo with: 2 px
 - Line Heigh: 15 px
 
 
@@ -265,11 +265,11 @@ The minimap helps to show the position of the main map.
 - Size: 8 px
 - Line Heigh: 10 px
 - Transform: Uppercase
-- color: #0093BF, halo color: #CEE9F2, halo with: 1 px
+- color: #428cb3, halo color: #d0e2ec, halo with: 1 px
 
 #### Water - lakes, rivers
 - Univers LT Std 47 Light Condensed
 - Size: 7.5 px
 - Line Heigh: 10 px
-- color: #0093BF, halo color: like basemap, halo with: 1 px
+- color: #428cb3, halo color: like basemap, halo with: 1 px
 - Letter-spacing: 60
