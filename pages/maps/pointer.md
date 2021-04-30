@@ -36,7 +36,7 @@ This template should be used for most of the maps.
 ```image
 plain: true
 span: 3
-src: "assets/maps/Standardmap@1x.png 1x, assets/maps/Standardmap@2x.png 2x"
+src: "assets/maps/KarteNormal.PNG 1x, assets/maps/KarteNormal.PNG.png 2x"
 ```
 
 ```image
