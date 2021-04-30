@@ -71,6 +71,10 @@ colors:
  - {name: "text color, countries, cities", value: "#92929E"}
 ```
 
+```color-palette|span-1
+colors:
+ - {name: "water print", value: "#BED3DF"}
+```
 
 ## Minimal Maps
 
@@ -265,7 +269,7 @@ The minimap helps to show the position of the main map.
 - Size: 8 px
 - Line Heigh: 10 px
 - Transform: Uppercase
-- color: #428cb3, halo color: #d0e2ec, halo with: 1 px
+- color: #428cb3, halo color: #BED3DF, halo with: 1 px
 
 #### Water - lakes, rivers
 - Univers LT Std 47 Light Condensed
