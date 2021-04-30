@@ -31,7 +31,7 @@ Simple pointer maps are made in Q. These maps are typically used for simple loca
 
 ## Standard Maps
 
-This template should be used for most of the maps.
+This template should be used for most of the maps. Left the online Version, right the Print Version.
 
 ```image
 plain: true
@@ -78,18 +78,18 @@ colors:
 
 ## Minimal Maps
 
-Minimal Maps are used if the map underneath is not the most important information. Use this template if you for example want to show complexe geojson routes.
+Minimal Maps are used if the map underneath is not the most important information. Use this template if you for example want to show complexe geojson routes. Left the online Version, right the Print Version.
 
 ```image
 plain: true
 span: 3
-src: "assets/maps/Minimalmap@1x.png 1x, assets/maps/Minimalmap@2x.png 2x"
+src: "assets/maps/KarteMinimal.PNG 1x, assets/maps/KarteMinimal.PNG 2x"
 ```
 
 ```image
 plain: true
 span: 3
-src: "assets/maps/Minimalmapprint@1x.png 1x, assets/maps/Minimalmapprint@2x.png 2x"
+src: "assets/maps/KarteMinimalPrint.PNG 1x, assets/maps/KarteMinimalPrint.PNG 2x"
 ```
 
 ### Minimal Map colors
@@ -113,18 +113,18 @@ colors:
 
 ## Natural Maps
 
-Use the Natural Maps template if the context in which the map will be placed is about nature. This can be all from mountains to national parks or forested areas.
+Use the Natural Maps template if the context in which the map will be placed is about nature. This can be all from mountains to national parks or forested areas. Left the online Version, right the Print Version.
 
 ```image
 plain: true
 span: 3
-src: "assets/maps/Naturalmap@1x.png 1x, assets/maps/Naturalmap@2x.png 2x"
+src: "assets/maps/KarteNature.PNG 1x, assets/maps/KarteNature.PNG 2x"
 ```
 
 ```image
 plain: true
 span: 3
-src: "assets/maps/Naturalmapprint@1x.png 1x, assets/maps/Naturalmapprint@2x.png 2x"
+src: "assets/maps/KarteNaturePrint.PNG 1x, assets/maps/KarteNaturePrint.PNG 2x"
 ```
 
 ### Natural Map colors
@@ -269,11 +269,11 @@ The minimap helps to show the position of the main map.
 - Size: 8 px
 - Line Heigh: 10 px
 - Transform: Uppercase
-- color: #428cb3, halo color: #BED3DF, halo with: 1 px
+- color: #3c546c, halo color: #BED3DF, halo with: 1 px
 
 #### Water - lakes, rivers
 - Univers LT Std 47 Light Condensed
 - Size: 7.5 px
 - Line Heigh: 10 px
-- color: #428cb3, halo color: like basemap, halo with: 1 px
+- color: #3c546c, halo color: like basemap, halo with: 1 px
 - Letter-spacing: 60
