@@ -42,7 +42,7 @@ src: "assets/maps/KarteNormal.PNG 1x, assets/maps/KarteNormal.PNG.png 2x"
 ```image
 plain: true
 span: 3
-src: "assets/maps/Standardmapprint@1x.png 1x, assets/maps/Standardmapprint@2x.png 2x"
+src: "assets/maps/KarteNormalPrint.PNG 1x, assets/maps/KarteNormalPrint.PNG 2x"
 ```
 
 ### Standard Map colors
