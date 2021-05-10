@@ -20,19 +20,17 @@ columns:
   - Optionen
 rows:
   - Kategorie: Visuelles Element
-    Optionen: Video, Foto, Grafik (Infografik, Datenvisualisierung), Karte, UI Elemente / NAvigation / Basic Elements  
+    Optionen: Video, Foto, Grafik (Infografik, Datenvisualisierung), Karte
   - Kategorie: Verhalten visuelles Element
-    Optionen: bleibt stehen, scrollt mit     
+    Optionen: bleibt stehen, wird ausgewechselt, ist animiert, scrollt mit     
   - Kategorie: Grösse visuelles Element
-    Optionen: Füllt den ganzen Viewport, Ist oben und oder unten, Ist auf der Seite
-  - Kategorie: Grösse visuelles Element
-    Optionen: Füllt den ganzen Viewport, Ist oben und oder unten, Ist auf der Seite
+    Optionen: Füllt den ganzen Viewport, ist oben und oder unten angeschlagen, ist auf der Seite angeschlagen
   - Kategorie: Text
-    Optionen: Abschnitt, Annotationen
+    Optionen: Paragraph, Annotationen
   - Kategorie: Scroll-Richtung
-    Optionen: Horizontal, vertikal
+    Optionen: Horizontal, vertikal, kreisförmig
   - Kategorie: Was steuert der Scroll
-    Optionen: Animation, Löst Verhalten aus, Video abspielen, Einblenden von Elementen, Raus und reinzoomen, Fortschrittsbalken 
+    Optionen: Animation, löst Animation aus, steuert Video, einblenden von Elementen, raus- und reinzoomen, bewegt Grafik 
 ```
 
 Diese Optionen können auf verschiedenster Weise miteinander kombiniert werden. Dafür gibt es kein Rezept. Die Kombination und Ausprägung der Elemente erschliesst sich am besten immer aus dem Inhalt der Geschichte selbst. Trotzdem haben wir versucht auf den weiteren Unterseiten typische Kombinationen zu beschreiben und mit Beispielen zu hinterlegen. Sie sollen als Inspiration und Anhaltspunkt dienen für unsere eigenen Geschichten dienen. 
