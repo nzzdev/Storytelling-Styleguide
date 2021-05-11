@@ -21,15 +21,24 @@ Ein rein grafisches Sticky Fortschritt-Element ist auf der NZZ Webseite eingebau
 
 
 # Beispiele 
-**Anzeige**
-- [Wie konnte das passieren?, Tagesanzeiger (2020)](https://interaktiv.tagesanzeiger.ch/2020/der-weg-in-die-zweite-welle/)
+### Anzeige
+```html|span-6
+<video width="100%" controls>
+  <source src="assets/scrollytelling-examples/Bloomberg_Climate.mp4" type="video/mp4">
+</video>
+```
 - [The Best Way to Slow Global Warming? You Decide in This Climate Simulator, Bloomberg (2020)](https://www.bloomberg.com/graphics/2020-global-warming-simulator/)
 
-**Anzeige und Navigation**
+**Weitere**
+- [Wie konnte das passieren?, Tagesanzeiger (2020)](https://interaktiv.tagesanzeiger.ch/2020/der-weg-in-die-zweite-welle/)
+
+### Anzeige und Navigation
 ```html|span-6
 <video width="100%" controls>
   <source src="assets/scrollytelling-examples/NYT_Russia.mp4" type="video/mp4">
 </video>
 ```
-- [The Russia Left Behind, The New York Times ()](https://www.nytimes.com/newsgraphics/2013/10/13/russia/index.html)
+[The Russia Left Behind, The New York Times (2013)](https://www.nytimes.com/newsgraphics/2013/10/13/russia/index.html)
+
+**Weitere**
 - [Continue, Pivot, or Put It Down, Pudding (2020)](https://pudding.cool/process/pivot-continue-down/)

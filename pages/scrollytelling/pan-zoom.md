@@ -14,7 +14,14 @@ Die Geschichte sollte möglichst innerhalb der Karte erzählt werden können.
 
 
 # Beispiele 
+```html|span-6
+<video width="100%" controls>
+  <source src="assets/scrollytelling-examples/NYT_Flood.mp4" type="video/mp4">
+</video>
+```
+[The Great Flood of 2019: A Complete Picture of a Slow-Motion Disaster, New York Times (2019)](https://www.nytimes.com/interactive/2019/09/11/us/midwest-flooding.html)
+
+**Weitere**
 - [A Tidal Wave of Mud, New York Times (2019)](https://www.nytimes.com/interactive/2019/02/09/world/americas/brazil-dam-collapse.html)
-- [The Great Flood of 2019: A Complete Picture of a Slow-Motion Disaster, New York Times (2019)](https://www.nytimes.com/interactive/2019/09/11/us/midwest-flooding.html)
 - [Hawaii’s Beaches Are Disappearing, ProPublica (2020)](https://projects.propublica.org/hawaii-beach-loss/)
 - [One belt, one road, Financial Times (2016)](https://ig.ft.com/sites/special-reports/one-belt-one-road/)

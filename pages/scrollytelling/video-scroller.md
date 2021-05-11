@@ -12,4 +12,9 @@ Funktioniert am besten, wenn Videomaterial von einem Ereignis vorhanden ist und 
 - Dronen-Videomaterial mit Annotation / Hervorhebung Geschichte erzählen, z.B: Flüchtlingscamp, Naturkatastrophe, Proteste
 
 # Beispiele 
-- [How a Massive Bomb Came Together in Beirut’s Port, New York Times (2020)](https://www.nytimes.com/interactive/2020/09/09/world/middleeast/beirut-explosion.html) (siehe zweite Grafik in der Mitte des Artikels)
+```html|span-6
+<video width="100%" controls>
+  <source src="assets/scrollytelling-examples/NYT_BeirutVideo.mp4" type="video/mp4">
+</video>
+```
+[How a Massive Bomb Came Together in Beirut’s Port, New York Times (2020)](https://www.nytimes.com/interactive/2020/09/09/world/middleeast/beirut-explosion.html) (siehe zweite Grafik in der Mitte des Artikels)

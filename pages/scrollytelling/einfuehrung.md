@@ -22,7 +22,7 @@ rows:
   - Kategorie: Visuelles Element
     Optionen: Video, Foto, Grafik (Infografik, Datenvisualisierung), Karte
   - Kategorie: Verhalten visuelles Element
-    Optionen: bleibt stehen, wird ausgewechselt, ist animiert, scrollt mit     
+    Optionen: Bleibt stehen, wird ausgewechselt, ist animiert, scrollt mit     
   - Kategorie: Grösse visuelles Element
     Optionen: Füllt den ganzen Viewport, ist oben und oder unten angeschlagen, ist auf der Seite angeschlagen
   - Kategorie: Text
