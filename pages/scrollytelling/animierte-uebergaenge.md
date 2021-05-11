@@ -11,7 +11,7 @@ Funktioniert am besten, wenn Elemente aus der ersten Grafik auch in der zweiten 
 - Skala wird geändert, z. B. von linear zu logarithmisch
 - Eine Achse wird verändert, z. B. Wert einer Aktie über die Zeit zu Ertrag der gleichen Aktie über die Zeit
 - Datenpunkte werden auf eine andere Art dargestellt, z. B. geografische Form zu einem Punkt in einem Dotplot
-- Datenpunkte werden ein- oder ausgeblendet (???)
+- Datenpunkte werden ein- oder ausgeblendet
 - Die Daten oder Informationen erklären einen räumlich-zeitlichen Prozess, z.B. die Route eines Tornados, der Blutkreislauf, Schneeschmelze in der Arktis 
 
 # Umsetzung
