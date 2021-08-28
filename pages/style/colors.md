@@ -2,23 +2,49 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-#### Our team's color palette consists of a qualitative scale, three sequential scales and three diverging scales.
+#### Wir verwenden für unterschiedliche Bedürfnisse unterschiedliche Farbpaletten
 
-```image
-plain: true
-span: 5
-src: "assets/teaser-color@1x.png 1x, assets/teaser-color@2x.png 2x"
+- Für Grafiken und Datenvisualisierungen verwenden wir eine Palette von 13, stark gesättigten Farben, die durch ihre Leuchtkraft einfach voneinander zu unterscheiden sind.
+- Standardmässig in Q verwendet wird eine Auswahl der zuvor genannten Farben, die auf Farbenblindheit optimiert wurde.
+- Für Illustrationen verwenden wir eine Palette mit zusätzlichen, weniger gesättigten Farbtönen.
+
+## Farben für Datenvisualisierungen
+
+```color-palette|span-1
+colors:
+- {"name":"Nacht","value":"#374e8e"}
+- {"name":"Lagune","value":"#1b87aa"}
+- {"name":"Aquamarin","value":"#4fbbae"}
+- {"name":"Moos","value":"#006d64"}
+- {"name":"Pesto","value":"#478c5b"}
+- {"name":"Guacamole","value":"#93a345"}
+```
+```color-palette|span-1
+colors:
+- {"name":"Nachos","value":"#e3b13e"}
+- {"name":"Mandarine","value":"#df7c18"}
+- {"name":"Sugo","value":"#ce4631"}
+- {"name":"Chianti","value":"#ac004f"}
+- {"name":"Amethyst","value":"#ae49a2"}
+- {"name":"Flieder","value":"#a07bde"}
+- {"name":"Himmel","value":"#8aabfd"}
+```
+```color-palette|span-1
+colors:
+- {"name":"Schokolade","value":"#704600"}
+- {"name":"Sand","value":"#a08962"}
+- {"name":"Latte Macchiato","value":"#d5cdb9"}
+```
+```color-palette|span-1
+colors:
+- {"name":"Aubergine","value":"#383751"}
+- {"name":"Regen","value":"#7e7e8f"}
+- {"name":"Nebel","value":"#cdcdd1"}
 ```
 
-Our colors are used in both the online and print graphics that we produce. We aim to comply with [AA standard contrast ratios](https://www.w3.org/TR/WCAG/). We have also proofed our colors with the most common forms of color blindness. These steps ensure sufficient color contrast between elements so that our readers with low vision can read and understand our graphics.
 
-The concept of our color palette is that all colors are scales are derived out of the original twelve qualitative color. This is one way that we can secure a consistent visual appearance in all of our graphics.
-
-_Each of these colors receives a classname that can be called within Q (i.e. s-viz-color-one-7)._ Each classname is listed below along with the hex color code.
-
-## Semantically resonant colors
-
-Where adequate we use colors that are intuitive for what they present. [Empirical research by Lin et al.](http://vis.stanford.edu/papers/semantically-resonant-colors) shows that they slightly improve the speed of identification. 
+## Semantisch sinnvolle Farben
+Nach Möglichkeit verwenden wir in unseren Visualisierungen Farben, die intuitiv erkennbar machen, was sie repräsentieren. [Untersuchungen haben gezeigt](http://vis.stanford.edu/papers/semantically-resonant-colors), dass solche Grafiken schneller verstanden werden.
 
 ### Ausnahme: Ethnien
 
@@ -29,113 +55,95 @@ plain: true
 span: 3
 src: "assets/colors/ethnic-colors@1x.png 1x, assets/colors/ethnic-colors@2x.png 2x"
 ```
+## Farben für Q
 
-## Qualitative Color Scale: Primary
+Die Farben für Q setzen sich aus Farben aus dem kühl-blauen und orangen Spektrum zusammen. Sie werden in einer fixen Reihenfolge verwendet und sind darauf optimiert, genügend Farbkontrast zwischen den Kategorien zu haben, ohne unangenehm zu wirken, sowie auch für Personen mit einer Farbsehschwäche gut unterscheidbar zu sein.
 
-Our primary qualitative colors are the most used colors in our color palette. These colors should be used _in order_ for different or "unrelated" categories within a dataset. Such a dataset could be countries, religions, or breeds of dogs. We use them in the order listed below.
+Die Namen entsprechen dem CSS-Klassennamen, mit dem sie eingesetzt werden können.
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
-  - {name: "s-viz-color-one-7", value: "#2E41BF"}
-  - {name: "s-viz-color-two-7", value: "#D4A91E"}
-  - {name: "s-viz-color-three-7", value: "#099E85"}
-  - {name: "s-viz-color-four-7", value: "#D64113"}
-  - {name: "s-viz-color-five-7", value: "#873A86"}
-  - {name: "other, rest, diverse", value: "#cfcfd6"}
+- {"name":"s-viz-color-one-5","value":"#374e8e"}
+- {"name":"s-viz-color-two-5","value":"#4fbbae"}
+- {"name":"s-viz-color-three-5","value":"#df7c18"}
+- {"name":"s-viz-color-four-5","value":"#ac004f"}
+- {"name":"s-viz-color-five-5","value":"#1b87aa"}
+- {"name":"s-viz-color-six-5","value":"#e3b13e"}
+- {"name":"s-viz-color-seven-5","value":"#ce4631"}
+- {"name":"s-viz-color-eight-5","value":"#4d313c"}
+- {"name":"s-viz-color-nine-5","value":"#8d7a81"}
+- {"name":"s-viz-color-ten-5","value":"#d1ccce"}
+- {"name":"s-viz-color-eleven-5","value":"#6d545d"}
+- {"name":"s-viz-color-twelve-5","value":"#aea2a6"}
 ```
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
-  - {name: "s-viz-color-one-5", value: "#3952EE"}
-  - {name: "s-viz-color-two-5", value: "#EBBD22"}
-  - {name: "s-viz-color-three-5", value: "#24B39C"}
-  - {name: "s-viz-color-four-5", value: "#E66E4A"}
-  - {name: "s-viz-color-five-5", value: "#AD4BAC"}
+- {"name":"s-viz-color-one-1","value":"#a1aecc"}
+- {"name":"s-viz-color-two-1","value":"#abd1cb"}
+- {"name":"s-viz-color-three-1","value":"#e5ba9b"}
+- {"name":"s-viz-color-four-1","value":"#de9dab"}
+- {"name":"s-viz-color-five-1","value":"#9ec1d0"}
+- {"name":"s-viz-color-six-1","value":"#e0cba3"}
+- {"name":"s-viz-color-seven-1","value":"#e6aa9e"}
+- {"name":"s-viz-color-eight-1","value":"#b0a1a6"}
+- {"name":"s-viz-color-nine-1","value":"#c2babd"}
+- {"name":"s-viz-color-ten-1","value":"#d5d3d4"}
+- {"name":"s-viz-color-eleven-1","value":"#b9aeb1"}
+- {"name":"s-viz-color-twelve-1","value":"#ccc6c8"}
 ```
 
-```color-palette|span-1
-colors:
-  - {name: "s-viz-color-one-3", value: "#7385FF"}
-  - {name: "s-viz-color-two-3", value: "#FAD250"}
-  - {name: "s-viz-color-three-3", value: "#7DD1C3"}
-  - {name: "s-viz-color-four-3", value: "#F2997E"}
-  - {name: "s-viz-color-five-3", value: "#D182CE"}
+Die sieben Standardfarben werden durch 5 warme Grautöne ergänzt. Diese wurden angefügt, um die Rückwärtskompatibilität zu schon bestehenden Charts zu erhalten, die alle der 12 ursprünglich definierten Farben verwenden.
+
+```hint|warning
+Nach Möglichkeit sollte in keinem publizierten Q–Chart ein Grauton als Kategorienfarbe auftauchen.
+
+Charts mit mehr als 7 verschiedenen Kategorien sollten überdacht werden:
+
+- Sind alle diese Kategorien wirklich nötig? Oder sind einige dieser Kategorien bloss Hintergrundinformation?
+- Gibt es eine Möglichkeit, mehrere Kategorien zu einer zusammenzufassen?
+- Wäre eine andere Darstellungsform sinnvoller?
+
+Das Visuals-Team hilft im Slack–Channel `#visuals-aktuell` gerne weiter.
 ```
 
-```color-palette|span-1
-colors:
-  - {name: "s-viz-color-one-1", value: "#D6DCFF"}
-  - {name: "s-viz-color-two-1", value: "#FFF0BF"}
-  - {name: "s-viz-color-three-1", value: "#C7F0E9"}
-  - {name: "s-viz-color-four-1", value: "#FFDCD1"}
-  - {name: "s-viz-color-five-1", value: "#FCDCFC"}
+```hint
+Die aufgehellten Farben sollten nur sehr zurückhaltend eingesetzt werden. Sie sollten im Print besser reproduzierbar sein als die vorherigen Farben. Trotzdem ist es aufgrund der reduzierten Helligkeit und Farbigkeit schwieriger, diese Farben zu unterscheiden.
 ```
 
-## Qualitative Color Scale: Choice
+## Grautöne
 
-Our choice colors are less often used in our basic daily business. They are most often included in one-off graphics or illustrations, as well as part of a custom color concept in an article.
+Die warmen und kalten Grautöne können je nach Bedarf eingesetzt werden.
 
-```color-palette|span-1
+Die neutrale Graupalette basiert auf den auf NZZ.ch eingesetzten Farbvariablen und sollte für die grundlegenden Bausteine einer Grafik verwendet werden: Text, Achsen, Label, etc.
+
+```color-palette|span-2
 colors:
-  - {name: "s-viz-color-six-7", value: "#1D8534"}
-  - {name: "s-viz-color-seven-7", value: "#C73530"}
-  - {name: "s-viz-color-eight-7", value: "#0093BF"}
-  - {name: "s-viz-color-nine-7", value: "#5425B3"}
-  - {name: "s-viz-color-ten-7", value: "#A7BA13"}
-  - {name: "s-viz-color-eleven-7", value: "#8F4D17"}
-  - {name: "s-viz-color-twelve-7", value: "#ABA776"}
+- {"name":"--black","value":"#000000"}
+- {"name":"--graydark","value":"#333333"}
+- {"name":"--graymedium","value":"#707070"}
+- {"name":"--grayultralight/--colorbackground","value":"#f5f5f5"}
+- {"name":"--white/--articlebackground","value":"#ffffff"}
 ```
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
-  - {name: "s-viz-color-six-5", value: "#38A650"}
-  - {name: "s-viz-color-seven-5", value: "#D64B47"}
-  - {name: "s-viz-color-eight-5", value: "#0BA9D9"}
-  - {name: "s-viz-color-nine-5", value: "#6C43C0"}
-  - {name: "s-viz-color-ten-5", value: "#BBD215"}
-  - {name: "s-viz-color-eleven-5", value: "#B3611D"}
-  - {name: "s-viz-color-twelve-5", value: "#C5C294"}
+- {"value":"#383751"}
+- {"value":"#5a5a70"}
+- {"value":"#7e7e8f"}
+- {"value":"#a5a5af"}
+- {"value":"#cdcdd1"}
+
 ```
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
-  - {name: "s-viz-color-six-3", value: "#5EBD73"}
-  - {name: "s-viz-color-seven-3", value: "#ED6D68"}
-  - {name: "s-viz-color-eight-3", value: "#85CFE6"}
-  - {name: "s-viz-color-nine-3", value: "#AA90DE"}
-  - {name: "s-viz-color-ten-3", value: "#D2E640"}
-  - {name: "s-viz-color-eleven-3", value: "#E0904F"}
-  - {name: "s-viz-color-twelve-3", value: "#DBD8BF"}
+- {"value":"#4d313c"}
+- {"value":"#6d545d"}
+- {"value":"#8d7a81"}
+- {"value":"#aea2a6"}
+- {"value":"#d1ccce"}
 ```
-
-```color-palette|span-1
-colors:
-  - {name: "s-viz-color-six-1", value: "#C9F5D2"}
-  - {name: "s-viz-color-seven-1", value: "#FFD3D1"}
-  - {name: "s-viz-color-eight-1", value: "#CEE9F2"}
-  - {name: "s-viz-color-nine-1", value: "#E2DAF2"}
-  - {name: "s-viz-color-ten-1", value: "#F3FABB"}
-  - {name: "s-viz-color-eleven-1", value: "#FFE9D6"}
-  - {name: "s-viz-color-twelve-1", value: "#EDECE1"}
-```
-
-## Gray Scale
-
-Our gray scale palette is based off of the gray tones found on NZZ.ch (background: s-color-gray-1, author: s-color-gray-7, text: s-color-gray-9) . It's used for all text and annotations in graphics as well as axis labels and lines. The gray scale can be used flexibly based on need.
-
-```color-palette|horizontal
-colors:
-   - {name: "s-color-gray-1", value: "#f0f0f2"}
-   - {name: "s-color-gray-2", value: "#e3e4e9"}
-   - {name: "s-color-gray-3", value: "#d4d6dd"}
-   - {name: "s-color-gray-4", value: "#c3c2ca"}
-   - {name: "s-color-gray-5", value: "#b6b6be"}
-   - {name: "s-color-gray-6", value: "#92929e"}
-   - {name: "s-color-gray-7", value: "#6e6e7e"}
-   - {name: "s-color-gray-8", value: "#393855"}
-   - {name: "s-color-gray-9", value: "#05032d"}
-```
-
 ## Gender Colors
 
 ```color-palette|span-2
