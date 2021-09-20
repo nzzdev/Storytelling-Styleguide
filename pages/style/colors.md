@@ -1699,7 +1699,27 @@ colors:
   - {name: "Chega Partido", value: "#83a7cc"}
   - {name: "default", value: "#bcbcbc"}
 ```
+### Russia
 
+```color-palette|span-2
+colors:
+  - {name: "Einiges Russland - primary", value: "#374E8E"}
+  - {name: "Kommunisten", value: "#A50058"}
+  - {name: "LDPR (Schirinowski)", value: "#E3B13E"}
+  - {name: "Gerechtes Russland", value: "#75373C"}
+  - {name: "Neue Leute", value: "#4FBBAE"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "Einiges Russland - light", value: "#A1AECC"}
+  - {name: "Kommunisten - light", value: "#DE9DAB"}
+  - {name: "LDPR (Schirinowski) - light", value: "#E0CBA3"}
+  - {name: "Gerechtes Russland - light", value: "#BDAA93"}
+  - {name: "Neue Leute - light", value: "#ABD1CB"}
+  - {name: "default - light", value: "#bcbcbc"}
+```
 ### South Africa
 
 ```color-palette|span-2
