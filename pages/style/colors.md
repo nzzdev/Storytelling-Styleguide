@@ -1422,6 +1422,31 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
+### Czech Republic
+
+```color-palette|span-2
+colors:
+  - {name: "ANO", value: "#FDD200"}
+  - {name: "Spolu", value: "#008CD7"}
+  - {name: "Piraten und Stan", value: "#66a622"}
+  - {name: "SPD", value: "#616161"}
+  - {name: "Kolmmunistische Partei", value: "#75373C"}
+  - {name: "Sozialdemokraten", value: "#C31906"}
+  - {name: "Versprechen", value: "#0a0a0a"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "ANO", value: "#faeb9e"}
+  - {name: "Spolu", value: "#9ed0e9"}
+  - {name: "Piraten und Stan", value: "#c2dba7"}
+  - {name: "SPD", value: "#bcbcbc"}
+  - {name: "Kolmmunistische Partei", value: "#BDAA93"}
+  - {name: "Sozialdemokraten", value: "#eaaea8"}
+  - {name: "Versprechen", value: "#939393"}
+  - {name: "default", value: "#bcbcbc"}
+```
 ### Denmark
 
 ```color-palette|span-1
