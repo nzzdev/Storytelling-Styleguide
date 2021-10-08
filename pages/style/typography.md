@@ -6,15 +6,51 @@ Print und Online verwenden verschiedene Schriftfamilien, haben aber gemeinsam de
 
 Die vordefinierten Schritfgrössen basieren auf einer typografischen Skala.
 
-## Online-Grafiken
+
+## Grundlegendes
+
+![Legende der Grafiken](assets/typography/legend.png)
+![Basisschriften](assets/typography/base.png)
+
+```html
+<p class="s-font-serif" style="margin: 20px 0px; font-size: 200%">
+  <span>Serifen-Schrift (s-font-serif + custom styles)</span>
+</p>
+<p class="s-font-sans" style="margin: 20px 0px; font-size: 200%">
+  <span>Sansserifen-Schrift (s-font-sans + custom styles)</span>
+</p>
+```
+
+
+```hint|span-3,neutral
+
+# Online
 
 Für Beschriftungen, Titel und kurze Beschreibungstexte in Online-Grafiken wird primär [**GT America**](http://www.gt-america.com/) verwendet.
 
-Für längere Fliesstexte innerhalb von interaktiven Projekten wird [**PensumPro**](https://www.myfonts.com/fonts/typemates/pensum-pro/) verwendet.
+Für längere Fliesstexte innerhalb von interaktiven Projekten wird [**Pensum Pro**](https://www.myfonts.com/fonts/typemates/pensum-pro/) verwendet.
 
-Die Online-Schriften sind als [Sophie-Modul](https://github.com/nzzdev/sophie-font) implementiert.
+NZZ-Mitarbeiter finden die Schriften auf [SharePoint](https://nzzmg.sharepoint.com/:f:/s/nzz_st/EgLitBtfwjNKsQinaTMkFHgBoVc1Jkv9mBHpQnjo5kFFgw?e=VsP2HV).
 
-NZZ-Mitarbeiter finden die Schriften hier: https://nzzmg.sharepoint.com/:f:/s/nzz_st/EgLitBtfwjNKsQinaTMkFHgBoVc1Jkv9mBHpQnjo5kFFgw?e=VsP2HV
+Die Online-Schriften sind als [Sophie Font Module](https://github.com/nzzdev/sophie-font) implementiert. Die Klassennamen entsprechen den Formatnamen, denen `s-font-` vorangestellt wird; beispielsweise `s-font-serif` oder `s-font-sans`. Variationen werden den Basisformaten angefügt, also etwas `s-font-note--strong`.
+
+# Videos
+
+
+Videos verwenden dieselben Schriften wie Online-Grafiken.
+
+```
+
+```hint|span-3,neutral
+
+# Print
+
+Für Grafiken im Print verwenden wir ausschliesslich [**Univers Next Pro Condensed**](https://www.linotype.com/de/680064/univers-next-schriftfamilie.html).
+
+Als Textschrift wird im Print **Times Ten** verwendet. Die Verwendung dieser Schrift überlassen wir aber in der Regel ganz der Produktion und dem Layout. Ebenfalls _nicht_ verwendet wird die **Bodoni**, die im Print-Layout für Titeleien eingesetzt wird.
+
+NZZ-Mitarbeiter finden die Schriften auf [SharePoint](https://nzzmg.sharepoint.com/:f:/s/nzz_st/Eoq1VTvpZ0hDgRo6QzKCSTUB5_IA6MwCeCUtHwVuGZQfBQ?e=AGLTVh).
+```
 
 ### Zahlenformat
 
@@ -27,80 +63,84 @@ Dieses Format sollte einen sinnvollen Kompromiss erlauben zwischen korrekt unter
 
 Die Verwendung von GT America Mono sollte nach Möglichkeit vermieden werden.
 
-## Video
-
-Videos verwenden dieselben Schriften wie Online-Grafiken.
-
-## Print-Grafiken
-
-In Print-Grafiken wird primär **Univers Condensed** verwendet. Für Grafiken normalerweise _nicht_ verwendet wird die Bodoni, die im Print-Layout für Titeleien eingesetzt wird.
-
-NZZ-Mitarbeiter finden die Schriften hier: https://nzzmg.sharepoint.com/:f:/s/nzz_st/Eoq1VTvpZ0hDgRo6QzKCSTUB5_IA6MwCeCUtHwVuGZQfBQ?e=AGLTVh
 
 ## Styles
 
-Sowohl für Online und Print sind dieselben Schriftstile vordefiniert. Diese Stile teilen sich in zwei Gruppen: _Titles_ und _Notes_.
+Sowohl für Online und Print sind dieselben Schriftstile vordefiniert. 
 
 Die Styles in Print sind etwas weniger ausdifferenziert, da die Schriftgrösse zu Beginn weg kleiner ist, was weniger Spielraum lässt.
 
-Die folgende Matrix zeigt die Übersetzung von Online- zu Print-Stilen, wie sie im Q-to-Print-Workflow implementiert sind:
+### `note` Klassen
 
-![Typography Raster](assets/typography/typoraster.png "Typography Raster")
+Hauptsächlich verwendeter Stil, um Grafiken zu beschriften.
 
-## Sophie Classes
-
-Für Custom-Code-Projekte werden die im [Sophie Font Module](https://github.com/nzzdev/sophie-font) definierten CSS-Klassen referenziert: 
-
-### Font Classes
+![](/assets/typography/note.png)
 
 ```html|span-3
-<p class="s-font-serif" style="margin: 20px 0px; font-size: 200%">
-  <span>Serifen-Schrift (s-font-serif + custom styles)</span>
+<p class="s-font-note">Lorem ipsum dolor -123,71% (s-font-note)</p>
+<p class="s-font-note s-font-note--strong">
+  Lorem ipsum dolor -123,71% (s-font-note s-font-note--strong)
 </p>
-<p class="s-font-sans" style="margin: 20px 0px; font-size: 200%">
-  <span>Sansserifen-Schrift (s-font-sans + custom styles)</span>
+<p class="s-font-note s-font-note--light">
+  Lorem ipsum dolor -123,71% (s-font-note s-font-note--light)
+</p>
+<p class="s-font-note s-font-note--tabularnums">
+  Lorem ipsum dolor -123,71% (s-font-note s-font-note--tabularnums)
 </p>
 ```
 
-### Title Classes (s-font-title\*)
-
 ```html|span-3
+<p class="s-font-note-s">Lorem ipsum dolor -123,71% (s-font-note-s)</p>
+<p class="s-font-note-s s-font-note-s--strong">
+  Lorem ipsum dolor -123,71% (s-font-note-s s-font-note-s--strong)
+</p>
+<p class="s-font-note-s s-font-note-s--light">
+  Lorem ipsum dolor -123,71% (s-font-note-s s-font-note-s--light)
+</p>
+<p class="s-font-note-s s-font-note-s--tabularnums">
+  Lorem ipsum dolor -123,71% (s-font-note-s s-font-note-s--tabularnums)
+</p>
+```
+
+```hint|span-3,neutral
+# Grafik
+
+Nach Möglichkeit in statischen Grafiken nur `note` (14px) verwenden. Mit der kleineren Variation wird der Text auf Mobiles sehr klein und schwierig zu lesen.
+```
+
+```hint|span-3,neutral
+# Editorial Tech
+
+`note-s` kann in responsiven Custom-Code-Projekten (spärlich) eingesetzt werden.
+```
+
+
+
+### `title` Klassen
+Wird für Überschriften verwendet.
+![](/assets/typography/title.png)
+```html
 <p class="s-font-title-l">Lorem ipsum dolor (s-font-title-l)</p>
 <p class="s-font-title">Lorem ipsum dolor (s-font-title)</p>
 <p class="s-font-title-s">Lorem ipsum dolor (s-font-title-s)</p>
 ```
 
-### Note Classes (s-font-note\* and s-font-note-s\*)
 
-```html|span-3
-<p class="s-font-note">Lorem ipsum dolor (s-font-note)</p>
-<p class="s-font-note s-font-note--strong">
-  Lorem ipsum dolor (s-font-note s-font-note--strong)
-</p>
-<p class="s-font-note s-font-note--light">
-  Lorem ipsum dolor (s-font-note s-font-note--light)
-</p>
-<p class="s-font-note s-font-note--mono">
-  Lorem ipsum dolor (s-font-note s-font-note--mono)
-</p>
+```hint|span-3,neutral
+# Grafik
+
+Grafiken im Print werden mit `title` betitelt. Bei grossen Grafiken (>= 4 Spalten) kann auch `title-l` verwendet werden.
+
+`title-s` (oder `note-s--strong`) kann für Subtitel innerhalb der Grafik verwendet werden.
 ```
 
-```html|span-3
-<p class="s-font-note-s">Lorem ipsum dolor (s-font-note-s)</p>
-<p class="s-font-note-s s-font-note-s--strong">
-  Lorem ipsum dolor (s-font-note-s s-font-note-s--strong)
-</p>
-<p class="s-font-note-s s-font-note-s--light">
-  Lorem ipsum dolor (s-font-note-s s-font-note-s--light)
-</p>
-<p class="s-font-note-s s-font-note-s--mono">
-  Lorem ipsum dolor (s-font-note-s s-font-note-s--mono)
-</p>
-```
 
-### Text Classes (s-font-text\*)
+### `text` Klassen
 
-```html|span-3
+Brotschrift, wird für den Fliesstext von Artikeln verwendet.
+
+![](/assets/typography/text.png)
+```html
 <p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
 <p class="s-font-text s-font-text--strong">
   Lorem ipsum dolor (s-font-text s-font-text--strong)
@@ -108,5 +148,37 @@ Für Custom-Code-Projekte werden die im [Sophie Font Module](https://github.com/
 <p class="s-font-text-s">Lorem ipsum dolor (s-font-text-s)</p>
 <p class="s-font-text-s s-font-text-s--strong">
   Lorem ipsum dolor (s-font-text-s s-font-text-s--strong)
+</p>
+```
+
+```hint|span-3,neutral
+# Grafik
+
+Die Textstile sollten im Print in aller Regel nur durch Layout und Produktion verwendet werden. Print-Infografiken sollten immer nur Univers Next Pro verwenden.
+```
+
+```hint|span-3,neutral
+# Editorial Tech
+
+Die Text-Klassen sollten immer dann eingesetzt werden, wenn in einem Custom-Code-Projekt ein längerer Text angezeigt wird, und Kontinuität mit dem umgebenden Artikeltext angestrebt wird.
+
+Ansonsten kann auch die `ui`-Klasse verwendet werden.
+
+```
+
+### `ui` Klassen
+
+In Custom-Code-Projekten wird die `ui`-Klasse für Bedienelemente und längere Beschreibungstexte verwendet.
+
+![](/assets/typography/ui.png)
+
+```html
+<p class="s-font-ui">Lorem ipsum dolor -123,71% (s-font-ui)</p>
+<p class="s-font-ui s-font-ui--strong">
+  Lorem ipsum dolor -123,71% (s-font-ui s-font-ui--strong)
+</p>
+<p class="s-font-ui s-font-ui--light">Lorem ipsum dolor -123,71% (s-font-ui s-font-ui--light)</p>
+<p class="s-font-ui s-font-ui--tabularnums">
+  Lorem ipsum dolor -123,71% (s-font-ui s-font-ui--tabularnums)
 </p>
 ```
