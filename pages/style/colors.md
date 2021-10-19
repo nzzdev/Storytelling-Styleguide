@@ -5,10 +5,12 @@
 #### Wir verwenden für unterschiedliche Bedürfnisse unterschiedliche Farbpaletten
 
 - Für Grafiken und Datenvisualisierungen verwenden wir eine Palette von 13, stark gesättigten Farben, die durch ihre Leuchtkraft einfach voneinander zu unterscheiden sind.
-- Standardmässig in Q verwendet wird eine Auswahl der zuvor genannten Farben, die auf Farbenblindheit optimiert wurde.
+- Standardmässig in Q verwendet wird eine Auswahl der zuvor genannten Farben,  die auf Farbenblindheit optimiert wurde.
 - Für Illustrationen verwenden wir eine Palette mit zusätzlichen, weniger gesättigten Farbtönen.
 
 ## Farben für Datenvisualisierungen
+
+### Level 1: Spezifische Farben
 
 ```color-palette|span-1
 colors:
@@ -19,6 +21,7 @@ colors:
 - {"name":"Pesto","value":"#478c5b"}
 - {"name":"Guacamole","value":"#93a345"}
 ```
+
 ```color-palette|span-1
 colors:
 - {"name":"Nachos","value":"#e3b13e"}
@@ -29,12 +32,14 @@ colors:
 - {"name":"Flieder","value":"#a07bde"}
 - {"name":"Himmel","value":"#8aabfd"}
 ```
+
 ```color-palette|span-1
 colors:
 - {"name":"Schokolade","value":"#704600"}
 - {"name":"Sand","value":"#a08962"}
 - {"name":"Latte Macchiato","value":"#d5cdb9"}
 ```
+
 ```color-palette|span-1
 colors:
 - {"name":"Aubergine","value":"#383751"}
@@ -42,8 +47,20 @@ colors:
 - {"name":"Nebel","value":"#cdcdd1"}
 ```
 
+```hint|neutral
+# Verwendung für Editorial Tech
+
+Klassenname: `.s-viz-color-` + Farbname ohne Leerzeichen, klein geschrieben, (z.B. `.s-viz-color-lattemacchiato`).
+
+Farben mit einem spezifischen Namen sollten immer den gleichen Farbwert generieren.
+
+Diese Klassen und Variablen sollten in Projekten verwendet werden, die zusammen mit statischen Grafiken ausgespielt werden, und wo es wichtig ist, dass eine Farbe von einer Visualisierung zur anderen gleich bleibt, um die Bedeutung der Kategorie über den ganzen Artikel hinweg zu erhalten.
+
+Bei zukünftigen Anpassungen der Farbpalette sollte darauf geachtet werden, dass die neuen Farben neue Namen erhalten. Die «alten» Klassennamen bleiben erhalten, ermöglichen Rückwärtskompatibilität, sollten aber in neu erstellten Projekten nicht mehr eingesetzt werden.
+```
 
 ## Semantisch sinnvolle Farben
+
 Nach Möglichkeit verwenden wir in unseren Visualisierungen Farben, die intuitiv erkennbar machen, was sie repräsentieren. [Untersuchungen haben gezeigt](http://vis.stanford.edu/papers/semantically-resonant-colors), dass solche Grafiken schneller verstanden werden.
 
 ### Ausnahme: Ethnien
@@ -55,11 +72,68 @@ plain: true
 span: 3
 src: "assets/colors/ethnic-colors@1x.png 1x, assets/colors/ethnic-colors@2x.png 2x"
 ```
+
+### Level 2: Semantische Farben
+
+```color-palette|span-1
+colors:
+- {"name":"Dark Blue","value":"#374e8e"}
+- {"name":"Teal","value":"#1b87aa"}
+- {"name":"Turquoise","value":"#4fbbae"}
+- {"name":"Dark Green","value":"#006d64"}
+- {"name":"Green","value":"#478c5b"}
+- {"name":"Yellow Green","value":"#93a345"}
+```
+
+```color-palette|span-1
+colors:
+- {"name":"Yellow","value":"#e3b13e"}
+- {"name":"Orange","value":"#df7c18"}
+- {"name":"Orange Red","value":"#ce4631"}
+- {"name":"Red","value":"#ac004f"}
+- {"name":"Purple","value":"#ae49a2"}
+- {"name":"Violet","value":"#a07bde"}
+- {"name":"Light Blue","value":"#8aabfd"}
+```
+
+
+```color-palette|span-1
+colors:
+- {"name":"Brown","value":"#704600"}
+- {"name":"Beige","value":"#a08962"}
+- {"name":"Warm White","value":"#d5cdb9"}
+```
+
+```color-palette|span-1
+colors:
+- {"name":"Black","value":"#383751"}
+- {"name":"Grey","value":"#7e7e8f"}
+- {"name":"Cool White","value":"#cdcdd1"}
+```
+
+```hint|neutral
+# Verwendung für Editorial Tech
+
+Klassenname: `.s-viz-color-` + Farbname ohne Leerzeichen, klein geschrieben (z.B. `.s-viz-color-lightblue`)
+
+Diese Klassen und Variablen sollten in Fällen eingesetzt werden, wo es wichtig ist, über die gewählte Farbe auch eine Bedeutung zu transportieren – aber nicht so sehr, dass ein fixer Farbwert erwartet wird. Zum Beispiel: Tomaten – Red, Gurken – Dark Green, Rüebli – Orange
+
+Bei zukünftigen Palettenanpassungen sollte sichergestellt werden, dass den oben gelisteten Farben jeweils wieder Farben zugeordnet erhalten, die in Farbton (und u.U. Helligkeit) den bestehenden Farben ähneln.
+```
+
+
 ## Farben für Q
 
-Die Farben für Q setzen sich aus Farben aus dem kühl-blauen und orangen Spektrum zusammen. Sie werden in einer fixen Reihenfolge verwendet und sind darauf optimiert, genügend Farbkontrast zwischen den Kategorien zu haben, ohne unangenehm zu wirken, sowie auch für Personen mit einer Farbsehschwäche gut unterscheidbar zu sein.
+Die Farben für Q setzen sich aus Farben aus dem kühl-blauen und orangen Spektrum
+zusammen. Sie werden in einer fixen Reihenfolge verwendet und sind darauf
+optimiert, genügend Farbkontrast zwischen den Kategorien zu haben, ohne
+unangenehm zu wirken, sowie auch für Personen mit einer Farbsehschwäche gut
+unterscheidbar zu sein.
 
-Die Namen entsprechen dem CSS-Klassennamen, mit dem sie eingesetzt werden können.
+Die Namen entsprechen dem CSS-Klassennamen, mit dem sie eingesetzt werden
+können.
+
+### Level 3: Generische Farben
 
 ```color-palette|span-2
 colors:
@@ -93,7 +167,9 @@ colors:
 - {"name":"s-viz-color-twelve-1","value":"#ccc6c8"}
 ```
 
-Die sieben Standardfarben werden durch 5 warme Grautöne ergänzt. Diese wurden angefügt, um die Rückwärtskompatibilität zu schon bestehenden Charts zu erhalten, die alle der 12 ursprünglich definierten Farben verwenden.
+Die sieben Standardfarben werden durch 5 warme Grautöne ergänzt. Diese wurden
+angefügt, um die Rückwärtskompatibilität zu schon bestehenden Charts zu
+erhalten, die alle der 12 ursprünglich definierten Farben verwenden.
 
 ```hint|warning
 Nach Möglichkeit sollte in keinem publizierten Q–Chart ein Grauton als Kategorienfarbe auftauchen.
@@ -107,15 +183,31 @@ Charts mit mehr als 7 verschiedenen Kategorien sollten überdacht werden:
 Das Visuals-Team hilft im Slack–Channel `#visuals-aktuell` gerne weiter.
 ```
 
-```hint
+```hint|span-3
+# Verwendung der aufgehellten Farben
+
 Die aufgehellten Farben sollten nur sehr zurückhaltend eingesetzt werden. Sie sollten im Print besser reproduzierbar sein als die vorherigen Farben. Trotzdem ist es aufgrund der reduzierten Helligkeit und Farbigkeit schwieriger, diese Farben zu unterscheiden.
 ```
+
+```hint|neutral,span-3
+# Verwendung für Editorial Tech
+
+Diese Klassen sollten bei Projekten eingesetzt werden, bei denen die Anzahl und die Art der zu unterscheidenden Kategorien dynamisch und nicht vorherzusehen ist.
+
+Die Klassen sollten in der vorgegebenen Reihenfolge (_one, two, three …_) eingesetzt werden.
+
+Der Farbwert kann bei einer Aktualisierung der Farbpalette komplett ändern, man kann sich also nicht darauf verlassen, dass man nach einem solchen Update immer noch die selbe Farbe erhält.
+
+```
+
 
 ## Grautöne
 
 Die warmen und kalten Grautöne können je nach Bedarf eingesetzt werden.
 
-Die neutrale Graupalette basiert auf den auf NZZ.ch eingesetzten Farbvariablen und sollte für die grundlegenden Bausteine einer Grafik verwendet werden: Text, Achsen, Label, etc.
+Die neutrale Graupalette basiert auf den auf NZZ.ch eingesetzten Farbvariablen
+und sollte für die grundlegenden Bausteine einer Grafik verwendet werden: Text,
+Achsen, Label, etc.
 
 ```color-palette|span-2
 colors:
@@ -144,6 +236,7 @@ colors:
 - {"value":"#aea2a6"}
 - {"value":"#d1ccce"}
 ```
+
 ## Gender Colors
 
 ```color-palette|span-2
@@ -157,7 +250,6 @@ colors:
   - {name: "male - light", value: "#7dd1c3"}
   - {name: "female – light", value: "#aa90de"}
 ```
-
 
 ## Corona Colors
 
@@ -175,22 +267,34 @@ colors:
   - {name: "tests", value: "#3952ee"}
 ```
 
-
 ## Sequential and Diverging Scales
 
-Color scales are a powerful way to encode data. The use of the color dimension is common in Heatmaps and [Choropleth Maps](choropleth-maps).
+Color scales are a powerful way to encode data. The use of the color dimension
+is common in Heatmaps and [Choropleth Maps](choropleth-maps).
 
-There is a simple rule how we usually encode data with color: the darker the color, the larger an entities value. Visualize such cases with one of our sequential scales. Whenever there's a relevant break in the scale, you should probably consider a diverging scale. For both type of scales we defined variants – check out which one fits best with your scenario.
+There is a simple rule how we usually encode data with color: the darker the
+color, the larger an entities value. Visualize such cases with one of our
+sequential scales. Whenever there's a relevant break in the scale, you should
+probably consider a diverging scale. For both type of scales we defined variants
+– check out which one fits best with your scenario.
 
-Our sequential and diverging scales have a maximum of seven buckets. This allows our readers to differentiate shades of a hue from one another and let them accurately read the data encoding in our charts and maps.
+Our sequential and diverging scales have a maximum of seven buckets. This allows
+our readers to differentiate shades of a hue from one another and let them
+accurately read the data encoding in our charts and maps.
 
 ### Sequential Scales
 
 **Sequential-one** is the most used scale and bases on our first primary color.
-**Sequential-two** is the scale used in cases our primary qualitative color is encoded with a specific category already and should not be confused with the category this scale is representing. It's based on another primary and a bright choice color.
-**Sequential-three** is the scale used in cases we are displaying data that's negatively associated. Examples of such data would be the path of a hurricane or the amount of deaths in school shootings over time. It's based on two choice colors.
-**Sequential-male** is the scale used for displaying the amount of male representation. It's based on the male color.
-**Sequential-female** is the scale used for displaying the amount of female representation. It's based on the female color.
+**Sequential-two** is the scale used in cases our primary qualitative color is
+encoded with a specific category already and should not be confused with the
+category this scale is representing. It's based on another primary and a bright
+choice color. **Sequential-three** is the scale used in cases we are displaying
+data that's negatively associated. Examples of such data would be the path of a
+hurricane or the amount of deaths in school shootings over time. It's based on
+two choice colors. **Sequential-male** is the scale used for displaying the
+amount of male representation. It's based on the male color.
+**Sequential-female** is the scale used for displaying the amount of female
+representation. It's based on the female color.
 
 ### Sequential-one
 
@@ -459,10 +563,19 @@ colors:
 
 ### Diverging Scales
 
-**Diverging-one** is used in cases we are comparing opposites that can be associated with positive and negative attitudes. An example could be an election maps where voters approved or denied an initiative.
-**Diverging-two** is used in cases we are comparing opposites, but we would like to avoid negative or positive associations. An example is the comparing of communities whose average age is either younger or older compared to twenty years ago. This scale is created using the first two primary colors in our qualitative scale. This lends the scale to be used in stories where there are two data points which are directly compared throughout the story.
-**Diverging-three** is used in cases we are comparing opposites with negative and/or positive connotation. This scale is comprised of two choice colors, so as not to overlap with any of the primary colors which might already be encoded in the story.
-**Diverging-gender** is used to display female and male representations. It's based on our gender colors.
+**Diverging-one** is used in cases we are comparing opposites that can be
+associated with positive and negative attitudes. An example could be an election
+maps where voters approved or denied an initiative. **Diverging-two** is used in
+cases we are comparing opposites, but we would like to avoid negative or
+positive associations. An example is the comparing of communities whose average
+age is either younger or older compared to twenty years ago. This scale is
+created using the first two primary colors in our qualitative scale. This lends
+the scale to be used in stories where there are two data points which are
+directly compared throughout the story. **Diverging-three** is used in cases we
+are comparing opposites with negative and/or positive connotation. This scale is
+comprised of two choice colors, so as not to overlap with any of the primary
+colors which might already be encoded in the story. **Diverging-gender** is used
+to display female and male representations. It's based on our gender colors.
 
 ### Diverging-one
 
@@ -1098,11 +1211,23 @@ colors:
 
 ## Political Party Colors
 
-We have predefined colors for a number of countries, including Switzerland, France, Germany, Netherlands, United Kingdom and the United States. When other colors are needed for a country that is not part of the predefined list, please do the research to find out what color the party identifies with and then choose from a similar color already defined. For example, if the People's Party in Spain identifies with a lighter blue, you could take the blue currently defined for the Democratic party in the United States. Please try to remain consistent by asking others in the team or checking Q for charts already addressing elections in the country in question.
+We have predefined colors for a number of countries, including Switzerland,
+France, Germany, Netherlands, United Kingdom and the United States. When other
+colors are needed for a country that is not part of the predefined list, please
+do the research to find out what color the party identifies with and then choose
+from a similar color already defined. For example, if the People's Party in
+Spain identifies with a lighter blue, you could take the blue currently defined
+for the Democratic party in the United States. Please try to remain consistent
+by asking others in the team or checking Q for charts already addressing
+elections in the country in question.
 
 ## How to generate "light" versions of party colors
 
-We use [Chroma.js](https://gka.github.io/palettes) to interpolate between the regular party color and white. Chroma.js can calculate any number of steps between two colors so that they are visually at equal distance. To get the light color of the Spanish "Más País" then, we would input `#54ba00, #ffffff` and set the number of colors to `3` to get the middle value: `#b2dd90`.
+We use [Chroma.js](https://gka.github.io/palettes) to interpolate between the
+regular party color and white. Chroma.js can calculate any number of steps
+between two colors so that they are visually at equal distance. To get the light
+color of the Spanish "Más País" then, we would input `#54ba00, #ffffff` and set
+the number of colors to `3` to get the middle value: `#b2dd90`.
 
 ### Switzerland
 
@@ -1845,4 +1970,3 @@ colors:
   - {name: "Demokraten Kurven", value: "#618ec0"}
   - {name: "default Kurven", value: "#7b7b7c"}
 ```
-
