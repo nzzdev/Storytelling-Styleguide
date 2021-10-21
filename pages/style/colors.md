@@ -1229,6 +1229,9 @@ between two colors so that they are visually at equal distance. To get the light
 color of the Spanish "Más País" then, we would input `#54ba00, #ffffff` and set
 the number of colors to `3` to get the middle value: `#b2dd90`.
 
+## Assets
+Die Parteifarben sind in [dieser Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/232fa8e8-f335-45c0-6bcf-8f21819f7a34) hinterlegt. Beim Anpassen der Farben sollten auch die Farben in der Bibliothek aktualisiert werden.
+
 ### Switzerland
 
 ```color-palette|span-1
