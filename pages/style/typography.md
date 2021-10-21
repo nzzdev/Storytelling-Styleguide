@@ -4,7 +4,7 @@
 
 Print und Online verwenden verschiedene Schriftfamilien, haben aber gemeinsam definierte Formatvorlagen, die zur Übersetzung von Online zu Print verwendet werden können.
 
-Die vordefinierten Schritfgrössen basieren auf einer typografischen Skala.
+Die vordefinierten Schriftgrössen basieren auf einer typografischen Skala.
 
 
 ## Grundlegendes
@@ -190,3 +190,9 @@ Bei Online-Grafiken werden die Quellenangabe (`.s-q-item__footer__sources`), das
 Im Print werden dafür eigene Textstile eingesetzt.
 
 ![](/assets/typography/footer.png)
+
+## Assets
+
+Print- und Online-Stilvorlagen finden sich in der [Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe).
+
+Die InDesign-Datei, mit der die auf dieser Seite verwendeten Grafiken erstellt wurde, und als Grundlage für die oben verlinkten Stilvorlagen dient, findet sich auf [SharePoint](https://nzzmg.sharepoint.com/:u:/s/nzz_st/EeNx8IK64fBIo635H0OxR0ABi4ehcRxXesUNcWx_3DKBtw?e=750h7X).
