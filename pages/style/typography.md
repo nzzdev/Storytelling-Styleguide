@@ -182,3 +182,11 @@ In Custom-Code-Projekten wird die `ui`-Klasse für Bedienelemente und längere B
   Lorem ipsum dolor -123,71% (s-font-ui s-font-ui--tabularnums)
 </p>
 ```
+
+### `footer`
+
+Bei Online-Grafiken werden die Quellenangabe (`.s-q-item__footer__sources`), das Kürzel (`.s-q-item__footer__acronym`) und allfällige Anmerkungen direkt in Q gesetzt.
+
+Im Print werden dafür eigene Textstile eingesetzt.
+
+![](/assets/typography/footer.png)
