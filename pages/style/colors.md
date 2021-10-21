@@ -1658,26 +1658,30 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
-### France
+### Frankreich
 
-```color-palette|span-2
+Die Einteilung basiert auf [Liste der politischen Parteien in Frankreich – Wikipedia](https://de.wikipedia.org/wiki/Liste_der_politischen_Parteien_in_Frankreich).
+
+```color-palette|span-3
 colors:
-  - {name: "SOC, RDG, DVG - primary", value: "#c31906"}
-  - {name: "LR, UDI, DVD", value: "#0084c7"}
-  - {name: "FN", value: "#0a0a0a"}
-  - {name: "REM, MDM", value: "#da467d"}
-  - {name: "FI", value: "#01b1c0"}
-  - {name: "ECO, COM, DLF, EXT, DIV, EXD", value: "#616161"}
+- {name: "Radikale Linke (FI, PG)", value: "#b00077"}
+- {name: "Linker Flügel (PS, MRC, LGM)", value: "#ce4631"}
+- {name: "Grüne Politik (EELV, MEI, PE)", value: "#93a345"}
+- {name: "Zentrismus (LREM, MoDem, LC, RAD, UDI)", value: "#e3b13e"}
+- {name: "Rechter Flügel (LR, DLF, CNI, MPF, SL)", value: "#8aabfd"}
+- {name: "Radikale Rechte (RN)", value: "#374e8e"}
+- {name: "Andere", value: "#616161"}
 ```
 
-```color-palette|span-2
+```color-palette|span-3
 colors:
-  - {name: "SOC, RDG, DVG - light", value: "#f4d7d3"}
-  - {name: "LR, UDI, DVD", value: "#cee7f4"}
-  - {name: "FN", value: "#c7c7c7"}
-  - {name: "REM, MDM", value: "#f8dce7"}
-  - {name: "FI", value: "#d2f1f3"}
-  - {name: "ECO, COM, DLF, EXT, DIV, EXD", value: "#dddddd"}
+- {name: "Radikale Linke (Hintergrund)", value: "#d7b1c3"}
+- {name: "Linker Flügel (Hintergrund)", value: "#e6aa9e"}
+- {name: "Grüne Politik (Hintergrund)", value: "#c1c9a5"}
+- {name: "Zentrismus (Hintergrund)", value: "#e0cba3"}
+- {name: "Rechter Flügel (Hintergrund)", value: "#bbcaed"}
+- {name: "Radikale Rechte (Hintergrund)", value: "#a1aecc"}
+- {name: "Andere (Hintergrund)", value: "#bcbcbc" }
 ```
 
 ### Germany
