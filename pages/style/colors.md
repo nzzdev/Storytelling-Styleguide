@@ -1691,7 +1691,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "SDP - primary", value: "#c31906"}
+  - {name: "SPD - primary", value: "#c31906"}
   - {name: "Union", value: "#0a0a0a"}
   - {name: "FDP", value: "#d1cc00"}
   - {name: "Grüne", value: "#66a622"}
@@ -1700,7 +1700,7 @@ colors:
 
 ```color-palette|span-1
 colors:
-  - {name: "SDP - light", value: "#eaaea8"}
+  - {name: "SPD - light", value: "#eaaea8"}
   - {name: "Union", value: "#939393"}
   - {name: "FDP", value: "#edeca0"}
   - {name: "Grüne", value: "#c2dba7"}
