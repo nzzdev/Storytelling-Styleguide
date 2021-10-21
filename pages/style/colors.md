@@ -1232,7 +1232,7 @@ the number of colors to `3` to get the middle value: `#b2dd90`.
 ## Assets
 Die Parteifarben sind in [dieser Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/232fa8e8-f335-45c0-6bcf-8f21819f7a34) hinterlegt. Beim Anpassen der Farben sollten auch die Farben in der Bibliothek aktualisiert werden.
 
-### Switzerland
+### Schweiz
 
 ```color-palette|span-1
 colors:
@@ -1278,7 +1278,7 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
-#### Sophie Implementation of Swiss Party Colors
+#### Sophie-Implementation
 
 ##### AL
 
@@ -1484,39 +1484,8 @@ colors:
   - {name: "s-viz-color-party-default-7", value: "#565656"}
 ```
 
-### Austria
 
-```color-palette|span-1
-colors:
-  - {name: "ÖVP - primary", value: "#0A0A0A"}
-  - {name: "SPÖ", value: "#c31906"}
-  - {name: "FPO", value: "#0084c7"}
-  - {name: "Grüne", value: "#54ba00"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "ÖVP - light", value: "#939393"}
-  - {name: "SPÖ", value: "#eaaea8"}
-  - {name: "FPO", value: "#9ed0e9"}
-  - {name: "Grüne", value: "#bae399"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "NEOS - primary", value: "#da467d"}
-  - {name: "Liste Pilz", value: "#22a682"}
-  - {name: "default", value: "#616161"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "NEOS - light", value: "#f1bace"}
-  - {name: "Liste Pilz", value: "#aadccf"}
-  - {name: "default", value: "#bcbcbc"}
-```
-
-### Brasil
+### Brasilien
 
 ```color-palette|span-1
 colors:
@@ -1536,54 +1505,8 @@ colors:
   - {name: "Rede", value: "#c2dba7"}
 ```
 
-### Canada
 
-```color-palette|span-2
-colors:
-  - {name: "Liberals", value: "#d71920"}
-  - {name: "Conservative Party of Canada (CDC)", value: "#0b2643"}
-  - {name: "New Democratic Party (NDP)", value: "#f89920"}
-  - {name: "Bloc Québécois", value: "#093c71"}
-  - {name: "Green Party", value: "#66a622"}
-  - {name: "default", value: "#616161"}
-```
-
-```color-palette|span-2
-colors:
-  - {name: "Liberals – light", value: "#f19b9e"}
-  - {name: "Conservative Party of Canada (CDC)", value: "#5d82ab"}
-  - {name: "New Democratic Party (NDP)", value: "#ffe0b8"}
-  - {name: "Bloc Québécois", value: "#83a7cc"}
-  - {name: "Green Party", value: "#c2dba7"}
-  - {name: "default", value: "#bcbcbc"}
-```
-
-### Czech Republic
-
-```color-palette|span-2
-colors:
-  - {name: "ANO", value: "#FDD200"}
-  - {name: "Spolu", value: "#008CD7"}
-  - {name: "Piraten und Stan", value: "#66a622"}
-  - {name: "SPD", value: "#616161"}
-  - {name: "Kolmmunistische Partei", value: "#75373C"}
-  - {name: "Sozialdemokraten", value: "#C31906"}
-  - {name: "Versprechen", value: "#0a0a0a"}
-  - {name: "default", value: "#616161"}
-```
-
-```color-palette|span-2
-colors:
-  - {name: "ANO", value: "#faeb9e"}
-  - {name: "Spolu", value: "#9ed0e9"}
-  - {name: "Piraten und Stan", value: "#c2dba7"}
-  - {name: "SPD", value: "#bcbcbc"}
-  - {name: "Kolmmunistische Partei", value: "#BDAA93"}
-  - {name: "Sozialdemokraten", value: "#eaaea8"}
-  - {name: "Versprechen", value: "#939393"}
-  - {name: "default", value: "#bcbcbc"}
-```
-### Denmark
+### Dänemark
 
 ```color-palette|span-1
 colors:
@@ -1625,7 +1548,45 @@ colors:
   - {name: "Nye Borgerlige", value: "#aadccf"}
 ```
 
-### Finland
+
+### Deutschland
+
+```color-palette|span-1
+colors:
+  - {name: "SPD - primary", value: "#c31906"}
+  - {name: "Union", value: "#0a0a0a"}
+  - {name: "FDP", value: "#d1cc00"}
+  - {name: "Grüne", value: "#66a622"}
+  - {name: "AfD", value: "#0084c7"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "SPD - light", value: "#eaaea8"}
+  - {name: "Union", value: "#939393"}
+  - {name: "FDP", value: "#edeca0"}
+  - {name: "Grüne", value: "#c2dba7"}
+  - {name: "AfD", value: "#9ed0e9"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Linke - primary", value: "#8440a3"}
+  - {name: "Piraten", value: "#d28b00"}
+  - {name: "Freie Wähler", value: "#ac5038"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "Linke - light", value: "#cdb1d9"}
+  - {name: "Piraten", value: "#edd29c"}
+  - {name: "Freie Wähler", value: "#ddb9af"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
+
+### Finnland
 
 ```color-palette|span-1
 colors:
@@ -1687,43 +1648,45 @@ colors:
 - {name: "Andere (Hintergrund)", value: "#bcbcbc" }
 ```
 
-### Germany
+### Grossbritannien
 
 ```color-palette|span-1
 colors:
-  - {name: "SPD - primary", value: "#c31906"}
-  - {name: "Union", value: "#0a0a0a"}
-  - {name: "FDP", value: "#d1cc00"}
-  - {name: "Grüne", value: "#66a622"}
-  - {name: "AfD", value: "#0084c7"}
+  - {name: "Konservative", value: "#0084c7"}
+  - {name: "Labour", value: "#c31906"}
+  - {name: "Green Party", value: "#66a622"}
+  - {name: "SNP", value: "#D1CC00"}
+  - {name: "Brexit Party", value: "#24B39C"}
 ```
 
 ```color-palette|span-1
 colors:
-  - {name: "SPD - light", value: "#eaaea8"}
-  - {name: "Union", value: "#939393"}
-  - {name: "FDP", value: "#edeca0"}
-  - {name: "Grüne", value: "#c2dba7"}
-  - {name: "AfD", value: "#9ed0e9"}
+  - {name: "Konservative - light", value: "#9ed0e9"}
+  - {name: "Labour", value: "#eaaea8"}
+  - {name: "Green Party", value: "#c2dba7"}
+  - {name: "SNP", value: "#f5f3a3"}
+  - {name: "Brexit Party", value: "#7DD1C3"}
 ```
 
 ```color-palette|span-1
 colors:
-  - {name: "Linke - primary", value: "#8440a3"}
-  - {name: "Piraten", value: "#d28b00"}
-  - {name: "Freie Wähler", value: "#ac5038"}
+  - {name: "Liberaldemokraten", value: "#d28b00"}
+  - {name: "UKIP", value: "#8440a3"}
+  - {name: "DUP", value: "#DA467D"}
+  - {name: "Plaid Cymru", value: "#ac5038"}
   - {name: "default", value: "#616161"}
 ```
 
 ```color-palette|span-1
 colors:
-  - {name: "Linke - light", value: "#cdb1d9"}
-  - {name: "Piraten", value: "#edd29c"}
-  - {name: "Freie Wähler", value: "#ddb9af"}
+  - {name: "Liberaldemokraten - light", value: "#edd29c"}
+  - {name: "UKIP", value: "#cdb1d9"}
+  - {name: "DUP", value: "#f1bace"}
+  - {name: "Plaid Cymru", value: "#ddb9af"}
   - {name: "default", value: "#bcbcbc"}
 ```
 
-### India
+### Indien
 
 ```color-palette|span-2
 colors:
@@ -1739,7 +1702,7 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
-### Ireland
+### Irland
 
 ```color-palette|span-2
 colors:
@@ -1761,7 +1724,7 @@ colors:
   - {name: "Labour", value: "#eaaea8"}
 ```
 
-### Italy
+### Italien
 
 ```color-palette|span-2
 colors:
@@ -1779,7 +1742,29 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
-### Netherlands
+### Kanada
+
+```color-palette|span-2
+colors:
+  - {name: "Liberals", value: "#d71920"}
+  - {name: "Conservative Party of Canada (CDC)", value: "#0b2643"}
+  - {name: "New Democratic Party (NDP)", value: "#f89920"}
+  - {name: "Bloc Québécois", value: "#093c71"}
+  - {name: "Green Party", value: "#66a622"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "Liberals – light", value: "#f19b9e"}
+  - {name: "Conservative Party of Canada (CDC)", value: "#5d82ab"}
+  - {name: "New Democratic Party (NDP)", value: "#ffe0b8"}
+  - {name: "Bloc Québécois", value: "#83a7cc"}
+  - {name: "Green Party", value: "#c2dba7"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
+### Niederlande
 
 ```color-palette|span-1
 colors:
@@ -1815,7 +1800,40 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
-### Poland
+
+### Österreich
+
+```color-palette|span-1
+colors:
+  - {name: "ÖVP - primary", value: "#0A0A0A"}
+  - {name: "SPÖ", value: "#c31906"}
+  - {name: "FPO", value: "#0084c7"}
+  - {name: "Grüne", value: "#54ba00"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "ÖVP - light", value: "#939393"}
+  - {name: "SPÖ", value: "#eaaea8"}
+  - {name: "FPO", value: "#9ed0e9"}
+  - {name: "Grüne", value: "#bae399"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "NEOS - primary", value: "#da467d"}
+  - {name: "Liste Pilz", value: "#22a682"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "NEOS - light", value: "#f1bace"}
+  - {name: "Liste Pilz", value: "#aadccf"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
+### Polen
 
 ```color-palette|span-2
 colors:
@@ -1864,7 +1882,8 @@ colors:
   - {name: "Chega Partido", value: "#83a7cc"}
   - {name: "default", value: "#bcbcbc"}
 ```
-### Russia
+
+### Russland
 
 ```color-palette|span-2
 colors:
@@ -1885,51 +1904,8 @@ colors:
   - {name: "Neue Leute - light", value: "#ABD1CB"}
   - {name: "default - light", value: "#bcbcbc"}
 ```
-### South Africa
 
-```color-palette|span-2
-colors:
-  - {name: "African National Congress (ANC) - primary", value: "#38A650"}
-  - {name: "Democratic Alliance (DA)", value: "#3952EE"}
-  - {name: "Economic Freedom Fighters (EFF)", value: "#D64B47"}
-  - {name: "default", value: "#616161"}
-```
-
-```color-palette|span-2
-colors:
-  - {name: "African National Congress (ANC) - light", value: "#C9F5D2"}
-  - {name: "Democratic Alliance (DA)", value: "#D6DCFF"}
-  - {name: "Economic Freedom Fighters (EFF)", value: "#FFD3D1"}
-  - {name: "default", value: "#bcbcbc"}
-```
-
-### Spain
-
-```color-palette|span-2
-colors:
-  - {name: "Sozialisten - primary", value: "#C31906"}
-  - {name: "Partido Popular", value: "#0084C7"}
-  - {name: "Ciudadanos", value: "#D28B00"}
-  - {name: "Podemos", value: "#8440A3"}
-  - {name: "Vox", value: "#54BA00"}
-  - {name: "Más País", value: "#22a682"}
-  - {name: "ERC Katalanische Linksrepublikaner", value: "#d64b47"}
-  - {name: "default", value: "#616161"}
-```
-
-```color-palette|span-2
-colors:
-  - {name: "Sozialisten - light", value: "#eaaea8"}
-  - {name: "Partido Popular - light", value: "#9ed0e9"}
-  - {name: "Ciudadanos - light", value: "#edd29c"}
-  - {name: "Podemos - light", value: "#cdb1d9"}
-  - {name: "Vox - light", value: "#bae399"}
-  - {name: "Más País - light", value: "#9dd3bf"}
-  - {name: "ERC Katalanische Linksrepublikaner - light", value: "#f4a79e"}
-  - {name: "default - light", value: "#bcbcbc"}
-```
-
-### Sweden
+### Schweden
 
 ```color-palette|span-1
 colors:
@@ -1963,45 +1939,77 @@ colors:
   - {name: "Schwedendemokraten - highlight", value: "#faeb9e"}
 ```
 
-### United Kingdom
+### Spanien
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
-  - {name: "Konservative", value: "#0084c7"}
-  - {name: "Labour", value: "#c31906"}
-  - {name: "Green Party", value: "#66a622"}
-  - {name: "SNP", value: "#D1CC00"}
-  - {name: "Brexit Party", value: "#24B39C"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "Konservative - light", value: "#9ed0e9"}
-  - {name: "Labour", value: "#eaaea8"}
-  - {name: "Green Party", value: "#c2dba7"}
-  - {name: "SNP", value: "#f5f3a3"}
-  - {name: "Brexit Party", value: "#7DD1C3"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "Liberaldemokraten", value: "#d28b00"}
-  - {name: "UKIP", value: "#8440a3"}
-  - {name: "DUP", value: "#DA467D"}
-  - {name: "Plaid Cymru", value: "#ac5038"}
+  - {name: "Sozialisten - primary", value: "#C31906"}
+  - {name: "Partido Popular", value: "#0084C7"}
+  - {name: "Ciudadanos", value: "#D28B00"}
+  - {name: "Podemos", value: "#8440A3"}
+  - {name: "Vox", value: "#54BA00"}
+  - {name: "Más País", value: "#22a682"}
+  - {name: "ERC Katalanische Linksrepublikaner", value: "#d64b47"}
   - {name: "default", value: "#616161"}
 ```
 
-```color-palette|span-1
+```color-palette|span-2
 colors:
-  - {name: "Liberaldemokraten - light", value: "#edd29c"}
-  - {name: "UKIP", value: "#cdb1d9"}
-  - {name: "DUP", value: "#f1bace"}
-  - {name: "Plaid Cymru", value: "#ddb9af"}
+  - {name: "Sozialisten - light", value: "#eaaea8"}
+  - {name: "Partido Popular - light", value: "#9ed0e9"}
+  - {name: "Ciudadanos - light", value: "#edd29c"}
+  - {name: "Podemos - light", value: "#cdb1d9"}
+  - {name: "Vox - light", value: "#bae399"}
+  - {name: "Más País - light", value: "#9dd3bf"}
+  - {name: "ERC Katalanische Linksrepublikaner - light", value: "#f4a79e"}
+  - {name: "default - light", value: "#bcbcbc"}
+```
+
+### Südafrika
+
+```color-palette|span-2
+colors:
+  - {name: "African National Congress (ANC) - primary", value: "#38A650"}
+  - {name: "Democratic Alliance (DA)", value: "#3952EE"}
+  - {name: "Economic Freedom Fighters (EFF)", value: "#D64B47"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "African National Congress (ANC) - light", value: "#C9F5D2"}
+  - {name: "Democratic Alliance (DA)", value: "#D6DCFF"}
+  - {name: "Economic Freedom Fighters (EFF)", value: "#FFD3D1"}
   - {name: "default", value: "#bcbcbc"}
 ```
 
-### United States
+### Tschechien
+
+```color-palette|span-2
+colors:
+  - {name: "ANO", value: "#FDD200"}
+  - {name: "Spolu", value: "#008CD7"}
+  - {name: "Piraten und Stan", value: "#66a622"}
+  - {name: "SPD", value: "#616161"}
+  - {name: "Kolmmunistische Partei", value: "#75373C"}
+  - {name: "Sozialdemokraten", value: "#C31906"}
+  - {name: "Versprechen", value: "#0a0a0a"}
+  - {name: "default", value: "#616161"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "ANO", value: "#faeb9e"}
+  - {name: "Spolu", value: "#9ed0e9"}
+  - {name: "Piraten und Stan", value: "#c2dba7"}
+  - {name: "SPD", value: "#bcbcbc"}
+  - {name: "Kolmmunistische Partei", value: "#BDAA93"}
+  - {name: "Sozialdemokraten", value: "#eaaea8"}
+  - {name: "Versprechen", value: "#939393"}
+  - {name: "default", value: "#bcbcbc"}
+```
+
+### Vereinigte Staaten von Amerika, USA
 
 ```color-palette|span-2
 colors:
