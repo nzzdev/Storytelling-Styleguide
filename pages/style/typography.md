@@ -9,8 +9,20 @@ Die vordefinierten Schriftgrössen basieren auf einer typografischen Skala.
 
 ## Grundlegendes
 
-![Legende der Grafiken](assets/typography/legend.png)
-![Basisschriften](assets/typography/base.png)
+```image
+plain: true
+light: true
+src: assets/typography/legend.png
+title: Legende der verwendeten Icons
+```
+
+```image
+plain: true
+light: true
+src: assets/typography/base.png
+title: Basisschriften
+```
+
 
 ```html
 <p class="s-font-serif" style="margin: 20px 0px; font-size: 200%">
@@ -57,7 +69,12 @@ NZZ-Mitarbeiter finden die Schriften auf [SharePoint](https://nzzmg.sharepoint.c
 - Wir verwenden für sämtliche Zahlen **Versalziffern für Tabellen** (_Tabular Lining_ auf Englisch). 
 - Wir verwenden keine durchgestrichene Null.
 
-![Tabellensatz in Illustrator](assets/typography/tabellensatz.png "Tabellensatz in Illustrator")
+```image
+plain: true
+span: 2
+src: assets/typography/tabellensatz.png
+title: Tabellensatz in Illustrator
+```
 
 Dieses Format sollte einen sinnvollen Kompromiss erlauben zwischen korrekt untereinander ausgerichteten Ziffern in Tabellen (ohne dass dafür auf GT America Mono ausgewichen werden muss) und der Verwendung der selben Ziffern innerhalb von kurzen Beschreibungen.
 
@@ -74,7 +91,12 @@ Die Styles in Print sind etwas weniger ausdifferenziert, da die Schriftgrösse z
 
 Hauptsächlich verwendeter Stil, um Grafiken zu beschriften.
 
-![](/assets/typography/note.png)
+```image
+plain: true
+light: true
+src: assets/typography/note.png
+title: Liste der note-Klassen
+```
 
 ```html|span-3
 <p class="s-font-note">Lorem ipsum dolor -123,71% (s-font-note)</p>
@@ -118,7 +140,14 @@ Nach Möglichkeit in statischen Grafiken nur `note` (14px) verwenden. Mit der kl
 
 ### `title` Klassen
 Wird für Überschriften verwendet.
-![](/assets/typography/title.png)
+
+```image
+plain: true
+light: true
+src: assets/typography/title.png
+title: Liste der title-Klassen
+```
+
 ```html
 <p class="s-font-title-l">Lorem ipsum dolor (s-font-title-l)</p>
 <p class="s-font-title">Lorem ipsum dolor (s-font-title)</p>
@@ -139,7 +168,13 @@ Grafiken im Print werden mit `title` betitelt. Bei grossen Grafiken (>= 4 Spalte
 
 Brotschrift, wird für den Fliesstext von Artikeln verwendet.
 
-![](/assets/typography/text.png)
+```image
+plain: true
+light: true
+src: assets/typography/text.png
+title: Liste der text-Klassen
+```
+
 ```html
 <p class="s-font-text">Lorem ipsum dolor (s-font-text)</p>
 <p class="s-font-text s-font-text--strong">
@@ -170,7 +205,12 @@ Ansonsten kann auch die `ui`-Klasse verwendet werden.
 
 In Custom-Code-Projekten wird die `ui`-Klasse für Bedienelemente und längere Beschreibungstexte verwendet.
 
-![](/assets/typography/ui.png)
+```image
+plain: true
+light: true
+src: assets/typography/ui.png
+title: Liste der ui Klassen
+```
 
 ```html
 <p class="s-font-ui">Lorem ipsum dolor -123,71% (s-font-ui)</p>
@@ -185,11 +225,22 @@ In Custom-Code-Projekten wird die `ui`-Klasse für Bedienelemente und längere B
 
 ### `footer`
 
+
+
+```image
+plain: true
+light: true
+src: assets/typography/footer.png
+title: Liste der footer Klassen
+```
+
+```hint|neutral,span-3
+# Grafik
+
 Bei Online-Grafiken werden die Quellenangabe (`.s-q-item__footer__sources`), das Kürzel (`.s-q-item__footer__acronym`) und allfällige Anmerkungen direkt in Q gesetzt.
 
 Im Print werden dafür eigene Textstile eingesetzt.
-
-![](/assets/typography/footer.png)
+```
 
 ## Assets
 
