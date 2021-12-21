@@ -40,3 +40,4 @@ Der Ablauf innerhalb des 3D-Modells kann mit dem 3D-Tool definiert werden und al
 - [How the Virus Got Out, New York Times (2020)](https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html)
 - [Mars 2020 – Prelanding Simulation, Nasa (2020)](https://eyes.nasa.gov/apps/mars2020/#/home)
 - [Mutation Database Solution, Centogene](https://solutions.centogene.com/)
+- [A Zimbabwean archaeologist reimagines the story of a momentous African civilisation](https://www.economist.com/interactives/christmas-specials/2021/12/18/great-zimbabwe-archaeology)
