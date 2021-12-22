@@ -267,6 +267,28 @@ colors:
   - {name: "tests", value: "#3952ee"}
 ```
 
+
+## Energy colors
+
+```color-palette|span-2
+colors:
+  - {name: "Kohle", value: "#383751"}
+  - {name: "Öl", value: "#704600"}
+  - {name: "Erdgas", value: "#D5CDB9"}
+  - {name: "Kernkraft", value: "#DF7C18"}
+  - {name: "Fossile", value: "#A08962"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "Solar", value: "#E3B13E"}
+  - {name: "Biomasse", value: "#478C5B"}
+  - {name: "Wind", value: "#4FBBAE"}
+  - {name: "Wasserkraft (Pumpspeicher)", value: "#374E8E"}
+  - {name: "(Laufwasserkraft)", value: "#7E90BD"}
+  - {name: "Erneuerbar", value: "#1B87AA"}
+```
+
 ## Sequential and Diverging Scales
 
 Color scales are a powerful way to encode data. The use of the color dimension
