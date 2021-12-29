@@ -803,16 +803,16 @@ colors:
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-4-1", value: "#3ac0a2"}
-        - {name: "s-viz-color-diverging-gender-4-2", value: "#6bd5ae"}
-        - {name: "s-viz-color-diverging-gender-4-3", value: "#b97dd9"}
+        - {name: "s-viz-color-diverging-gender-4-1", value: "#29b69f"}
+        - {name: "s-viz-color-diverging-gender-4-2", value: "#5cd0ba"}
+        - {name: "s-viz-color-diverging-gender-4-3", value: "#9e89e2"}
         - {name: "s-viz-color-diverging-gender-4-4", value: "#6c43c0"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-5-1", value: "#4dbaa5"}
-        - {name: "s-viz-color-diverging-gender-5-2", value: "#8fc1b6"}
+        - {name: "s-viz-color-diverging-gender-5-1", value: "#2eb59e"}
+        - {name: "s-viz-color-diverging-gender-5-2", value: "#83c0b2"}
         - {name: "s-viz-color-diverging-gender-5-3", value: "#c7c7c7"}
         - {name: "s-viz-color-diverging-gender-5-4", value: "#958bbe"}
         - {name: "s-viz-color-diverging-gender-5-5", value: "#6c43c0"}
@@ -820,126 +820,126 @@ colors:
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-6-1", value: "#3ac0a2"}
-        - {name: "s-viz-color-diverging-gender-6-2", value: "#6bd5ae"}
-        - {name: "s-viz-color-diverging-gender-6-3", value: "#a8e5c3"}
-        - {name: "s-viz-color-diverging-gender-6-4", value: "#eac9e4"}
-        - {name: "s-viz-color-diverging-gender-6-5", value: "#b97dd9"}
+        - {name: "s-viz-color-diverging-gender-6-1", value: "#29b69f"}
+        - {name: "s-viz-color-diverging-gender-6-2", value: "#5cd0ba"}
+        - {name: "s-viz-color-diverging-gender-6-3", value: "#a0e5d5"}
+        - {name: "s-viz-color-diverging-gender-6-4", value: "#d5cff1"}
+        - {name: "s-viz-color-diverging-gender-6-5", value: "#9e89e2"}
         - {name: "s-viz-color-diverging-gender-6-6", value: "#6c43c0"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-7-1", value: "#0c5d64"}
-        - {name: "s-viz-color-diverging-gender-7-2", value: "#198d87"}
-        - {name: "s-viz-color-diverging-gender-7-3", value: "#4dbaa5"}
+        - {name: "s-viz-color-diverging-gender-7-1", value: "#09443a"}
+        - {name: "s-viz-color-diverging-gender-7-2", value: "#187b6b"}
+        - {name: "s-viz-color-diverging-gender-7-3", value: "#2eb59e"}
         - {name: "s-viz-color-diverging-gender-7-4", value: "#c7c7c7"}
-        - {name: "s-viz-color-diverging-gender-7-5", value: "#a099be"}
-        - {name: "s-viz-color-diverging-gender-7-6", value: "#7d66c0"}
-        - {name: "s-viz-color-diverging-gender-7-7", value: "#5138a8"}
+        - {name: "s-viz-color-diverging-gender-7-5", value: "#998fbe"}
+        - {name: "s-viz-color-diverging-gender-7-6", value: "#714ec1"}
+        - {name: "s-viz-color-diverging-gender-7-7", value: "#402379"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-8-1", value: "#0c5d64"}
-        - {name: "s-viz-color-diverging-gender-8-2", value: "#198d87"}
-        - {name: "s-viz-color-diverging-gender-8-3", value: "#3ac0a2"}
-        - {name: "s-viz-color-diverging-gender-8-4", value: "#a8e5c3"}
-        - {name: "s-viz-color-diverging-gender-8-5", value: "#eac9e4"}
-        - {name: "s-viz-color-diverging-gender-8-6", value: "#c78ddb"}
-        - {name: "s-viz-color-diverging-gender-8-7", value: "#915ad1"}
-        - {name: "s-viz-color-diverging-gender-8-8", value: "#5138a8"}
+        - {name: "s-viz-color-diverging-gender-8-1", value: "#09443a"}
+        - {name: "s-viz-color-diverging-gender-8-2", value: "#187b6b"}
+        - {name: "s-viz-color-diverging-gender-8-3", value: "#29b69f"}
+        - {name: "s-viz-color-diverging-gender-8-4", value: "#a0e5d5"}
+        - {name: "s-viz-color-diverging-gender-8-5", value: "#d5cff1"}
+        - {name: "s-viz-color-diverging-gender-8-6", value: "#a28ee3"}
+        - {name: "s-viz-color-diverging-gender-8-7", value: "#734cc8"}
+        - {name: "s-viz-color-diverging-gender-8-8", value: "#402379"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-9-1", value: "#0c5d64"}
-        - {name: "s-viz-color-diverging-gender-9-2", value: "#15817f"}
-        - {name: "s-viz-color-diverging-gender-9-3", value: "#20a796"}
-        - {name: "s-viz-color-diverging-gender-9-4", value: "#6fbead"}
+        - {name: "s-viz-color-diverging-gender-9-1", value: "#09443a"}
+        - {name: "s-viz-color-diverging-gender-9-2", value: "#146d5e"}
+        - {name: "s-viz-color-diverging-gender-9-3", value: "#1e9884"}
+        - {name: "s-viz-color-diverging-gender-9-4", value: "#5bbca8"}
         - {name: "s-viz-color-diverging-gender-9-5", value: "#c7c7c7"}
-        - {name: "s-viz-color-diverging-gender-9-6", value: "#a9a5bf"}
-        - {name: "s-viz-color-diverging-gender-9-7", value: "#8e80bf"}
-        - {name: "s-viz-color-diverging-gender-9-8", value: "#7657c1"}
-        - {name: "s-viz-color-diverging-gender-9-9", value: "#5138a8"}
+        - {name: "s-viz-color-diverging-gender-9-6", value: "#a49ebe"}
+        - {name: "s-viz-color-diverging-gender-9-7", value: "#8471c0"}
+        - {name: "s-viz-color-diverging-gender-9-8", value: "#673fb8"}
+        - {name: "s-viz-color-diverging-gender-9-9", value: "#402379"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-10-1", value: "#0c5d64"}
-        - {name: "s-viz-color-diverging-gender-10-2", value: "#15817f"}
-        - {name: "s-viz-color-diverging-gender-10-3", value: "#20a796"}
-        - {name: "s-viz-color-diverging-gender-10-4", value: "#51cba8"}
-        - {name: "s-viz-color-diverging-gender-10-5", value: "#a8e5c3"}
-        - {name: "s-viz-color-diverging-gender-10-6", value: "#eac9e4"}
-        - {name: "s-viz-color-diverging-gender-10-7", value: "#d29bdc"}
-        - {name: "s-viz-color-diverging-gender-10-8", value: "#ae72d7"}
-        - {name: "s-viz-color-diverging-gender-10-9", value: "#8150cb"}
-        - {name: "s-viz-color-diverging-gender-10-10", value: "#5138a8"}
+        - {name: "s-viz-color-diverging-gender-10-1", value: "#09443a"}
+        - {name: "s-viz-color-diverging-gender-10-2", value: "#146d5e"}
+        - {name: "s-viz-color-diverging-gender-10-3", value: "#1e9884"}
+        - {name: "s-viz-color-diverging-gender-10-4", value: "#40c4ac"}
+        - {name: "s-viz-color-diverging-gender-10-5", value: "#a0e5d5"}
+        - {name: "s-viz-color-diverging-gender-10-6", value: "#d5cff1"}
+        - {name: "s-viz-color-diverging-gender-10-7", value: "#ae9fe7"}
+        - {name: "s-viz-color-diverging-gender-10-8", value: "#8a6cda"}
+        - {name: "s-viz-color-diverging-gender-10-9", value: "#673fb8"}
+        - {name: "s-viz-color-diverging-gender-10-10", value: "#402379"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-11-1", value: "#0c5d64"}
-        - {name: "s-viz-color-diverging-gender-11-2", value: "#13797a"}
-        - {name: "s-viz-color-diverging-gender-11-3", value: "#1c978e"}
-        - {name: "s-viz-color-diverging-gender-11-4", value: "#2eb59e"}
-        - {name: "s-viz-color-diverging-gender-11-5", value: "#83c0b2"}
+        - {name: "s-viz-color-diverging-gender-11-1", value: "#09443a"}
+        - {name: "s-viz-color-diverging-gender-11-2", value: "#126557"}
+        - {name: "s-viz-color-diverging-gender-11-3", value: "#1a8775"}
+        - {name: "s-viz-color-diverging-gender-11-4", value: "#22aa94"}
+        - {name: "s-viz-color-diverging-gender-11-5", value: "#73bfae"}
         - {name: "s-viz-color-diverging-gender-11-6", value: "#c7c7c7"}
-        - {name: "s-viz-color-diverging-gender-11-7", value: "#afabc0"}
-        - {name: "s-viz-color-diverging-gender-11-8", value: "#998fbe"}
-        - {name: "s-viz-color-diverging-gender-11-9", value: "#8471c0"}
-        - {name: "s-viz-color-diverging-gender-11-10", value: "#714ec1"}
-        - {name: "s-viz-color-diverging-gender-11-11", value: "#5138a8"}
+        - {name: "s-viz-color-diverging-gender-11-7", value: "#aaa6bf"}
+        - {name: "s-viz-color-diverging-gender-11-8", value: "#9083bf"}
+        - {name: "s-viz-color-diverging-gender-11-9", value: "#785dc1"}
+        - {name: "s-viz-color-diverging-gender-11-10", value: "#5f38ac"}
+        - {name: "s-viz-color-diverging-gender-11-11", value: "#402379"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-12-1", value: "#0c5d64"}
-        - {name: "s-viz-color-diverging-gender-12-2", value: "#13797a"}
-        - {name: "s-viz-color-diverging-gender-12-3", value: "#1c978e"}
-        - {name: "s-viz-color-diverging-gender-12-4", value: "#29b69d"}
-        - {name: "s-viz-color-diverging-gender-12-5", value: "#60d1ab"}
-        - {name: "s-viz-color-diverging-gender-12-6", value: "#a8e5c3"}
-        - {name: "s-viz-color-diverging-gender-12-7", value: "#eac9e4"}
-        - {name: "s-viz-color-diverging-gender-12-8", value: "#d8a4dd"}
-        - {name: "s-viz-color-diverging-gender-12-9", value: "#be82da"}
-        - {name: "s-viz-color-diverging-gender-12-10", value: "#9d64d4"}
-        - {name: "s-viz-color-diverging-gender-12-11", value: "#774ac6"}
-        - {name: "s-viz-color-diverging-gender-12-12", value: "#5138a8"}
+        - {name: "s-viz-color-diverging-gender-12-1", value: "#09443a"}
+        - {name: "s-viz-color-diverging-gender-12-2", value: "#126557"}
+        - {name: "s-viz-color-diverging-gender-12-3", value: "#1a8775"}
+        - {name: "s-viz-color-diverging-gender-12-4", value: "#22aa94"}
+        - {name: "s-viz-color-diverging-gender-12-5", value: "#50cbb4"}
+        - {name: "s-viz-color-diverging-gender-12-6", value: "#a0e5d5"}
+        - {name: "s-viz-color-diverging-gender-12-7", value: "#d5cff1"}
+        - {name: "s-viz-color-diverging-gender-12-8", value: "#b6a9e9"}
+        - {name: "s-viz-color-diverging-gender-12-9", value: "#9881e0"}
+        - {name: "s-viz-color-diverging-gender-12-10", value: "#7c58d1"}
+        - {name: "s-viz-color-diverging-gender-12-11", value: "#5f38ac"}
+        - {name: "s-viz-color-diverging-gender-12-12", value: "#402379"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-13-1", value: "#0c5d64"}
-        - {name: "s-viz-color-diverging-gender-13-2", value: "#127577"}
-        - {name: "s-viz-color-diverging-gender-13-3", value: "#198d87"}
-        - {name: "s-viz-color-diverging-gender-13-4", value: "#20a796"}
-        - {name: "s-viz-color-diverging-gender-13-5", value: "#4dbaa5"}
-        - {name: "s-viz-color-diverging-gender-13-6", value: "#8fc1b6"}
+        - {name: "s-viz-color-diverging-gender-13-1", value: "#09443a"}
+        - {name: "s-viz-color-diverging-gender-13-2", value: "#105f52"}
+        - {name: "s-viz-color-diverging-gender-13-3", value: "#187b6b"}
+        - {name: "s-viz-color-diverging-gender-13-4", value: "#1e9884"}
+        - {name: "s-viz-color-diverging-gender-13-5", value: "#2eb59e"}
+        - {name: "s-viz-color-diverging-gender-13-6", value: "#83c0b2"}
         - {name: "s-viz-color-diverging-gender-13-7", value: "#c7c7c7"}
-        - {name: "s-viz-color-diverging-gender-13-8", value: "#b3b0c0"}
-        - {name: "s-viz-color-diverging-gender-13-9", value: "#a099be"}
-        - {name: "s-viz-color-diverging-gender-13-10", value: "#8e80bf"}
-        - {name: "s-viz-color-diverging-gender-13-11", value: "#7d66c0"}
-        - {name: "s-viz-color-diverging-gender-13-12", value: "#6e48c1"}
-        - {name: "s-viz-color-diverging-gender-13-13", value: "#5138a8"}
+        - {name: "s-viz-color-diverging-gender-13-8", value: "#afabc0"}
+        - {name: "s-viz-color-diverging-gender-13-9", value: "#998fbe"}
+        - {name: "s-viz-color-diverging-gender-13-10", value: "#8471c0"}
+        - {name: "s-viz-color-diverging-gender-13-11", value: "#714ec1"}
+        - {name: "s-viz-color-diverging-gender-13-12", value: "#5a34a4"}
+        - {name: "s-viz-color-diverging-gender-13-13", value: "#402379"}
 ```
 
 ```color-palette|horizontal
 colors:
-        - {name: "s-viz-color-diverging-gender-14-1", value: "#0c5d64"}
-        - {name: "s-viz-color-diverging-gender-14-2", value: "#127577"}
-        - {name: "s-viz-color-diverging-gender-14-3", value: "#198d87"}
-        - {name: "s-viz-color-diverging-gender-14-4", value: "#20a796"}
-        - {name: "s-viz-color-diverging-gender-14-5", value: "#3ac0a2"}
-        - {name: "s-viz-color-diverging-gender-14-6", value: "#6bd5ae"}
-        - {name: "s-viz-color-diverging-gender-14-7", value: "#a8e5c3"}
-        - {name: "s-viz-color-diverging-gender-14-8", value: "#eac9e4"}
-        - {name: "s-viz-color-diverging-gender-14-9", value: "#dcaade"}
-        - {name: "s-viz-color-diverging-gender-14-10", value: "#c78ddb"}
-        - {name: "s-viz-color-diverging-gender-14-11", value: "#ae72d7"}
-        - {name: "s-viz-color-diverging-gender-14-12", value: "#915ad1"}
-        - {name: "s-viz-color-diverging-gender-14-13", value: "#7146c3"}
-        - {name: "s-viz-color-diverging-gender-14-14", value: "#5138a8"}
+        - {name: "s-viz-color-diverging-gender-14-1", value: "#09443a"}
+        - {name: "s-viz-color-diverging-gender-14-2", value: "#105f52"}
+        - {name: "s-viz-color-diverging-gender-14-3", value: "#187b6b"}
+        - {name: "s-viz-color-diverging-gender-14-4", value: "#1e9884"}
+        - {name: "s-viz-color-diverging-gender-14-5", value: "#29b69f"}
+        - {name: "s-viz-color-diverging-gender-14-6", value: "#5cd0ba"}
+        - {name: "s-viz-color-diverging-gender-14-7", value: "#a0e5d5"}
+        - {name: "s-viz-color-diverging-gender-14-8", value: "#d5cff1"}
+        - {name: "s-viz-color-diverging-gender-14-9", value: "#bbafea"}
+        - {name: "s-viz-color-diverging-gender-14-10", value: "#a28ee3"}
+        - {name: "s-viz-color-diverging-gender-14-11", value: "#8a6cda"}
+        - {name: "s-viz-color-diverging-gender-14-12", value: "#734cc8"}
+        - {name: "s-viz-color-diverging-gender-14-13", value: "#5a34a4"}
+        - {name: "s-viz-color-diverging-gender-14-14", value: "#402379"}
 ```
