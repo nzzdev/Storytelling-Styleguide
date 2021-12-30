@@ -124,14 +124,9 @@ Bei zukünftigen Palettenanpassungen sollte sichergestellt werden, dass den oben
 
 ## Farben für Q
 
-Die Farben für Q setzen sich aus Farben aus dem kühl-blauen und orangen Spektrum
-zusammen. Sie werden in einer fixen Reihenfolge verwendet und sind darauf
-optimiert, genügend Farbkontrast zwischen den Kategorien zu haben, ohne
-unangenehm zu wirken, sowie auch für Personen mit einer Farbsehschwäche gut
-unterscheidbar zu sein.
+Die Farben für Q setzen sich aus Farben aus dem kühl-blauen und orangen Spektrum zusammen. Sie werden in einer fixen Reihenfolge verwendet und sind darauf optimiert, genügend Farbkontrast zwischen den Kategorien zu haben, ohne unangenehm zu wirken, sowie auch für Personen mit einer Farbsehschwäche gut unterscheidbar zu sein.
 
-Die Namen entsprechen dem CSS-Klassennamen, mit dem sie eingesetzt werden
-können.
+Die Namen entsprechen dem CSS-Klassennamen, mit dem sie eingesetzt werden können.
 
 ### Level 3: Generische Farben
 
@@ -167,9 +162,7 @@ colors:
 - {"name":"s-viz-color-twelve-1","value":"#ccc6c8"}
 ```
 
-Die sieben Standardfarben werden durch 5 warme Grautöne ergänzt. Diese wurden
-angefügt, um die Rückwärtskompatibilität zu schon bestehenden Charts zu
-erhalten, die alle der 12 ursprünglich definierten Farben verwenden.
+Die sieben Standardfarben werden durch 5 warme Grautöne ergänzt. Diese wurden angefügt, um die Rückwärtskompatibilität zu schon bestehenden Charts zu erhalten, die alle der 12 ursprünglich definierten Farben verwenden.
 
 ```hint|warning
 Nach Möglichkeit sollte in keinem publizierten Q–Chart ein Grauton als Kategorienfarbe auftauchen.
@@ -203,11 +196,9 @@ Der Farbwert kann bei einer Aktualisierung der Farbpalette komplett ändern, man
 
 ## Grautöne
 
-Die warmen und kalten Grautöne können je nach Bedarf eingesetzt werden.
+Die warmen und kalten Grautöne können je nach Bedarf eingesetzt werden. 
 
-Die neutrale Graupalette basiert auf den auf NZZ.ch eingesetzten Farbvariablen
-und sollte für die grundlegenden Bausteine einer Grafik verwendet werden: Text,
-Achsen, Label, etc.
+Die neutrale Graupalette basiert auf den auf NZZ.ch eingesetzten Farbvariablen und sollte für die grundlegenden Bausteine einer Grafik verwendet werden: Text, Achsen, Label, etc.
 
 ```color-palette|span-2
 colors:
@@ -237,7 +228,13 @@ colors:
 - {"value":"#d1ccce"}
 ```
 
-## Gender Colors
+## Vordefinierte Kategorienfarben
+
+Bei wiederkehrenden Kategorien macht es Sinn, dass wir diese einigermassen konsistent einfärben, sodass sich unsere Leserinnen und Leser schnell orientieren können.
+
+Diese Farben müssen manuell in Q-Charts eingestellt werden. Falls ein Chart mit diesen Kategorien vorliegt, bitte beim Visuals-Team melden (`#visuals-aktuell`), wir können die Farben entsprechend anpassen.
+
+### Farben für Daten zu Geschlechtsunterschieden
 
 ```color-palette|span-2
 colors:
@@ -251,7 +248,7 @@ colors:
   - {name: "female – light", value: "#aa90de"}
 ```
 
-## Corona Colors
+### Farben zu Corona-relevanten Themen
 
 ```color-palette|span-2
 colors:
@@ -268,7 +265,7 @@ colors:
 ```
 
 
-## Energy colors
+### Farben für Energieträger
 
 ```color-palette|span-2
 colors:
