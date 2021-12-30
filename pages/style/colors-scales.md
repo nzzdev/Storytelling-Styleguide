@@ -2,36 +2,40 @@
 <div class="stabilityIndex stable">Stable</div>
 ```
 
-## Sequential and Diverging Scales
+## Sequenzielle und divergierende Skalen
 
-Color scales are a powerful way to encode data. The use of the color dimension
-is common in Heatmaps and [Choropleth Maps](choropleth-maps).
+Farbskalen sind ein mächtiges Tool, um Werte zu visualisieren, wie beispielsweise in Heatmaps oder in [Choroplethen-Karten](choropleth-maps).
 
-There is a simple rule how we usually encode data with color: the darker the
-color, the larger an entities value. Visualize such cases with one of our
-sequential scales. Whenever there's a relevant break in the scale, you should
-probably consider a diverging scale. For both type of scales we defined variants
-– check out which one fits best with your scenario.
+Als Faustregel gilt: je höher der (absolute) Wert, der codiert werden soll, desto dunkler die verwendete Farbe. Für diesen Fall kann eine __sequenzielle Skala__ verwendet werden.
 
-Our sequential and diverging scales have a maximum of seven buckets. This allows
-our readers to differentiate shades of a hue from one another and let them
-accurately read the data encoding in our charts and maps.
+Bei einem logischen Bruch innerhalb der Daten bietet sich die Verwendung einer __divergierenden Skala__ an.
 
-### Sequential Scales
+Beispiele solcher Brüche sind:
+- Abstimmungsergebnisse: >50% Ja-Anteil bedeutet eine Annahme der Vorlage, ansonsten ist sie abgelehnt.
+- Veränderung zum Vorjahr: <0 bedeutet Abnahme, >0 bedeutet Zunahme.
 
-**Sequential-one** is the most used scale and bases on our first primary color.
-**Sequential-two** is the scale used in cases our primary qualitative color is
-encoded with a specific category already and should not be confused with the
-category this scale is representing. It's based on another primary and a bright
-choice color. **Sequential-three** is the scale used in cases we are displaying
-data that's negatively associated. Examples of such data would be the path of a
-hurricane or the amount of deaths in school shootings over time. It's based on
-two choice colors. **Sequential-male** is the scale used for displaying the
-amount of male representation. It's based on the male color.
-**Sequential-female** is the scale used for displaying the amount of female
-representation. It's based on the female color.
+Für beide Skalentypen gibt es Standardvorlagen mit jeweils unterschiedlicher Anzahl Buckets. Maximal sind bei sequenziellen Skalen 7 Abstufungen, bei divergierenden Skalen 14 Abstufungen definiert. Wir beschränken uns auf diese 7 Abstufungen, da diese [für Menschen noch einigermassen übersichtlich bleiben](https://de.wikipedia.org/wiki/Millersche_Zahl). Soll die Grafik feinere Differenzierungen darstellen, empfiehlt es sich, die Daten direkt mit einem Farbgradienten darzustellen und auf ein Bucketing zu verzichten.
 
-### Sequential-one
+
+### Sequenzielle Skalen
+
+Die folgenden Skalen werden grob den folgenden Zwecken nach verwendet:
+
+```table
+rows:
+  - Skala: Sequential-one
+    Zweck: Standard-Skala, basiert auf der primären Farbe _Nacht_.
+  - Skala: Sequential-two
+    Zweck: Ausweichmöglichkeit, wenn die die erste Skala innerhalb des Artikels schon verwendet wurde, und einer anderen Kategorie zugeordnet wurde.
+  - Skala: Sequential-three
+    Zweck: Für Daten, die negativ konnotiert sind.
+  - Skala: Sequential-male
+    Zweck: Daten, die den Grad der Repräsentation von Männern zeigen.
+  - Skala: Sequential-female
+    Zweck: Daten, die den Grad der Repräsentation von Frauen zeigen.
+```
+
+#### Sequential-one
 
 ```color-palette|horizontal
 colors:
@@ -84,7 +88,7 @@ colors:
 	- {name: "s-viz-color-sequential-one-7-7", value: "#cad8d4"}
 ```
 
-### Sequential-two
+#### Sequential-two
 
 ```color-palette|horizontal
 colors:
@@ -137,7 +141,7 @@ colors:
 	- {name: "s-viz-color-sequential-two-7-7", value: "#ded4b8"}
 ```
 
-### Sequential-three
+#### Sequential-three
 
 ```color-palette|horizontal
 colors:
@@ -190,7 +194,7 @@ colors:
 	- {name: "s-viz-color-sequential-three-7-7", value: "#e0d4b1"}
 ```
 
-### Sequential-male
+#### Sequential-male
 
 ```color-palette|horizontal
 colors:
@@ -243,7 +247,7 @@ colors:
         - {name: "s-viz-color-sequential-male-7-7", value: "#b9e0c9"}
 ```
 
-### Sequential-female
+#### Sequential-female
 
 ```color-palette|horizontal
 colors:
@@ -296,23 +300,25 @@ colors:
         - {name: "s-viz-color-sequential-female-7-7", value: "#e1cde1"}
 ```
 
-### Diverging Scales
+### Divergierende Skalen
 
-**Diverging-one** is used in cases we are comparing opposites that can be
-associated with positive and negative attitudes. An example could be an election
-maps where voters approved or denied an initiative. **Diverging-two** is used in
-cases we are comparing opposites, but we would like to avoid negative or
-positive associations. An example is the comparing of communities whose average
-age is either younger or older compared to twenty years ago. This scale is
-created using the first two primary colors in our qualitative scale. This lends
-the scale to be used in stories where there are two data points which are
-directly compared throughout the story. **Diverging-three** is used in cases we
-are comparing opposites with negative and/or positive connotation. This scale is
-comprised of two choice colors, so as not to overlap with any of the primary
-colors which might already be encoded in the story. **Diverging-gender** is used
-to display female and male representations. It's based on our gender colors.
+Die folgenden Skalen werden grob zu den folgenden Zwecken verwendet:
 
-### Diverging-one
+
+```table
+rows:
+  - Skala: Diverging-one
+	Zweck: "Standard-Skala, gebraucht zum Vergleich von Gegensätzen, die positiv und negativ konnotiert sind. Beispiel: Abstimmungsergebnisse"
+  - Skala: Diverging-two
+	Zweck: Darstellung von Gegensätzen, unter Vermeidung einer positiven oder negativen Konnotierung.
+  - Skala: Diverging-three
+	Zweck: Ausweich-Skala, wenn die Farben von Diverging-one innerhalb des Artikels schon verwendet wurden.
+  - Skala: Diverging-gender
+	Zweck: Darstellung von Gegensätzen aufgrund des Geschlechtes
+```
+
+
+#### Diverging-one
 
 ```color-palette|horizontal
 colors:
@@ -470,7 +476,7 @@ colors:
         - {name: "s-viz-color-diverging-one-14-14", value: "#374e8d"}
 ```
 
-### Diverging-two
+#### Diverging-two
 
 ```color-palette|horizontal
 colors:
@@ -628,7 +634,7 @@ colors:
         - {name: "s-viz-color-diverging-two-14-14", value: "#4e581f"}
 ```
 
-### Diverging-three
+#### Diverging-three
 
 ```color-palette|horizontal
 colors:
@@ -786,7 +792,7 @@ colors:
         - {name: "s-viz-color-diverging-three-14-14", value: "#7c2d73"}
 ```
 
-### Diverging-gender
+#### Diverging-gender
 
 ```color-palette|horizontal
 colors:
@@ -943,3 +949,11 @@ colors:
         - {name: "s-viz-color-diverging-gender-14-13", value: "#5a34a4"}
         - {name: "s-viz-color-diverging-gender-14-14", value: "#402379"}
 ```
+
+
+### Benutzerdefinierte Skalen
+Ein [Observable-Tool](https://observablehq.com/d/94ec90259bc4534b) steht bereit, mit dem es möglich ist, neue Skalen basierend auf frei definierbaren Farben zu erstellen.
+
+Der im Observable verwendete Code entspricht dem im [Github Repository](https://github.com/nzzdev/sophie-viz-color), mit dem diese Skalen generiert wurden.
+
+Allfällige Anpassungen des Codes sollten jeweils an beiden Stellen vorgenommen werden.
