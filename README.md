@@ -1,18 +1,30 @@
 # Visuals Styleguide
 
-Der Styleguide basiert auf [Catalog](http://www.catalog.style/), unter Verwendung der Standalone-Version: https://docs.catalog.style/installation/standalone
+Der Styleguide basiert auf [Catalog](http://www.catalog.style/), unter Verwendung der
+Standalone-Version: https://docs.catalog.style/installation/standalone
 
+## Voraussetzungen
 
+- NPX (Sollte mit einer aktuellen Version von Node.js/NPM installiert sein)
 
-## Start locally
+## Lokale Vorschau der Änderungen
 
-1. Open a Terminal
-2. `cd the/path/to/catalog/folder`
-3. run one of the following two commands: `npx http-server` or `python -m SimpleHTTPServer`
-4. Check the output of the above command, it will tell you something about a port
-5. Open a Browser and go to `localhost:8080` where you replace `8080` with whatever the above command told you about a port number
+1. `Terminal` öffnen
+2. ```shell
+   cd the/path/to/catalog/folder
+   ```
+4. ```shell
+    make preview
+    ```
+5. Im Terminal sollten darauf verschiedene Informationen erscheinen, zuletzt die URLs, unter denen die Vorschau im
+   Browser angezeigt werden kann.
 
-## Adding new Pages
+### Vorschau beenden
 
-1. Add the markdown file at the appropriate place in `/pages` folder
-2. Add the page configuration in `index.html` file. See the already existing ones for examples
+Um den lokalen Server zu beenden, der mit dem Befehl oben erstellt wurde, im Terminal-Fenster 
+<kbd>Ctrl</kbd>+<kbd>C</kbd> drücken.
+
+## Neue Seiten hinzufügen
+
+1. Ein neues Markdown-Dokument im `/pages`-Ordner anlegen.
+2. Im `index.html`-Dokument die Seiten-Konfiguration den bestehenden Seiten entsprechend ergänzen.
