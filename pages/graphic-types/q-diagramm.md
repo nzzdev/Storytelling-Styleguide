@@ -34,16 +34,22 @@ Farbanpassungen (politische Parteien, Geschlechter) dauern etwa 15–30 Minuten.
 ```image
 span: 3
 src: "/assets/graphic-types/Bitcoins-fulminanter-Aufstieg-und-die-jungste-Schwache-3ae57.png"
+description: |
+	[Chart auf NZZ Q](https://q.st.nzz.ch/item/3ae57b07ddc738d6984ae6d72c027d3d)
 ```
 
 ```image
 span: 3
 src: "/assets/graphic-types/Ein-Viertel-der-Infizierten-sind-junger-als-20-Jahre-alt-cbe.png"
+description: |
+	[Chart auf NZZ Q](https://q.st.nzz.ch/item/12c077ec9e34e0a0817527a6a30248ff)
 ```
 
 ```image
 span: 3
 src: "/assets/graphic-types/Rund-78-Prozent-der-Altesten-sind-geboostert-674ce1e7cf4282a.png"
+description: |
+	[Chart auf NZZ Q](https://q.st.nzz.ch/item/674ce1e7cf4282ae2db76136cb301ba1)
 ```
 
 ## Alternativen
