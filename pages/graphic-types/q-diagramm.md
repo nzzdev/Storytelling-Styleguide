@@ -15,6 +15,7 @@ Q bietet dabei verschiedenste Möglichkeiten, um Zahlen zu visualisieren:
 Zusätzliche, spezialisierte Typen stehen für die Visualisierung von Wahlergebnissen zur Verfügung.
 
 [**→ Diagramm in Q erstellen**](https://q.st.nzz.ch/editor/chart)
+[📖 Styleguide](/basic-charts)
 
 **Benötigtes Material:**  Daten in maschinenlesbarem Format (z.B. als CSV oder Excel-Datei)
 
@@ -53,5 +54,5 @@ description: |
 ```
 
 ## Alternativen
-- Q-Choropleth, wenn verschiedene geografische Regionen miteinander verglichen werden
+- [Q-Choropleth](/q-choropleth), wenn verschiedene geografische Regionen miteinander verglichen werden
 - Q-Wahlgrafiken für die Visualisierung von Wahlergebnissen

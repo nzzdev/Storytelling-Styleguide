@@ -50,5 +50,5 @@ description: |
 ```
 
 ## Alternativen
-- Die meisten Choropleths können auch als Balkendiagramme dargestellt werden
+- Die meisten Choropleths können auch als [Balkendiagramme](/q-chart) dargestellt werden
 - Für komplexe Daten oder eine Kombination von mehreren Datenebenen können auch massgeschneiderte Karten gemacht werden
