@@ -16,6 +16,7 @@ Zusätzliche, spezialisierte Typen stehen für die Visualisierung von Wahlergebn
 
 [**→ Diagramm in Q erstellen**](https://q.st.nzz.ch/editor/chart)
 [📖 Styleguide](/basic-charts)
+[🦮 Handbuch](https://wiki.nzzmg.ch/confluence/display/RED/Handbuch+Toolbox+Q#HandbuchToolboxQ-EinneuesDiagrammerstellen)
 
 **Benötigtes Material:**  Daten in maschinenlesbarem Format (z.B. als CSV oder Excel-Datei)
 

@@ -11,6 +11,7 @@ Die Karten können bei Breaking News verwendet werden, um ein Geschehnis zu vero
 
 [**→ Karte in Q erstellen**](https://q.st.nzz.ch/editor/locator_map)
 [📖 Styleguide](/pointer-maps)
+[🦮 Handbuch](https://wiki.nzzmg.ch/confluence/display/RED/Handbuch+Toolbox+Q#HandbuchToolboxQ-EineneueKarteerstellen)
 
 **Benötigtes Material:**  (Verifizierte) Lokalität. Evt. präzise Geodaten für die Darstellung von Gebieten und Strecken.
 

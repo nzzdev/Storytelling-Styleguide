@@ -11,6 +11,7 @@ Dies kann eine Alternative zu Balkendiagrammen sein, vor allem, wenn sich ein sp
 
 [**→ Choropleth in Q erstellen**](https://q.st.nzz.ch/editor/choropleth)
 [📖 Styleguide](/choropleth-maps)
+[🦮 Handbuch](https://wiki.nzzmg.ch/confluence/display/RED/Handbuch+Toolbox+Q#HandbuchToolboxQ-EineneueChoroplethenkarteerstellen)
 
 **Benötigtes Material:** Daten in maschinenlesbarem Format (z.B. als CSV oder Excel-Datei), mit korrekten Kennungen der einzelnen geografischen Einheiten
 
