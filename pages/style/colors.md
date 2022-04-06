@@ -287,3 +287,6 @@ colors:
   - {name: "(Laufwasserkraft)", value: "#7E90BD"}
   - {name: "Erneuerbar", value: "#1B87AA"}
 ```
+
+## Ressourcen
+Für die Verwendung in Adobe-Programmen (Illustrator, InDesign, Photoshop) sind die Farben in dieser [Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe) hinterlegt.
