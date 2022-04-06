@@ -17,15 +17,11 @@ Bei der Definition von Farben lassen wir uns von folgenden Fragen leiten:
 - Welcher Schweizer Partei ist die Partei am nächsten, so dass es Sinn machen würde, dieselbe Farbe zu verwenden?
 - Gibt es schon bestehende Q-Charts, in denen eine bestimmte Farbe verwendet wurde?
 
-Für den endgültigen Farbwert gehen wir von den vordefinierten Datenvisualisierungs-Farben aus.
+Für den endgültigen Farbwert gehen wir wenn möglich von den vordefinierten Datenvisualisierungs-Farben aus.
 
-## How to generate "light" versions of party colors
+## Skalen und aufgehellte Versionen der Parteienfarben
 
-We use [Chroma.js](https://gka.github.io/palettes) to interpolate between the
-regular party color and white. Chroma.js can calculate any number of steps
-between two colors so that they are visually at equal distance. To get the light
-color of the Spanish "Más País" then, we would input `#54ba00, #ffffff` and set
-the number of colors to `3` to get the middle value: `#b2dd90`.
+Für alternative Versionen der Parteienfarben (z.B. in der Form von Skalen, Gradienten, aufgehellten Versionen für den Hintergrund) verwenden wir das [Observable-Tool](https://observablehq.com/@nzzvisuals/gradient-creator).
 
 ## Assets
 Die Parteifarben sind in [dieser Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/232fa8e8-f335-45c0-6bcf-8f21819f7a34) hinterlegt. Beim Anpassen der Farben sollten auch die Farben in der Bibliothek aktualisiert werden.

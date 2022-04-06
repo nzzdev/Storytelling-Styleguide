@@ -180,6 +180,8 @@ Das Visuals-Team hilft im Slack–Channel `#visuals-aktuell` gerne weiter.
 # Verwendung der aufgehellten Farben
 
 Die aufgehellten Farben sollten nur sehr zurückhaltend eingesetzt werden. Sie sollten im Print besser reproduzierbar sein als die vorherigen Farben. Trotzdem ist es aufgrund der reduzierten Helligkeit und Farbigkeit schwieriger, diese Farben zu unterscheiden.
+
+Helle Farben können mit einem [Observable-Tool](https://observablehq.com/@nzzvisuals/gradient-creator#cell-396) erstellt werden.
 ```
 
 ```hint|neutral,span-3
