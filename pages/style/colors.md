@@ -180,6 +180,8 @@ Das Visuals-Team hilft im Slack–Channel `#visuals-aktuell` gerne weiter.
 # Verwendung der aufgehellten Farben
 
 Die aufgehellten Farben sollten nur sehr zurückhaltend eingesetzt werden. Sie sollten im Print besser reproduzierbar sein als die vorherigen Farben. Trotzdem ist es aufgrund der reduzierten Helligkeit und Farbigkeit schwieriger, diese Farben zu unterscheiden.
+
+Helle Farben können mit einem [Observable-Tool](https://observablehq.com/@nzzvisuals/gradient-creator#cell-396) erstellt werden.
 ```
 
 ```hint|neutral,span-3
@@ -285,3 +287,6 @@ colors:
   - {name: "(Laufwasserkraft)", value: "#7E90BD"}
   - {name: "Erneuerbar", value: "#1B87AA"}
 ```
+
+## Ressourcen
+Für die Verwendung in Adobe-Programmen (Illustrator, InDesign, Photoshop) sind die Farben in dieser [Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe) hinterlegt.

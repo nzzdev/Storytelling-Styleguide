@@ -29,7 +29,7 @@ For print production an additional artboard and a base grid is provided. CMYK co
 
 The following three Creative Cloud libraries we defined – request access if you'd like to use them:
 
-- Graphic Styles and Colors: https://adobe.ly/2ZnPC8h
+- Graphic Styles and Colors: https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe
 - Map Styles and Colors: https://adobe.ly/2KK2rpq
 - Party Colors: https://adobe.ly/2KN4zNj
 

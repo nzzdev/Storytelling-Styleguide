@@ -952,7 +952,7 @@ colors:
 
 
 ### Benutzerdefinierte Skalen
-Ein [Observable-Tool](https://observablehq.com/d/94ec90259bc4534b) steht bereit, mit dem es möglich ist, neue Skalen basierend auf frei definierbaren Farben zu erstellen.
+Ein [Observable-Tool](https://observablehq.com/@nzzvisuals/gradient-creator) steht bereit, mit dem es möglich ist, neue Skalen basierend auf frei definierbaren Farben zu erstellen.
 
 Der im Observable verwendete Code entspricht dem im [Github Repository](https://github.com/nzzdev/sophie-viz-color), mit dem diese Skalen generiert wurden.
 
