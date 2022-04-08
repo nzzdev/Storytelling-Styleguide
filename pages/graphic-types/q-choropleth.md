@@ -15,13 +15,13 @@ Dies kann eine Alternative zu Balkendiagrammen sein, vor allem, wenn sich ein sp
 
 **Benötigtes Material:** Daten in maschinenlesbarem Format (z.B. als CSV oder Excel-Datei), mit korrekten Kennungen der einzelnen geografischen Einheiten
 
-**Aufwand Fachressort:** Je nach Daten und Datenqualität unterschiedlich. Bei gut zugänglichen Daten etwa 30 min.
+**Aufwand Fachressort:** 30 Minuten bei gut zugänglichen Daten. Wenn die Daten noch aufbereitet werden müssen etwas mehr.
 
 **Aufwand Visuals:** Q wurde dafür entwickelt, direkt von Redaktorinnen und Redaktoren verwendet zu werden. Die grundlegenden Funktionen können von jedem angewendet werden. Visuals unterstützt gerne bei Problemen und gibt Hilfestellung bei der korrekten Aufbereitung der Daten. Bei komplexen Daten sind dies etwa 2–8 Stunden Aufwand
 
 **Beteiligt bei Visuals:** DDJ
 
-**Zusätzlicher Aufwand für Print:** Kein zusätzlicher Aufwand
+**Zusätzlicher Aufwand für Print:** Kein zusätzlicher Aufwand.
 
 **Zeitpunkt der Kontaktaufnahme mit Visuals:** Ad-hoc, bei Fragen und Problem bei der Datenakquise, -aufbereitung und der Arbeit mit Q; über den Slack-Channel `#visuals-aktuell`
 

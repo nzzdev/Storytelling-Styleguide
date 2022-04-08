@@ -13,15 +13,15 @@ Beispiele sind
 
 [📖 Styleguide](/scatter-slope)
 
-**Benötigtes Material:**  Daten in maschinenlesbarem Format (z.B. als CSV oder Excel-Datei); die intendierte Aussage des Artikels und der gewünschten Grafik.
+**Benötigtes Material:** Daten in maschinenlesbarem Format (z.B. als CSV oder Excel-Datei); die intendierte Aussage des Artikels und der gewünschten Grafik.
 
-**Aufwand Fachressort:** Recherche und möglicherweise Aufbereitung der Daten. Je nach Beteiligten auch Produktion eines Charts als SVG, der dann von der Grafik aufbereitet werden kann. 1–4h.
+**Aufwand Fachressort:** 1–4h, für Recherche und möglicherweise Aufbereitung der Daten. Je nach Beteiligten auch Produktion eines Charts als SVG, der dann von der Grafik aufbereitet werden kann.
 
-**Aufwand Visuals:** Je nach Komplexität der gewünschten Grafik und der erhaltenen Daten, bzw. der Vorlage. 4–8h, für grosse Grafiken auch mehr.
+**Aufwand Visuals:** 4–8h, je nach Komplexität der gewünschten Grafik und der erhaltenen Daten, bzw. der Vorlage. Für grosse Grafiken auch mehr.
 
 **Beteiligt bei Visuals:** Grafik, evt. DDJ
 
-**Zusätzlicher Aufwand für Print:** Aufgrund der nötigen Absprachen mit der Produktion bezüglich Grösse und Platzierung zusätzlich etwa 2h.
+**Zusätzlicher Aufwand für Print:** 2–4h, aufgrund der nötigen Absprachen mit der Produktion bezüglich Grösse und Platzierung.
 
 **Zeitpunkt der Kontaktaufnahme mit Visuals:** Während der Recherche des Artikels, um abzuklären, was mit den vorhandenen Daten möglich ist, im Channel `#visuals-aktuell`.
 
