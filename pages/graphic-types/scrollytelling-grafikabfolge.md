@@ -8,6 +8,11 @@ Visuelles Erklären einer Technologie, eines Prozesses, von Zusammenhängen und 
 
 Die Grafikabfolge ist eine Variation der [Erklärgrafik](/erklaergrafik), die die Online-Möglichkeiten optimal ausnutzt. Sie eignet sich besonders für die Darstellung von Prozessen und Abläufen sowie komplexen Visualisierungen (auch von [massgeschneiderten Diagrammen](/custom-chart)), die durch die Grafikabfolge Schritt für Schritt aufgebaut werden können.
 
+[**→ Grafikabfolge in Q erstellen**](https://q.st.nzz.ch/editor/scroll_graphic)
+[📖 Styleguide](/grafikabfolge)
+🦮 Handbuch (gibts noch nicht)
+
+
 **Benötigtes Material:** Hintergrundmaterial zum Thema, möglicherweise bestehende Vorlagen, Quellen.
 
 **Aufwand Fachressort:** 1–3h sollten für den Austausch mit Visuals sicher eingerechnet werden. Eine enge Zusammenarbeit des Fachressorts mit Visuals zur Klärung des Konzeptes und der Planung des Storytellings ist essentiell.
