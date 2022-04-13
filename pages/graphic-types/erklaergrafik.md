@@ -59,4 +59,4 @@ description: |
 	[Putins Raketen: Würde ein Abwehrschild Deutschland schützen?](https://www.nzz.ch/international/putins-raketen-wuerde-ein-abwehrschild-deutschland-schuetzen-ld.1676938)
 ```
 ## Alternativen
-- Bei sehr komplexen Themen und Vorgängen kann sich ein Scrollytelling anbieten, da damit Konzepte Schritt für Schritt aufgebaut werden können.
+- Bei sehr komplexen Themen und Vorgängen kann sich ein [Scrollytelling](/scrollytelling-grafikabfolge) anbieten, da damit Konzepte Schritt für Schritt aufgebaut werden können.

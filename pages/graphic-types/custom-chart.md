@@ -61,3 +61,4 @@ description: |
 ```
 ## Alternativen
 - [Q-Diagramm](/q-diagramm), bei einfacheren Daten
+- Bei einem grossen Datenset, das zum Experimentieren und Stöbern einlädt, eine [interaktive Datenvisualisierung](/interactive-chart)
