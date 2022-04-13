@@ -60,4 +60,4 @@ description: |
 	Komplexer Scatterplot zur Darstellung von Korrelationen. [Wahlen USA 2020: Analyse zeigt, wie der politische Graben wächst](https://www.nzz.ch/international/wahlen-usa-2020-analyse-der-ergebnisse-auf-county-ebene-ld.1585473)
 ```
 ## Alternativen
-- [Q-Chart](/q-chart), bei einfacheren Daten
+- [Q-Diagramm](/q-diagramm), bei einfacheren Daten
