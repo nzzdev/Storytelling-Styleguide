@@ -60,4 +60,4 @@ description: |
 ```
 
 ## Alternativen
-- Handgemachte Karten, wenn sehr viele Daten auf der Karte untergebracht werden muss
+- [Handgemachte Karten](/custom-map), wenn sehr viele Daten auf der Karte untergebracht werden muss

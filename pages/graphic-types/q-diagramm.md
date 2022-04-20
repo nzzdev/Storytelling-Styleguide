@@ -18,7 +18,7 @@ Zusätzliche, spezialisierte Typen stehen für die Visualisierung von Wahlergebn
 [📖 Styleguide](/basic-charts)
 [🦮 Handbuch](https://wiki.nzzmg.ch/confluence/display/RED/Handbuch+Toolbox+Q#HandbuchToolboxQ-EinneuesDiagrammerstellen)
 
-**Benötigtes Material:**  Daten in maschinenlesbarem Format (z.B. als CSV oder Excel-Datei)
+**Benötigtes Material:** Daten in maschinenlesbarem Format (z.B. als CSV oder Excel-Datei)
 
 **Aufwand Fachressort:** Je nach Daten und Datenqualität unterschiedlich; bei gut zugänglichen Daten etwa 30 Minuten
 

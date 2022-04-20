@@ -66,4 +66,4 @@ description: |
 - Collage
 
 ## Alternativen
-- Manchmal sind die Ressourcen für die Produktion einer Illustration nicht vorhanden. In solchen Fällen kann trotzdem ein Bild zum Zug kommen. Am Besten bespricht man sich dafür mit der Bildredaktion.
+- Manchmal sind die Ressourcen für die Produktion einer Illustration nicht vorhanden. In solchen Fällen kann trotzdem ein Bild zum Zug kommen. Am besten bespricht man sich dafür mit der Bildredaktion.
