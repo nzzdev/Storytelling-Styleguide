@@ -9,6 +9,12 @@ Die Seiten dokumentieren
 
 Die angegebenen Zeiten sollten als grobe Orientierung dienen, die im Gespräch mit Visuals konkretisiert werden können.
 
+```download
+title: Poster der wichtigsten Grafiktypen (PDF)
+subtitle: Passt auf 2 A3-Seiten
+url: /assets/graphic-types/Poster-Grafiktypen.pdf
+```
+
 ```table
 rows:
   - Ich möchte: >
