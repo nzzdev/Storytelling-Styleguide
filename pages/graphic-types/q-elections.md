@@ -1,7 +1,7 @@
 ```image
 plain: true
 span: 1
-src: "/assets/graphic-types/icons/q-charts.png"
+src: "/assets/graphic-types/icons/q-wahlen.png"
 ```
 
 Q bietet mehrere Visualisierungstypen, die spezifisch für die Verwendung bei Wahlen entwickelt wurden:
