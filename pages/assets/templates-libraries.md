@@ -1,7 +1,3 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
-```
-
 # Templates & Libraries
 
 Templates and libraries help us to quickly acccess predefined font styles and colors and reuse certain components. Further it provides us with the canvas sizes we're targeting.

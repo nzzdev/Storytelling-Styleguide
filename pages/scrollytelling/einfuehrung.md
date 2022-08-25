@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
-```
+
 
 # Grundlagen
 Das Scrollen ist neben dem Klicken eine der wichtigsten Methoden um das World Wide Web zu navigieren. Mit diesen Interaktionen kann Information aufgerufen, angesteuert und verändert werden. Klicken wird oft verwendet um Information aufzurufen oder abzuschicken. Ein Klick ist für die Nutzer und Nutzerinnen immer eine Entschiedung. Das Scrollen hingegen rückt Abschnitte einer Webseite in das Ansichtsfenster – den Viewport – und dient so einer flüssigen Navigation von Informationen. Diese Art der kontinuierlichen Interaktion bietet für visuelles, web-basiertes Storytelling eine Reihe von Möglichkeiten.  

@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
-```
+
 
 #### TL;dr
 - [All graphics are based on raw data](https://nzzdev.github.io/Storytelling-Styleguide/#/charts-guidelines?a=no-data-no-chart)

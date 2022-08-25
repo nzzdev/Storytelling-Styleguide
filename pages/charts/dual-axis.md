@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 Dual-Axis-Charts werden gebraucht um zwei Zeitreihen gegenüber zu stellen. Sie teilen sich die Zeitachse, bilden aber auf der y-Achse verschiedene Werte ab.
 

@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
-```
+
 
 # So funktioniert's
 

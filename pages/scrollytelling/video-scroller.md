@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 # So funktioniert's
 Durch das Scrollen wird die Position im Video kontrolliert. Annotation/Hervorhebungen können direkt im Video enthalten sein. Geschichte kann zusätzlich mit Scrollover-Textblöcken vertieft werden. Das Video kann den ganzen Viewport füllen und beim Scrollen stehen bleiben oder aber mit der Pan-und-Zoom Technik kombiniert werden (siehe Beispiel von der New York Times zur Beirut Explosion). 

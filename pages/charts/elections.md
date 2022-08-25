@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
-```
+
 
 All basic graphics produced for elections should be done in Q. In the case that custom colors should be added to a Q graphic, please see the color assignments on the [color page](colors). Examples of exemptions from Q graphics include choropleth maps and arrow maps.
 

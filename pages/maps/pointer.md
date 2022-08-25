@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 The templates for print maps can be found on the [assets page](assets). Color definitions for maps can be found on the [color page](https://nzzdev.github.io/Storytelling-Styleguide/#/colors?a=maps-colors)
 

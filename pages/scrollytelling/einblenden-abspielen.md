@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 # So funktioniert's
 Durch das Scrollen, werden Element eingeblendet. Bei Videos oder GIF können diese auch durch den Scroll bzw. das Einblenden abgespielt. Anders als bei anderen Scrollytelling-Techniken, bleiben hier die Grafiken nicht stehen. 
