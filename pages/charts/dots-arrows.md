@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
-```
+
 
 All dot plots and arrow charts for online should be done using the Q.
 

@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 # So funktioniert's
 Grafik bleibt stehen, meist oben oder links am Browserrand angeschlagen. Mit dem Scrollen verändert sich die Grafik, meist um einen zeitlichen oder räumlichen Verlauf zu zeigen. So dient das "Sticky Element" als Anzeige wo man sich in der Gesichte befindet (Orientierung) und was an dem Zeitpunkt geschehen ist (Inhalt).  

@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
-```
+
 
 Almost all basic charts for our online platform are created using our online chart toolbox Q. Only charts with details and annotations that are not possible in Q are be designed by hand and uploaded through Q's Infographic tool. The print template for basic charts can be downloaded via the [assets page](assets).
 

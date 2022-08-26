@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex stable">Stable</div>
-```
+
 Scatterplots are a great way to show correlation between variables. Keep in mind that they are not intuitive for all audiences and can be overwhelmingly complex in appearance. We use labeling and annotation in the following ways to help provide guidance to our readers and a comfortable entry point into the graphic.
 
 

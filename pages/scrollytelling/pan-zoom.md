@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 # So funktioniert's
 Anders als beim Scrollover, bleibt hier die Grafik oder das Bild nicht stehen, sondern bewegt oder vergrössert sich durch das Scrollen. Diese Technik wird oft für Geschichte angewendet, die anhand einer Karte erzählt werden. Mit Scrollen wird durch die Karte navigiert. 

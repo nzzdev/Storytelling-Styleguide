@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 # So funktioniert's
 Bild füllt den ganzen Hintergrund. Text scrollt darüber. Nachdem der Text durchgescrollt ist, wechselt das Bild und es kommt ein nächster Textabschnitt. 

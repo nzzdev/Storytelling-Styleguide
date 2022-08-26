@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 # So funktioniert's
 Durch das Scrollen wird entweder ein animierter Übergang gestartet oder die Animation selbst gesteuert. Die Animation ist dazu da den Übergang von einer zum nächsten Ansicht «flüssiger» zu machen. Im Idealfall unterstützt der animierte Übergang die Erklärung des Sachverhaltes.  

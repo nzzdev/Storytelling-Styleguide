@@ -1,6 +1,4 @@
-```html|span-1,no-source,plain
-<div class="stabilityIndex experimental">Experimental</div>
-```
+
 
 # So funktioniert's
 Die Grafik bleibt im Viewport stehen, Text erscheint – entweder als Annotation oder als Textblock. Beim nächsten Scroll, wechselt die Grafik und der nächste Textblock / Annontation erscheint. Die neue Grafik kann mit oder ohne Überblendung anzeigt werden.
