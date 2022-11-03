@@ -806,20 +806,22 @@ colors:
 
 ```color-palette|span-2
 colors:
-  - {name: "Republikaner Flächen - primary", value: "#ff7a64"}
+  - {name: "Republikaner Flächen - primary", value: "#dc5058"}
   - {name: "Demokraten Flächen", value: "#81a8db"}
+  - {name: "Andere", value: "#fdd200"}
   - {name: "default Flächen", value: "#d7d7d7"}
 ```
 
 ```color-palette|span-2
 colors:
-  - {name: "Republikaner - light", value: "#ffafa2"}
-  - {name: "Demokraten - light", value: "#b4c7e3"}
+  - {name: "Republikaner - light", value: "#f1b9bc"}
+  - {name: "Demokraten - light", value: "#c0d3ed"}
+  - {name: "Andere - light", value: "#fff6cf"}
 ```
 
 ```color-palette|span-2
 colors:
-  - {name: "Republikaner Kurven - primary", value: "#ce6661"}
-  - {name: "Demokraten Kurven", value: "#618ec0"}
+  - {name: "Republikaner Kurven - primary", value: "#dc5058"}
+  - {name: "Demokraten Kurven", value: "#81a8db"}
   - {name: "default Kurven", value: "#7b7b7c"}
 ```
