@@ -521,17 +521,25 @@ colors:
 
 ```color-palette|span-2
 colors:
-  - {name: "Partito Democratico - primary", value: "#F1242B"}
-  - {name: "Cinque Stelle", value: "#FDD200"}
-  - {name: "Rechtsallianz", value: "#0084c7"}
+  - {name: "Partito Democratico - primary", value: "#cd3330"}
+  - {name: "Fratelli d'Italia", value: "#093C71"}
+  - {name: "Cinque Stelle", value: "#e3b13e"}
+  - {name: "Forza Italia", value: "#00A0C6"}
+  - {name: "Lega", value: "#408b3c"}
+  - {name: "Azione und Italia Viva", value: "#8440a3"}
+  - {name: "Rechtsallianz", value: "#2c6b96"}
   - {name: "default", value: "#616161"}
 ```
 
 ```color-palette|span-2
 colors:
-  - {name: "Partito Democratico - light", value: "#f9a7aa"}
-  - {name: "Cinque Stelle", value: "#faeb9e"}
-  - {name: "Rechtsallianz", value: "#9ed0e9"}
+  - {name: "Partito Democratico - primary", value: "#e4a59d"}
+  - {name: "Fratelli d'Italia", value: "#88afde"}
+  - {name: "Cinque Stelle", value: "#e0cba3"}
+  - {name: "Forza Italia", value: "#85cde6"}
+  - {name: "Lega", value: "#93c98f"}
+  - {name: "Azione und Italia Viva", value: "#c2a5d1"}
+  - {name: "Rechtsallianz", value: "#91b8d6"}
   - {name: "default", value: "#bcbcbc"}
 ```
 
