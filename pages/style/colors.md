@@ -5,6 +5,7 @@
 - Für Grafiken und Datenvisualisierungen verwenden wir eine Palette von 13, stark gesättigten Farben, die durch ihre Leuchtkraft einfach voneinander zu unterscheiden sind.
 - Standardmässig in Q verwendet wird eine Auswahl der zuvor genannten Farben,  die auf Farbenblindheit optimiert wurde.
 - Für Illustrationen verwenden wir eine Palette mit zusätzlichen, weniger gesättigten Farbtönen.
+- Deployment-Test (shu)
 
 ## Farben für Datenvisualisierungen
 
