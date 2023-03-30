@@ -1,5 +1,3 @@
-# Vorlagen und Bibliotheken
-
 Vorlagen und Bibliotheken helfen uns, schnell vordefinierte Schriftarten und -farben zu finden und bestimmte Komponenten wiederzuverwenden. Darüber hinaus bietet es vordefinierte Artboardgrössen.
 
 ## Illustrator-Vorlage
