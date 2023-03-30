@@ -196,7 +196,7 @@ Der Farbwert kann bei einer Aktualisierung der Farbpalette komplett ändern, man
 
 ## Grautöne
 
-Die warmen und kalten Grautöne können je nach Bedarf eingesetzt werden. 
+Die warmen und kalten Grautöne können je nach Bedarf eingesetzt werden.
 
 Die neutrale Graupalette basiert auf den auf NZZ.ch eingesetzten Farbvariablen und sollte für die grundlegenden Bausteine einer Grafik verwendet werden: Text, Achsen, Label, etc.
 
@@ -285,6 +285,21 @@ colors:
   - {name: "(Laufwasserkraft)", value: "#7E90BD"}
   - {name: "Erneuerbar", value: "#1B87AA"}
 ```
+
+### Farben für Schweizer Banken
+
+Im Rahmen der [Übernahme der Credit Suisse durch die UBS](https://www.nzz.ch/wirtschaft/credit-suisse) wurde es sinnvoll, für die Banken jeweils wiederkehrende Farben zu verwenden.
+
+Auch für die «neue» UBS ist jeweils das Rot zu verwenden.
+
+```color-palette|span-2
+colors:
+  - {name: "Credit Suisse", value: "#374E8E"}
+  - {name: "UBS", value: "#AC004F"}
+  - {name: "Beide (Mischung)", value: "#b77fb3"}
+  - {name: "SMI", value: "#7e7e8f"}
+```
+
 
 ## Ressourcen
 Für die Verwendung in Adobe-Programmen (Illustrator, InDesign, Photoshop) sind die Farben in dieser [Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe) hinterlegt.
