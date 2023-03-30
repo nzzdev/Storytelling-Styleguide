@@ -1,44 +1,56 @@
-# Templates & Libraries
+# Vorlagen und Bibliotheken
 
-Templates and libraries help us to quickly acccess predefined font styles and colors and reuse certain components. Further it provides us with the canvas sizes we're targeting.
+Vorlagen und Bibliotheken helfen uns, schnell vordefinierte Schriftarten und -farben zu finden und bestimmte Komponenten wiederzuverwenden. Darüber hinaus bietet es vordefinierte Artboardgrössen.
 
-We created templates for Illustrator and Sketch. In each of them you will find artboards optimized for the widths supported by NZZ' article view. Settings are in pixels and in RGB.
+## Illustrator-Vorlage
 
-If the graphic needs to be optimized for print, Illustrator should be used – Sketch is a pixel-only editor.
+Unsere Illustrator-Vorlage ist normalerweise die aktuellste Vorlage und wird gemäss unseren Vorgaben und Workflows angepasst.
 
-## Sketch Template
+- [Illustrator-Vorlage](https://nzzmg.sharepoint.com/:u:/s/nzz_st/EQ8GaLs5Pn9PlFVq1mwgXzUBge2XZe8CqtEwjzsrn69Izw?e=rhQeq8) (Zugriff nur für NZZ-Angehörige)
 
-Find the Sketch Template here (NZZ employees only access): https://nzzmg.sharepoint.com/:u:/s/nzz_st/EZH35lFjoYZLszQDxFQsl7UBcoCVbUensTpMir_AFAzWhA?e=7T3ipU
+Für die Druckproduktion ist ein zusätzliches Artboard und ein Grundlinienraster bereitgestellt.
+Die CMYK-Konvertierung erfolgt, indem das exportierte PDF im Asura-Ordner gespeichert wird (smb://fs006/asura$/queues/070_Infografik/05_RGB_Black_to_100K).
+Nach der Verarbeitung befindet sich die Ausgabe in PDF_OK (smb://fs006/asura$/queues/070_Infografik/98_PDF_OK).
 
-### Design System Management
+## Sketch-Vorlage
 
-Find Craft's DSM here and request access if you'd like to use it:
-https://projects.invisionapp.com/dsm/nzz/visuals
+```hint|warning
+Die Sketch-Vorlage wird nicht aktiv aktualisiert.
 
-## Illustrator Template
+Aufgrund von Mängeln beim Print-Workflow eignet sich Sketch weniger für Projekte, die auch für Print produziert werden müssen.
+```
 
-Find the Illustrator Template here (NZZ employees only access): https://nzzmg.sharepoint.com/:u:/s/nzz_st/EQ8GaLs5Pn9PlFVq1mwgXzUBge2XZe8CqtEwjzsrn69Izw?e=JVAI0H
+- [Sketch-Vorlage](https://nzzmg.sharepoint.com/:u:/s/nzz_st/EcJEAa-3_5dOn1ROnOcHOR8Bo_VH8huKAwh9T_IJJ47Sgg?e=gT8xhl) (Zugriff nur für NZZ-Angehörige)
 
-For print production an additional artboard and a base grid is provided. CMYK conversion is done by saving the exported PDF in the Asura folder (`smb://fs006/asura$/queues/070_Infografik/05_RGB_Black_to_100K`). After being processed, the output can be found inside PDF_OK (`smb://fs006/asura$/queues/070_Infografik/98_PDF_OK`)
+## QGIS-Vorlagen
 
-### Libraries
+Viel kann mit dem Choropleth-Tool und den Locator-Maps in Q gelöst werden, aber nicht alles. In solchen Fällen gibt es QGIS-Vorlagen.
 
-The following three Creative Cloud libraries we defined – request access if you'd like to use them:
+- [Vorlage für globale Choropleth-Karten](https://nzzmg.sharepoint.com/:u:/s/nzz_st/EQ6x_Kaw5qNGtCqxiurikYEBkp6LECqtmVkAmzBwfu5UZA?e=s19JG0), verwendet vereinfachte Grenzen
+- [Vorlage für globale Karten](https://nzzmg.sharepoint.com/:u:/s/nzz_st/EWjrod8sM3VIvRprUYgcJY0BOp_MEEl_ILxKLMczOdjjug?e=JG5Pa3), verwendet detaillierte Grenzen
 
-- Graphic Styles and Colors: https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe
-- Map Styles and Colors: https://adobe.ly/2KK2rpq
-- Party Colors: https://adobe.ly/2KN4zNj
+Die Vorlagen, zusammen mit den dafür nötigen [Rohdaten](https://nzzmg.sharepoint.com/:f:/s/nzz_st/Entvon5NmBBHv_xqlnnlUeMB11XpRXCMADwrKijhCvsJLg?e=N3ewiY), finden sich in [diesem Ordner](https://nzzmg.sharepoint.com/:f:/s/nzz_st/EjJKPfx9QKpBuk5FPlqnVXUBT90UifG2mIJQIZWb-83ezw?e=boi31o).
 
-### Palettes
 
-Find Illustator palettes for styles and icons (not yet implemented in Creative Cloud libraries) and install them by opening the files you find here (NZZ employees only access): https://nzzmg.sharepoint.com/:f:/s/nzz_st/EtTUArF4rkdNqpUsF8KzkbcBPz7gkYRT04Mkhu3unzCAIA?e=qZognE
+## InDesign-Vorlage
 
-### Teaser-Vorlage
+Zum Planen von grösseren Geschichten, die innerhalb des Zeitungslayouts Platz finden müssen, gibt es eine InDesign-Vorlage, die die meisten Layouts und Stilvorlagen beinhaltet.
 
-Ebenfalls auf SharePoint findet sich eine [Illustrator-Vorlage für Teaser-Bilder](https://nzzmg.sharepoint.com/:u:/s/nzz_st/ESOfvKT8uAlDi4Dr7Uju4uYBUeSgPJKvL_Yz1SSIJ__62g?e=Rdp2Wb). Diese Vorlage enhält Angaben, wie der Teaser in Social Media beschnitten und mit dem NZZ-Logo überdeckt wird.
+- [InDesign-Vorlage 5-spaltig](https://nzzmg.sharepoint.com/:u:/s/nzz_st/ERp7n0masMpOqCRR35JocdQBhRU2GHbN6CqVIDqYN-Ueqg?e=yMQffC) (Zugriff nur für NZZ-Angehörige)
+- [InDesign-Vorlage 4-spaltig (Pro Global, Meinung)](https://nzzmg.sharepoint.com/:u:/s/nzz_st/ESswX97s-u5Gh-0nImx-va4BqXjPrWq0lyqtlgUvXHFX-w?e=wp5HhZ) (Zugriff nur für NZZ-Angehörige)
 
-# Other Tools & Links:
+## Creative Cloud Bibliotheken
 
-[Q](https://q.st.nzz.ch/login)
-[Sophie](https://storytelling.nzz.ch/tools/sophie-styleguide/)
-[Sue](https://sue.st.nzz.ch/)
+Textstilvorlagen und Farben (für Datenvisualisierungen und Illustrationen) finden sich in Creative-Cloud-Bibliotheken:
+
+- [Textstilvorlagen und Farben](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe)
+- [Kartentextstile und Farben](https://adobe.ly/2KK2rpq)
+- [Parteifarben](https://adobe.ly/2KN4zNj) (möglicherweise nicht sehr aktuell, besser im Styleguide überprüfen)
+
+
+# Andere Tools und Links:
+
+- [Q](https://q.st.nzz.ch/login)
+- [Datawrapper](https://app.datawrapper.de/archive/team/nzz/)
+- [Sophie](https://storytelling.nzz.ch/tools/sophie-styleguide/)
+- [Gradient Creator auf Observable](https://observablehq.com/@nzzvisuals/gradient-creator)
