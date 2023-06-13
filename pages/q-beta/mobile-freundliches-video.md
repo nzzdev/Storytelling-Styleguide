@@ -22,7 +22,8 @@ Generell eignen sich für dieses Element Videos, die nicht auf Ton beruhen, eine
 
 # Ideen für die Weiterentwicklung
 - Die Möglichkeit, Titel auf dem Video anzeigen zu lassen, damit das Video zugleich Kapiteltitel sein kann.
-- Bessere Performance der Videos: Embed-Code vom JW-Player testen.
+- Bessere Performance der Videos: Embed-Code vom JW-Player testen und somit auf verschiedene Player-Möglichkeiten anbieten.
+- Die Input-Felder für die Anmerkungen befinden sich im Moment im LD-Widget. Sind sie dort am richtigen Ort oder gehören sie auch ins Hauptinterface vom Q-Beta-Element?
 
 # Weitere Infos
 Anleitung zur Aufbereitung der Videos (Basecamp, folgt noch) 

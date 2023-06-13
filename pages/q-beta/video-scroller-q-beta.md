@@ -16,6 +16,8 @@ Diese Q-Beta Element ist die Umsetzung der Scrollytelling-Technik «Video-Scroll
 - [David besiegt Goliath – weshalb Russland im Kampf um Kiew gescheitert ist](https://www.nzz.ch/international/krieg-gegen-die-ukraine/warum-russland-im-kampf-um-kiew-scheiterte-ld.1679477#q_custom_code_85c353bb11cc62672a227f88694d266e)
 - [Vor der Karibikinsel Tobago treibt ein Boot mit Leichen an Bord. Woher kamen diese Menschen, und was ist passiert?](https://www.nzz.ch/international/verschollen-boot-mit-toten-migranten-treibt-bis-in-die-karibik-ld.1733753)
 
+Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github.io/ed-tech-project-showcase/?internal)
+
 # Ideen für die Weiterentwicklung
 - Die Videos in Einzelbilder umwandeln, damit es beim Scrollen keine Verzögerung gibt.
 - Zwei Versionen der Einzelbilder ablegen: Bilder in tiefer Qualität für wenn die Scrollbewegung am laufen ist (höhere Performance) und Bilder in hoher Qualität für wenn der Scroll aufhört.
