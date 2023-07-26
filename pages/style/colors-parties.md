@@ -348,23 +348,26 @@ colors:
 colors:
   - {name: "SPD - primary", value: "#c31906"}
   - {name: "Union", value: "#0a0a0a"}
+  - {name: "CDU", value: "#0a0a0a"}
+  - {name: "CSU", value: "#374e8e"}
   - {name: "FDP", value: "#d1cc00"}
   - {name: "Grüne", value: "#66a622"}
-  - {name: "AfD", value: "#0084c7"}
 ```
 
 ```color-palette|span-1
 colors:
   - {name: "SPD - light", value: "#eaaea8"}
   - {name: "Union", value: "#939393"}
+  - {name: "CDU", value: "#939393"}
+  - {name: "CSU", value: "#a1aecc"}
   - {name: "FDP", value: "#edeca0"}
   - {name: "Grüne", value: "#c2dba7"}
-  - {name: "AfD", value: "#9ed0e9"}
 ```
 
 ```color-palette|span-1
 colors:
   - {name: "Linke - primary", value: "#8440a3"}
+  - {name: "AfD", value: "#0084c7"}
   - {name: "Piraten", value: "#d28b00"}
   - {name: "Freie Wähler", value: "#ac5038"}
   - {name: "default", value: "#616161"}
@@ -373,6 +376,7 @@ colors:
 ```color-palette|span-1
 colors:
   - {name: "Linke - light", value: "#cdb1d9"}
+  - {name: "AfD", value: "#9ed0e9"}
   - {name: "Piraten", value: "#edd29c"}
   - {name: "Freie Wähler", value: "#ddb9af"}
   - {name: "default", value: "#bcbcbc"}
