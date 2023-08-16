@@ -26,51 +26,30 @@ Die Parteifarben sind in [dieser Creative-Cloud-Bibliothek](https://shared-asset
 
 ## Schweiz
 
-```color-palette|span-1
+```color-palette|span-3
 colors:
-  - {name: "SVP - primary", value: "#408b3d"}
-  - {name: "SP", value: "#c31906"}
-  - {name: "FDP", value: "#0084c7"}
-  - {name: "CVP", value: "#d28b00"}
-  - {name: "GPS", value: "#54ba00"}
-  - {name: "GLP", value: "#a9cf00"}
-  - {name: "BDP", value: "#d1cc00"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "SVP - light", value: "#b2d0b1"}
-  - {name: "SP", value: "#eaaea8"}
-  - {name: "FDP", value: "#9ed0e9"}
-  - {name: "CVP", value: "#edd29c"}
-  - {name: "GPS", value: "#bae399"}
-  - {name: "GLP", value: "#dceb99"}
-  - {name: "BDP", value: "#edeca0"}
-```
-
-```color-palette|span-1
-colors:
-  - {name: "EVP - primary", value: "#bda700"}
-  - {name: "LEGA", value: "#ac5038"}
-  - {name: "MCR", value: "#716e48"}
+  - {name: "SVP", value: "#316641"}
+  - {name: "SP", value: "#ce4631"}
+  - {name: "FDP", value: "#1b87aa"}
+  - {name: "Die Mitte", value: "#df7c18"}
+  - {name: "GPS", value: "#93a345"}
+  - {name: "GLP", value: "#00988c"}
+  - {name: "EVP", value: "#e3b13e"}
+  - {name: "Lega", value: "#704600"}
+  - {name: "MCR", value: "#a08962"}
   - {name: "AL", value: "#da467d"}
-  - {name: "EDU", value: "#8440a3"}
-  - {name: "SD", value: "#4e36d7"}
-  - {name: "default", value: "#616161"}
+  - {name: "EDU", value: "#ae49a2"}
+  - {name: "SD", value: "#374e8e"}
+  - {name: "andere", value: "#7e7e8f"}
 ```
 
-```color-palette|span-1
-colors:
-  - {name: "EVP - light", value: "#e5dc9b"}
-  - {name: "LEGA", value: "#ddb9af"}
-  - {name: "MCR", value: "#c3c2b2"}
-  - {name: "AL", value: "#f1bace"}
-  - {name: "EDU", value: "#cdb1d9"}
-  - {name: "SD", value: "#b8aeef"}
-  - {name: "default", value: "#bcbcbc"}
-```
 
 #### Sophie-Implementation
+
+
+```hint
+Ist noch anzupassen. Die folgenden Farben entsprechen noch dem alten Farbschema.
+```
 
 ##### AL
 
