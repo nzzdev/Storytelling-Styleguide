@@ -26,9 +26,42 @@ Die Parteifarben sind in [dieser Creative-Cloud-Bibliothek](https://shared-asset
 
 ## Schweiz
 
-```color-palette|span-3
+```hint|span-3
+Sekundär- und Textfarben sollten jeweils nur in direktem Zusammenhang mit der Primärfarbe verwendet werden.
+Die Sekundärfarben weisen untereinander nicht genügend Kontrast auf, um voneinander unterschieden zu werden.
+```
+
+```image
+plain: true
+light: true
+span: 3
+src: "assets/colors/swiss-party-colors-usage.png"
+description: |
+  Verwendungsbeispiel von Primärfarbe (Quadrat links), Sekundärfarbe für Flächen (Zeilenhintergrund)
+  sowie der Textfarbe. 
+```
+
+
+```color-palette|span-1
 colors:
-  - {name: "SVP", value: "#316641"}
+  - {name: "SVP – Text", value: "#184427"}
+  - {name: "SP", value: "#720400"}
+  - {name: "FDP", value: "#004155"}
+  - {name: "Die Mitte", value: "#5a2c00"}
+  - {name: "GPS", value: "#373f0b"}
+  - {name: "GLP", value: "#00453f"}
+  - {name: "EVP", value: "#4b3601"}
+  - {name: "Lega", value: "#533100"}
+  - {name: "MCR", value: "#45381f"}
+  - {name: "AL", value: "#6d0435"}
+  - {name: "EDU", value: "#610e59"}
+  - {name: "SD", value: "#203472"}
+  - {name: "andere", value: "#393845"}
+```
+
+```color-palette|span-2
+colors:
+  - {name: "SVP – Primär", value: "#316641"}
   - {name: "SP", value: "#ce4631"}
   - {name: "FDP", value: "#1b87aa"}
   - {name: "Die Mitte", value: "#df7c18"}
@@ -42,6 +75,41 @@ colors:
   - {name: "SD", value: "#374e8e"}
   - {name: "andere", value: "#7e7e8f"}
 ```
+
+```color-palette|span-2
+colors:
+  - {name: "SVP", value: "#9bbfa3"}
+  - {name: "SP", value: "#e5aea3"}
+  - {name: "FDP", value: "#8cc8e1"}
+  - {name: "Die Mitte", value: "#e9b086"}
+  - {name: "GPS", value: "#b8c683"}
+  - {name: "GLP", value: "#7bd0c5"}
+  - {name: "EVP", value: "#dbbd82"}
+  - {name: "Lega", value: "#cfab7f"}
+  - {name: "MCR", value: "#cbbba2"}
+  - {name: "AL", value: "#e5abba"}
+  - {name: "EDU", value: "#d6b0cf"}
+  - {name: "SD", value: "#a7b2cc"}
+  - {name: "andere", value: "#bcbdc5"}
+```
+
+```color-palette|span-1
+colors:
+  - {name: "SVP – Sekundär Flächen", value: "#cfe3d3"}
+  - {name: "SP", value: "#eed7d2"}
+  - {name: "FDP", value: "#c9e2ec"}
+  - {name: "Die Mitte", value: "#eed8c9"}
+  - {name: "GPS", value: "#dbe0c8"}
+  - {name: "GLP", value: "#bbe8e1"}
+  - {name: "EVP", value: "#e8dcc4"}
+  - {name: "Lega", value: "#eed9c2"}
+  - {name: "MCR", value: "#e2dcd3"}
+  - {name: "AL", value: "#edd6dc"}
+  - {name: "EDU", value: "#e7d8e4"}
+  - {name: "SD", value: "#d7ddea"}
+  - {name: "andere", value: "#dcdce0"}
+```
+
 
 
 #### Sophie-Implementation
