@@ -78,7 +78,7 @@ colors:
 
 ```color-palette|span-2
 colors:
-  - {name: "SVP", value: "#9bbfa3"}
+  - {name: "SVP – Sekundär Linien", value: "#9bbfa3"}
   - {name: "SP", value: "#e5aea3"}
   - {name: "FDP", value: "#8cc8e1"}
   - {name: "Die Mitte", value: "#e9b086"}
