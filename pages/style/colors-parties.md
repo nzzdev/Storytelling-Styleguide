@@ -56,6 +56,9 @@ colors:
   - {name: "AL", value: "#6d0435"}
   - {name: "EDU", value: "#610e59"}
   - {name: "SD", value: "#203472"}
+  - {name: "PdA", value: "#710030"}
+  - {name: "Sol", value: "#710030"}
+  - {name: "Liberale", value: "#004155"}
   - {name: "andere", value: "#393845"}
 ```
 
@@ -73,6 +76,9 @@ colors:
   - {name: "AL", value: "#da467d"}
   - {name: "EDU", value: "#ae49a2"}
   - {name: "SD", value: "#374e8e"}
+  - {name: "PdA", value: "#ac004f"}
+  - {name: "Sol", value: "#ac004f"}
+  - {name: "Liberale", value: "#0b5a73"}
   - {name: "andere", value: "#7e7e8f"}
 ```
 
@@ -90,6 +96,9 @@ colors:
   - {name: "AL", value: "#e5abba"}
   - {name: "EDU", value: "#d6b0cf"}
   - {name: "SD", value: "#a7b2cc"}
+  - {name: "PdA", value: "#e0a1af"}
+  - {name: "Sol", value: "#e0a1af"}
+  - {name: "Liberale", value: "#89bbcf"}
   - {name: "andere", value: "#bcbdc5"}
 ```
 
@@ -107,6 +116,9 @@ colors:
   - {name: "AL", value: "#edd6dc"}
   - {name: "EDU", value: "#e7d8e4"}
   - {name: "SD", value: "#d7ddea"}
+  - {name: "PdA", value: "#f0d5da"}
+  - {name: "Sol", value: "#f0d5da"}
+  - {name: "Liberale", value: "#c8e2ed"}
   - {name: "andere", value: "#dcdce0"}
 ```
 
