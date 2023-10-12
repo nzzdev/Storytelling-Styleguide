@@ -286,6 +286,10 @@ colors:
   - {name: "Erneuerbar", value: "#1B87AA"}
 ```
 
+```hint|warning
+Die Farbe für **Erdgas** ist in Linien-Charts schlecht zu erkennen. In solche Fällen ist auf **Fossile** ausweichen.
+```
+
 ### Farben für Schweizer Banken
 
 Im Rahmen der [Übernahme der Credit Suisse durch die UBS](https://www.nzz.ch/wirtschaft/credit-suisse) wurde es sinnvoll, für die Banken jeweils wiederkehrende Farben zu verwenden.
