@@ -701,10 +701,10 @@ colors:
 
 ```color-palette|span-2
 colors:
-  - {name: "PiS - primary", value: "#005EA1"}
-  - {name: "KO", value: "#d1cc00"}
+  - {name: "PiS - primary", value: "#374e8e"}
+  - {name: "KO - Bürgerkoalition", value: "#df7c18"}
   - {name: "Lewica", value: "#c31906"}
-  - {name: "KP", value: "#66a622"}
+  - {name: "Dritter Weg", value: "#D1CC00"}
   - {name: "Konf", value: "#616161"}
 ```
 
@@ -712,7 +712,7 @@ colors:
 colors:
   - {name: "PiS - light", value: "#a3d3f5"}
   - {name: "KO", value: "#edeca0"}
-  - {name: "Lewica", value: "#eaaea8"}
+  - {name: "Lewica", value: "#ac004f"}
   - {name: "KP", value: "#c2dba7"}
   - {name: "Konf", value: "#bcbcbc"}
 ```
