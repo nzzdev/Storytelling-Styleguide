@@ -714,7 +714,7 @@ colors:
   - {name: "KO", value: "#e5ba9b"}
   - {name: "Lewica", value: "#de9dab"}
   - {name: "KP", value: "#d3d386"}
-  - {name: "Konf", value: "#cdcdd1"}
+  - {name: "Konf", value: "#bcbcbc"}
 ```
 
 ### Portugal
