@@ -703,18 +703,18 @@ colors:
 colors:
   - {name: "PiS - primary", value: "#374e8e"}
   - {name: "KO - Bürgerkoalition", value: "#df7c18"}
-  - {name: "Lewica", value: "#c31906"}
+  - {name: "Lewica", value: "#ac004f"}
   - {name: "Dritter Weg", value: "#D1CC00"}
   - {name: "Konf", value: "#616161"}
 ```
 
 ```color-palette|span-2
 colors:
-  - {name: "PiS - light", value: "#a3d3f5"}
-  - {name: "KO", value: "#edeca0"}
-  - {name: "Lewica", value: "#ac004f"}
-  - {name: "KP", value: "#c2dba7"}
-  - {name: "Konf", value: "#bcbcbc"}
+  - {name: "PiS - light", value: "#a1aecc"}
+  - {name: "KO", value: "#e5ba9b"}
+  - {name: "Lewica", value: "#de9dab"}
+  - {name: "KP", value: "#d3d386"}
+  - {name: "Konf", value: "#cdcdd1"}
 ```
 
 ### Portugal
