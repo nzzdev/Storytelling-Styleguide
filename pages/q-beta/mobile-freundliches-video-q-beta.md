@@ -1,6 +1,13 @@
 # So funktioniert's
 Dieses Element macht es möglich, für verschiedene Bildschirmgrössen Videos mit unterschiedlichen Seitenverhältnissen einzubinden. Das Video kann auf Mobile zum Beispiel hochkant (Seitenverhältnis 9:16) und auf Desktop in einem klassischen Seitenverhältnis von 16:9 angezeigt werden. Zudem beginnt das Video automatisch, sobald es im Browserfenster sichtbar wird. Player-Elemente wie der Play-Button oder die Zeitleiste werden nicht gezeigt. Per Default wird das Video im Loop und ohne Ton abgespielt. Das Element kreiert somit ein immersives Video-Erlebnis auf allen Geräten, die zum Lesen der NZZ benutzt werden. 
 
+```html|span-6
+<video width="100%" controls>
+  <source src="assets/q-beta/mobile-freundliches video_dnipro.mp4" type="video/mp4">
+</video>
+```
+[Das Schicksal der Ukraine hängt am Fluss Dnipro](https://www.nzz.ch/visuals/ukraine-krieg-der-dnipro-schicksalsfluss-zwischen-ost-und-west-ld.1721057)
+
 # Wie es eingesetzt werden kann
 - Für szenische Videos, die längere Artikel visuell in Kapitel unterteilen, wie zum Beispiel in diesem Artikel über den [Fluss Dnipro](https://www.nzz.ch/visuals/ukraine-krieg-der-dnipro-schicksalsfluss-zwischen-ost-und-west-ld.1721057).
 - Als Teaser im Artikel bei den Artikeltypen «Regular» oder «Longform Standard», wie bei diesem Beispiel über die [ukrainische Stadt Marjinka](https://www.nzz.ch/international/ukraine-wie-russland-die-stadt-marjinka-dem-erdboden-gleichmacht-ld.1725188).
