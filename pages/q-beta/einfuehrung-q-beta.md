@@ -1,5 +1,5 @@
+Story Blocks sind massgeschneiderte Elemente, die uns ermöglichen, moderne, visuelle und benutzerfreundliche Geschichten effizient zu produzieren. 
 
-In diesem Bereich des Styleguides sind die Q-Beta-Elemente dokumentiert. Q-Beta sind massgeschneiderte Q-Tools. Diese Beta-Elemente funktionieren noch nicht als eigenständige Tools, sind aber so weit standardisiert, dass sie – mit etwas Hilfe von Visuals – in mehreren Artikeln zur Anwendung kommen können. Ziel ist, so lange mit diesen Anwendungen zu experimentieren, bis wir besser verstehen, ob aus diesem Q-Beta-Element ein eigenständiges Q-Tool oder gar ein neues Livingdocs Element entstehen soll. 
+Story Blocks sind Beta-Elemente. Sie sind keine eigenständigen Q-Tools, jedoch sind sie so weit standardisiert, dass sie – mit etwas Hilfe vom Editorial Tech Team – flexibel in unseren Artikel eingesetzt werden können. Ein Story Block wird in der Regel zuerst für eine spezifische Geschichte entwickelt und danach bei jeder weiteren Anwendung verfeinert. Das Ziel dieser mehrfache Anwendung und Weiterentwicklung ist es zu definieren, ob aus diesem Beta-Element ein eigenständiges Q-Tool oder ein neues Livingdocs-Widget entstehen soll. Somit ermöglichen die Story Blocks eine effiziente Entwicklung von modularen Einheiten über mehrere Projekte hinweg. 
 
-Wenn du eines der Q-Beta-Elemente in deinem Artikel verwenden willst, melde dich gerne im #visuals-aktuell Kanal in Slack. 
-
+Wenn du einer dieser Story Blocks in deinem Artikel verwenden willst, melde dich gerne im #visuals-aktuell Kanal in Slack.
