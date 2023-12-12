@@ -6,6 +6,11 @@ Dieses Element macht es möglich, für verschiedene Bildschirmgrössen Videos mi
   <source src="assets/story-blocks/mobile-freundliches video_dnipro.mp4" type="video/mp4">
 </video>
 ```
+```html|span-3
+<video width="100%" controls>
+  <source src="assets/story-blocks/mobile-freundliches video_dnipro-mobile.mp4" type="video/mp4">
+</video>
+```
 [Das Schicksal der Ukraine hängt am Fluss Dnipro](https://www.nzz.ch/visuals/ukraine-krieg-der-dnipro-schicksalsfluss-zwischen-ost-und-west-ld.1721057)
 
 # Wie es eingesetzt werden kann
