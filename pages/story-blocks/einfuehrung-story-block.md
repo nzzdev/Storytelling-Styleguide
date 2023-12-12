@@ -6,7 +6,7 @@ Story Blocks sind Beta-Elemente. Sie sind keine eigenständigen Q-Tools, jedoch 
 ```image
 span: 6
 plain: true
-src: "/assets/graphic-types/story-blocks/story-blocks_zusammenstellung@3x.png"
+src: "/assets/story-blocks/story-blocks_zusammenstellung@3x.png"
 ```
 
 Wenn du einer dieser Story Blocks in deinem Artikel verwenden willst, melde dich gerne im #visuals-aktuell Kanal in Slack.
