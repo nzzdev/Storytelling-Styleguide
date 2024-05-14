@@ -873,6 +873,21 @@ colors:
   - {name: "default", value: "#bcbcbc"}
 ```
 
+### Ungarn
+
+```color-palette|span-2
+colors:
+  - {name: "Demokratische Koalition", value: "#5973b6"}
+  - {name: "Fidesz", value: "#df7c18"}
+  - {name: "Jobbik", value: "#011735"}
+  - {name: "LMP", value: "#19a598"}
+  - {name: "Unsere Heimat (Mi Hazánk Mozgalom)", value: "#316641"}
+  - {name: "MKKP", value: "#7e7e8f"}
+  - {name: "Momentum", value: "#a07bde"}
+  - {name: "MSZP", value: "#ce4631"}
+  - {name: "Tisza", value: "#45a965"}
+```
+
 ### Vereinigte Staaten von Amerika, USA
 
 ```color-palette|span-2
