@@ -427,6 +427,7 @@ colors:
 colors:
   - {name: "Linke - primary", value: "#8440a3"}
   - {name: "AfD", value: "#0084c7"}
+  - {name: "BSW", value: "#da467d"}
   - {name: "Piraten", value: "#d28b00"}
   - {name: "Freie Wähler", value: "#ac5038"}
   - {name: "default", value: "#616161"}
@@ -436,6 +437,7 @@ colors:
 colors:
   - {name: "Linke - light", value: "#cdb1d9"}
   - {name: "AfD", value: "#9ed0e9"}
+  - {name: "BSW", value: "#f8dce7"}
   - {name: "Piraten", value: "#edd29c"}
   - {name: "Freie Wähler", value: "#ddb9af"}
   - {name: "default", value: "#bcbcbc"}
