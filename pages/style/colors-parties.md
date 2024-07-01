@@ -895,7 +895,7 @@ colors:
 ```color-palette|span-2
 colors:
   - {name: "Republikaner - primary", value: "#D66865"}
-  - {name: "Demokraten - primary", value: "#5B8BB3"}
+  - {name: "Demokraten - primary", value: "#5398D1"}
   - {name: "Andere - primary", value: "#D6D55C"}
   - {name: "default", value: "#D7D7D7"}
 ```
