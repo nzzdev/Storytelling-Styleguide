@@ -119,6 +119,45 @@ Diese Klassen und Variablen sollten in Fällen eingesetzt werden, wo es wichtig 
 Bei zukünftigen Palettenanpassungen sollte sichergestellt werden, dass den oben gelisteten Farben jeweils wieder Farben zugeordnet erhalten, die in Farbton (und u.U. Helligkeit) den bestehenden Farben ähneln.
 ```
 
+### Level 2: Semantische Farben für NZZ am Sonntag
+```color-palette|span-1
+colors:
+- {"name": "lightblue", "value": "#6cc2ff"}
+- {"name": "darkblue", "value": "#006498"}
+- {"name": "teal", "value": "#00afca"}
+- {"name": "turquoise", "value": "#007d74"}
+- {"name": "darkgreen", "value": "#00623c"}
+- {"name": "green", "value": "#467100"}
+- {"name": "yellowgreen", "value": "#a09300"}
+```
+
+```color-palette|span-1
+colors:
+- {"name": "yellow", "value": "#f1a400"}
+- {"name": "orange", "value": "#ff8c4c"}
+- {"name": "orangered", "value": "#ff5a36"}
+- {"name": "red", "value": "#f40040"}
+- {"name": "pink", "value": "#ff81bc"}
+- {"name": "purple", "value": "#a30065"}
+- {"name": "violet", "value": "#8f33ff"}
+```
+
+```color-palette|span-1
+colors:
+- {"name": "brown", "value": "#ad781b"}
+- {"name": "beige", "value": "#a08962"}
+- {"name": "warmwhite", "value": "#d5cdb9"}
+```
+
+```color-palette|span-1
+colors:
+- {"name": "black", "value": "#383751"}
+- {"name": "grey", "value": "#7e7e8f"}
+- {"name": "coolwhite", "value": "#cdcdd1"}
+```
+
+
+
 
 ## Farben für Q
 
@@ -162,6 +201,45 @@ colors:
 
 Die sieben Standardfarben werden durch 5 warme Grautöne ergänzt. Diese wurden angefügt, um die Rückwärtskompatibilität zu schon bestehenden Charts zu erhalten, die alle der 12 ursprünglich definierten Farben verwenden.
 
+### Level 3: Generische Farben für NZZ am Sonntag
+
+Diese Farben werden nur in der Print-Version der NZZ am Sonntag verwendet.
+Online verwendet die NZZ am Sonntag ebenfalls die oben definierten Farben.
+
+```color-palette|span-2
+colors:
+- {"name": "s-viz-color-one-5", "value": "#f40040"}
+- {"name": "s-viz-color-two-5", "value": "#00afca"}
+- {"name": "s-viz-color-three-5", "value": "#ff8c4c"}
+- {"name": "s-viz-color-four-5", "value": "#8f33ff"}
+- {"name": "s-viz-color-five-5", "value": "#ad781b"}
+- {"name": "s-viz-color-six-5", "value": "#ff81bc"}
+- {"name": "s-viz-color-seven-5", "value": "#006498"}
+- {"name": "s-viz-color-eight-5", "value": "#4d313c"}
+- {"name": "s-viz-color-nine-5", "value": "#8d7a81"}
+- {"name": "s-viz-color-ten-5", "value": "#d1ccce"}
+- {"name": "s-viz-color-eleven-5", "value": "#6d545d"}
+- {"name": "s-viz-color-twelve-5", "value": "#aea2a6"}
+```
+
+```color-palette|span-2
+colors:
+- {"name": "s-viz-color-one-1", "value": "#eba8a7"}
+- {"name": "s-viz-color-two-1", "value": "#84d3e4"}
+- {"name": "s-viz-color-three-1", "value": "#efbea6"}
+- {"name": "s-viz-color-four-1", "value": "#beade9"}
+- {"name": "s-viz-color-five-1", "value": "#dbb682"}
+- {"name": "s-viz-color-six-1", "value": "#eebacf"}
+- {"name": "s-viz-color-seven-1", "value": "#7cb7e3"}
+- {"name": "s-viz-color-eight-1", "value": "#b0a1a6"}
+- {"name": "s-viz-color-nine-1", "value": "#c2babd"}
+- {"name": "s-viz-color-ten-1", "value": "#d5d3d4"}
+- {"name": "s-viz-color-eleven-1", "value": "#b9aeb1"}
+- {"name": "s-viz-color-twelve-1", "value": "#ccc6c8"}
+```
+
+
+
 ```hint|warning
 Nach Möglichkeit sollte in keinem publizierten Q–Chart ein Grauton als Kategorienfarbe auftauchen.
 
@@ -192,6 +270,7 @@ Die Klassen sollten in der vorgegebenen Reihenfolge (_one, two, three …_) eing
 Der Farbwert kann bei einer Aktualisierung der Farbpalette komplett ändern, man kann sich also nicht darauf verlassen, dass man nach einem solchen Update immer noch die selbe Farbe erhält.
 
 ```
+
 
 
 ## Grautöne
