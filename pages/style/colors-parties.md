@@ -124,216 +124,255 @@ colors:
 
 
 
+
 #### Sophie-Implementation
 
+Die Farben haben Farbnamen nach dem folgenden Prinzip: `s-viz-color-party-[parteiabkürzung]-[helligkeit]`.
 
-```hint
-Ist noch anzupassen. Die folgenden Farben entsprechen noch dem alten Farbschema.
-```
+Mögliche Helligkeiten sind:
+- `background`
+- `secondary`
+- `primary`
+- `text`
 
-##### AL
+Zugriff auf die folgenden Farben erfolgt als
 
-```color-palette|horizontal
-colors:
-  - {name: "s-viz-color-party-al-1", value: "#f8dce7"}
-  - {name: "s-viz-color-party-al-2", value: "#f2bace"}
-  - {name: "s-viz-color-party-al-3", value: "#ea97b6"}
-  - {name: "s-viz-color-party-al-4", value: "#e37199"}
-  - {name: "s-viz-color-party-al-5", value: "#da467d"}
-  - {name: "s-viz-color-party-al-7", value: "#82294a"}
-```
+- JSON-Property des Pakets `sophie-viz-color`, mit oben beschriebenen Namen
+- CSS Custom Property (mit `--` vor dem Namen)
+- CSS-Klasse (veraltet, nach Möglichkeit nicht mehr verwenden, mit `.` vor dem Namen)
 
-##### SP
-
-```color-palette|horizontal
-colors:
-  - {name: "s-viz-color-party-sp-1", value: "#f3d1cd"}
-  - {name: "s-viz-color-party-sp-2", value: "#eaa39a"}
-  - {name: "s-viz-color-party-sp-3", value: "#db756a"}
-  - {name: "s-viz-color-party-sp-4", value: "#d14e3b"}
-  - {name: "s-viz-color-party-sp-5", value: "#c31906"}
-  - {name: "s-viz-color-party-sp-7", value: "#750f04"}
-```
-
-##### GPS
-
-```color-palette|horizontal
-colors:
-  - {name: "s-viz-color-party-gps-1", value: "#dcf1cc"}
-  - {name: "s-viz-color-party-gps-2", value: "#bbe399"}
-  - {name: "s-viz-color-party-gps-3", value: "#98d566"}
-  - {name: "s-viz-color-party-gps-4", value: "#78c840"}
-  - {name: "s-viz-color-party-gps-5", value: "#54ba00"}
-  - {name: "s-viz-color-party-gps-7", value: "#326f00"}
-```
-
-##### GLP
-
-```color-palette|horizontal
-colors:
-  - {name: "s-viz-color-party-glp-1", value: "#edf5cc"}
-  - {name: "s-viz-color-party-glp-2", value: "#ddeb9a"}
-  - {name: "s-viz-color-party-glp-3", value: "#cbe266"}
-  - {name: "s-viz-color-party-glp-4", value: "#bad842"}
-  - {name: "s-viz-color-party-glp-5", value: "#a9cf00"}
-  - {name: "s-viz-color-party-glp-7", value: "#657c00"}
-```
-
-##### EVP
-
-```color-palette|horizontal
-colors:
-  - {name: "s-viz-color-party-evp-1", value: "#f2edcc"}
-  - {name: "s-viz-color-party-evp-2", value: "#e6db99"}
-  - {name: "s-viz-color-party-evp-3", value: "#d7ca66"}
-  - {name: "s-viz-color-party-evp-4", value: "#cbb83f"}
-  - {name: "s-viz-color-party-evp-5", value: "#bda700"}
-  - {name: "s-viz-color-party-evp-7", value: "#716400"}
-```
-
-##### CVP
-
-```color-palette|horizontal
-colors:
-  - {name: "s-viz-color-party-cvp-1", value: "#f6e8cc"}
-  - {name: "s-viz-color-party-cvp-2", value: "#efd099"}
-  - {name: "s-viz-color-party-cvp-3", value: "#e4b966"}
-  - {name: "s-viz-color-party-cvp-4", value: "#dca23e"}
-  - {name: "s-viz-color-party-cvp-5", value: "#d28b00"}
-  - {name: "s-viz-color-party-cvp-7", value: "#7e5300"}
-```
-
-##### BDP
-
-```color-palette|horizontal
-colors:
-  - {name: "s-viz-color-party-bdp-1", value: "#f6f5cc"}
-  - {name: "s-viz-color-party-bdp-2", value: "#eeea9a"}
-  - {name: "s-viz-color-party-bdp-3", value: "#e3e066"}
-  - {name: "s-viz-color-party-bdp-4", value: "#dad542"}
-  - {name: "s-viz-color-party-bdp-5", value: "#d1cb00"}
-  - {name: "s-viz-color-party-bdp-7", value: "#7d7a00"}
-```
-
-##### FDP
-
-```color-palette|horizontal
-colors:
-  - {name: "s-viz-color-party-fdp-1", value: "#cce6f4"}
-  - {name: "s-viz-color-party-fdp-2", value: "#9ccde9"}
-  - {name: "s-viz-color-party-fdp-3", value: "#66b5dd"}
-  - {name: "s-viz-color-party-fdp-4", value: "#449cd2"}
-  - {name: "s-viz-color-party-fdp-5", value: "#0084c7"}
-  - {name: "s-viz-color-party-fdp-7", value: "#004f77"}
-```
 
 ##### SVP
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-svp-1", value: "#d8e7d8"}
-  - {name: "s-viz-color-party-svp-2", value: "#b2d0b0"}
-  - {name: "s-viz-color-party-svp-3", value: "#8cb98a"}
-  - {name: "s-viz-color-party-svp-4", value: "#67a263"}
-  - {name: "s-viz-color-party-svp-5", value: "#408b3d"}
-  - {name: "s-viz-color-party-svp-7", value: "#265324"}
+  - {name: "s-viz-color-party-svp-background", value: "#cfe3d3"}
+  - {name: "s-viz-color-party-svp-secondary", value: "#9bbfa3"}
+  - {name: "s-viz-color-party-svp-primary", value: "#316641"}
+  - {name: "s-viz-color-party-svp-text", value: "#184427"}
 ```
+
+
+##### SP
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-sp-background", value: "#eed7d2"}
+  - {name: "s-viz-color-party-sp-secondary", value: "#e5aea3"}
+  - {name: "s-viz-color-party-sp-primary", value: "#ce4631"}
+  - {name: "s-viz-color-party-sp-text", value: "#720400"}
+```
+
+
+##### FDP
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-fdp-background", value: "#c9e2ec"}
+  - {name: "s-viz-color-party-fdp-secondary", value: "#8cc8e1"}
+  - {name: "s-viz-color-party-fdp-primary", value: "#1b87aa"}
+  - {name: "s-viz-color-party-fdp-text", value: "#004155"}
+```
+
+
+##### MITTE
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-mitte-background", value: "#eed8c9"}
+  - {name: "s-viz-color-party-mitte-secondary", value: "#e9b086"}
+  - {name: "s-viz-color-party-mitte-primary", value: "#df7c18"}
+  - {name: "s-viz-color-party-mitte-text", value: "#5a2c00"}
+```
+
+
+##### GPS
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-gps-background", value: "#dbe0c8"}
+  - {name: "s-viz-color-party-gps-secondary", value: "#b8c683"}
+  - {name: "s-viz-color-party-gps-primary", value: "#93a345"}
+  - {name: "s-viz-color-party-gps-text", value: "#373f0b"}
+```
+
+
+##### GLP
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-glp-background", value: "#bbe8e1"}
+  - {name: "s-viz-color-party-glp-secondary", value: "#7bd0c5"}
+  - {name: "s-viz-color-party-glp-primary", value: "#00988c"}
+  - {name: "s-viz-color-party-glp-text", value: "#00453f"}
+```
+
+
+##### EVP
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-evp-background", value: "#e8dcc4"}
+  - {name: "s-viz-color-party-evp-secondary", value: "#dbbd82"}
+  - {name: "s-viz-color-party-evp-primary", value: "#e3b13e"}
+  - {name: "s-viz-color-party-evp-text", value: "#4b3601"}
+```
+
 
 ##### LEGA
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-lega-1", value: "#e8e3dd"}
-  - {name: "s-viz-color-party-lega-2", value: "#d8cec4"}
-  - {name: "s-viz-color-party-lega-3", value: "#c7b8ab"}
-  - {name: "s-viz-color-party-lega-4", value: "#b6a392"}
-  - {name: "s-viz-color-party-lega-5", value: "#a58e79"}
-  - {name: "s-viz-color-party-lega-7", value: "#826b57"}
+  - {name: "s-viz-color-party-lega-background", value: "#eed9c2"}
+  - {name: "s-viz-color-party-lega-secondary", value: "#cfab7f"}
+  - {name: "s-viz-color-party-lega-primary", value: "#704600"}
+  - {name: "s-viz-color-party-lega-text", value: "#533100"}
 ```
+
 
 ##### MCR
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-mcr-1", value: "#e3e2da"}
-  - {name: "s-viz-color-party-mcr-2", value: "#c6c5b5"}
-  - {name: "s-viz-color-party-mcr-3", value: "#aaa891"}
-  - {name: "s-viz-color-party-mcr-4", value: "#8d8a6c"}
-  - {name: "s-viz-color-party-mcr-5", value: "#716e48"}
-  - {name: "s-viz-color-party-mcr-7", value: "#44422b"}
+  - {name: "s-viz-color-party-mcr-background", value: "#e2dcd3"}
+  - {name: "s-viz-color-party-mcr-secondary", value: "#cbbba2"}
+  - {name: "s-viz-color-party-mcr-primary", value: "#a08962"}
+  - {name: "s-viz-color-party-mcr-text", value: "#45381f"}
 ```
+
+
+##### AL
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-al-background", value: "#edd6dc"}
+  - {name: "s-viz-color-party-al-secondary", value: "#e5abba"}
+  - {name: "s-viz-color-party-al-primary", value: "#da467d"}
+  - {name: "s-viz-color-party-al-text", value: "#6d0435"}
+```
+
 
 ##### EDU
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-edu-1", value: "#e5d8ec"}
-  - {name: "s-viz-color-party-edu-2", value: "#cdb2da"}
-  - {name: "s-viz-color-party-edu-3", value: "#b58cc7"}
-  - {name: "s-viz-color-party-edu-4", value: "#9d66b5"}
-  - {name: "s-viz-color-party-edu-5", value: "#8440a3"}
-  - {name: "s-viz-color-party-edu-7", value: "#502763"}
+  - {name: "s-viz-color-party-edu-background", value: "#e7d8e4"}
+  - {name: "s-viz-color-party-edu-secondary", value: "#d6b0cf"}
+  - {name: "s-viz-color-party-edu-primary", value: "#ae49a2"}
+  - {name: "s-viz-color-party-edu-text", value: "#610e59"}
 ```
+
 
 ##### SD
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-sd-1", value: "#eedcd7"}
-  - {name: "s-viz-color-party-sd-2", value: "#deb9af"}
-  - {name: "s-viz-color-party-sd-3", value: "#cd9688"}
-  - {name: "s-viz-color-party-sd-4", value: "#be735f"}
-  - {name: "s-viz-color-party-sd-5", value: "#ac5038"}
-  - {name: "s-viz-color-party-sd-7", value: "#673022"}
+  - {name: "s-viz-color-party-sd-background", value: "#d7ddea"}
+  - {name: "s-viz-color-party-sd-secondary", value: "#a7b2cc"}
+  - {name: "s-viz-color-party-sd-primary", value: "#374e8e"}
+  - {name: "s-viz-color-party-sd-text", value: "#203472"}
 ```
+
+
+##### DEFAULT
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-default-background", value: "#dcdce0"}
+  - {name: "s-viz-color-party-default-secondary", value: "#bcbdc5"}
+  - {name: "s-viz-color-party-default-primary", value: "#7e7e8f"}
+  - {name: "s-viz-color-party-default-text", value: "#393845"}
+```
+
+
+##### GRÜNE
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-grüne-background", value: "#dbe0c8"}
+  - {name: "s-viz-color-party-grüne-secondary", value: "#b8c683"}
+  - {name: "s-viz-color-party-grüne-primary", value: "#93a345"}
+  - {name: "s-viz-color-party-grüne-text", value: "#373f0b"}
+```
+
 
 ##### PDA
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-pda-1", value: "#f3e0e3"}
-  - {name: "s-viz-color-party-pda-2", value: "#e2b4bb"}
-  - {name: "s-viz-color-party-pda-3", value: "#d08993"}
-  - {name: "s-viz-color-party-pda-4", value: "#bf5d6b"}
-  - {name: "s-viz-color-party-pda-5", value: "#ae3143"}
-  - {name: "s-viz-color-party-pda-7", value: "#5e2b3c"}
+  - {name: "s-viz-color-party-pda-background", value: "#f0d5da"}
+  - {name: "s-viz-color-party-pda-secondary", value: "#e0a1af"}
+  - {name: "s-viz-color-party-pda-primary", value: "#ac004f"}
+  - {name: "s-viz-color-party-pda-text", value: "#710030"}
 ```
+
+
+##### SOL
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-sol-background", value: "#f0d5da"}
+  - {name: "s-viz-color-party-sol-secondary", value: "#e0a1af"}
+  - {name: "s-viz-color-party-sol-primary", value: "#ac004f"}
+  - {name: "s-viz-color-party-sol-text", value: "#710030"}
+```
+
+
+##### LIBERALE
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-liberale-background", value: "#c8e2ed"}
+  - {name: "s-viz-color-party-liberale-secondary", value: "#89bbcf"}
+  - {name: "s-viz-color-party-liberale-primary", value: "#0b5a73"}
+  - {name: "s-viz-color-party-liberale-text", value: "#004155"}
+```
+
+
+##### CSPO
+
+```color-palette|horizontal
+colors:
+  - {name: "s-viz-color-party-cspo-background", value: "#eddac1"}
+  - {name: "s-viz-color-party-cspo-secondary", value: "#e6b46d"}
+  - {name: "s-viz-color-party-cspo-primary", value: "#d79100"}
+  - {name: "s-viz-color-party-cspo-text", value: "#513300"}
+```
+
 
 ##### CSP
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-csp-1", value: "#fff0d1"}
-  - {name: "s-viz-color-party-csp-2", value: "#ffe1a3"}
-  - {name: "s-viz-color-party-csp-3", value: "#ffd175"}
-  - {name: "s-viz-color-party-csp-4", value: "#ffc247"}
-  - {name: "s-viz-color-party-csp-5", value: "#ffb319"}
-  - {name: "s-viz-color-party-csp-7", value: "#a86c14"}
+  - {name: "s-viz-color-party-csp-background", value: "#c6e4e7"}
+  - {name: "s-viz-color-party-csp-secondary", value: "#73ced8"}
+  - {name: "s-viz-color-party-csp-primary", value: "#3dbecb"}
+  - {name: "s-viz-color-party-csp-text", value: "#034248"}
 ```
 
-##### Liberale
+
+##### CVP
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-liberale-1", value: "#dbd6f7"}
-  - {name: "s-viz-color-party-liberale-2", value: "#b9adef"}
-  - {name: "s-viz-color-party-liberale-3", value: "#9486e7"}
-  - {name: "s-viz-color-party-liberale-4", value: "#765fdf"}
-  - {name: "s-viz-color-party-liberale-5", value: "#4e36d7"}
-  - {name: "s-viz-color-party-liberale-7", value: "#2e2081"}
+  - {name: "s-viz-color-party-cvp-background", value: "#eed8c9"}
+  - {name: "s-viz-color-party-cvp-secondary", value: "#e9b086"}
+  - {name: "s-viz-color-party-cvp-primary", value: "#df7c18"}
+  - {name: "s-viz-color-party-cvp-text", value: "#5a2c00"}
 ```
 
-##### Andere
+
+##### BDP
 
 ```color-palette|horizontal
 colors:
-  - {name: "s-viz-color-party-default-1", value: "#e7e7e7"}
-  - {name: "s-viz-color-party-default-2", value: "#cacaca"}
-  - {name: "s-viz-color-party-default-3", value: "#adadad"}
-  - {name: "s-viz-color-party-default-4", value: "#909090"}
-  - {name: "s-viz-color-party-default-5", value: "#737373"}
-  - {name: "s-viz-color-party-default-7", value: "#565656"}
+  - {name: "s-viz-color-party-bdp-background", value: "#e7ddba"}
+  - {name: "s-viz-color-party-bdp-secondary", value: "#d0bd75"}
+  - {name: "s-viz-color-party-bdp-primary", value: "#a08600"}
+  - {name: "s-viz-color-party-bdp-text", value: "#473900"}
 ```
+
+
 
 ## Andere Länder
 
