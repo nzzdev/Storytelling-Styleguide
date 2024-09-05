@@ -1,9 +1,9 @@
-
-
 #### Wir verwenden für unterschiedliche Bedürfnisse unterschiedliche Farbpaletten
 
-- Für Grafiken und Datenvisualisierungen verwenden wir eine Palette von 13, stark gesättigten Farben, die durch ihre Leuchtkraft einfach voneinander zu unterscheiden sind.
-- Standardmässig in Q verwendet wird eine Auswahl der zuvor genannten Farben,  die auf Farbenblindheit optimiert wurde.
+- Für Grafiken und Datenvisualisierungen verwenden wir eine Palette von 13, stark gesättigten
+  Farben, die durch ihre Leuchtkraft einfach voneinander zu unterscheiden sind.
+- Standardmässig in Q verwendet wird eine Auswahl der zuvor genannten Farben, die auf
+  Farbenblindheit optimiert wurde.
 - Für Illustrationen verwenden wir eine Palette mit zusätzlichen, weniger gesättigten Farbtönen.
 
 ## Farben für Datenvisualisierungen
@@ -57,13 +57,62 @@ Diese Klassen und Variablen sollten in Projekten verwendet werden, die zusammen 
 Bei zukünftigen Anpassungen der Farbpalette sollte darauf geachtet werden, dass die neuen Farben neue Namen erhalten. Die «alten» Klassennamen bleiben erhalten, ermöglichen Rückwärtskompatibilität, sollten aber in neu erstellten Projekten nicht mehr eingesetzt werden.
 ```
 
+### Level 1: Spezifische Farben für NZZ am Sonntag
+
+```color-palette|span-1
+colors:
+- {"name": "Vergissmeinnicht", "value": "#6cc2ff"}
+- {"name": "Heidelbeere", "value": "#006498"}
+- {"name": "Swimmingpool", "value": "#00afca"}
+- {"name": "Spirulina", "value": "#007d74"}
+- {"name": "Kale", "value": "#00623c"}
+- {"name": "Limette", "value": "#467100"}
+- {"name": "Kiwi", "value": "#a09300"}
+```
+
+```color-palette|span-1
+colors:
+- {"name": "Mimosa", "value": "#f1a400"}
+- {"name": "Papaya", "value": "#ff8c4c"}
+- {"name": "Lachs", "value": "#ff5a36"}
+- {"name": "Tomate", "value": "#f40040"}
+- {"name": "Prosciutto", "value": "#ff81bc"}
+- {"name": "Randen", "value": "#a30065"}
+- {"name": "Acai", "value": "#8f33ff"}
+```
+
+```color-palette|span-1
+colors:
+- {"name": "Toast", "value": "#ad781b"}
+- {"name": "Sand", "value": "#a08962"}
+- {"name": "Latte Macchiato", "value": "#d5cdb9"}
+```
+
+```color-palette|span-1
+colors:
+- {"name": "Aubergine", "value": "#383751"}
+- {"name": "Regen", "value": "#7e7e8f"}
+- {"name": "Nebel", "value": "#cdcdd1"}
+```
+
+```hint|neutral
+Diese Farben sind **nicht** als Klassen oder Custom Properties hinterlegt.
+
+Sie finden vor allem bei händisch gemachten Grafiken für Print Anwendung.
+```
+
 ## Semantisch sinnvolle Farben
 
-Nach Möglichkeit verwenden wir in unseren Visualisierungen Farben, die intuitiv erkennbar machen, was sie repräsentieren. [Untersuchungen haben gezeigt](http://vis.stanford.edu/papers/semantically-resonant-colors), dass solche Grafiken schneller verstanden werden.
+Nach Möglichkeit verwenden wir in unseren Visualisierungen Farben, die intuitiv erkennbar machen,
+was sie
+repräsentieren. [Untersuchungen haben gezeigt](http://vis.stanford.edu/papers/semantically-resonant-colors),
+dass solche Grafiken schneller verstanden werden.
 
 ### Ausnahme: Ethnien
 
-Im Falle von Ethnien verzichten wir bewusst darauf, «semantische» Farben zu verwenden. Wir verwenden die in Q definierten Standardfarben, und ersetzen problematische Farb-Kategorie-Kombinationen.
+Im Falle von Ethnien verzichten wir bewusst darauf, «semantische» Farben zu verwenden.
+Wir verwenden die in Q definierten Standardfarben, und ersetzen problematische
+Farb-Kategorie-Kombinationen.
 
 ```image
 plain: true
@@ -94,7 +143,6 @@ colors:
 - {"name":"Light Blue","value":"#8aabfd"}
 ```
 
-
 ```color-palette|span-1
 colors:
 - {"name":"Brown","value":"#704600"}
@@ -120,6 +168,7 @@ Bei zukünftigen Palettenanpassungen sollte sichergestellt werden, dass den oben
 ```
 
 ### Level 2: Semantische Farben für NZZ am Sonntag
+
 ```color-palette|span-1
 colors:
 - {"name": "lightblue", "value": "#6cc2ff"}
@@ -156,12 +205,12 @@ colors:
 - {"name": "coolwhite", "value": "#cdcdd1"}
 ```
 
-
-
-
 ## Farben für Q
 
-Die Farben für Q setzen sich aus Farben aus dem kühl-blauen und orangen Spektrum zusammen. Sie werden in einer fixen Reihenfolge verwendet und sind darauf optimiert, genügend Farbkontrast zwischen den Kategorien zu haben, ohne unangenehm zu wirken, sowie auch für Personen mit einer Farbsehschwäche gut unterscheidbar zu sein.
+Die Farben für Q setzen sich aus Farben aus dem kühl-blauen und orangen Spektrum zusammen.
+Sie werden in einer fixen Reihenfolge verwendet und sind darauf optimiert, genügend Farbkontrast
+zwischen den Kategorien zu haben, ohne unangenehm zu wirken, sowie auch für Personen mit einer
+Farbsehschwäche gut unterscheidbar zu sein.
 
 Die Namen entsprechen dem CSS-Klassennamen, mit dem sie eingesetzt werden können.
 
@@ -199,7 +248,9 @@ colors:
 - {"name":"s-viz-color-twelve-1","value":"#ccc6c8"}
 ```
 
-Die sieben Standardfarben werden durch 5 warme Grautöne ergänzt. Diese wurden angefügt, um die Rückwärtskompatibilität zu schon bestehenden Charts zu erhalten, die alle der 12 ursprünglich definierten Farben verwenden.
+Die sieben Standardfarben werden durch 5 warme Grautöne ergänzt.
+Diese wurden angefügt, um die Rückwärtskompatibilität zu schon bestehenden Charts zu erhalten, die
+alle der 12 ursprünglich definierten Farben verwenden.
 
 ### Level 3: Generische Farben für NZZ am Sonntag
 
@@ -238,8 +289,6 @@ colors:
 - {"name": "s-viz-color-twelve-1", "value": "#ccc6c8"}
 ```
 
-
-
 ```hint|warning
 Nach Möglichkeit sollte in keinem publizierten Q–Chart ein Grauton als Kategorienfarbe auftauchen.
 
@@ -271,13 +320,12 @@ Der Farbwert kann bei einer Aktualisierung der Farbpalette komplett ändern, man
 
 ```
 
-
-
 ## Grautöne
 
 Die warmen und kalten Grautöne können je nach Bedarf eingesetzt werden.
 
-Die neutrale Graupalette basiert auf den auf NZZ.ch eingesetzten Farbvariablen und sollte für die grundlegenden Bausteine einer Grafik verwendet werden: Text, Achsen, Label, etc.
+Die neutrale Graupalette basiert auf den auf NZZ.ch eingesetzten Farbvariablen und sollte für die
+grundlegenden Bausteine einer Grafik verwendet werden: Text, Achsen, Label, etc.
 
 ```color-palette|span-2
 colors:
@@ -309,9 +357,12 @@ colors:
 
 ## Vordefinierte Kategorienfarben
 
-Bei wiederkehrenden Kategorien macht es Sinn, dass wir diese einigermassen konsistent einfärben, sodass sich unsere Leserinnen und Leser schnell orientieren können.
+Bei wiederkehrenden Kategorien macht es Sinn, dass wir diese einigermassen konsistent einfärben,
+sodass sich unsere Leserinnen und Leser schnell orientieren können.
 
-Diese Farben müssen manuell in Q-Charts eingestellt werden. Falls ein Chart mit diesen Kategorien vorliegt, bitte beim Visuals-Team melden (`#visuals-aktuell`), wir können die Farben entsprechend anpassen.
+Diese Farben müssen manuell in Q-Charts eingestellt werden.
+Falls ein Chart mit diesen Kategorien vorliegt, bitte beim Visuals-Team melden (`#visuals-aktuell`),
+wir können die Farben entsprechend anpassen.
 
 ### Farben für Daten zu Geschlechtsunterschieden
 
@@ -343,7 +394,6 @@ colors:
   - {name: "tests", value: "#3952ee"}
 ```
 
-
 ### Farben für Energieträger
 
 ```color-palette|span-2
@@ -371,7 +421,9 @@ Die Farbe für **Erdgas** ist in Linien-Charts schlecht zu erkennen. In solche F
 
 ### Farben für Schweizer Banken
 
-Im Rahmen der [Übernahme der Credit Suisse durch die UBS](https://www.nzz.ch/wirtschaft/credit-suisse) wurde es sinnvoll, für die Banken jeweils wiederkehrende Farben zu verwenden.
+Im Rahmen
+der [Übernahme der Credit Suisse durch die UBS](https://www.nzz.ch/wirtschaft/credit-suisse) wurde
+es sinnvoll, für die Banken jeweils wiederkehrende Farben zu verwenden.
 
 Auch für die «neue» UBS ist jeweils das Rot zu verwenden.
 
@@ -383,6 +435,10 @@ colors:
   - {name: "SMI", value: "#7e7e8f"}
 ```
 
-
 ## Ressourcen
-Für die Verwendung in Adobe-Programmen (Illustrator, InDesign, Photoshop) sind die Farben in dieser [Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe) hinterlegt.
+
+Für die Verwendung in Adobe-Programmen (Illustrator, InDesign, Photoshop) sind die Farben in
+Creative-Cloud-Bibliotheken hinterlegt:
+
+- [nzz.ch und NZZ Print](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe)
+- [NZZ am Sonntag Print](https://shared-assets.adobe.com/link/91a0ca82-4df4-4059-4740-3a65c8c5cc94)
