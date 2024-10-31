@@ -4,7 +4,10 @@ Vorlagen und Bibliotheken helfen uns, schnell vordefinierte Schriftarten und -fa
 
 Unsere Illustrator-Vorlage ist normalerweise die aktuellste Vorlage und wird gemäss unseren Vorgaben und Workflows angepasst.
 
-- [Illustrator-Vorlage](https://nzzmg.sharepoint.com/:u:/s/nzz_st/EQ8GaLs5Pn9PlFVq1mwgXzUBge2XZe8CqtEwjzsrn69Izw?e=rhQeq8) (Zugriff nur für NZZ-Angehörige)
+- [Illustrator-Vorlage NZZ](https://nzzmg.sharepoint.com/:u:/s/nzz_st/EQ8GaLs5Pn9PlFVq1mwgXzUBge2XZe8CqtEwjzsrn69Izw?e=rhQeq8)
+- [Illustrator-Vorlage NZZ am Sonntag](https://nzzmg.sharepoint.com/:u:/s/nzz_st/ERR19rPzmUFBv9W1vjIqvP4BiroWsGhUF9aLUuc05L87Og?e=RsunaI)
+
+Der Zugriff ist nur für NZZ-Mitarbeiter möglich.
 
 Für die Druckproduktion ist ein zusätzliches Artboard und ein Grundlinienraster bereitgestellt.
 Die CMYK-Konvertierung erfolgt, indem das exportierte PDF im Asura-Ordner gespeichert wird (smb://fs006/asura$/queues/070_Infografik/05_RGB_Black_to_100K).
@@ -41,7 +44,8 @@ Zum Planen von grösseren Geschichten, die innerhalb des Zeitungslayouts Platz f
 
 Textstilvorlagen und Farben (für Datenvisualisierungen und Illustrationen) finden sich in Creative-Cloud-Bibliotheken:
 
-- [Textstilvorlagen und Farben](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe)
+- [Textstilvorlagen und Farben für NZZ](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe)
+- [Print-Textstilvorlagen und Farben für NZZ am Sonntag](https://shared-assets.adobe.com/link/91a0ca82-4df4-4059-4740-3a65c8c5cc94)
 - [Kartentextstile und Farben](https://adobe.ly/2KK2rpq)
 - [Parteifarben](https://adobe.ly/2KN4zNj) (möglicherweise nicht sehr aktuell, besser im Styleguide überprüfen)
 
