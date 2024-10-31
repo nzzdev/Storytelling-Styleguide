@@ -9,9 +9,12 @@ Unsere Illustrator-Vorlage ist normalerweise die aktuellste Vorlage und wird gem
 
 Der Zugriff ist nur für NZZ-Mitarbeiter möglich.
 
-Für die Druckproduktion ist ein zusätzliches Artboard und ein Grundlinienraster bereitgestellt.
-Die CMYK-Konvertierung erfolgt, indem das exportierte PDF im Asura-Ordner gespeichert wird (smb://fs006/asura$/queues/070_Infografik/05_RGB_Black_to_100K).
-Nach der Verarbeitung befindet sich die Ausgabe in PDF_OK (smb://fs006/asura$/queues/070_Infografik/98_PDF_OK).
+### Farbmanagement
+
+Wir bearbeiten alle unsere Grafiken im sRGB-Farbraum.
+Beim Export in andere Formate (PDF-X/4, JPEG) ist darauf zu achten, dass das sRGB-Farbprofil eingebettet wird.
+Grafiken werden (im Allgemeinen) auch für Print nicht in den CMYK-Farbraum umgewandelt.
+Mehrere unserer Tools, wie Q, Figma oder Sketch sind gar nicht fähig, Daten im CMYK-Farbraum zu exportieren.
 
 ## Figma-Vorlagen
 
