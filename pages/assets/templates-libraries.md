@@ -13,6 +13,10 @@ Für die Druckproduktion ist ein zusätzliches Artboard und ein Grundlinienraste
 Die CMYK-Konvertierung erfolgt, indem das exportierte PDF im Asura-Ordner gespeichert wird (smb://fs006/asura$/queues/070_Infografik/05_RGB_Black_to_100K).
 Nach der Verarbeitung befindet sich die Ausgabe in PDF_OK (smb://fs006/asura$/queues/070_Infografik/98_PDF_OK).
 
+## Figma-Vorlagen
+
+Komponenten und Stilvorlagen werden in [dieser Datei](https://www.figma.com/design/lf3dvBGXKPWhRQok0Wm0WI/Styleguide?node-id=0-1&t=gz00Rouvo2zfw5mi-1) definiert.
+
 ## Sketch-Vorlage
 
 ```hint|warning
