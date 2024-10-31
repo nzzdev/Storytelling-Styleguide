@@ -64,7 +64,7 @@ NZZ-Mitarbeiter finden die Schriften auf [SharePoint](https://nzzmg.sharepoint.c
 
 ### Zahlenformat
 
-- Wir verwenden für sämtliche Zahlen **Versalziffern für Tabellen** (_Tabular Lining_ auf Englisch). 
+- Wir verwenden für sämtliche Zahlen **Versalziffern für Tabellen** (_Tabular Lining_ auf Englisch).
 - Wir verwenden keine durchgestrichene Null.
 
 ```image
@@ -81,7 +81,7 @@ Die Verwendung von GT America Mono sollte nach Möglichkeit vermieden werden.
 
 ## Styles
 
-Sowohl für Online und Print sind dieselben Schriftstile vordefiniert. 
+Sowohl für Online und Print sind dieselben Schriftstile vordefiniert.
 
 Die Styles in Print sind etwas weniger ausdifferenziert, da die Schriftgrösse zu Beginn weg kleiner ist, was weniger Spielraum lässt.
 
@@ -242,6 +242,7 @@ Im Print werden dafür eigene Textstile eingesetzt.
 
 ## Assets
 
-Print- und Online-Stilvorlagen finden sich in der [Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe).
+Print- und Online-Stilvorlagen für die **NZZ** finden sich in der [Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/10687913-a7ed-44a0-5b8b-bfae70b83abe).
+Printstilvorlagen für die **NZZ am Sonntag** finden sich in dieser [Creative-Cloud-Bibliothek](https://shared-assets.adobe.com/link/91a0ca82-4df4-4059-4740-3a65c8c5cc94).
 
 Die InDesign-Datei, mit der die auf dieser Seite verwendeten Grafiken erstellt wurde, und als Grundlage für die oben verlinkten Stilvorlagen dient, findet sich auf [SharePoint](https://nzzmg.sharepoint.com/:u:/s/nzz_st/EeNx8IK64fBIo635H0OxR0ABi4ehcRxXesUNcWx_3DKBtw?e=750h7X).
