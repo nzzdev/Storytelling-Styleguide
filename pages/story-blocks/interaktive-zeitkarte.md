@@ -1,6 +1,6 @@
 # So funktioniert's
 
-Eine Karte mit Zeitrahl. Leser:innen können sich durchklicken und den Stand der Karte an verschiedenen Tagen ansehen.
+Eine interaktive Karte mit Zeitstrahl: Leser:innen können sich durch die einzelnen Tage klicken und den Zustand der Karte zu verschiedenen Zeitpunkten ansehen.
 
 ```html|span-6
 <video width="100%" controls>
@@ -12,14 +12,14 @@ Eine Karte mit Zeitrahl. Leser:innen können sich durchklicken und den Stand der
 
 # Wie es eingesetzt werden kann
 
-Immer wenn sich Gebiete über die Zeit verändern. Zum Beispiel wie die HTS Syrien in ein paar Tagen [überrannt hat](https://www.nzz.ch/visuals/syrien-konflikt-visuelle-analyse-wie-die-rebellen-asad-stuerzten-ld.1861491) oder wie sich die Waldbrände in Los Angeles [ausgedehnt haben](https://www.nzz.ch/visuals/karten-zeigen-wie-gross-die-zerstoerung-durch-die-braende-in-los-angeles-ist-ld.1866140).
+Immer dann, wenn sich geografische Flächen über die Zeit verändern – Etwa wie die HTS Syrien in ein paar Tagen [überrannt hat](https://www.nzz.ch/visuals/syrien-konflikt-visuelle-analyse-wie-die-rebellen-asad-stuerzten-ld.1861491) oder wie sich die Waldbrände in Los Angeles [ausgedehnt haben](https://www.nzz.ch/visuals/karten-zeigen-wie-gross-die-zerstoerung-durch-die-braende-in-los-angeles-ist-ld.1866140).
 
 # Für was es nicht geeignet ist
 
-Wenn Ereignisse (Punkte) statt Flächen gezeigt werden sollen.
+Ereignisse, bei denen Punkte statt Flächen dargestellt werden sollen.
 
 # Technische Details
 
-* EdTech Aufwand: einen halben Tag um das Element aufzusetzen
-* Grafik-Aufwand: einen Tag um eine Basemap in Maptiler zu gestalten.
-* DDJ-Aufwand: einen Tag um die Daten korrekt als GeoJSON aufzubereiten.
+- EdTech Aufwand: einen halben Tag, um das Element aufzusetzen
+- Grafik-Aufwand: einen Tag für die Gestaltung einer Basiskarte in Maptiler
+- DDJ-Aufwand: einen Tag für die Aufbereitung der Daten als GeoJSON
