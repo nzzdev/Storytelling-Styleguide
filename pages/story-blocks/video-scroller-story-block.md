@@ -43,6 +43,4 @@ Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github
 
 # Technische Details
 
-EdTech Aufwand: 20 - 40 Minuten (Initiales Aufsetzen)
-
-Besonderes: Der Video-Scroller ist noch in der noch in der Entwicklungsphase und ist Abhängig von der Entwicklungen der Browsers (Chrom, Firefox, Safari, etc.)
+EdTech Aufwand: 15-30 Minuten

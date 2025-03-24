@@ -35,4 +35,4 @@ Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github
 
 # Technische Details
 
-EdTech Aufwand: 15 - 20 Minuten
+EdTech Aufwand: 15-30 Minuten

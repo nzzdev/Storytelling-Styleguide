@@ -20,6 +20,6 @@ Ereignisse, bei denen Punkte statt Flächen dargestellt werden sollen.
 
 # Technische Details
 
-- EdTech Aufwand: einen halben Tag, um das Element aufzusetzen
-- Grafik-Aufwand: einen Tag für die Gestaltung einer Basiskarte in Maptiler
-- DDJ-Aufwand: einen Tag für die Aufbereitung der Daten als GeoJSON
+- EdTech Aufwand: 15-30 Minuten
+- Grafik Aufwand: einen Tag für die Gestaltung einer Basiskarte in Maptiler
+- DDJ Aufwand: einen Tag für die Aufbereitung der Daten als GeoJSON

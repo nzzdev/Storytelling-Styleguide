@@ -34,4 +34,4 @@ Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github
 
 # Technische Details
 
-EdTech Aufwand: Genaue Aufwandschätzung kann erst nach Definition der Technike von Zoom (und Pan) gemacht werden.
+EdTech Aufwand: Genaue Aufwandschätzung kann erst nach Definition der Technik von Zoom (und Pan) gemacht werden.

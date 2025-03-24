@@ -30,4 +30,4 @@ Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github
 
 # Technische Details
 
-EdTech Aufwand: 1-3 Stunde (je nach Anzahl Abschnitte und LivingDocs Elemente kann sich der Aufwand erhöhen)
+EdTech Aufwand: 1-4 Stunden (je nach Anzahl Abschnitte und LivingDocs Elemente kann sich der Aufwand erhöhen)
