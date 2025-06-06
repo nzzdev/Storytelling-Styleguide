@@ -1,6 +1,6 @@
 # So funktioniert's
 
-Dieses Element ermöglicht es, zwei Bilder in einem sogenannten „Sticky Toggle“ darzustellen. Dabei bleibt ein Umschalt-Button (Toggle) beim Scrollen am oberen Rand des Story-Blocks haften („sticky“). Mit dem Toggle können Leser:innen zwischen den zwei hinterlegten Bildern wechseln.
+Dieses Element ermöglicht es, zwei Bilder in einem sogenannten „Sticky Toggle“ darzustellen. Dabei bleibt ein Umschalt-Button (Toggle) beim Scrollen am oberen Rand des Story-Blocks haften („sticky“). Mit dem Toggle können Leserinnen und Leser zwischen den zwei hinterlegten Bildern wechseln.
 
 ```html|span-6
 <video width="100%" controls>
