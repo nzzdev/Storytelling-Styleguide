@@ -37,8 +37,7 @@ Das Element eignet sich nicht für Geschichten, die verschiedenen Orte oder Zeit
 - [Kann man hier noch leben? – Eine Reise durch Pakistan, wo der Klimawandel spürbar ist wie an wenigen anderen Orten dieser Welt](https://www.nzz.ch/international/pakistan-leidet-unter-dem-klimawandel-kann-man-hier-noch-leben-ld.1740093)
 - [Chronologie: Der Weg der Credit Suisse nach unten](https://www.nzz.ch/wirtschaft/chronologie-die-wegpunkte-der-credit-suisse-auf-dem-weg-nach-unten-ld.1731140)
 
-Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github.io/ed-tech-project-showcase/?internal)
-
 # Technische Details
 
 EdTech Aufwand: 1-4 Stunden (je nach Anzahl Abschnitte und LivingDocs Elemente kann sich der Aufwand erhöhen)
+Generalisierungsgrad: Mittel

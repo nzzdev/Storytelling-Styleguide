@@ -23,3 +23,4 @@ Ereignisse, bei denen Punkte statt Flächen dargestellt werden sollen.
 - EdTech Aufwand: 15-30 Minuten
 - Grafik Aufwand: einen Tag für die Gestaltung einer Basiskarte in Maptiler
 - DDJ Aufwand: einen Tag für die Aufbereitung der Daten als GeoJSON
+  Generalisierungsgrad: mittel

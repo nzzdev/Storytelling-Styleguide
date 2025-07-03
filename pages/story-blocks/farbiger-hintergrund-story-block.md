@@ -20,14 +20,13 @@ Mit einem farbigen Hintergrund können unterschiedliche Inhalte von einander dif
 # Für was es nicht geeignet ist
 
 - Als rein visuelles Stilelement ohne inhaltlichen Zusammenhang zur Geschichte.
-- Um den gesamten Artikel-Hintergrund farbig zu machen. Diese Funktion ist zurzeit den NZZaS-Artikeln vorbehalten.
+- Farbige Artikel Hintergründen sind momentan standardmässig im LivingDocs implementiert. Fällt aber bei der Web-Migration wieder weg. Wir sind daran, das die farbige Hintergründe auf Artikelebene noch implementiert wird.
 
 # Beispiele
 
 - [Die Stadt unter der Stadt: Helsinki lebt im Untergrund](https://www.nzz.ch/visuals/helsinkis-bunker-die-stadt-unter-der-hauptstadt-von-finnland-ld.1694748)
 
-Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github.io/ed-tech-project-showcase/?internal)
-
 # Technische Details
 
 EdTech Aufwand: 1-4 Stunden (je nach Anzahl Abschnitte und LivingDocs Elemente kann sich der Aufwand erhöhen)
+Generalisierungsgrad: gering

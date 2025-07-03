@@ -24,8 +24,7 @@ Ein Artikel kann mehrere solcher Stories enthalten. Der Nutzer kommt entweder du
 
 - [Was in den Trümmern bleibt: Die Geschichte von Wohnblock 2b](https://www.nzz.ch/international/ukraine-putins-rakete-die-alles-veraenderte-zu-besuch-in-saporischja-ld.1750811)
 
-Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github.io/ed-tech-project-showcase/?internal)
-
 # Technische Details
 
 EdTech Aufwand: Dieses Element ist noch in einer Story drin und muss zuerst herausgelöst werden. Das wird ca. 1 Woche dauern.
+Generalisierungsgrad: Gering

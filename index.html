@@ -3,15 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css"
-    />
+    <link rel="stylesheet" href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css" />
     <link
       rel="stylesheet"
       href="https://sophie-build-service.st.nzz.ch/bundle/sophie-font@^1,sophie-input@^1,sophie-color@^1,sophie-viz-color@^1.css"
@@ -96,12 +90,12 @@
                 {
                   path: 'grafiktypen/q-elections',
                   title: 'Q-Wahlcharts',
-                  src: 'pages/graphic-types/q-elections.md'
+                  src: 'pages/graphic-types/q-elections.md',
                 },
                 {
                   path: 'grafiktypen/q-ballot',
                   title: 'Q-Abstimmungen',
-                  src: 'pages/graphic-types/q-ballot.md'
+                  src: 'pages/graphic-types/q-ballot.md',
                 },
                 {
                   path: 'custom-chart',
@@ -304,6 +298,11 @@
                   src: 'pages/story-blocks/interaktive-zeitkarte.md',
                 },
                 {
+                  path: 'karten-scrolly-story-block',
+                  title: 'Karten Scrolly',
+                  src: 'pages/story-blocks/karten-scrolly-story-block.md',
+                },
+                {
                   path: 'mobile-freundliches-video-story-block',
                   title: 'Mobile-freundliches Video',
                   src: 'pages/story-blocks/mobile-freundliches-video-story-block.md',
@@ -339,10 +338,15 @@
                   src: 'pages/story-blocks/video-scroller-story-block.md',
                 },
                 {
+                  path: 'video-scroller-trigger-story-block',
+                  title: 'Video Scroller Trigger',
+                  src: 'pages/story-blocks/video-scroller-trigger-story-block.md',
+                },
+                {
                   path: 'visuelle-unternavigation-story-block',
                   title: 'Visuelle Unternavigation',
                   src: 'pages/story-blocks/visuelle-unternavigation-story-block.md',
-                }
+                },
               ],
             },
             {
@@ -369,13 +373,12 @@
             bgDark: '#000000',
             bgLight: '#FFFFFF',
             fontFamily: 'system-ui, sans-serif',
-            fontHeading:
-              "'nzz-sans-serif', 'GT America', system-ui, sans-serif",
+            fontHeading: "'nzz-sans-serif', 'GT America', system-ui, sans-serif",
           },
           styles: ['static/theme.css'],
         },
         document.getElementById('catalog')
-      )
+      );
     </script>
   </body>
 </html>

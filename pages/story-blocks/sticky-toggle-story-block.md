@@ -26,8 +26,7 @@ Dieses Element ermöglicht es, zwei Bilder in einem sogenannten „Sticky Toggle
 - [Von manchen Dörfern in Südlibanon bleiben nur Trümmerhaufen übrig](https://qv2.st.nzz.ch/editor/custom_code/0d50b45e538faa45f768d3204480173f)
 - [Abholzung für die Klimakonferenz? Der Bau einer Schnellstrasse in Brasilien sorgt für Kritik](https://qv2.st.nzz.ch/editor/custom_code/82846e40d5ad7379898a43fa820d1aea)
 
-Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github.io/ed-tech-project-showcase/?internal)
-
 # Technische Details
 
-EdTech Aufwand: 15-30 Minuten
+EdTech Aufwand: 10-15 Minuten
+Generalisierungsgrad: Hoch

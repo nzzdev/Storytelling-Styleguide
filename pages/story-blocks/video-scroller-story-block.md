@@ -1,27 +1,31 @@
 # So funktioniert's
 
-Dieses Beta-Element ist die Umsetzung der Scrollytelling-Technik [«Video-Scroller»](https://nzzdev.github.io/Storytelling-Styleguide/#/video-scroller). Das Element erlaubt uns, Videos einzubetten, die durchs Scrollen schrittweise abgespielt werden können. Optional können zusätzliche Informationen in Textboxen platziert werden, die ebenso beim Scrollen über das Video laufen.
+Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scroller»](https://nzzdev.github.io/Storytelling-Styleguide/#/video-scroller). Das Element erlaubt uns, Videos einzubetten, die durchs Scrollen schrittweise abgespielt werden können. Optional können zusätzliche Informationen in Textboxen platziert werden, die ebenso beim Scrollen über das Video laufen. Der Video-Scroller hat eine signifikantes Update erhalten von der Geschichte [«Das< Wasserschloss im Jahre 2027»](https://www.nzz.ch/-ld.1848954)
 
 ```html|span-6
 <video width="100%" controls>
-  <source src="assets/story-blocks/video-scroller_saporischja.mp4" type="video/mp4">
+  <source src="assets/story-blocks/video-scroller-standard-checkpoint.mp4" type="video/mp4">
 </video>
 ```
 
-[Was in den Trümmern bleibt: Die Geschichte von Wohnblock 2b](https://www.nzz.ch/international/ukraine-putins-rakete-die-alles-veraenderte-zu-besuch-in-saporischja-ld.1750811)
+[«Meine Arbeiter haben Angst vor den Checkpoints. Wenn ich nicht fahre, macht es niemand» – unterwegs in einem Land voller Strassensperren](https://www.nzz.ch/international/israels-sicherheitsregime-im-westjordanland-unterwegs-im-land-der-checkpoints-ld.1858613#q_custom_code_422f5c8f2763c99bd78a87a8952b2548_qca7303a9323b43dda08935dc6964f5c4_container)
 
 ```html|span-6
 <video width="100%" controls>
-  <source src="assets/story-blocks/video-scroller_mayotte.mp4" type="video/mp4">
+  <source src="assets/story-blocks/video-scroller-standard-unterwasser-kabel.mp4" type="video/mp4">
 </video>
 ```
 
-[Mayotte liegt 8000 Kilometer von Paris entfernt und ist das jüngste französische Département. Doch tut Frankreich der Insel wirklich gut?](https://www.nzz.ch/international/frankreich-mayotte-hadert-mit-der-regierung-in-paris-ld.1746968)
+[Sabotage on the seabed: How can Europe protect itself?](https://www.nzz.ch/english/europe-faces-rising-risk-of-underwater-cable-sabotage-ld.1875983#q_custom_code_5cde6d33c8c4f3aad5c88cd2193f4f79_q53d9de19aa154baab4a0ac284b078280_container)
 
 # Wie es eingesetzt werden kann
 
-- In investigativen Geschichten, um Geschehnisse in Social-Media-Videos oder Drohnenvideos schrittweise zu erklären, wie zum Beispiel in diesem Artikel über [Russlands Angriff auf Kiew](https://www.nzz.ch/international/krieg-gegen-die-ukraine/warum-russland-im-kampf-um-kiew-scheiterte-ld.1679477).
-- Für Animationen oder 3-D-Modelle, die als Videos ausgespielt und eingebunden werden, wie zum Beispiel bei dieser [animierten Weltkugel](https://www.nzz.ch/international/verschollen-boot-mit-toten-migranten-treibt-bis-in-die-karibik-ld.1733753).
+- Um den Handlungsbogen eines Videos strukturiert zu erzählen.
+- Für Videos, bei denen die Steuerung einzelner Frames nicht möglich ist.
+  Generell gilt: Der Einsatz des Standard-Scrollers oder des [Trigger-Video-Scroller](https://nzzdev.github.io/Storytelling-Styleguide/#video-scroller-trigger-story-block.md) hängt vom gewünschten Storytelling-Stil ab.
+
+  - In investigativen Geschichten, um Geschehnisse in Social-Media-Videos oder technische Video's (wie etwas über Drohnen) schrittweise zu erklären.
+  - Für Animationen oder 3-D-Modelle, die als Videos ausgespielt und eingebunden werden, wie zum Beispiel bei dieser.
 
 # Für was es nicht geeignet ist
 
@@ -30,12 +34,9 @@ Dieses Beta-Element ist die Umsetzung der Scrollytelling-Technik [«Video-Scroll
 
 # Beispiele
 
-- [David besiegt Goliath – weshalb Russland im Kampf um Kiew gescheitert ist](https://www.nzz.ch/international/krieg-gegen-die-ukraine/warum-russland-im-kampf-um-kiew-scheiterte-ld.1679477#q_custom_code_85c353bb11cc62672a227f88694d266e)
-- [Vor der Karibikinsel Tobago treibt ein Boot mit Leichen an Bord. Woher kamen diese Menschen, und was ist passiert?](https://www.nzz.ch/international/verschollen-boot-mit-toten-migranten-treibt-bis-in-die-karibik-ld.1733753)
-- [Mayotte liegt 8000 Kilometer von Paris entfernt und ist das jüngste französische Département. Doch tut Frankreich der Insel wirklich gut?](https://www.nzz.ch/international/frankreich-mayotte-hadert-mit-der-regierung-in-paris-ld.1746968)
-- [Was in den Trümmern bleibt: Die Geschichte von Wohnblock 2b](https://www.nzz.ch/international/ukraine-putins-rakete-die-alles-veraenderte-zu-besuch-in-saporischja-ld.1750811)
-
-Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github.io/ed-tech-project-showcase/?internal)
+- [Frankreich fiebert der Auferstehung von Notre-Dame entgegen](https://www.nzz.ch/report-und-debatte/wie-der-wiederaufbau-von-notre-dame-frankreich-befluegelt-ld.1819981#q_custom_code_8b6ed7c33144ff7827d517b2bd378b44_qaf564536337645f58f2d5f277578acfe_container)
+- [Roboter, Golfbälle, Kotbeutel: Welche Dinge auf dem Mond herumliegen – und was damit geschehen soll, wenn Astronauten zurückkehren](https://www.nzz.ch/wissenschaft/ueber-tausend-gegenstaende-auf-dem-mond-was-geschieht-damit-ld.1823689#q_custom_code_105c9a068b634adeb11dbeefc4c190da_qc9436c1c3b774ddebab78f39a6bbb219_container)
+- [Der westliche Luftraum schrumpft: Was, wenn auch die Route über China für westliche Passagierflugzeuge plötzlich gesperrt ist?](https://www.nzz.ch/pro/geopolitik-beeinflusst-flugrouten-swiss-fliegt-zuerichtokio-ueber-umwege-ld.1835998#q_custom_code_5416ec5f862f92d97b5b8f819597b1f9_qdb78c12761df4cf28d38ef1a34bec295_container)
 
 # Weitere Infos
 
@@ -43,4 +44,5 @@ Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github
 
 # Technische Details
 
-EdTech Aufwand: 15-30 Minuten
+EdTech Aufwand: 10-15 Minuten
+Generalisierungsgrad: Mittel

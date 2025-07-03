@@ -22,8 +22,7 @@ Wenn das visuelle Elemente nicht so hoch ist, wirkt die Leserführung durch das 
 
 - [Umweltschäden als Waffe: das giftige Erbe des Ukraine-Kriegs](https://www.nzz.ch/international/umweltschaeden-als-waffe-das-giftige-erbe-des-ukraine-kriegs-ld.1711671)
 
-Weitere Beispiele finden sich im [Editorial Tech Showcase](https://nzzdev.github.io/ed-tech-project-showcase/?internal)
-
 # Technische Details
 
 EdTech Aufwand: 15-30 Minuten
+Generalisierungsgrad: Hoch
