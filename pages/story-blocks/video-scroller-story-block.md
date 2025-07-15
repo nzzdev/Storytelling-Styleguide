@@ -1,6 +1,10 @@
 # So funktioniert's
 
-Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scroller»](https://nzzdev.github.io/Storytelling-Styleguide/#/video-scroller). Das Element erlaubt uns, Videos einzubetten, die durchs Scrollen schrittweise abgespielt werden können. Optional können zusätzliche Informationen in Textboxen platziert werden, die ebenso beim Scrollen über das Video laufen. Der Video-Scroller hat eine signifikantes Update erhalten von der Geschichte [«Das< Wasserschloss im Jahre 2027»](https://www.nzz.ch/-ld.1848954)
+Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scroller»](https://nzzdev.github.io/Storytelling-Styleguide/#/video-scroller). 
+Das Element erlaubt uns, Videos einzubetten, die durchs Scrollen schrittweise abgespielt werden können. 
+Die Leser:innen haben über ihre eigene Scrollgeschwindigkeit volle Kontrolle über das Tempo, mit dem das Video abgespielt wird.
+
+Optional können zusätzliche Informationen in Textboxen platziert werden, die ebenso beim Scrollen über das Video laufen. Der Video-Scroller hat ein signifikantes Update erhalten von der Geschichte [«Das Wasserschloss im Jahre 2027»](https://www.nzz.ch/-ld.1848954).
 
 ```html|span-6
 <video width="100%" controls>
@@ -20,12 +24,11 @@ Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scrol
 
 # Wie es eingesetzt werden kann
 
-- Um den Handlungsbogen eines Videos strukturiert zu erzählen.
-- Für Videos, bei denen die Steuerung einzelner Frames nicht möglich ist.
-  Generell gilt: Der Einsatz des Standard-Scrollers oder des [Trigger-Video-Scroller](https://nzzdev.github.io/Storytelling-Styleguide/#video-scroller-trigger-story-block.md) hängt vom gewünschten Storytelling-Stil ab.
+- Um den Handlungsbogen eines Videos Schritt für Schritt, Frame für Frame zu erzählen.
+- Für Videos, bei denen wir das Tempo der Animation oder der Bewegung beim Erstellen nicht selbst steuern können.
+- Für Videos, bei denen nicht einzelne, spezifische Frames kommentiert werden sollen, sondern eine ganze, fliessende Bewegung.
 
-  - In investigativen Geschichten, um Geschehnisse in Social-Media-Videos oder technische Video's (wie etwas über Drohnen) schrittweise zu erklären.
-  - Für Animationen oder 3-D-Modelle, die als Videos ausgespielt und eingebunden werden, wie zum Beispiel bei dieser.
+  Generell gilt: Der Einsatz des Standard-Scrollers oder des [Trigger-Video-Scroller](https://nzzdev.github.io/Storytelling-Styleguide/#video-scroller-trigger-story-block.md) hängt vom gewünschten Storytelling-Stil ab.
 
 # Für was es nicht geeignet ist
 
@@ -43,6 +46,12 @@ Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scrol
 - [Anleitung zum Upload der Video in den JW-Player](https://3.basecamp.com/3500782/buckets/10878677/documents/6058690351) (Basecamp)
 
 # Technische Details
+
+Eine Framerate von ca 12–15 FPS reicht aus, um die Illusion von Bewegung zu erzeugen.
+
+Auf Firefox und Chrome (d.h. auch auf Android-Geräten) wird für eine flüssige Animation das komplette Video decodiert und in den Arbeitsspeicher geladen – was einen grossen Ressourcenbedarf bedeutet.
+Damit die Videos auch auf Mid- und Low-Range Android-Geräten angezeigt werden, sollten die Videos möglichst kurz sein und nicht zu gross bezüglich der Bildgrösse. Auch empfiehlt sich, darauf zu verzichten, mehrere dieser Elemente in einem Artikel einzusetzen.
+
 
 EdTech Aufwand: 10-15 Minuten
 Generalisierungsgrad: Mittel

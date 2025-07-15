@@ -1,6 +1,6 @@
 # So funktioniert's
 
-Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scroller»](https://nzzdev.github.io/Storytelling-Styleguide/#/video-scroller). Ein Scrollytelling-Element, das es ermöglicht, ein Video beim Scrollen an bestimmten Keyframes zu „triggern“ – also gezielt anzuhalten oder weiterlaufen zu lassen. Optional können zusätzliche Informationen in Textboxen platziert werden, die ebenso beim Scrollen über das Video laufen. Im Gegensatz zum [Standard-Video-Scroller](https://nzzdev.github.io/Storytelling-Styleguide/#video-scroller-story-block.md) läuft das Video zwischen definierten Frames automatisch ab.
+Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scroller»](https://nzzdev.github.io/Storytelling-Styleguide/#/video-scroller). Ein Scrollytelling-Element, das es ermöglicht, ein Video in vordefinierten Abschnitten abspielen und jeweils bei relevanten Frames anhalten zu lassen, um diese zu kommentieren. Die Leser:in kontrolliert die Geschwindigkeit der Animation nicht.
 
 ```html|span-6
 <video width="100%" controls>
@@ -20,15 +20,12 @@ Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scrol
 
 # Wie es eingesetzt werden kann
 
-- Situationen, in denen die Bewegung im Video sekundär ist, aber einzelne Frames wichtig sind.
-- Generell gilt: Der Einsatz des Standard-Scrollers oder des [Trigger-Video-Scroller](https://nzzdev.github.io/Storytelling-Styleguide/#video-scroller-standard-story-block.md) hängt vom gewünschten Storytelling-Stil ab.
-
-  - In investigativen Geschichten, um Geschehnisse in Social-Media-Videos oder technische Video's (wie etwas über Drohnen) schrittweise zu erklären.
-  - Für Animationen oder 3-D-Modelle, die als Videos ausgespielt und eingebunden werden, wie zum Beispiel bei dieser.
+- Wenn wir mehrere Grafiken (im breitesten Sinne) in eine Abfolge bringen und diese Grafiken jeweils durch Animationen und Übergänge miteinander verknüpfen wollen – also quasi eine [Bildabfolge](/scrollytelling-grafikabfolge), bei der wir die volle Kontrolle über die Form und Dauer der Übergänge haben.
+- Generell gilt: Der Einsatz des Standard-Scrollers oder des [Trigger-Video-Scroller](/video-scroller-standard-story-block) hängt vom gewünschten Storytelling-Stil ab.
 
 # Für was es nicht geeignet ist
 
-- Für Videos, die bei denen ein flüssiger Ablauf wichtig ist, die also nicht durchs Scrollen unterbrochen werden sollen.
+- Für Videos, bei denen ein flüssiger Ablauf wichtig ist, die also nicht durchs Scrollen unterbrochen werden sollen.
 - Szenen, bei denen der Nutzer nicht gezielt Frame-Kontrolle haben sollte.
 - Für Videos, bei denen der Ton wichtig ist.
 
@@ -43,6 +40,14 @@ Dieses Q-Story-Block ist die Umsetzung der Scrollytelling-Technik [«Video-Scrol
 - [Anleitung zum Upload der Video in den JW-Player](https://3.basecamp.com/3500782/buckets/10878677/documents/6058690351) (Basecamp)
 
 # Technische Details
+
+Im Gegensatz zum [Standard-Video-Scroller](/video-scroller-story-block) wird das Video in Firefox und Chrome «normal» ausgespielt und hat keinen erhöhten Prozessor- und Arbeitsspeicherbedarf.
+
+Scrollt die Leser:in zum nächsten Abschnitt weiter, während der vorherige Übergang noch läuft, springt der Videoplayer automatisch zum Beginn des nächsten Überganges. Es empfiehlt sich also, die Übergänge relativ kurz zu halten (2–3 Sekunden).
+
+Die Übergänge werden in konstanter, einfacher Geschwindigkeit abgespielt.
+Das Beschleunigen und Abbremsen der Animationen ([Easing](https://easings.net/de)) muss, falls gewünscht, während der Produktion des Videos eingebaut werden (aber dafür hat die Autor:in auch volle Kontrolle über diese Aspekte).
+
 
 EdTech Aufwand: 10-15 Minuten
 Generalisierungsgrad: Mittel
