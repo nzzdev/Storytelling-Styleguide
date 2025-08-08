@@ -1,384 +1,396 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
-    <link rel="stylesheet" href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css" />
-    <link
-      rel="stylesheet"
-      href="https://sophie-build-service.st.nzz.ch/bundle/sophie-font@^1,sophie-input@^1,sophie-color@^1,sophie-viz-color@^1.css"
-    />
-    <title>Visuals Styleguide</title>
-  </head>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+        <link
+            rel="stylesheet"
+            href="https://context-service.st.nzz.ch/stylesheet/all/nzz.ch.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://sophie-build-service.st.nzz.ch/bundle/sophie-font@^1,sophie-input@^1,sophie-color@^1,sophie-viz-color@^1.css"
+        />
+        <title>Visuals Styleguide</title>
+    </head>
 
-  <body>
-    <div id="catalog"></div>
-    <script src="https://unpkg.com/catalog@3.6.0/dist/catalog-standalone.min.js"></script>
-    <script>
-      Catalog.render(
-        {
-          title: 'Visuals Styleguide',
-          logoSrc: 'static/nzz-visuals-logo.svg',
-          publicUrl: window.document.location.pathname,
-          pages: [
-            {
-              path: '/',
-              title: 'Einführung',
-              src: 'pages/intro.md',
-            },
-            {
-              title: 'Style',
-              pages: [
+    <body>
+        <div id="catalog"></div>
+        <script src="https://unpkg.com/catalog@3.6.0/dist/catalog-standalone.min.js"></script>
+        <script>
+            Catalog.render(
                 {
-                  path: 'principles',
-                  title: 'Principles',
-                  src: 'pages/style/principles.md',
-                },
-                {
-                  path: 'colors',
-                  title: 'Farben: Dataviz',
-                  src: 'pages/style/colors.md',
-                },
-                {
-                  path: 'colors-scales',
-                  title: 'Farben: Skalen',
-                  src: 'pages/style/colors-scales.md',
-                },
-                {
-                  path: 'colors-parties',
-                  title: 'Farben: Parteien',
-                  src: 'pages/style/colors-parties.md',
-                },
-                {
-                  path: 'typography',
-                  title: 'Typography',
-                  src: 'pages/style/typography.md',
-                },
-              ],
-            },
-            {
-              title: 'Grafik-Typen',
+                    title: "Visuals Styleguide",
+                    logoSrc: "static/nzz-visuals-logo.svg",
+                    publicUrl: window.document.location.pathname,
+                    pages: [
+                        {
+                            path: "/",
+                            title: "Einführung",
+                            src: "pages/intro.md",
+                        },
+                        {
+                            title: "Style",
+                            pages: [
+                                {
+                                    path: "principles",
+                                    title: "Principles",
+                                    src: "pages/style/principles.md",
+                                },
+                                {
+                                    path: "colors",
+                                    title: "Farben: Dataviz",
+                                    src: "pages/style/colors.md",
+                                },
+                                {
+                                    path: "colors-scales",
+                                    title: "Farben: Skalen",
+                                    src: "pages/style/colors-scales.md",
+                                },
+                                {
+                                    path: "colors-parties",
+                                    title: "Farben: Parteien",
+                                    src: "pages/style/colors-parties.md",
+                                },
+                                {
+                                    path: "typography",
+                                    title: "Typography",
+                                    src: "pages/style/typography.md",
+                                },
+                            ],
+                        },
+                        {
+                            title: "Grafik-Typen",
 
-              pages: [
-                {
-                  path: 'grafiktypen/intro',
-                  title: 'Einführung',
-                  src: 'pages/graphic-types/index.md',
+                            pages: [
+                                {
+                                    path: "grafiktypen/intro",
+                                    title: "Einführung",
+                                    src: "pages/graphic-types/index.md",
+                                },
+                                {
+                                    path: "q-chart",
+                                    title: "Q-Diagramm",
+                                    src: "pages/graphic-types/q-diagramm.md",
+                                },
+                                {
+                                    path: "q-table",
+                                    title: "Q-Tabelle",
+                                    src: "pages/graphic-types/q-table.md",
+                                },
+                                {
+                                    path: "q-locator-map",
+                                    title: "Q-Karte",
+                                    src: "pages/graphic-types/q-locator-map.md",
+                                },
+                                {
+                                    path: "q-choropleth",
+                                    title: "Q-Choropleth",
+                                    src: "pages/graphic-types/q-choropleth.md",
+                                },
+                                {
+                                    path: "grafiktypen/q-elections",
+                                    title: "Q-Wahlcharts",
+                                    src: "pages/graphic-types/q-elections.md",
+                                },
+                                {
+                                    path: "grafiktypen/q-ballot",
+                                    title: "Q-Abstimmungen",
+                                    src: "pages/graphic-types/q-ballot.md",
+                                },
+                                {
+                                    path: "custom-chart",
+                                    title: "Diagramm nach Mass",
+                                    src: "pages/graphic-types/custom-chart.md",
+                                },
+                                {
+                                    path: "custom-map",
+                                    title: "Karte nach Mass",
+                                    src: "pages/graphic-types/custom-map.md",
+                                },
+                                {
+                                    path: "interactive-chart",
+                                    title: "Interaktive Datenvisualisierung",
+                                    src: "pages/graphic-types/interactive-chart.md",
+                                },
+                                {
+                                    path: "service-tool",
+                                    title: "Service-Tool",
+                                    src: "pages/graphic-types/service-tool.md",
+                                },
+                                {
+                                    path: "erklaergrafik",
+                                    title: "Erklärgrafik",
+                                    src: "pages/graphic-types/erklaergrafik.md",
+                                },
+                                {
+                                    path: "scrollytelling-grafikabfolge",
+                                    title: "Grafikabfolge (Scrollytelling)",
+                                    src: "pages/graphic-types/scrollytelling-grafikabfolge.md",
+                                },
+                                {
+                                    path: "illustration",
+                                    title: "Freie Illustration",
+                                    src: "pages/graphic-types/illustration.md",
+                                },
+                            ],
+                        },
+                        {
+                            title: "Charts",
+                            pages: [
+                                {
+                                    path: "charts-guidelines",
+                                    title: "Guidelines",
+                                    src: "pages/charts/guidelines.md",
+                                },
+                                {
+                                    path: "basic-charts",
+                                    title: "Basic Charts",
+                                    src: "pages/charts/basic-charts.md",
+                                },
+                                {
+                                    path: "dots-arrows",
+                                    title: "Dot & Arrow",
+                                    src: "pages/charts/dots-arrows.md",
+                                },
+                                {
+                                    path: "scatter-slope",
+                                    title: "Scatter & Slope",
+                                    src: "pages/charts/scatter-slope.md",
+                                },
+                                {
+                                    path: "isotype",
+                                    title: "Isotype",
+                                    src: "pages/charts/isotype.md",
+                                },
+                                {
+                                    path: "dual-axis",
+                                    title: "Dual-Axis",
+                                    src: "pages/charts/dual-axis.md",
+                                },
+                                {
+                                    path: "elections",
+                                    title: "Election",
+                                    src: "pages/charts/elections.md",
+                                },
+                            ],
+                        },
+                        {
+                            title: "Maps",
+                            pages: [
+                                {
+                                    path: "maps-guidelines",
+                                    title: "Guidelines",
+                                    src: "pages/maps/guidelines.md",
+                                },
+                                {
+                                    path: "pointer-maps",
+                                    title: "Pointer",
+                                    src: "pages/maps/pointer.md",
+                                },
+                                {
+                                    path: "choropleth-maps",
+                                    title: "Choropleth",
+                                    src: "pages/maps/choropleth.md",
+                                },
+                            ],
+                        },
+                        {
+                            title: "UI Elements",
+                            pages: [
+                                {
+                                    path: "buttons",
+                                    title: "Buttons",
+                                    src: "pages/ui-elements/buttons.md",
+                                },
+                                {
+                                    path: "selection",
+                                    title: "Selection Input",
+                                    src: "pages/ui-elements/selection.md",
+                                },
+                                {
+                                    path: "text",
+                                    title: "Text Input",
+                                    src: "pages/ui-elements/text.md",
+                                },
+                            ],
+                        },
+                        {
+                            title: "Graphic Images",
+                            pages: [
+                                {
+                                    path: "graphic-images",
+                                    title: "Guidelines",
+                                    src: "pages/graphic-images/graphic-images.md",
+                                },
+                            ],
+                        },
+                        {
+                            title: "Scrollytelling",
+                            pages: [
+                                {
+                                    path: "einfuehrung",
+                                    title: "Einführung",
+                                    src: "pages/scrollytelling/einfuehrung.md",
+                                },
+                                {
+                                    path: "einblenden-abspielen",
+                                    title: "Einblenden und abspielen",
+                                    src: "pages/scrollytelling/einblenden-abspielen.md",
+                                },
+                                {
+                                    path: "bildabfolge",
+                                    title: "Bildabfolge",
+                                    src: "pages/scrollytelling/bildabfolge.md",
+                                },
+                                {
+                                    path: "grafikabfolge",
+                                    title: "Grafikabfolge",
+                                    src: "pages/scrollytelling/grafikabfolge.md",
+                                },
+                                {
+                                    path: "animierte-uebergaenge",
+                                    title: "Animierte Übergänge",
+                                    src: "pages/scrollytelling/animierte-uebergaenge.md",
+                                },
+                                {
+                                    path: "pan-zoom",
+                                    title: "Pan und Zoom",
+                                    src: "pages/scrollytelling/pan-zoom.md",
+                                },
+                                {
+                                    path: "video-scroller",
+                                    title: "Video Scroller",
+                                    src: "pages/scrollytelling/video-scroller.md",
+                                },
+                                {
+                                    path: "fortschrittsanzeige",
+                                    title: "Fortschrittsanzeige",
+                                    src: "pages/scrollytelling/fortschrittsanzeige.md",
+                                },
+                                {
+                                    path: "3d-modell-scroller",
+                                    title: "3D-Modell Scroller",
+                                    src: "pages/scrollytelling/3d-modell-scroller.md",
+                                },
+                            ],
+                        },
+                        {
+                            title: "Q-Story-Blocks",
+                            pages: [
+                                {
+                                    path: "einfuehrung-q-story-blocks",
+                                    title: "Einführung",
+                                    src: "pages/story-blocks/einfuehrung-story-block.md",
+                                },
+                                {
+                                    path: "farbiger-hintergrund-story-block",
+                                    title: "Farbiger Hintergrund",
+                                    src: "pages/story-blocks/farbiger-hintergrund-story-block.md",
+                                },
+                                {
+                                    path: "fixierte-legende-story-block",
+                                    title: "Fixierte Legende",
+                                    src: "pages/story-blocks/fixierte-legende-story-block.md",
+                                },
+                                {
+                                    path: "interaktives-svg-story-block",
+                                    title: "Interaktives SVG",
+                                    src: "pages/story-blocks/interaktives-svg.md",
+                                },
+                                {
+                                    path: "interaktive-zeitkarte-story-block",
+                                    title: "Interaktive Zeitkarte",
+                                    src: "pages/story-blocks/interaktive-zeitkarte.md",
+                                },
+                                {
+                                    path: "karten-scrolly-story-block",
+                                    title: "Karten Scrolly",
+                                    src: "pages/story-blocks/karten-scrolly-story-block.md",
+                                },
+                                {
+                                    path: "mobile-freundliches-video-story-block",
+                                    title: "Mobile-freundliches Video",
+                                    src: "pages/story-blocks/mobile-freundliches-video-story-block.md",
+                                },
+                                {
+                                    path: "nzz-stories-story-block",
+                                    title: "NZZ-Stories",
+                                    src: "pages/story-blocks/nzz-stories-story-block.md",
+                                },
+                                {
+                                    path: "pan-zoom-story-block",
+                                    title: "Pan-and-Zoom",
+                                    src: "pages/story-blocks/pan-zoom-story-block.md",
+                                },
+                                {
+                                    path: "sticky-toggle-story-block",
+                                    title: "Sticky Toggle",
+                                    src: "pages/story-blocks/sticky-toggle-story-block.md",
+                                },
+                                {
+                                    path: "visuelle-fortschrittsanzeige-story-block",
+                                    title: "Visuelle Fortschrittsanzeige",
+                                    src: "pages/story-blocks/visuelle-fortschrittsanzeige-story-block.md",
+                                },
+                                {
+                                    path: "visuelle-infobox-story-block",
+                                    title: "Visuelle Infobox",
+                                    src: "pages/story-blocks/visuelle-infobox-story-block.md",
+                                },
+                                {
+                                    path: "video-scroller-story-block",
+                                    title: "Video Scroller",
+                                    src: "pages/story-blocks/video-scroller-story-block.md",
+                                },
+                                {
+                                    path: "video-scroller-trigger-story-block",
+                                    title: "Video Scroller Trigger",
+                                    src: "pages/story-blocks/video-scroller-trigger-story-block.md",
+                                },
+                                {
+                                    path: "visuelle-unternavigation-story-block",
+                                    title: "Visuelle Unternavigation",
+                                    src: "pages/story-blocks/visuelle-unternavigation-story-block.md",
+                                },
+                            ],
+                        },
+                        {
+                            title: "Assets",
+                            pages: [
+                                {
+                                    path: "assets",
+                                    title: "Vorlagen und Bibliotheken",
+                                    src: "pages/assets/templates-libraries.md",
+                                },
+                            ],
+                        },
+                    ],
+                    theme: {
+                        brandColor: "#00205B",
+                        pageHeadingBackground: "#000000",
+                        sidebarColorActive: "#505DCD",
+                        sidebarColorText: "#00205B",
+                        sidebarColorTextActive: "#505DCD",
+                        sidebarColorHeading: "#00205B",
+                        codeColor: "#00205B",
+                        linkColor: "#505DCD",
+                        textMedium: "#00205B",
+                        bgDark: "#000000",
+                        bgLight: "#FFFFFF",
+                        fontFamily: "system-ui, sans-serif",
+                        fontHeading:
+                            "'nzz-sans-serif', 'GT America', system-ui, sans-serif",
+                    },
+                    styles: ["static/theme.css"],
                 },
-                {
-                  path: 'q-chart',
-                  title: 'Q-Diagramm',
-                  src: 'pages/graphic-types/q-diagramm.md',
-                },
-                {
-                  path: 'q-table',
-                  title: 'Q-Tabelle',
-                  src: 'pages/graphic-types/q-table.md',
-                },
-                {
-                  path: 'q-locator-map',
-                  title: 'Q-Karte',
-                  src: 'pages/graphic-types/q-locator-map.md',
-                },
-                {
-                  path: 'q-choropleth',
-                  title: 'Q-Choropleth',
-                  src: 'pages/graphic-types/q-choropleth.md',
-                },
-                {
-                  path: 'grafiktypen/q-elections',
-                  title: 'Q-Wahlcharts',
-                  src: 'pages/graphic-types/q-elections.md',
-                },
-                {
-                  path: 'grafiktypen/q-ballot',
-                  title: 'Q-Abstimmungen',
-                  src: 'pages/graphic-types/q-ballot.md',
-                },
-                {
-                  path: 'custom-chart',
-                  title: 'Diagramm nach Mass',
-                  src: 'pages/graphic-types/custom-chart.md',
-                },
-                {
-                  path: 'custom-map',
-                  title: 'Karte nach Mass',
-                  src: 'pages/graphic-types/custom-map.md',
-                },
-                {
-                  path: 'interactive-chart',
-                  title: 'Interaktive Datenvisualisierung',
-                  src: 'pages/graphic-types/interactive-chart.md',
-                },
-                {
-                  path: 'service-tool',
-                  title: 'Service-Tool',
-                  src: 'pages/graphic-types/service-tool.md',
-                },
-                {
-                  path: 'erklaergrafik',
-                  title: 'Erklärgrafik',
-                  src: 'pages/graphic-types/erklaergrafik.md',
-                },
-                {
-                  path: 'scrollytelling-grafikabfolge',
-                  title: 'Grafikabfolge (Scrollytelling)',
-                  src: 'pages/graphic-types/scrollytelling-grafikabfolge.md',
-                },
-                {
-                  path: 'illustration',
-                  title: 'Freie Illustration',
-                  src: 'pages/graphic-types/illustration.md',
-                },
-              ],
-            },
-            {
-              title: 'Charts',
-              pages: [
-                {
-                  path: 'charts-guidelines',
-                  title: 'Guidelines',
-                  src: 'pages/charts/guidelines.md',
-                },
-                {
-                  path: 'basic-charts',
-                  title: 'Basic Charts',
-                  src: 'pages/charts/basic-charts.md',
-                },
-                {
-                  path: 'dots-arrows',
-                  title: 'Dot & Arrow',
-                  src: 'pages/charts/dots-arrows.md',
-                },
-                {
-                  path: 'scatter-slope',
-                  title: 'Scatter & Slope',
-                  src: 'pages/charts/scatter-slope.md',
-                },
-                {
-                  path: 'isotype',
-                  title: 'Isotype',
-                  src: 'pages/charts/isotype.md',
-                },
-                {
-                  path: 'dual-axis',
-                  title: 'Dual-Axis',
-                  src: 'pages/charts/dual-axis.md',
-                },
-                {
-                  path: 'elections',
-                  title: 'Election',
-                  src: 'pages/charts/elections.md',
-                },
-              ],
-            },
-            {
-              title: 'Maps',
-              pages: [
-                {
-                  path: 'maps-guidelines',
-                  title: 'Guidelines',
-                  src: 'pages/maps/guidelines.md',
-                },
-                {
-                  path: 'pointer-maps',
-                  title: 'Pointer',
-                  src: 'pages/maps/pointer.md',
-                },
-                {
-                  path: 'choropleth-maps',
-                  title: 'Choropleth',
-                  src: 'pages/maps/choropleth.md',
-                },
-              ],
-            },
-            {
-              title: 'UI Elements',
-              pages: [
-                {
-                  path: 'buttons',
-                  title: 'Buttons',
-                  src: 'pages/ui-elements/buttons.md',
-                },
-                {
-                  path: 'selection',
-                  title: 'Selection Input',
-                  src: 'pages/ui-elements/selection.md',
-                },
-                {
-                  path: 'text',
-                  title: 'Text Input',
-                  src: 'pages/ui-elements/text.md',
-                },
-              ],
-            },
-            {
-              title: 'Graphic Images',
-              pages: [
-                {
-                  path: 'graphic-images',
-                  title: 'Guidelines',
-                  src: 'pages/graphic-images/graphic-images.md',
-                },
-              ],
-            },
-            {
-              title: 'Scrollytelling',
-              pages: [
-                {
-                  path: 'einfuehrung',
-                  title: 'Einführung',
-                  src: 'pages/scrollytelling/einfuehrung.md',
-                },
-                {
-                  path: 'einblenden-abspielen',
-                  title: 'Einblenden und abspielen',
-                  src: 'pages/scrollytelling/einblenden-abspielen.md',
-                },
-                {
-                  path: 'bildabfolge',
-                  title: 'Bildabfolge',
-                  src: 'pages/scrollytelling/bildabfolge.md',
-                },
-                {
-                  path: 'grafikabfolge',
-                  title: 'Grafikabfolge',
-                  src: 'pages/scrollytelling/grafikabfolge.md',
-                },
-                {
-                  path: 'animierte-uebergaenge',
-                  title: 'Animierte Übergänge',
-                  src: 'pages/scrollytelling/animierte-uebergaenge.md',
-                },
-                {
-                  path: 'pan-zoom',
-                  title: 'Pan und Zoom',
-                  src: 'pages/scrollytelling/pan-zoom.md',
-                },
-                {
-                  path: 'video-scroller',
-                  title: 'Video Scroller',
-                  src: 'pages/scrollytelling/video-scroller.md',
-                },
-                {
-                  path: 'fortschrittsanzeige',
-                  title: 'Fortschrittsanzeige',
-                  src: 'pages/scrollytelling/fortschrittsanzeige.md',
-                },
-                {
-                  path: '3d-modell-scroller',
-                  title: '3D-Modell Scroller',
-                  src: 'pages/scrollytelling/3d-modell-scroller.md',
-                },
-              ],
-            },
-            {
-              title: 'Q-Story-Blocks',
-              pages: [
-                {
-                  path: 'einfuehrung-q-story-blocks',
-                  title: 'Einführung',
-                  src: 'pages/story-blocks/einfuehrung-story-block.md',
-                },
-                {
-                  path: 'farbiger-hintergrund-story-block',
-                  title: 'Farbiger Hintergrund',
-                  src: 'pages/story-blocks/farbiger-hintergrund-story-block.md',
-                },
-                {
-                  path: 'fixierte-legende-story-block',
-                  title: 'Fixierte Legende',
-                  src: 'pages/story-blocks/fixierte-legende-story-block.md',
-                },
-                {
-                  path: 'interaktive-zeitkarte-story-block',
-                  title: 'Interaktive Zeitkarte',
-                  src: 'pages/story-blocks/interaktive-zeitkarte.md',
-                },
-                {
-                  path: 'karten-scrolly-story-block',
-                  title: 'Karten Scrolly',
-                  src: 'pages/story-blocks/karten-scrolly-story-block.md',
-                },
-                {
-                  path: 'mobile-freundliches-video-story-block',
-                  title: 'Mobile-freundliches Video',
-                  src: 'pages/story-blocks/mobile-freundliches-video-story-block.md',
-                },
-                {
-                  path: 'nzz-stories-story-block',
-                  title: 'NZZ-Stories',
-                  src: 'pages/story-blocks/nzz-stories-story-block.md',
-                },
-                {
-                  path: 'pan-zoom-story-block',
-                  title: 'Pan-and-Zoom',
-                  src: 'pages/story-blocks/pan-zoom-story-block.md',
-                },
-                {
-                  path: 'sticky-toggle-story-block',
-                  title: 'Sticky Toggle',
-                  src: 'pages/story-blocks/sticky-toggle-story-block.md',
-                },
-                {
-                  path: 'visuelle-fortschrittsanzeige-story-block',
-                  title: 'Visuelle Fortschrittsanzeige',
-                  src: 'pages/story-blocks/visuelle-fortschrittsanzeige-story-block.md',
-                },
-                {
-                  path: 'visuelle-infobox-story-block',
-                  title: 'Visuelle Infobox',
-                  src: 'pages/story-blocks/visuelle-infobox-story-block.md',
-                },
-                {
-                  path: 'video-scroller-story-block',
-                  title: 'Video Scroller',
-                  src: 'pages/story-blocks/video-scroller-story-block.md',
-                },
-                {
-                  path: 'video-scroller-trigger-story-block',
-                  title: 'Video Scroller Trigger',
-                  src: 'pages/story-blocks/video-scroller-trigger-story-block.md',
-                },
-                {
-                  path: 'visuelle-unternavigation-story-block',
-                  title: 'Visuelle Unternavigation',
-                  src: 'pages/story-blocks/visuelle-unternavigation-story-block.md',
-                },
-              ],
-            },
-            {
-              title: 'Assets',
-              pages: [
-                {
-                  path: 'assets',
-                  title: 'Vorlagen und Bibliotheken',
-                  src: 'pages/assets/templates-libraries.md',
-                },
-              ],
-            },
-          ],
-          theme: {
-            brandColor: '#00205B',
-            pageHeadingBackground: '#000000',
-            sidebarColorActive: '#505DCD',
-            sidebarColorText: '#00205B',
-            sidebarColorTextActive: '#505DCD',
-            sidebarColorHeading: '#00205B',
-            codeColor: '#00205B',
-            linkColor: '#505DCD',
-            textMedium: '#00205B',
-            bgDark: '#000000',
-            bgLight: '#FFFFFF',
-            fontFamily: 'system-ui, sans-serif',
-            fontHeading: "'nzz-sans-serif', 'GT America', system-ui, sans-serif",
-          },
-          styles: ['static/theme.css'],
-        },
-        document.getElementById('catalog')
-      );
-    </script>
-  </body>
+                document.getElementById("catalog"),
+            );
+        </script>
+    </body>
 </html>
