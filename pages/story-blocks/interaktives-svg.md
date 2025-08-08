@@ -3,7 +3,7 @@
 Mit diesem Element lassen sich hoverbare SVGs erstellen. Für beliebeige Vektorelemente kann ein HTML-Text hinterlegt werden, der beim hovern angezeigt wird. Wichtig: die Grafik muss auch ohne Interaktion grundsätzlich lesbar sein.
 
 ```html|span-6
-<img src="assets/story-blocks/interaktives-svg.png" />
+<img src="assets/story-blocks/interaktives-svg.png" style="max-width: 100%" />
 ```
 
 # Wie es eingesetzt werden kann
@@ -24,13 +24,13 @@ Mit diesem Element lassen sich hoverbare SVGs erstellen. Für beliebeige Vektore
 
 Die SVGs können wie Infografiken exportiert werden. Damit ein Element klickbar wird, muss es eine ID mit dem Präfix `Popup-` haben.
 
-Standardmässig wird die ID als Popup angezeigt. Bei `Popup-Schweiz` also der Text `Schweiz`. In der Q-Tabelle kann jedoch einer ID ein beliebiger HTML-Text zugeordnet werden, der dann stattdessen angezeigt wird.
+Standardmässig wird die ID als Popup angezeigt. Bei `Popup-Schweiz` also der Text `Schweiz`. In der Q-Tabelle kann jedoch einer ID ein beliebiger HTML-Text zugeordnet werden, der dann stattdessen angezeigt wird. Zum Beispiel so:
 
 ```table
-span: 2
+span: 4
 rows:
   - ID: "Schweiz"
-	Popup: "<span class="s-font-note--strong">Schweiz</span><br />39 Prozent"
+	Popup: "<span class='s-font-note--strong'>Schweiz</span><br />39 Prozent"
   - ID: "Deutschland"
-	Popup: "<span class="s-font-note--strong">Deutschland</span><br />15 Prozent"
+	Popup: "<span class='s-font-note--strong'>Deutschland</span><br />15 Prozent"
 ```
