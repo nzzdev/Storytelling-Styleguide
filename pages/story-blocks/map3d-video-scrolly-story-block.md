@@ -38,8 +38,9 @@ https://www.nzz.ch/gesellschaft/europa-baute-2000-kilometer-elektrifizierte-zaeu
 
 # Technische Details
 
-EdTech Aufwand: 30 - 60min
-Grafik Aufwand: 
-- Kartenmaterial (Stallitenbilder und Shapes) in MapTiler vorbereiten, eventuell in 2 Qualitäten: 2 Tage
-- Im Editor erfassen: 1h
+- EdTech Aufwand: 30 - 60min
+- Grafik Aufwand:
+  - Kartenmaterial (Stallitenbilder und Shapes) in MapTiler vorbereiten, eventuell in 2 Qualitäten: 2 Tage
+  - Im Editor erfassen: 1h
+
 Generalisierungsgrad: mittel
