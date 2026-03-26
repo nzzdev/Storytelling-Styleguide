@@ -445,20 +445,20 @@ colors:
 ```color-palette|span-1
 colors:
   - {name: "SPD - primary", value: "#c31906"}
-  - {name: "Union", value: "#0a0a0a"}
   - {name: "CDU", value: "#0a0a0a"}
   - {name: "CSU", value: "#374e8e"}
-  - {name: "FDP", value: "#d1cc00"}
+  - {name: "SSW", value: "#374e8e"}
+  - {name: "FDP", value: "#f6bb00"}
   - {name: "Grüne", value: "#66a622"}
 ```
 
 ```color-palette|span-1
 colors:
   - {name: "SPD - light", value: "#eaaea8"}
-  - {name: "Union", value: "#939393"}
   - {name: "CDU", value: "#939393"}
   - {name: "CSU", value: "#a1aecc"}
-  - {name: "FDP", value: "#edeca0"}
+  - {name: "SSW", value: "#a1aecc"}
+  - {name: "FDP", value: "#edda9f"}
   - {name: "Grüne", value: "#c2dba7"}
 ```
 
