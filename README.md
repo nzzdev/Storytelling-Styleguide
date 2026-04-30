@@ -15,7 +15,11 @@ Standalone-Version: https://docs.catalog.style/installation/standalone
    ```
 4. ```shell
     make preview
-    ```
+    ``` 
+   oder  
+   ```bash
+   npx http-server
+   ```
 5. Im Terminal sollten darauf verschiedene Informationen erscheinen, zuletzt die URLs, unter denen die Vorschau im
    Browser angezeigt werden kann.
 
